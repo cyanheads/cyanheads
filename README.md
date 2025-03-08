@@ -13,7 +13,7 @@ I'm currently focused on Model Context Protocol (MCP) projects:
 
 ## 💡 Side Projects
 - [**repo-map**](https://github.com/cyanheads/repo-map) - Generates LLM-enhanced summaries of software repositories
-- [**claude-sidebar-modifier**](https://github.com/cyanheads/claude-sidebar-modifier) - Browser extension to customize Claude.ai's interface
+- [**claude-sidebar-modifier**](https://github.com/cyanheads/claude-sidebar-modifier) - Firefox browser extension to customize Claude.ai's interface
 - [**scripts-ts**](https://github.com/cyanheads/scripts-ts) - Cross-platform TypeScript utilities for automating common development tasks
 
 ## 🧠 About Me
