@@ -9,6 +9,7 @@ I'm currently focused on Model Context Protocol (MCP) projects:
 - [**obsidian-mcp-server**](https://github.com/cyanheads/obsidian-mcp-server) - Knowledge base connector empowering LLMs to search, navigate, and update Obsidian vaults with semantic understanding
 - [**mentor-mcp-server**](https://github.com/cyanheads/mentor-mcp-server) - Personalized AI mentorship framework built on Deepseek-Reasoning R1 for adaptive learning experiences
 - [**toolkit-mcp-server**](https://github.com/cyanheads/toolkit-mcp-server) - Essential system utilities giving LLM agents access to geolocation, network diagnostics, and cryptographic operations
+- [**github-mcp-server**](https://github.com/cyanheads/github-mcp-server) - Complete GitHub API interface enabling LLMs to manage repositories, branches, issues, PRs, files, and releases
 - [**model-context-protocol-resources**](https://github.com/cyanheads/model-context-protocol-resources) - Practical guides, clients, and servers for exploring the Model Context Protocol
 
 ## 💡 Side Projects
