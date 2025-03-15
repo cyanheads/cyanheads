@@ -13,7 +13,8 @@ Currently, I am focused on Model Context Protocol (MCP) projects:
 - [**mentor-mcp-server**](https://github.com/cyanheads/mentor-mcp-server) - Personalized AI mentorship framework built on Deepseek-Reasoning R1 for adaptive learning experiences
 - [**toolkit-mcp-server**](https://github.com/cyanheads/toolkit-mcp-server) - Essential system utilities giving LLM agents access to geolocation, network diagnostics, and cryptographic operations
 - [**github-mcp-server**](https://github.com/cyanheads/github-mcp-server) - Complete GitHub API interface enabling LLMs to manage repositories, branches, issues, PRs, files, and releases
-- [**model-context-protocol-resources**](https://github.com/cyanheads/model-context-protocol-resources) - Practical guides, clients, and servers for exploring the Model Context Protocol
+- [**git-mcp-server**](https://github.com/cyanheads/git-mcp-server) - Git operations interface allowing LLM agents to initialize, clone, branch, commit, and manage repositories without direct filesystem access
+- [**model-context-protocol-resources**](https://github.com/cyanheads/model-context-protocol-resources) - Practical guides, clients, and servers I'm building while exploring the Model Context Protocol (MCP) and what it can do!
 
 ## 💡 Side Projects
 
