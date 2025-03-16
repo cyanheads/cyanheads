@@ -1,6 +1,6 @@
 # Hi, I'm Casey 👋
 
-Software developer based in Seattle, working at Amazon, and passionate about open source.
+Software developer based in Seattle, working at Amazon, and passionate about sharing knowledge through open source.
 
 I'm currently working on projects related to the Model Context Protocol (MCP), trying to build tools that help build LLM agents. To build an effective AI agent, focus on setting the LLM up for success by providing the right tools and resources.
 
