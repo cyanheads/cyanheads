@@ -30,7 +30,7 @@ I'm a hopeful developer sharing what I learn through open source. I'm just start
 
 ## 💼 Open to Opportunities
 
-I'm currently open to software engineering roles, particularly in AI/LLM agent development and infrastructure. With experience building MCP servers and tools for LLM integration, I'm passionate about creating the next generation of intelligent systems. If you're working on transformative AI tools or agent frameworks, I'd love to connect! Feel free to reach out if you want to collaborate or share ideas.
+I'm open to software engineering roles in AI/LLM development and infrastructure, with experience in building LLM agents, MCP servers and general AI tools. Feel free to reach out if we can work together on something!
 
 ## 🔗 Connect
 
