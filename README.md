@@ -8,22 +8,22 @@ I'm currently working on projects related to the Model Context Protocol (MCP), t
 
 Currently, I am focused on Model Context Protocol (MCP) projects:
 
-- [**atlas-mcp-server**](https://github.com/cyanheads/atlas-mcp-server) - Graph-powered project management system enabling LLM agents to track dependencies, collaborate via whiteboards, and leverage modular skills
-- [**obsidian-mcp-server**](https://github.com/cyanheads/obsidian-mcp-server) - Knowledge base connector empowering LLMs to search, navigate, and update Obsidian vaults with semantic understanding
-- [**mentor-mcp-server**](https://github.com/cyanheads/mentor-mcp-server) - Personalized AI mentorship framework built on Deepseek-Reasoning R1 for adaptive learning experiences
-- [**toolkit-mcp-server**](https://github.com/cyanheads/toolkit-mcp-server) - Essential system utilities giving LLM agents access to geolocation, network diagnostics, and cryptographic operations
-- [**github-mcp-server**](https://github.com/cyanheads/github-mcp-server) - Complete GitHub API interface enabling LLMs to manage repositories, branches, issues, PRs, files, and releases
-- [**git-mcp-server**](https://github.com/cyanheads/git-mcp-server) - Git operations interface allowing LLM agents to initialize, clone, branch, commit, and manage repositories without direct filesystem access
-- [**ntfy-mcp-server**](https://github.com/cyanheads/ntfy-mcp-server) - Push notification service integration allowing LLM agents to send customized alerts to mobile and desktop devices using ntfy.sh
-- [**mcp-reporter**](https://github.com/cyanheads/mcp-reporter) - Utility for generating comprehensive reports about MCP server capabilities, helping developers understand available functionality across their MCP ecosystem
-- [**mcp-ts-template**](https://github.com/cyanheads/mcp-ts-template) - Production-ready TypeScript template for building MCP servers with rock-solid architecture, utilities, and working examples - perfect for vibe code sessions!
-- [**model-context-protocol-resources**](https://github.com/cyanheads/model-context-protocol-resources) - Practical guides, clients, and servers I'm building while exploring the Model Context Protocol (MCP) and what it can do!
+- [**atlas-mcp-server**](https://github.com/cyanheads/atlas-mcp-server) [![GitHub stars](https://img.shields.io/github/stars/cyanheads/atlas-mcp-server?style=social)](https://github.com/cyanheads/atlas-mcp-server/stargazers) - Graph-powered project management system enabling LLM agents to track dependencies, collaborate via whiteboards, and leverage modular skills
+- [**obsidian-mcp-server**](https://github.com/cyanheads/obsidian-mcp-server) [![GitHub stars](https://img.shields.io/github/stars/cyanheads/obsidian-mcp-server?style=social)](https://github.com/cyanheads/obsidian-mcp-server/stargazers) - Knowledge base connector empowering LLMs to search, navigate, and update Obsidian vaults with semantic understanding
+- [**mentor-mcp-server**](https://github.com/cyanheads/mentor-mcp-server) [![GitHub stars](https://img.shields.io/github/stars/cyanheads/mentor-mcp-server?style=social)](https://github.com/cyanheads/mentor-mcp-server/stargazers) - Personalized AI mentorship framework built on Deepseek-Reasoning R1 for adaptive learning experiences
+- [**toolkit-mcp-server**](https://github.com/cyanheads/toolkit-mcp-server) [![GitHub stars](https://img.shields.io/github/stars/cyanheads/toolkit-mcp-server?style=social)](https://github.com/cyanheads/toolkit-mcp-server/stargazers) - Essential system utilities giving LLM agents access to geolocation, network diagnostics, and cryptographic operations
+- [**github-mcp-server**](https://github.com/cyanheads/github-mcp-server) [![GitHub stars](https://img.shields.io/github/stars/cyanheads/github-mcp-server?style=social)](https://github.com/cyanheads/github-mcp-server/stargazers) - Complete GitHub API interface enabling LLMs to manage repositories, branches, issues, PRs, files, and releases
+- [**git-mcp-server**](https://github.com/cyanheads/git-mcp-server) [![GitHub stars](https://img.shields.io/github/stars/cyanheads/git-mcp-server?style=social)](https://github.com/cyanheads/git-mcp-server/stargazers) - Git operations interface allowing LLM agents to initialize, clone, branch, commit, and manage repositories without direct filesystem access
+- [**ntfy-mcp-server**](https://github.com/cyanheads/ntfy-mcp-server) [![GitHub stars](https://img.shields.io/github/stars/cyanheads/ntfy-mcp-server?style=social)](https://github.com/cyanheads/ntfy-mcp-server/stargazers) - Push notification service integration allowing LLM agents to send customized alerts to mobile and desktop devices using ntfy.sh
+- [**mcp-reporter**](https://github.com/cyanheads/mcp-reporter) [![GitHub stars](https://img.shields.io/github/stars/cyanheads/mcp-reporter?style=social)](https://github.com/cyanheads/mcp-reporter/stargazers) - Utility for generating comprehensive reports about MCP server capabilities, helping developers understand available functionality across their MCP ecosystem
+- [**mcp-ts-template**](https://github.com/cyanheads/mcp-ts-template) [![GitHub stars](https://img.shields.io/github/stars/cyanheads/mcp-ts-template?style=social)](https://github.com/cyanheads/mcp-ts-template/stargazers) - Production-ready TypeScript template for building MCP servers with rock-solid architecture, utilities, and working examples - perfect for vibe code sessions!
+- [**model-context-protocol-resources**](https://github.com/cyanheads/model-context-protocol-resources) [![GitHub stars](https://img.shields.io/github/stars/cyanheads/model-context-protocol-resources?style=social)](https://github.com/cyanheads/model-context-protocol-resources/stargazers) - Practical guides, clients, and servers I'm building while exploring the Model Context Protocol (MCP) and what it can do!
 
 ## 💡 Side Projects
 
-- [**repo-map**](https://github.com/cyanheads/repo-map) - Generates LLM-enhanced summaries of software repositories
-- [**claude-sidebar-modifier**](https://github.com/cyanheads/claude-sidebar-modifier) - Firefox browser extension to customize Claude.ai's interface
-- [**scripts-ts**](https://github.com/cyanheads/scripts-ts) - Cross-platform TypeScript utilities for automating common development tasks
+- [**repo-map**](https://github.com/cyanheads/repo-map) [![GitHub stars](https://img.shields.io/github/stars/cyanheads/repo-map?style=social)](https://github.com/cyanheads/repo-map/stargazers) - Generates LLM-enhanced summaries of software repositories
+- [**claude-sidebar-modifier**](https://github.com/cyanheads/claude-sidebar-modifier) [![GitHub stars](https://img.shields.io/github/stars/cyanheads/claude-sidebar-modifier?style=social)](https://github.com/cyanheads/claude-sidebar-modifier/stargazers) - Firefox browser extension to customize Claude.ai's interface
+- [**scripts-ts**](https://github.com/cyanheads/scripts-ts) [![GitHub stars](https://img.shields.io/github/stars/cyanheads/scripts-ts?style=social)](https://github.com/cyanheads/scripts-ts/stargazers) - Cross-platform TypeScript utilities for automating common development tasks
 
 ## 🧠 About Me
 
