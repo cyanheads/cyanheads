@@ -16,6 +16,7 @@ Currently, I am focused on Model Context Protocol (MCP) projects:
 - [**github-mcp-server**](https://github.com/cyanheads/github-mcp-server) - Complete GitHub API interface enabling LLMs to manage repositories, branches, issues, PRs, files, and releases
 - [**git-mcp-server**](https://github.com/cyanheads/git-mcp-server) - Git operations interface allowing LLM agents to initialize, clone, branch, commit, and manage repositories without direct filesystem access
 - [**ntfy-mcp-server**](https://github.com/cyanheads/ntfy-mcp-server) - Push notification service integration allowing LLM agents to send customized alerts to mobile and desktop devices using ntfy.sh
+- [**perplexity-mcp-server**](https://github.com/cyanheads/perplexity-mcp-server) - Search-augmented query capabilities using the Perplexity AI API for LLM agents to access real-time web information. Includes showThinking parameter for toggling reasoning tokens.
 - [**mcp-reporter**](https://github.com/cyanheads/mcp-reporter) - Utility for generating comprehensive reports about MCP server capabilities, helping developers understand available functionality across their MCP ecosystem
 - [**mcp-ts-template**](https://github.com/cyanheads/mcp-ts-template) - Production-ready TypeScript template for building MCP servers with rock-solid architecture, utilities, and working examples - perfect for vibe code sessions!
 
