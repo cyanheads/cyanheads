@@ -2,11 +2,9 @@
 
 Software developer based in Seattle, working at Amazon, and passionate about sharing knowledge through open source.
 
-I'm currently working on projects related to the Model Context Protocol (MCP), trying to build tools that help build LLM agents. To build an effective AI agent, focus on setting the LLM up for success by providing the right tools and resources.
+I'm currently working on projects related to the Model Context Protocol (MCP), trying to build a better way for LLMs to interact with the world. I believe AI is an incredibly powerful tool and I'm hoping to make it more accessible and useful for everyone.
 
 ## 🚀 What I'm Building with MCP
-
-Currently focused on Model Context Protocol (MCP) projects:
 
 | Project                                                                                               | Description                                                                                                                                                                                                                                         |
 | :---------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -31,13 +29,9 @@ Currently focused on Model Context Protocol (MCP) projects:
 | [**claude-sidebar-modifier**](https://github.com/cyanheads/claude-sidebar-modifier) | A Firefox browser extension allowing users to disable or adjust the width of the sidebar on Claude.ai for a customized interface.                                                                            |
 | [**scripts-ts**](https://github.com/cyanheads/scripts-ts)                           | A collection of cross-platform, standalone TypeScript utility scripts. Automates common development tasks like cleaning artifacts, generating structures, and managing dependencies.                         |
 
-## 🧠 About Me
-
-I'm a hopeful developer sharing what I learn through open source. I'm just starting out but eager to grow. My interests lie in ML/AI tools, knowledge management, and software development. I'm always looking for ways to improve my skills and help others do the same.
-
 ## 💼 Open to Opportunities
 
-I'm open to software engineering roles in AI/LLM development and infrastructure, with experience in building LLM agents, MCP servers and general AI tools.
+I'm open to software engineering roles in AI/LLM development and infrastructure, with experience in building LLM agents, MCP servers and general AI tools. I'm just starting out but eager to grow. I'm always looking for ways to improve my skills and help others do the same.
 
 ## 🔗 Connect
 
