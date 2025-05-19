@@ -31,7 +31,7 @@ I'm currently working on projects related to the Model Context Protocol (MCP), t
 
 ## 💼 Open to Opportunities
 
-I'm open to software engineering roles in AI/LLM development and infrastructure, with experience in building LLM agents, MCP servers and general AI tools. I'm just starting out but eager to grow. I'm always looking for ways to improve my skills and help others do the same.
+I'm open to software engineering roles in AI/LLM development and infrastructure, with experience in building LLM agents, MCP servers and general AI tools. I'm always looking for ways to improve my skills and help others do the same.
 
 ## 🔗 Connect
 
