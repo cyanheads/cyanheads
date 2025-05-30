@@ -35,6 +35,12 @@ I'm currently working on projects related to the Model Context Protocol (MCP), t
 
 I'm open to software engineering roles in AI/LLM development and infrastructure, with experience in building LLM agents, MCP servers and general AI tools. I'm always looking for ways to improve my skills and help others do the same.
 
+## ☕ Support My Work
+
+If my open source work has benefited you, consider sending me some support.
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/cyanheads)
+
 ## 🔗 Connect
 
 - Website: [caseyjhand.com](https://caseyjhand.com)
