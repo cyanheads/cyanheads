@@ -33,7 +33,9 @@ I'm currently working on projects related to the Model Context Protocol (MCP), t
 
 ## 💼 Open to Opportunities
 
-I'm open to software engineering roles in AI/LLM development and infrastructure, with experience in building LLM agents, MCP servers and general AI tools. I'm always looking for ways to improve my skills and help others do the same.
+I'm open to software engineering roles in AI/LLM development and infrastructure, with experience in building LLM agents, MCP servers and general AI tools. 
+
+I'm also available for contract work and one-off projects, including custom MCP server development using my [TypeScript template](https://github.com/cyanheads/mcp-ts-template). Whether you need a full-time role or a specific integration built, feel free to reach out - I'm always looking for ways to improve my skills and help others do the same.
 
 ## ☕ Support My Work
 
