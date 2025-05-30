@@ -8,7 +8,7 @@ I'm currently working on projects related to the Model Context Protocol (MCP), t
 
 | Project | Description |
 |---------|-------------|
-| [model-context-protocol-resources](https://github.com/modelcontextprotocol/model-context-protocol-resources) | This project contains practical guides, clients, and servers developed during the exploration of the Model Context Protocol (MCP). It serves as a learning resource and a collection of tools. |
+| [model-context-protocol-resources](https://github.com/cyanheads/model-context-protocol-resources) | This project contains practical guides, clients, and servers developed during the exploration of the Model Context Protocol (MCP). It serves as a learning resource and a collection of tools. |
 | [atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server) | ATLAS (Adaptive Task & Logic Automation System) is a Neo4j-powered task management system for LLM Agents, using a three-tier architecture to manage complex workflows. It includes Deep Research scaffolding. |
 | [filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server) | This server offers platform-agnostic file system capabilities for AI agents via MCP, enabling file and directory management. It features advanced search/replace and directory traversal. |
 | [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | This server enables LLMs to securely interact with Obsidian vaults via MCP, offering token-aware tools for managing notes. It facilitates seamless knowledge base management with Properties management. |
