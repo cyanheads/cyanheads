@@ -12,7 +12,7 @@ I believe AI is an incredibly powerful tool and I'm hoping to make it more acces
 
 ## 🚀 What I'm Building with MCP
 
-All projects are built on top of my [mcp-ts-template](https://github.com/cyanheads/mcp-ts-template), which provides a comprehensive foundation for quickly building high-quality, production-ready MCP servers in TypeScript.
+All projects are built on my [mcp-ts-template](https://github.com/cyanheads/mcp-ts-template) project, a production-grade foundation for creating robust, modern MCP servers in TypeScript. The template provides a rich, out-of-the-box feature set including DI, pluggable auth, abstracted storage, and first-class support for serverless runtimes like Cloudflare Workers.
 
 ### Core Infrastructure & Tooling
 
@@ -60,11 +60,14 @@ All projects are built on top of my [mcp-ts-template](https://github.com/cyanhea
 | <img src="https://img.shields.io/badge/-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" height="15"> [claude-sidebar-modifier](https://github.com/cyanheads/claude-sidebar-modifier) | <ul><li>Firefox browser extension</li><li>Disables or adjusts the sidebar width on Claude.ai</li><li>Offers a customized interface</li></ul>                                         |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [scripts-ts](https://github.com/cyanheads/scripts-ts)                           | <ul><li>Cross-platform, standalone TypeScript utility scripts</li><li>Automates common development tasks</li><li>Manages artifacts, structures, and dependencies</li></ul>           |
 
-## 💼 Looking for Opportunities
+## 💼 Open to Opportunities
 
-I'm actively seeking software engineering roles focused on AI/LLM-native development and infrastructure. My experience includes building LLM agents, creating and integrating MCP servers, and developing general-purpose & custom AI tools.
+I'm seeking full-time and contract roles in AI/LLM-native development and infrastructure. With proven experience in building autonomous agents and custom MCP servers, I'm ready to tackle any challenges.
 
-I am available for full-time positions, contract work, and consulting engagements, including custom MCP server development using my [Production-ready TypeScript Template](https://github.com/cyanheads/mcp-ts-template).
+Available for:
+- Full-time Positions
+- Contract & Consulting Engagements
+- Custom MCP Server Development ([view template](https://github.com/cyanheads/mcp-ts-template))
 
 <div align="center">
 
@@ -76,8 +79,8 @@ If my open source work has benefited you, consider sending me some support if yo
 
 ## 🔗 Connect
 
-- Website: [caseyjhand.com](https://caseyjhand.com)
-- Email: [casey@caseyjhand.com](mailto:casey@caseyjhand.com)
+Website: [caseyjhand.com](https://caseyjhand.com)
+Email: [casey@caseyjhand.com](mailto:casey@caseyjhand.com)
 
 ---
 
