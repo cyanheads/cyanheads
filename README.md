@@ -2,6 +2,8 @@
 
 # Hi, I'm Casey 👋
 
+[![Open to Work](https://img.shields.io/badge/Open_to_Work-green?style=for-the-badge)](mailto:casey@caseyjhand.com) [![Website](https://img.shields.io/badge/Website-caseyjhand.com-blue?style=for-the-badge)](https://caseyjhand.com)
+
 Software Engineer based in Seattle. Passionate about sharing knowledge through open source.
 
 I'm currently working on projects related to the Model Context Protocol (MCP), trying to build a better way for LLMs to interact with the world. 
@@ -59,6 +61,7 @@ All projects are built on my [mcp-ts-template](https://github.com/cyanheads/mcp-
 | <img src="https://img.shields.io/badge/-3776AB?logo=python&logoColor=white" alt="Python" height="15"> [repo-map](https://github.com/cyanheads/repo-map)                                       | <ul><li>Generates AI-powered visual summaries of codebases.</li><li>Features efficient caching, multi-language support, and respects gitignore rules.</li><li>Aids in understanding and documenting projects.</li></ul>   |
 | <img src="https://img.shields.io/badge/-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" height="15"> [claude-sidebar-modifier](https://github.com/cyanheads/claude-sidebar-modifier) | <ul><li>Firefox browser extension</li><li>Disables or adjusts the sidebar width on Claude.ai</li><li>Offers a customized interface</li></ul>                                         |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [scripts-ts](https://github.com/cyanheads/scripts-ts)                           | <ul><li>Cross-platform, standalone TypeScript utility scripts</li><li>Automates common development tasks</li><li>Manages artifacts, structures, and dependencies</li></ul>           |
+| <img src="https://img.shields.io/badge/-000080?logo=lua&logoColor=white" alt="Lua" height="15"> [TwilightAscensionRares](https://github.com/cyanheads/TwilightAscensionRares)                 | <ul><li>World of Warcraft addon for tracking Twilight Highlands rare spawns for the Two Minutes to Midnight achievement.</li><li>Live schedule with countdown timers, one-click waypoints, and raid/chat sharing.</li></ul> |
 
 ## 💼 Open to Opportunities
 
