@@ -18,7 +18,7 @@ All of these are built on my [mcp-ts-template](https://github.com/cyanheads/mcp-
 
 | Project | Description |
 | ------- | ----------- |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [mcp-ts-template](https://github.com/cyanheads/mcp-ts-template) | Template for building MCP servers in TypeScript. Declarative tools, elicitation, auth, storage, and OpenTelemetry. |
+| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [mcp-ts-template](https://github.com/cyanheads/mcp-ts-template) | Template for building MCP servers in TypeScript. Declarative tools, elicitation, auth, storage, and OpenTelemetry. [Try it live.](https://mcp-ts-template.caseyjhand.com/mcp) |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [model-context-protocol-resources](https://github.com/cyanheads/model-context-protocol-resources) | Guides, utilities, and example server implementations for MCP. |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [workflows-mcp-server](https://github.com/cyanheads/workflows-mcp-server) | Runs multi-step workflows defined in YAML files. Gives agents a structured way to execute complex task sequences. |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [mcp-reporter](https://github.com/cyanheads/mcp-reporter) | Generates human-readable capability reports for MCP servers — what tools are available, what they do, how to call them. |
