@@ -15,8 +15,8 @@ All of these are built on [mcp-ts-core](https://github.com/cyanheads/mcp-ts-core
 ```bash
 npx @cyanheads/mcp-ts-core init my-mcp-server
 cd my-mcp-server
-# Start your coding agent in this directory and describe what you want to build.
 ```
+Start your coding agent in this directory and describe what you want to build.
 
 ### Core infrastructure
 
