@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Casey
+# Hi, I'm Casey 👋
 
 [![Open to Work](https://img.shields.io/badge/Open_to_Work-green?style=for-the-badge)](mailto:casey@caseyjhand.com) [![Website](https://img.shields.io/badge/Website-caseyjhand.com-blue?style=for-the-badge)](https://caseyjhand.com)
 
@@ -12,15 +12,21 @@ Software engineer in Seattle. I build open source tools, mostly around the Model
 
 ## What I'm building with MCP
 
-All of these are built on my [mcp-ts-template](https://github.com/cyanheads/mcp-ts-template), a TypeScript starter for MCP servers with DI, pluggable auth, abstracted storage, and Cloudflare Workers support.
+All of these are built on [mcp-ts-core](https://github.com/cyanheads/mcp-ts-core) (formerly mcp-ts-template), a TypeScript framework for building MCP servers. One command to scaffold a project, then point your coding agent at it — the generated project ships with agent skills and `CLAUDE.md`/`AGENTS.md` files that teach the agent the framework's patterns, from design through implementation.
+
+```bash
+npx @cyanheads/mcp-ts-core init my-mcp-server
+cd my-mcp-server
+# Start your coding agent in this directory and describe what you want to build.
+```
 
 ### Core infrastructure
 
 | Project | Description |
 | ------- | ----------- |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [mcp-ts-template](https://github.com/cyanheads/mcp-ts-template) | Template for building MCP servers in TypeScript. Declarative tools, elicitation, auth, storage, and OpenTelemetry. [Try it live.](https://mcp-ts-template.caseyjhand.com/mcp) |
+| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [mcp-ts-core](https://github.com/cyanheads/mcp-ts-core) | Framework for building MCP servers in TypeScript. Scaffold with `npx @cyanheads/mcp-ts-core init`, start your coding agent, and build. Declarative tools, pluggable auth, multi-backend storage, OpenTelemetry, and agent-first DX. |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [model-context-protocol-resources](https://github.com/cyanheads/model-context-protocol-resources) | Guides, utilities, and example server implementations for MCP. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [workflows-mcp-server](https://github.com/cyanheads/workflows-mcp-server) | Runs multi-step workflows defined in YAML files. Gives agents a structured way to execute complex task sequences. |
+| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [workflows-mcp-server](https://github.com/cyanheads/workflows-mcp-server) | Runs multi-step workflows defined in YAML files. Agents define and run multi-step task sequences. |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [mcp-reporter](https://github.com/cyanheads/mcp-reporter) | Generates human-readable capability reports for MCP servers — what tools are available, what they do, how to call them. |
 
 ### Data and research
@@ -70,7 +76,7 @@ I'm looking for full-time and contract roles in AI/LLM tooling and infrastructur
 Available for:
 - Full-time positions
 - Contract and consulting
-- Custom MCP server development ([view template](https://github.com/cyanheads/mcp-ts-template))
+- Custom MCP server development ([view framework](https://github.com/cyanheads/mcp-ts-core))
 
 <div align="center">
 
