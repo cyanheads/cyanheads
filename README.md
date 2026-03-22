@@ -22,7 +22,7 @@ Start your coding agent in this directory and describe what you want to build.
 
 | Project | Description |
 | ------- | ----------- |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [mcp-ts-core](https://github.com/cyanheads/mcp-ts-core) | Framework for building MCP servers in TypeScript. Scaffold with `npx @cyanheads/mcp-ts-core init`, start your coding agent, and build. Declarative tools, pluggable auth, multi-backend storage, OpenTelemetry, and agent-first DX. |
+| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [mcp-ts-core](https://github.com/cyanheads/mcp-ts-core) | Agent-native TypeScript framework for building MCP servers — build tools, not infrastructure. Declarative definitions, pluggable auth, multi-backend storage, OpenTelemetry, and first-class support for Node.js and Cloudflare Workers. |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [model-context-protocol-resources](https://github.com/cyanheads/model-context-protocol-resources) | Guides, utilities, and example server implementations for MCP. |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [workflows-mcp-server](https://github.com/cyanheads/workflows-mcp-server) | Runs multi-step workflows defined in YAML files. Agents define and run multi-step task sequences. |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [mcp-reporter](https://github.com/cyanheads/mcp-reporter) | Generates human-readable capability reports for MCP servers — what tools are available, what they do, how to call them. |
@@ -33,9 +33,9 @@ Start your coding agent in this directory and describe what you want to build.
 | ------- | ----------- |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server) | Neo4j-backed task management for LLM agents. Three-tier model: projects, tasks, and knowledge nodes. Includes deep research capabilities. |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | Access to 3D protein structure data from RCSB PDB, PDBe, and UniProt. Search, retrieve, and analyze structural records. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | Search and analyze clinical trials from ClinicalTrials.gov. Includes patient eligibility matching and trend analysis. [Try it live.](https://clinicaltrials.caseyjhand.com/mcp) |
+| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | Search and analyze clinical trials from ClinicalTrials.gov. Retrieve & compare studies. Includes patient eligibility matching and trend analysis. [Try it live.](https://clinicaltrials.caseyjhand.com/mcp) |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | Search and retrieve biomedical literature from PubMed. Includes a research agent scaffold for multi-step literature workflows. [Try it live.](https://pubmed.caseyjhand.com/mcp) |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | LLM tools for the PubChem PUG REST API — chemical compound lookups, bioassay data, and substance search. |
+| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | PubChem chemical database tools. Search compounds, fetch properties, safety data, bioactivity, cross-references, and entity summaries. |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | Lets LLMs conduct conversational surveys with conditional logic and structured data collection. |
 
 ### Development and system utilities
@@ -55,7 +55,6 @@ Start your coding agent in this directory and describe what you want to build.
 | ------- | ----------- |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [perplexity-mcp-server](https://github.com/cyanheads/perplexity-mcp-server) | Search-augmented AI via the Perplexity API, with citation support. |
 | <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server) | Second-opinion code reviews and design critiques via the Deepseek API. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [github-mcp-server](https://github.com/cyanheads/github-mcp-server) | [DEPRECATED] — Use the [official GitHub MCP Server](https://github.com/github/github-mcp-server?tab=readme-ov-file#remote-github-mcp-server). |
 
 ## Other projects
 
