@@ -8,6 +8,7 @@ I build open source tools that connect LLMs to the real world. Based in Seattle.
 
 </div>
 
+<div align="center">
 <table><tr><td>
 
 ### [mcp-ts-core](https://github.com/cyanheads/mcp-ts-core)
@@ -21,8 +22,9 @@ npx @cyanheads/mcp-ts-core init my-mcp-server
 Start your coding agent in the scaffolded project and describe what you want to build. It ships with agent skills and framework docs built in. Servers below are built on it.
 
 </td></tr></table>
+</div>
 
-### MCP servers
+## MCP servers
 
 | Server | Description | Hosted Server |
 | ------ | ----------- | ------------- |
@@ -35,7 +37,7 @@ Start your coding agent in the scaffolded project and describe what you want to 
 | [congressgov-mcp-server](https://github.com/cyanheads/congressgov-mcp-server) | U.S. congressional data | [/mcp](https://congressgov.caseyjhand.com/mcp) |
 | [secedgar-mcp-server](https://github.com/cyanheads/secedgar-mcp-server) | SEC EDGAR filings and financials | [/mcp](https://secedgar.caseyjhand.com/mcp) |
 | [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | Protein structures (PDB, UniProt) | |
-| [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | ClinicalTrials.gov search | [/mcp](https://clinicaltrials.caseyjhand.com/mcp) |
+| [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | ClinicalTrials\.gov search | [/mcp](https://clinicaltrials.caseyjhand.com/mcp) |
 | [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | PubMed biomedical literature | [/mcp](https://pubmed.caseyjhand.com/mcp) |
 | [openalex-mcp-server](https://github.com/cyanheads/openalex-mcp-server) | 270M+ academic publications | [/mcp](https://openalex.caseyjhand.com/mcp) |
 | [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | PubChem chemical database | [/mcp](https://pubchem.caseyjhand.com/mcp) |
