@@ -8,7 +8,6 @@ I build open source tools that connect LLMs to the real world. Based in Seattle.
 
 </div>
 
-<div align="center">
 <table><tr><td>
 
 ### [mcp-ts-core](https://github.com/cyanheads/mcp-ts-core)
