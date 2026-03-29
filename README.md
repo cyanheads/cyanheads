@@ -4,75 +4,67 @@
 
 [![Open to Work](https://img.shields.io/badge/Open_to_Work-green?style=for-the-badge)](mailto:casey@caseyjhand.com) [![Website](https://img.shields.io/badge/Website-caseyjhand.com-blue?style=for-the-badge)](https://caseyjhand.com)
 
-Software engineer in Seattle. I build open source tools, mostly around the Model Context Protocol (MCP) — giving LLMs structured ways to use external services, data sources, and system APIs.
+I build open source tools that connect LLMs to the real world. Based in Seattle.
 
 </div>
 
-## What I'm building with MCP
+<table><tr><td>
 
-All of these are built on [mcp-ts-core](https://github.com/cyanheads/mcp-ts-core) (formerly mcp-ts-template), a TypeScript framework for building MCP servers. One command to scaffold a project, then point your coding agent at it — the generated project ships with agent skills and `CLAUDE.md`/`AGENTS.md` files that teach the agent the framework's patterns, from design through implementation.
+### [mcp-ts-core](https://github.com/cyanheads/mcp-ts-core)
+
+TypeScript framework for building Model Context Protocol (MCP) servers. Declarative tool definitions, pluggable auth, multi-backend storage, OpenTelemetry. Runs on Node.js and Cloudflare Workers.
 
 ```bash
 npx @cyanheads/mcp-ts-core init my-mcp-server
-cd my-mcp-server
 ```
-Start your coding agent in this directory and describe what you want to build.
 
-### Core infrastructure
+Start your coding agent in the scaffolded project and describe what you want to build. It ships with agent skills and framework docs built in. Servers below are built on it.
 
-| Project | Description |
-| ------- | ----------- |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [mcp-ts-core](https://github.com/cyanheads/mcp-ts-core) | Agent-native TypeScript framework for building MCP servers — build tools, not infrastructure. Declarative definitions, pluggable auth, multi-backend storage, OpenTelemetry, and first-class support for Node.js and Cloudflare Workers. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [model-context-protocol-resources](https://github.com/cyanheads/model-context-protocol-resources) | Guides, utilities, and example server implementations for MCP. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [workflows-mcp-server](https://github.com/cyanheads/workflows-mcp-server) | Runs multi-step workflows defined in YAML files. Agents define and run multi-step task sequences. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [mcp-reporter](https://github.com/cyanheads/mcp-reporter) | Generates human-readable capability reports for MCP servers — what tools are available, what they do, how to call them. |
+</td></tr></table>
 
-### Data and research
+### MCP servers
 
-| Project | Description |
-| ------- | ----------- |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server) | Neo4j-backed task management for LLM agents. Three-tier model: projects, tasks, and knowledge nodes. Includes deep research capabilities. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [congressgov-mcp-server](https://github.com/cyanheads/congressgov-mcp-server) | U.S. congressional data — bills, votes, members, committees, CRS reports, and the Congressional Record. [Try it live.](https://congressgov.caseyjhand.com/mcp) |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [secedgar-mcp-server](https://github.com/cyanheads/secedgar-mcp-server) | Query SEC EDGAR filings, XBRL financials, and company data. Full-text search across filings since 1993, financial metric comparison across companies. [Try it live.](https://secedgar.caseyjhand.com/mcp) |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | Access to 3D protein structure data from RCSB PDB, PDBe, and UniProt. Search, retrieve, and analyze structural records. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | Search and analyze clinical trials from ClinicalTrials.gov. Retrieve & compare studies. Includes patient eligibility matching and trend analysis. [Try it live.](https://clinicaltrials.caseyjhand.com/mcp) |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | Search and retrieve biomedical literature from PubMed. Includes a research agent scaffold for multi-step literature workflows. [Try it live.](https://pubmed.caseyjhand.com/mcp) |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [openalex-mcp-server](https://github.com/cyanheads/openalex-mcp-server) | Search and analyze 270M+ academic publications via OpenAlex. Entity search, trend aggregation, and name resolution across works, authors, institutions, and more. [Try it live.](https://openalex.caseyjhand.com/mcp) |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | PubChem chemical database tools. Search compounds, fetch properties, safety data, bioactivity, cross-references, and entity summaries. [Try it live.](https://pubchem.caseyjhand.com/mcp) |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [hn-mcp-server](https://github.com/cyanheads/hn-mcp-server) | Hacker News feeds, threaded discussions, user profiles, and full-text search via the HN Firebase and Algolia APIs. [Try it live.](https://hn.caseyjhand.com/mcp) |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | Lets LLMs conduct conversational surveys with conditional logic and structured data collection. |
-
-### Development and system utilities
-
-| Project | Description |
-| ------- | ----------- |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [git-mcp-server](https://github.com/cyanheads/git-mcp-server) | Git operations for LLM agents — commits, branches, diffs, logs, and more. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server) | File and directory management: read, write, search/replace, and directory traversal. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Interact with an Obsidian vault via the Local REST API plugin. Read, write, and search notes. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server) | System utilities for LLM agents: network diagnostics, system info, and monitoring. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [ntfy-mcp-server](https://github.com/cyanheads/ntfy-mcp-server) | Send push notifications via ntfy from an LLM agent. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [pixoo-mcp-server](https://github.com/cyanheads/pixoo-mcp-server) | Push pixel art, animations, and text to Divoom Pixoo LED matrices. Supports layered scenes, multi-frame animation, and device control. |
-
-### AI and external services
-
-| Project | Description |
-| ------- | ----------- |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [perplexity-mcp-server](https://github.com/cyanheads/perplexity-mcp-server) | Search-augmented AI via the Perplexity API, with citation support. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server) | Second-opinion code reviews and design critiques via the Deepseek API. |
+| Server | Description | Hosted Server |
+| ------ | ----------- | ------------- |
+| **Infrastructure** | | |
+| [model-context-protocol-resources](https://github.com/cyanheads/model-context-protocol-resources) | MCP guides and examples | |
+| [workflows-mcp-server](https://github.com/cyanheads/workflows-mcp-server) | YAML-defined multi-step workflows | |
+| [mcp-reporter](https://github.com/cyanheads/mcp-reporter) | Server capability reports | |
+| **Data and research** | | |
+| [atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server) | Neo4j task and knowledge graphs | |
+| [congressgov-mcp-server](https://github.com/cyanheads/congressgov-mcp-server) | U.S. congressional data | [/mcp](https://congressgov.caseyjhand.com/mcp) |
+| [secedgar-mcp-server](https://github.com/cyanheads/secedgar-mcp-server) | SEC EDGAR filings and financials | [/mcp](https://secedgar.caseyjhand.com/mcp) |
+| [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | Protein structures (PDB, UniProt) | |
+| [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | ClinicalTrials.gov search | [/mcp](https://clinicaltrials.caseyjhand.com/mcp) |
+| [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | PubMed biomedical literature | [/mcp](https://pubmed.caseyjhand.com/mcp) |
+| [openalex-mcp-server](https://github.com/cyanheads/openalex-mcp-server) | 270M+ academic publications | [/mcp](https://openalex.caseyjhand.com/mcp) |
+| [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | PubChem chemical database | [/mcp](https://pubchem.caseyjhand.com/mcp) |
+| [hn-mcp-server](https://github.com/cyanheads/hn-mcp-server) | Hacker News feeds and search | [/mcp](https://hn.caseyjhand.com/mcp) |
+| [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | Conversational surveys | |
+| **Dev and system** | | |
+| [git-mcp-server](https://github.com/cyanheads/git-mcp-server) | Git operations | |
+| [filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server) | File and directory operations | |
+| [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vault access | |
+| [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server) | Network diagnostics, system info | |
+| [ntfy-mcp-server](https://github.com/cyanheads/ntfy-mcp-server) | Push notifications via ntfy | |
+| [pixoo-mcp-server](https://github.com/cyanheads/pixoo-mcp-server) | Divoom Pixoo LED control | |
+| **AI and external** | | |
+| [perplexity-mcp-server](https://github.com/cyanheads/perplexity-mcp-server) | Search-augmented AI (Perplexity) | |
+| [mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server) | Code review via Deepseek | |
 
 ## Other projects
 
 | Project | Description |
 | ------- | ----------- |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [pixoo-toolkit](https://github.com/cyanheads/pixoo-toolkit) | TypeScript toolkit for Divoom Pixoo displays (16, 32, 64). Pixel rendering, animations, and device control over local HTTP. |
-| <img src="https://img.shields.io/badge/-3776AB?logo=python&logoColor=white" alt="Python" height="15"> [repo-map](https://github.com/cyanheads/repo-map) | Generates visual summaries of codebases using AI. Caches results, supports multiple languages, respects gitignore. |
-| <img src="https://img.shields.io/badge/-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" height="15"> [claude-sidebar-modifier](https://github.com/cyanheads/claude-sidebar-modifier) | Firefox extension that disables or resizes the Claude.ai sidebar. |
-| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [scripts-ts](https://github.com/cyanheads/scripts-ts) | Cross-platform TypeScript utility scripts for common dev tasks. |
-| <img src="https://img.shields.io/badge/-000080?logo=lua&logoColor=white" alt="Lua" height="15"> [TwilightAscensionRares](https://github.com/cyanheads/TwilightAscensionRares) | WoW addon for tracking Twilight Highlands rare spawns (Two Minutes to Midnight achievement). Live schedule, countdown timers, waypoints, and raid/chat sharing. |
+| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [pixoo-toolkit](https://github.com/cyanheads/pixoo-toolkit) | Divoom Pixoo display SDK (16/32/64) |
+| <img src="https://img.shields.io/badge/-3776AB?logo=python&logoColor=white" alt="Python" height="15"> [repo-map](https://github.com/cyanheads/repo-map) | AI-generated codebase summaries |
+| <img src="https://img.shields.io/badge/-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" height="15"> [claude-sidebar-modifier](https://github.com/cyanheads/claude-sidebar-modifier) | Firefox extension to resize/hide the Claude.ai sidebar |
+| <img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> [scripts-ts](https://github.com/cyanheads/scripts-ts) | Cross-platform dev utility scripts |
+| <img src="https://img.shields.io/badge/-000080?logo=lua&logoColor=white" alt="Lua" height="15"> [TwilightAscensionRares](https://github.com/cyanheads/TwilightAscensionRares) | WoW addon for Twilight Highlands rare spawn tracking |
 
 ## Open to work
 
-I'm looking for full-time and contract roles in AI/LLM tooling and infrastructure. I've spent the last year building autonomous agents and MCP servers, and I want to keep going.
+I build AI/LLM tooling and infrastructure. Looking for full-time or contract roles where I can keep doing that.
 
 Available for:
 - Full-time positions
