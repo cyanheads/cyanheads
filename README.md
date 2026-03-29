@@ -28,31 +28,32 @@ Start your coding agent in the scaffolded project and describe what you want to 
 
 | Server | Description | Hosted Server |
 | ------ | ----------- | ------------- |
-| **Infrastructure** | | |
+| **MCP infrastructure** | | |
 | [model-context-protocol-resources](https://github.com/cyanheads/model-context-protocol-resources) | MCP guides and examples | |
 | [workflows-mcp-server](https://github.com/cyanheads/workflows-mcp-server) | YAML-defined multi-step workflows | |
 | [mcp-reporter](https://github.com/cyanheads/mcp-reporter) | Server capability reports | |
-| **Data and research** | | |
-| [atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server) | Neo4j task and knowledge graphs | |
+| **External data sources** | | |
 | [congressgov-mcp-server](https://github.com/cyanheads/congressgov-mcp-server) | U.S. congressional data | [/mcp](https://congressgov.caseyjhand.com/mcp) |
 | [secedgar-mcp-server](https://github.com/cyanheads/secedgar-mcp-server) | SEC EDGAR filings and financials | [/mcp](https://secedgar.caseyjhand.com/mcp) |
-| [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | Protein structures (PDB, UniProt) | |
 | [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | ClinicalTrials\.gov search | [/mcp](https://clinicaltrials.caseyjhand.com/mcp) |
 | [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | PubMed biomedical literature | [/mcp](https://pubmed.caseyjhand.com/mcp) |
 | [openalex-mcp-server](https://github.com/cyanheads/openalex-mcp-server) | 270M+ academic publications | [/mcp](https://openalex.caseyjhand.com/mcp) |
 | [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | PubChem chemical database | [/mcp](https://pubchem.caseyjhand.com/mcp) |
+| [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | Protein structures (PDB, UniProt) | |
 | [hn-mcp-server](https://github.com/cyanheads/hn-mcp-server) | Hacker News feeds and search | [/mcp](https://hn.caseyjhand.com/mcp) |
-| [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | Conversational surveys | |
-| **Dev and system** | | |
+| **Local & workspace** | | |
+| [atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server) | Neo4j task and knowledge graphs | |
+| [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vault access | |
 | [git-mcp-server](https://github.com/cyanheads/git-mcp-server) | Git operations | |
 | [filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server) | File and directory operations | |
-| [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vault access | |
 | [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server) | Network diagnostics, system info | |
-| [ntfy-mcp-server](https://github.com/cyanheads/ntfy-mcp-server) | Push notifications via ntfy | |
-| [pixoo-mcp-server](https://github.com/cyanheads/pixoo-mcp-server) | Divoom Pixoo LED control | |
-| **AI and external** | | |
+| [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | Conversational surveys | |
+| **AI services** | | |
 | [perplexity-mcp-server](https://github.com/cyanheads/perplexity-mcp-server) | Search-augmented AI (Perplexity) | |
 | [mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server) | Code review via Deepseek | |
+| **Hardware & notifications** | | |
+| [ntfy-mcp-server](https://github.com/cyanheads/ntfy-mcp-server) | Push notifications via ntfy | |
+| [pixoo-mcp-server](https://github.com/cyanheads/pixoo-mcp-server) | Divoom Pixoo LED control | |
 
 ## Other projects
 
