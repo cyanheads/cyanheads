@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Casey 👋
+## Hi, I'm Casey 👋
 
 [![Open to Work](https://img.shields.io/badge/Open_to_Work-green?style=for-the-badge)](mailto:casey@caseyjhand.com) [![Website](https://img.shields.io/badge/Website-caseyjhand.com-blue?style=for-the-badge)](https://caseyjhand.com)
 
