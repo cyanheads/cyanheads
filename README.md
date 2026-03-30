@@ -37,6 +37,7 @@ Start your coding agent in the scaffolded project and describe what you want to 
 | [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | ClinicalTrials\.gov search | [/mcp](https://clinicaltrials.caseyjhand.com/mcp) |
 | [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | PubMed biomedical literature | [/mcp](https://pubmed.caseyjhand.com/mcp) |
 | [openalex-mcp-server](https://github.com/cyanheads/openalex-mcp-server) | 270M+ academic publications | [/mcp](https://openalex.caseyjhand.com/mcp) |
+| [arxiv-mcp-server](https://github.com/cyanheads/arxiv-mcp-server) | arXiv paper search and full-text reading | [/mcp](https://arxiv.caseyjhand.com/mcp) |
 | [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | PubChem chemical database | [/mcp](https://pubchem.caseyjhand.com/mcp) |
 | [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | Protein structures (PDB, UniProt) | |
 | [hn-mcp-server](https://github.com/cyanheads/hn-mcp-server) | Hacker News feeds and search | [/mcp](https://hn.caseyjhand.com/mcp) |
@@ -46,6 +47,7 @@ Start your coding agent in the scaffolded project and describe what you want to 
 | [git-mcp-server](https://github.com/cyanheads/git-mcp-server) | Git operations | |
 | [filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server) | File and directory operations | |
 | [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server) | Network diagnostics, system info | |
+| [calculator-mcp-server](https://github.com/cyanheads/calculator-mcp-server) | Math evaluation, simplification, derivatives | [/mcp](https://calculator.caseyjhand.com/mcp) |
 | [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | Conversational surveys | |
 | **AI services** | | |
 | [perplexity-mcp-server](https://github.com/cyanheads/perplexity-mcp-server) | Search-augmented AI (Perplexity) | |
@@ -82,5 +84,9 @@ If any of this has been useful to you, I'd appreciate the support.
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/cyanheads)
 
 Website: [caseyjhand.com](https://caseyjhand.com) | Email: [casey@caseyjhand.com](mailto:casey@caseyjhand.com)
+
+---
+
+_When we share knowledge, everyone benefits._
 
 </div>
