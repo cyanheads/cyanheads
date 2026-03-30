@@ -24,9 +24,7 @@ Agent-native TypeScript framework for building Model Context Protocol (MCP) serv
 npx @cyanheads/mcp-ts-core init my-mcp-server
 ```
 
-Start your coding agent in the scaffolded project and describe what you want to build.
-
-Ships with Agent Skills and framework docs built in.
+Start your coding agent in the scaffolded project and describe what you want to build. Ships with Agent Skills and framework docs built in.
 
 Servers below are built on it.
 
