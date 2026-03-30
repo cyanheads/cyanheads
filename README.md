@@ -4,7 +4,7 @@
 
 [![Open to Work](https://img.shields.io/badge/Open_to_Work-green?style=for-the-badge)](mailto:casey@caseyjhand.com) [![Website](https://img.shields.io/badge/Website-caseyjhand.com-blue?style=for-the-badge)](https://caseyjhand.com)
 
-I build open source tools that connect LLMs to the real world. Based in Seattle.
+I build open source tools that connect LLMs to things. Based in Seattle.
 
 </div>
 
@@ -12,13 +12,21 @@ I build open source tools that connect LLMs to the real world. Based in Seattle.
 
 ### [mcp-ts-core](https://github.com/cyanheads/mcp-ts-core)
 
-TypeScript framework for building Model Context Protocol (MCP) servers. Declarative tool definitions, pluggable auth, multi-backend storage, OpenTelemetry. Runs on Node.js and Cloudflare Workers.
+Agent-native TypeScript framework for building Model Context Protocol (MCP) servers. 
+
+- Declarative tool definitions
+- Pluggable auth
+- Multi-backend storage
+- OpenTelemetry
+- Runs on Node.js and Cloudflare Workers
 
 ```bash
 npx @cyanheads/mcp-ts-core init my-mcp-server
 ```
 
-Start your coding agent in the scaffolded project and describe what you want to build. It ships with agent skills and framework docs built in. Servers below are built on it.
+Start your coding agent in the scaffolded project and describe what you want to build.
+Ships with Agent Skills and framework docs built in.
+Servers below are built on it.
 
 </td></tr></table>
 </div>
@@ -28,8 +36,8 @@ Start your coding agent in the scaffolded project and describe what you want to 
 | Server | Description | Hosted Server |
 | ------ | ----------- | ------------- |
 | **MCP infrastructure** | | |
-| [mcp-reporter](https://github.com/cyanheads/mcp-reporter) | Server capability reports | |
 | [model-context-protocol-resources](https://github.com/cyanheads/model-context-protocol-resources) | MCP guides and examples | |
+| [mcp-reporter](https://github.com/cyanheads/mcp-reporter) | Server capability reports | |
 | [workflows-mcp-server](https://github.com/cyanheads/workflows-mcp-server) | YAML-defined multi-step workflows | |
 | **External data sources** | | |
 | [arxiv-mcp-server](https://github.com/cyanheads/arxiv-mcp-server) | arXiv paper search and full-text reading | [/mcp](https://arxiv.caseyjhand.com/mcp) |
