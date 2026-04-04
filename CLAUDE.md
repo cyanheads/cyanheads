@@ -27,7 +27,7 @@ The README follows this layout:
 5. **Open to work** — availability and contact
 6. **Support** — centered Buy Me a Coffee button, website, email
 
-Each project row uses an inline language badge (`<img>` tag), a linked project name, and a one-line description. Some include "Try it live" links to deployed Cloudflare Workers endpoints.
+Each project row uses an inline language badge (`<img>` tag), a linked project name, and a one-line description. Some include live endpoint links to deployed Cloudflare Workers endpoints.
 
 ## Editing guidelines
 
@@ -37,4 +37,4 @@ Each project row uses an inline language badge (`<img>` tag), a linked project n
 - New MCP servers built on mcp-ts-core go in the appropriate category table
 - Non-MCP projects go in "Other projects"
 - The centered `<div>` blocks at top and bottom must stay balanced
-- Link format for live demos: `[Try it live.](https://<subdomain>.caseyjhand.com/mcp)`
+- Link format for live endpoints: `[/mcp](https://<subdomain>.caseyjhand.com/mcp)`
