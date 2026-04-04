@@ -57,7 +57,7 @@ Servers below are built on it.
 | [atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server) | Neo4j task and knowledge graphs | |
 | [calculator-mcp-server](https://github.com/cyanheads/calculator-mcp-server) | Math evaluation, simplification, derivatives | [/mcp](https://calculator.caseyjhand.com/mcp) |
 | [filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server) | File and directory operations | |
-| [git-mcp-server](https://github.com/cyanheads/git-mcp-server) | Git repository management — commits, branches, diffs, history | |
+| [git-mcp-server](https://github.com/cyanheads/git-mcp-server) | Git repository management — commits, branches, diffs, history, worktrees | |
 | [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vault access | |
 | [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | Dynamic conversational surveys with skip logic and structured collection | |
 | [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server) | Network diagnostics, system monitoring, crypto utilities, QR codes | |
