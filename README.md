@@ -41,17 +41,17 @@ Servers below are built on it.
 | [workflows-mcp-server](https://github.com/cyanheads/workflows-mcp-server) | YAML-defined multi-step workflows | |
 | **External data sources** | | |
 | [arxiv-mcp-server](https://github.com/cyanheads/arxiv-mcp-server) | arXiv paper search and full-text reading | [/mcp](https://arxiv.caseyjhand.com/mcp) |
-| [cdc-health-mcp-server](https://github.com/cyanheads/cdc-health-mcp-server) | 1,487+ CDC public health datasets — disease surveillance, mortality, vaccinations, and more | |
+| [cdc-health-mcp-server](https://github.com/cyanheads/cdc-health-mcp-server) | 1,487+ CDC public health datasets — disease surveillance, mortality, vaccinations, and more | [/mcp](https://cdc.caseyjhand.com/mcp) |
 | [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | ClinicalTrials\.gov search | [/mcp](https://clinicaltrials.caseyjhand.com/mcp) |
 | [congressgov-mcp-server](https://github.com/cyanheads/congressgov-mcp-server) | U.S. congressional data | [/mcp](https://congressgov.caseyjhand.com/mcp) |
 | [hn-mcp-server](https://github.com/cyanheads/hn-mcp-server) | Hacker News feeds and search | [/mcp](https://hn.caseyjhand.com/mcp) |
-| [openfda-mcp-server](https://github.com/cyanheads/openfda-mcp-server) | FDA drugs, food, devices, and recalls via openFDA | |
+| [openfda-mcp-server](https://github.com/cyanheads/openfda-mcp-server) | FDA drugs, food, devices, and recalls via openFDA | [/mcp](https://openfda.caseyjhand.com/mcp) |
 | [openalex-mcp-server](https://github.com/cyanheads/openalex-mcp-server) | 270M+ academic publications | [/mcp](https://openalex.caseyjhand.com/mcp) |
 | [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | Protein structures (PDB, UniProt) | |
 | [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | PubChem chemical database | [/mcp](https://pubchem.caseyjhand.com/mcp) |
 | [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | PubMed biomedical literature | [/mcp](https://pubmed.caseyjhand.com/mcp) |
-| [nhtsa-vehicle-safety-mcp-server](https://github.com/cyanheads/nhtsa-vehicle-safety-mcp-server) | NHTSA vehicle safety — recalls, complaints, crash ratings, VIN decoding | |
-| [nws-weather-mcp-server](https://github.com/cyanheads/nws-weather-mcp-server) | Real-time US weather forecasts, alerts, and observations via National Weather Service | |
+| [nhtsa-vehicle-safety-mcp-server](https://github.com/cyanheads/nhtsa-vehicle-safety-mcp-server) | NHTSA vehicle safety — recalls, complaints, crash ratings, VIN decoding | [/mcp](https://nhtsa.caseyjhand.com/mcp) |
+| [nws-weather-mcp-server](https://github.com/cyanheads/nws-weather-mcp-server) | Real-time US weather forecasts, alerts, and observations via National Weather Service | [/mcp](https://nws.caseyjhand.com/mcp) |
 | [secedgar-mcp-server](https://github.com/cyanheads/secedgar-mcp-server) | SEC EDGAR filings and financials | [/mcp](https://secedgar.caseyjhand.com/mcp) |
 | **Local & workspace** | | |
 | [atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server) | Neo4j task and knowledge graphs | |
