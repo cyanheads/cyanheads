@@ -42,27 +42,27 @@ Servers below are built on it.
 | **External data sources** | | |
 | [arxiv-mcp-server](https://github.com/cyanheads/arxiv-mcp-server) | arXiv paper search and full-text reading | [/mcp](https://arxiv.caseyjhand.com/mcp) |
 | [cdc-health-mcp-server](https://github.com/cyanheads/cdc-health-mcp-server) | 1,487+ CDC public health datasets — disease surveillance, mortality, vaccinations, and more | [/mcp](https://cdc.caseyjhand.com/mcp) |
-| [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | ClinicalTrials\.gov search | [/mcp](https://clinicaltrials.caseyjhand.com/mcp) |
-| [congressgov-mcp-server](https://github.com/cyanheads/congressgov-mcp-server) | U.S. congressional data | [/mcp](https://congressgov.caseyjhand.com/mcp) |
-| [hn-mcp-server](https://github.com/cyanheads/hn-mcp-server) | Hacker News feeds and search | [/mcp](https://hn.caseyjhand.com/mcp) |
+| [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | ClinicalTrials.gov trial search, study details and results, patient matching | [/mcp](https://clinicaltrials.caseyjhand.com/mcp) |
+| [congressgov-mcp-server](https://github.com/cyanheads/congressgov-mcp-server) | U.S. congressional bills, votes, members, and committees | [/mcp](https://congressgov.caseyjhand.com/mcp) |
+| [hn-mcp-server](https://github.com/cyanheads/hn-mcp-server) | Hacker News feeds, discussions, user profiles, and search | [/mcp](https://hn.caseyjhand.com/mcp) |
 | [openfda-mcp-server](https://github.com/cyanheads/openfda-mcp-server) | FDA drugs, food, devices, and recalls via openFDA | [/mcp](https://openfda.caseyjhand.com/mcp) |
-| [openalex-mcp-server](https://github.com/cyanheads/openalex-mcp-server) | 270M+ academic publications | [/mcp](https://openalex.caseyjhand.com/mcp) |
+| [openalex-mcp-server](https://github.com/cyanheads/openalex-mcp-server) | 270M+ academic works, authors, and institutions via OpenAlex | [/mcp](https://openalex.caseyjhand.com/mcp) |
 | [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | Protein structures (PDB, UniProt) | |
-| [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | PubChem chemical database | [/mcp](https://pubchem.caseyjhand.com/mcp) |
-| [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | PubMed biomedical literature | [/mcp](https://pubmed.caseyjhand.com/mcp) |
+| [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | Compound search, properties, safety data, and bioactivity via PubChem | [/mcp](https://pubchem.caseyjhand.com/mcp) |
+| [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | PubMed article search, full text, citations, and MeSH terms | [/mcp](https://pubmed.caseyjhand.com/mcp) |
 | [nhtsa-vehicle-safety-mcp-server](https://github.com/cyanheads/nhtsa-vehicle-safety-mcp-server) | NHTSA vehicle safety — recalls, complaints, crash ratings, VIN decoding | [/mcp](https://nhtsa.caseyjhand.com/mcp) |
 | [nws-weather-mcp-server](https://github.com/cyanheads/nws-weather-mcp-server) | Real-time US weather forecasts, alerts, and observations via National Weather Service | [/mcp](https://nws.caseyjhand.com/mcp) |
-| [secedgar-mcp-server](https://github.com/cyanheads/secedgar-mcp-server) | SEC EDGAR filings and financials | [/mcp](https://secedgar.caseyjhand.com/mcp) |
+| [secedgar-mcp-server](https://github.com/cyanheads/secedgar-mcp-server) | SEC EDGAR filings, XBRL financials, and company data | [/mcp](https://secedgar.caseyjhand.com/mcp) |
 | **Local & workspace** | | |
 | [atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server) | Neo4j task and knowledge graphs | |
 | [calculator-mcp-server](https://github.com/cyanheads/calculator-mcp-server) | Math evaluation, simplification, derivatives | [/mcp](https://calculator.caseyjhand.com/mcp) |
 | [filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server) | File and directory operations | |
-| [git-mcp-server](https://github.com/cyanheads/git-mcp-server) | Git operations | |
+| [git-mcp-server](https://github.com/cyanheads/git-mcp-server) | Git repository management — commits, branches, diffs, history | |
 | [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vault access | |
-| [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | Conversational surveys | |
-| [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server) | Network diagnostics, system info | |
+| [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | Dynamic conversational surveys with skip logic and structured collection | |
+| [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server) | Network diagnostics, system monitoring, crypto utilities, QR codes | |
 | **AI services** | | |
-| [mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server) | Code review via Deepseek | |
+| [mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server) | Code review, design critique, and writing feedback via Deepseek R1 | |
 | [perplexity-mcp-server](https://github.com/cyanheads/perplexity-mcp-server) | Search-augmented AI (Perplexity) | |
 | **Hardware & notifications** | | |
 | [ntfy-mcp-server](https://github.com/cyanheads/ntfy-mcp-server) | Push notifications via ntfy | |
