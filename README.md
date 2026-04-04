@@ -37,8 +37,8 @@ Servers below are built on it.
 | ------ | ----------- | ------------- |
 | **MCP infrastructure** | | |
 | [model-context-protocol-resources](https://github.com/cyanheads/model-context-protocol-resources) | MCP guides and examples | |
-| [mcp-reporter](https://github.com/cyanheads/mcp-reporter) | Server capability reports | |
-| [workflows-mcp-server](https://github.com/cyanheads/workflows-mcp-server) | YAML-defined multi-step workflows | |
+| [mcp-reporter](https://github.com/cyanheads/mcp-reporter) | Generate capability reports across your MCP server ecosystem | |
+| [workflows-mcp-server](https://github.com/cyanheads/workflows-mcp-server) | Declarative multi-step workflow engine with YAML definitions | |
 | **External data sources** | | |
 | [arxiv-mcp-server](https://github.com/cyanheads/arxiv-mcp-server) | arXiv paper search and full-text reading | [/mcp](https://arxiv.caseyjhand.com/mcp) |
 | [cdc-health-mcp-server](https://github.com/cyanheads/cdc-health-mcp-server) | 1,487+ CDC public health datasets — disease surveillance, mortality, vaccinations, and more | [/mcp](https://cdc.caseyjhand.com/mcp) |
@@ -58,7 +58,7 @@ Servers below are built on it.
 | [calculator-mcp-server](https://github.com/cyanheads/calculator-mcp-server) | Math evaluation, simplification, derivatives | [/mcp](https://calculator.caseyjhand.com/mcp) |
 | [filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server) | File and directory operations | |
 | [git-mcp-server](https://github.com/cyanheads/git-mcp-server) | Git repository management — commits, branches, diffs, history, worktrees | |
-| [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vault access | |
+| [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vault notes, tags, frontmatter, and search via Local REST API | |
 | [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | Dynamic conversational surveys with skip logic and structured collection | |
 | [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server) | Network diagnostics, system monitoring, crypto utilities, QR codes | |
 | **AI services** | | |
