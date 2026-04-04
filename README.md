@@ -63,10 +63,10 @@ Servers below are built on it.
 | [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server) | Network diagnostics, system monitoring, crypto utilities, QR codes | |
 | **AI services** | | |
 | [mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server) | Code review, design critique, and writing feedback via Deepseek R1 | |
-| [perplexity-mcp-server](https://github.com/cyanheads/perplexity-mcp-server) | Search-augmented AI (Perplexity) | |
+| [perplexity-mcp-server](https://github.com/cyanheads/perplexity-mcp-server) | Search-augmented queries and deep research via Perplexity API | |
 | **Hardware & notifications** | | |
 | [ntfy-mcp-server](https://github.com/cyanheads/ntfy-mcp-server) | Push notifications via ntfy | |
-| [pixoo-mcp-server](https://github.com/cyanheads/pixoo-mcp-server) | Divoom Pixoo LED control | |
+| [pixoo-mcp-server](https://github.com/cyanheads/pixoo-mcp-server) | Pixel art, animations, and text on Divoom Pixoo LED matrices | |
 
 ## Other projects
 
