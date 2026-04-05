@@ -47,6 +47,7 @@ Servers below are built on it.
 | [hn-mcp-server](https://github.com/cyanheads/hn-mcp-server) | Hacker News feeds, discussions, user profiles, and search | [/mcp](https://hn.caseyjhand.com/mcp) |
 | [openfda-mcp-server](https://github.com/cyanheads/openfda-mcp-server) | FDA drugs, food, devices, and recalls via openFDA | [/mcp](https://openfda.caseyjhand.com/mcp) |
 | [openalex-mcp-server](https://github.com/cyanheads/openalex-mcp-server) | 270M+ academic works, authors, and institutions via OpenAlex | [/mcp](https://openalex.caseyjhand.com/mcp) |
+| [openfec-mcp-server](https://github.com/cyanheads/openfec-mcp-server) | FEC campaign finance data — candidates, committees, contributions, and filings | [/mcp](https://openfec.caseyjhand.com/mcp) |
 | [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | Protein structures (PDB, UniProt) | |
 | [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | Compound search, properties, safety data, and bioactivity via PubChem | [/mcp](https://pubchem.caseyjhand.com/mcp) |
 | [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | PubMed article search, full text, citations, and MeSH terms | [/mcp](https://pubmed.caseyjhand.com/mcp) |
