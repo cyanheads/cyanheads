@@ -35,11 +35,11 @@ Servers below are built on it.
 
 | Server | Description | Hosted Server |
 | ------ | ----------- | ------------- |
-| **MCP infrastructure** | | |
+| **MCP Infrastructure** | | |
 | [model-context-protocol-resources](https://github.com/cyanheads/model-context-protocol-resources) | MCP guides and examples | |
 | [mcp-reporter](https://github.com/cyanheads/mcp-reporter) | Generate capability reports across your MCP server ecosystem | |
 | [workflows-mcp-server](https://github.com/cyanheads/workflows-mcp-server) | Declarative multi-step workflow engine with YAML definitions | |
-| **External data sources** | | |
+| **External Data Sources** | | |
 | [arxiv-mcp-server](https://github.com/cyanheads/arxiv-mcp-server) | arXiv paper search and full-text reading | [/mcp](https://arxiv.caseyjhand.com/mcp) |
 | [cdc-health-mcp-server](https://github.com/cyanheads/cdc-health-mcp-server) | 1,487+ CDC public health datasets — disease surveillance, mortality, vaccinations, and more | [/mcp](https://cdc.caseyjhand.com/mcp) |
 | [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | ClinicalTrials.gov trial search, study details and results, patient matching | [/mcp](https://clinicaltrials.caseyjhand.com/mcp) |
@@ -54,7 +54,7 @@ Servers below are built on it.
 | [nhtsa-vehicle-safety-mcp-server](https://github.com/cyanheads/nhtsa-vehicle-safety-mcp-server) | NHTSA vehicle safety — recalls, complaints, crash ratings, VIN decoding | [/mcp](https://nhtsa.caseyjhand.com/mcp) |
 | [nws-weather-mcp-server](https://github.com/cyanheads/nws-weather-mcp-server) | Real-time US weather forecasts, alerts, and observations via National Weather Service | [/mcp](https://nws.caseyjhand.com/mcp) |
 | [secedgar-mcp-server](https://github.com/cyanheads/secedgar-mcp-server) | SEC EDGAR filings, XBRL financials, and company data | [/mcp](https://secedgar.caseyjhand.com/mcp) |
-| **Local & workspace** | | |
+| **Local & Workspace** | | |
 | [atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server) | Neo4j task and knowledge graphs | |
 | [calculator-mcp-server](https://github.com/cyanheads/calculator-mcp-server) | Math evaluation, simplification, derivatives | [/mcp](https://calculator.caseyjhand.com/mcp) |
 | [filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server) | File and directory operations | |
@@ -62,12 +62,12 @@ Servers below are built on it.
 | [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vault notes, tags, frontmatter, and search via Local REST API | |
 | [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | Dynamic conversational surveys with skip logic and structured collection | |
 | [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server) | Network diagnostics, system monitoring, crypto utilities, QR codes | |
-| **SaaS & productivity** | | |
+| **SaaS & Productivity** | | |
 | [mailchimp-mcp-server](https://github.com/cyanheads/mailchimp-mcp-server) | Mailchimp email campaigns, audiences, subscribers, and post-send analytics | |
-| **AI services** | | |
+| **AI Services** | | |
 | [mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server) | Code review, design critique, and writing feedback via Deepseek R1 | |
 | [perplexity-mcp-server](https://github.com/cyanheads/perplexity-mcp-server) | Search-augmented queries and deep research via Perplexity API | |
-| **Hardware & notifications** | | |
+| **Hardware & Notifications** | | |
 | [ntfy-mcp-server](https://github.com/cyanheads/ntfy-mcp-server) | Push notifications via ntfy | |
 | [pixoo-mcp-server](https://github.com/cyanheads/pixoo-mcp-server) | Pixel art, animations, and text on Divoom Pixoo LED matrices | |
 
