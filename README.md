@@ -62,6 +62,8 @@ Servers below are built on it.
 | [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vault notes, tags, frontmatter, and search via Local REST API | |
 | [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | Dynamic conversational surveys with skip logic and structured collection | |
 | [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server) | Network diagnostics, system monitoring, crypto utilities, QR codes | |
+| **SaaS & productivity** | | |
+| [mailchimp-mcp-server](https://github.com/cyanheads/mailchimp-mcp-server) | Mailchimp email campaigns, audiences, subscribers, and post-send analytics | |
 | **AI services** | | |
 | [mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server) | Code review, design critique, and writing feedback via Deepseek R1 | |
 | [perplexity-mcp-server](https://github.com/cyanheads/perplexity-mcp-server) | Search-augmented queries and deep research via Perplexity API | |
