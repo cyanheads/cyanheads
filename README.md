@@ -16,7 +16,6 @@ Agent-native TypeScript framework for building Model Context Protocol (MCP) serv
 
 - Declarative tool definitions
 - Pluggable auth
-- Multi-backend storage
 - OpenTelemetry
 - Runs on Node.js and Cloudflare Workers
 
@@ -24,9 +23,8 @@ Agent-native TypeScript framework for building Model Context Protocol (MCP) serv
 npx @cyanheads/mcp-ts-core init my-mcp-server
 ```
 
-Start your coding agent in the scaffolded project and describe what you want to build. Ships with Agent Skills and framework docs built in.
-
-Servers below are built on it.
+Start your coding agent in the scaffolded project and describe what you want to build.
+Ships with Agent Skills and framework docs built in.
 
 </td></tr></table>
 </div>
@@ -88,7 +86,7 @@ I build AI/LLM tooling and infrastructure. Looking for full-time or contract rol
 Available for:
 - Full-time positions
 - Contract and consulting
-- Custom MCP server development ([view framework](https://github.com/cyanheads/mcp-ts-core))
+- Custom MCP server development
 
 <div align="center">
 
