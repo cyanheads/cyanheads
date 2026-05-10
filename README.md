@@ -38,6 +38,7 @@ Start your coding agent in the scaffolded project and describe what you want to 
 | [workflows-mcp-server](https://github.com/cyanheads/workflows-mcp-server) | Declarative multi-step workflow engine with YAML definitions | |
 | **External Data Sources** | | |
 | [arxiv-mcp-server](https://github.com/cyanheads/arxiv-mcp-server) | arXiv paper search and full-text reading | [/mcp](https://arxiv.caseyjhand.com/mcp) |
+| [brapi-mcp-server](https://github.com/cyanheads/brapi-mcp-server) | BrAPI v2.1 plant breeding data — studies, germplasm, genotypes across Breedbase, T3, and Sweetpotatobase | |
 | [cdc-health-mcp-server](https://github.com/cyanheads/cdc-health-mcp-server) | 1,487+ CDC public health datasets — disease surveillance, mortality, vaccinations, and more | [/mcp](https://cdc.caseyjhand.com/mcp) |
 | [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | ClinicalTrials.gov trial search, study details and results, patient matching | [/mcp](https://clinicaltrials.caseyjhand.com/mcp) |
 | [congressgov-mcp-server](https://github.com/cyanheads/congressgov-mcp-server) | U.S. congressional bills, votes, members, and committees | [/mcp](https://congressgov.caseyjhand.com/mcp) |
@@ -65,7 +66,7 @@ Start your coding agent in the scaffolded project and describe what you want to 
 | [mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server) | Code review, design critique, and writing feedback via Deepseek R1 | |
 | [perplexity-mcp-server](https://github.com/cyanheads/perplexity-mcp-server) | Search-augmented queries and deep research via Perplexity API | |
 | **Hardware & Notifications** | | |
-| [ntfy-mcp-server](https://github.com/cyanheads/ntfy-mcp-server) | Push notifications via ntfy | |
+| [ntfy-mcp-server](https://github.com/cyanheads/ntfy-mcp-server) | Send, manage, and replay ntfy push notifications | |
 | [pixoo-mcp-server](https://github.com/cyanheads/pixoo-mcp-server) | Pixel art, animations, and text on Divoom Pixoo LED matrices | |
 
 ## Other projects
