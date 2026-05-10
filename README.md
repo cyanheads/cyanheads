@@ -41,12 +41,12 @@ Start your coding agent in the scaffolded project and describe what you want to 
 | [brapi-mcp-server](https://github.com/cyanheads/brapi-mcp-server) | BrAPI v2.1 plant breeding data — studies, germplasm, genotypes across Breedbase, T3, and Sweetpotatobase | |
 | [cdc-health-mcp-server](https://github.com/cyanheads/cdc-health-mcp-server) | 1,487+ CDC public health datasets — disease surveillance, mortality, vaccinations, and more | [/mcp](https://cdc.caseyjhand.com/mcp) |
 | [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | ClinicalTrials.gov trial search, study details and results, patient matching | [/mcp](https://clinicaltrials.caseyjhand.com/mcp) |
-| [congressgov-mcp-server](https://github.com/cyanheads/congressgov-mcp-server) | U.S. congressional bills, votes, members, and committees | [/mcp](https://congressgov.caseyjhand.com/mcp) |
+| [congressgov-mcp-server](https://github.com/cyanheads/congressgov-mcp-server) | U.S. congressional bills, votes, members, committees, CRS reports, nominations, and the Congressional Record | [/mcp](https://congressgov.caseyjhand.com/mcp) |
 | [hn-mcp-server](https://github.com/cyanheads/hn-mcp-server) | Hacker News feeds, discussions, user profiles, and search | [/mcp](https://hn.caseyjhand.com/mcp) |
 | [openfda-mcp-server](https://github.com/cyanheads/openfda-mcp-server) | FDA drugs, food, devices, and recalls via openFDA | [/mcp](https://openfda.caseyjhand.com/mcp) |
 | [openalex-mcp-server](https://github.com/cyanheads/openalex-mcp-server) | 270M+ academic works, authors, and institutions via OpenAlex | [/mcp](https://openalex.caseyjhand.com/mcp) |
 | [openfec-mcp-server](https://github.com/cyanheads/openfec-mcp-server) | FEC campaign finance data — candidates, committees, contributions, and filings | [/mcp](https://openfec.caseyjhand.com/mcp) |
-| [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | Protein structures (PDB, UniProt) | |
+| [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | Protein structure search, similarity, and ligand tracking via PDB, PDBe, and UniProt | |
 | [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | Compound search, properties, safety data, and bioactivity via PubChem | [/mcp](https://pubchem.caseyjhand.com/mcp) |
 | [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | PubMed article search, full text, citations, and MeSH terms | [/mcp](https://pubmed.caseyjhand.com/mcp) |
 | [nhtsa-vehicle-safety-mcp-server](https://github.com/cyanheads/nhtsa-vehicle-safety-mcp-server) | NHTSA vehicle safety — recalls, complaints, crash ratings, VIN decoding | [/mcp](https://nhtsa.caseyjhand.com/mcp) |
@@ -57,7 +57,7 @@ Start your coding agent in the scaffolded project and describe what you want to 
 | [calculator-mcp-server](https://github.com/cyanheads/calculator-mcp-server) | Math evaluation, simplification, derivatives | [/mcp](https://calculator.caseyjhand.com/mcp) |
 | [filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server) | File and directory operations | |
 | [git-mcp-server](https://github.com/cyanheads/git-mcp-server) | Git repository management — commits, branches, diffs, history, worktrees | |
-| [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Obsidian vault notes, tags, frontmatter, and search via Local REST API | |
+| [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | Read, write, search, and surgically edit Obsidian vault notes, tags, and frontmatter via Local REST API | |
 | [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | Dynamic conversational surveys with skip logic and structured collection | |
 | [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server) | Network diagnostics, system monitoring, crypto utilities, QR codes | |
 | **SaaS & Productivity** | | |
