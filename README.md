@@ -35,31 +35,35 @@ Ships with Agent Skills and framework docs built in.
 
 ### External data
 
-- [arxiv-mcp-server](https://github.com/cyanheads/arxiv-mcp-server) • [/mcp](https://arxiv.caseyjhand.com/)
-- [brapi-mcp-server](https://github.com/cyanheads/brapi-mcp-server)
-- [cdc-health-mcp-server](https://github.com/cyanheads/cdc-health-mcp-server) • [/mcp](https://cdc.caseyjhand.com/)
-- [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) • [/mcp](https://clinicaltrials.caseyjhand.com/)
-- [congressgov-mcp-server](https://github.com/cyanheads/congressgov-mcp-server) • [/mcp](https://congressgov.caseyjhand.com/)
-- [hn-mcp-server](https://github.com/cyanheads/hn-mcp-server) • [/mcp](https://hn.caseyjhand.com/)
-- [openfda-mcp-server](https://github.com/cyanheads/openfda-mcp-server) • [/mcp](https://openfda.caseyjhand.com/)
-- [openalex-mcp-server](https://github.com/cyanheads/openalex-mcp-server) • [/mcp](https://openalex.caseyjhand.com/)
-- [openfec-mcp-server](https://github.com/cyanheads/openfec-mcp-server) • [/mcp](https://openfec.caseyjhand.com/)
-- [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server)
-- [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) • [/mcp](https://pubchem.caseyjhand.com/)
-- [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) • [/mcp](https://pubmed.caseyjhand.com/)
-- [nhtsa-vehicle-safety-mcp-server](https://github.com/cyanheads/nhtsa-vehicle-safety-mcp-server) • [/mcp](https://nhtsa.caseyjhand.com/)
-- [nws-weather-mcp-server](https://github.com/cyanheads/nws-weather-mcp-server) • [/mcp](https://nws.caseyjhand.com/)
-- [secedgar-mcp-server](https://github.com/cyanheads/secedgar-mcp-server) • [/mcp](https://secedgar.caseyjhand.com/)
+| Server | Hosted |
+| ------ | ------ |
+| [arxiv-mcp-server](https://github.com/cyanheads/arxiv-mcp-server) | [/mcp](https://arxiv.caseyjhand.com/) |
+| [brapi-mcp-server](https://github.com/cyanheads/brapi-mcp-server) | |
+| [cdc-health-mcp-server](https://github.com/cyanheads/cdc-health-mcp-server) | [/mcp](https://cdc.caseyjhand.com/) |
+| [clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | [/mcp](https://clinicaltrials.caseyjhand.com/) |
+| [congressgov-mcp-server](https://github.com/cyanheads/congressgov-mcp-server) | [/mcp](https://congressgov.caseyjhand.com/) |
+| [hn-mcp-server](https://github.com/cyanheads/hn-mcp-server) | [/mcp](https://hn.caseyjhand.com/) |
+| [openfda-mcp-server](https://github.com/cyanheads/openfda-mcp-server) | [/mcp](https://openfda.caseyjhand.com/) |
+| [openalex-mcp-server](https://github.com/cyanheads/openalex-mcp-server) | [/mcp](https://openalex.caseyjhand.com/) |
+| [openfec-mcp-server](https://github.com/cyanheads/openfec-mcp-server) | [/mcp](https://openfec.caseyjhand.com/) |
+| [protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | |
+| [pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | [/mcp](https://pubchem.caseyjhand.com/) |
+| [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | [/mcp](https://pubmed.caseyjhand.com/) |
+| [nhtsa-vehicle-safety-mcp-server](https://github.com/cyanheads/nhtsa-vehicle-safety-mcp-server) | [/mcp](https://nhtsa.caseyjhand.com/) |
+| [nws-weather-mcp-server](https://github.com/cyanheads/nws-weather-mcp-server) | [/mcp](https://nws.caseyjhand.com/) |
+| [secedgar-mcp-server](https://github.com/cyanheads/secedgar-mcp-server) | [/mcp](https://secedgar.caseyjhand.com/) |
 
 ### Local & workspace
 
-- [atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server)
-- [calculator-mcp-server](https://github.com/cyanheads/calculator-mcp-server) • [/mcp](https://calculator.caseyjhand.com/)
-- [filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server)
-- [git-mcp-server](https://github.com/cyanheads/git-mcp-server)
-- [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server)
-- [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server)
-- [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server)
+| Server | Hosted |
+| ------ | ------ |
+| [atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server) | |
+| [calculator-mcp-server](https://github.com/cyanheads/calculator-mcp-server) | [/mcp](https://calculator.caseyjhand.com/) |
+| [filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server) | |
+| [git-mcp-server](https://github.com/cyanheads/git-mcp-server) | |
+| [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) | |
+| [survey-mcp-server](https://github.com/cyanheads/survey-mcp-server) | |
+| [toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server) | |
 
 ### SaaS & productivity
 
