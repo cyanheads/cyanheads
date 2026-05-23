@@ -142,7 +142,7 @@ Available for:
 
 If any of my projects have been useful to you, I'd appreciate any support you're able to provide.
 
-[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/cyanheads)
+<a href="https://github.com/sponsors/cyanheads"><img src="https://img.shields.io/badge/Sponsor_on_GitHub-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors" height="40"></a> <a href="https://buymeacoffee.com/cyanheads"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me A Coffee" height="40"></a>
 
 Website: [caseyjhand.com](https://caseyjhand.com) | Email: [casey@caseyjhand.com](mailto:casey@caseyjhand.com)
 
