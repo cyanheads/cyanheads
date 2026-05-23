@@ -67,6 +67,15 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/nws-weather-mcp-server">nws-weather-mcp-server</a> • <a href="https://nws.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/secedgar-mcp-server">secedgar-mcp-server</a> • <a href="https://secedgar.caseyjhand.com/">/mcp</a></td>
 </tr>
+<tr>
+<td><a href="https://github.com/cyanheads/biorxiv-mcp-server">biorxiv-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/bls-mcp-server">bls-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/crossref-mcp-server">crossref-mcp-server</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/cyanheads/eia-mcp-server">eia-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/fred-mcp-server">fred-mcp-server</a></td>
+</tr>
 </table>
 
 ### Local & workspace
