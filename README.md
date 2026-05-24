@@ -75,6 +75,12 @@ Ships with Agent Skills and framework docs built in.
 <tr>
 <td><a href="https://github.com/cyanheads/eia-mcp-server">eia-mcp-server</a> • <a href="https://eia.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/fred-mcp-server">fred-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/onebusaway-mcp-server">onebusaway-mcp-server</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/cyanheads/openstates-mcp-server">openstates-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/socrata-mcp-server">socrata-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/wsdot-mcp-server">wsdot-mcp-server</a></td>
 </tr>
 </table>
 
