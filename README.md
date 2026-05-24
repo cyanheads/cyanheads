@@ -99,6 +99,16 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/worldbank-mcp-server">worldbank-mcp-server</a> • <a href="https://worldbank.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/census-mcp-server">census-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/libofcongress-mcp-server">libofcongress-mcp-server</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/cyanheads/nist-nvd-mcp-server">nist-nvd-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/reference-data-mcp-server">reference-data-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/usda-mcp-server">usda-mcp-server</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/cyanheads/wikipedia-mcp-server">wikipedia-mcp-server</a></td>
 </tr>
 </table>
 
