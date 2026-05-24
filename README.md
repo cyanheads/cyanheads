@@ -82,6 +82,24 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/socrata-mcp-server">socrata-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/wsdot-mcp-server">wsdot-mcp-server</a></td>
 </tr>
+<tr>
+<td><a href="https://github.com/cyanheads/earthquake-mcp-server">earthquake-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/eurostat-mcp-server">eurostat-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/gbif-mcp-server">gbif-mcp-server</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/cyanheads/noaa-cdo-mcp-server">noaa-cdo-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/nominatim-mcp-server">nominatim-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/openlibrary-mcp-server">openlibrary-mcp-server</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/cyanheads/reliefweb-mcp-server">reliefweb-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/who-gho-mcp-server">who-gho-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/wikidata-mcp-server">wikidata-mcp-server</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/cyanheads/worldbank-mcp-server">worldbank-mcp-server</a></td>
+</tr>
 </table>
 
 ### Local & workspace
