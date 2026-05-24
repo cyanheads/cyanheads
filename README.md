@@ -69,12 +69,12 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/biorxiv-mcp-server">biorxiv-mcp-server</a> • <a href="https://biorxiv.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/bls-mcp-server">bls-mcp-server</a> • <a href="https://bls.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/bls-labor-mcp-server">bls-labor-mcp-server</a> • <a href="https://bls-labor.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/crossref-mcp-server">crossref-mcp-server</a> • <a href="https://crossref.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/eia-mcp-server">eia-mcp-server</a> • <a href="https://eia.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/fred-mcp-server">fred-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/eia-energy-mcp-server">eia-energy-mcp-server</a> • <a href="https://eia-energy.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/federal-reserve-mcp-server">federal-reserve-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/onebusaway-mcp-server">onebusaway-mcp-server</a> • <a href="https://onebusaway.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
@@ -89,7 +89,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/noaa-cdo-mcp-server">noaa-cdo-mcp-server</a> • <a href="https://noaa-cdo.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/nominatim-mcp-server">nominatim-mcp-server</a> • <a href="https://nominatim.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/openstreetmap-mcp-server">openstreetmap-mcp-server</a> • <a href="https://openstreetmap.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/openlibrary-mcp-server">openlibrary-mcp-server</a> • <a href="https://openlibrary.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
