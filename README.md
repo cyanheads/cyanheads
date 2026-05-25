@@ -44,7 +44,7 @@ Ships with Agent Skills and framework docs built in.
 <table>
 <tr>
 <td><a href="https://github.com/cyanheads/arxiv-mcp-server">arxiv-mcp-server</a> • <a href="https://arxiv.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/brapi-mcp-server">brapi-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/brapi-mcp-server">brapi-mcp-server</a> • <a href="https://brapi.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/cdc-health-mcp-server">cdc-health-mcp-server</a> • <a href="https://cdc.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
