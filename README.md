@@ -85,7 +85,7 @@ Ships with Agent Skills and framework docs built in.
 <tr>
 <td><a href="https://github.com/cyanheads/earthquake-mcp-server">earthquake-mcp-server</a> • <a href="https://earthquake.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/eurostat-mcp-server">eurostat-mcp-server</a> • <a href="https://eurostat.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/gbif-mcp-server">gbif-mcp-server</a> • <a href="https://gbif.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/gbif-biodiversity-mcp-server">gbif-biodiversity-mcp-server</a> • <a href="https://gbif-biodiversity.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/noaa-cdo-mcp-server">noaa-cdo-mcp-server</a> • <a href="https://noaa-cdo.caseyjhand.com/">/mcp</a></td>
