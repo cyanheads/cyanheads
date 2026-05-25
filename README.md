@@ -151,7 +151,11 @@ Ships with Agent Skills and framework docs built in.
 
 <table>
 <tr>
+<td><a href="https://github.com/cyanheads/clipboard-mcp-server">clipboard-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/macos-mcp-server">macos-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/ntfy-mcp-server">ntfy-mcp-server</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/cyanheads/pixoo-mcp-server">pixoo-mcp-server</a></td>
 </tr>
 </table>
