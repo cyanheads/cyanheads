@@ -4,7 +4,9 @@ The real power of MCP servers isn't any single data source — it's what happens
 
 No ETL pipeline. No data warehouse. Just questions that span domains, answered by following the data wherever it leads.
 
-An agent *can* hit any API directly — search for docs, register for a key, hand-craft curl requests. But multiply that overhead by six data sources and the context window is gone before the question gets answered. MCP servers collapse each source to a single structured tool call. The queries below chain 5-7 of them in a single conversation.
+An agent *can* hit any API directly — search for docs, register for a key, hand-craft curl requests. But multiply that overhead by six data sources and the context window is gone before the question gets answered.
+
+MCP servers collapse each source to a single structured tool call. You don't need to know which server to reach for — a tool search for "campaign finance" surfaces OpenFEC, "adverse events" surfaces OpenFDA. The agent discovers the right servers by concept, calls them directly, and gets structured data back. The queries below chain 5-7 sources in a single conversation.
 
 ---
 
