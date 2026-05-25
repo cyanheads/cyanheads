@@ -4,5 +4,6 @@
 # Re-include the only files/dirs that should be tracked
 !.gitignore
 !README.md
+!CROSS-DOMAIN.md
 !.github/
 !.github/**

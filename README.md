@@ -29,6 +29,8 @@ Ships with Agent Skills and framework docs built in.
 
 ## MCP servers
 
+> **[Cross-domain queries](CROSS-DOMAIN.md)** — what happens when you connect 40+ data sources in one conversation.
+
 ### MCP infrastructure
 
 <table>
