@@ -111,6 +111,21 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/wikipedia-mcp-server">wikipedia-mcp-server</a> • <a href="https://wikipedia.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/college-scorecard-mcp-server">college-scorecard-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/courtlistener-mcp-server">courtlistener-mcp-server</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/cyanheads/epa-mcp-server">epa-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/fbi-crime-mcp-server">fbi-crime-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/fcc-broadband-mcp-server">fcc-broadband-mcp-server</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/cyanheads/gdelt-mcp-server">gdelt-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/orcid-mcp-server">orcid-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/un-comtrade-mcp-server">un-comtrade-mcp-server</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/cyanheads/usaspending-mcp-server">usaspending-mcp-server</a></td>
 </tr>
 </table>
 
