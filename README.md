@@ -121,7 +121,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/gdelt-mcp-server">gdelt-mcp-server</a> • <a href="https://gdelt.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/orcid-mcp-server">orcid-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/orcid-mcp-server">orcid-mcp-server</a> • <a href="https://orcid.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/un-comtrade-mcp-server">un-comtrade-mcp-server</a></td>
 </tr>
 <tr>
