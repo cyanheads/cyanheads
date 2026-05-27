@@ -6,6 +6,7 @@
   "plugins": [
     {
       "name": "arxiv-mcp-server",
+      "interface": { "displayName": "arXiv" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/arxiv-mcp-server.git"
@@ -15,6 +16,7 @@
     },
     {
       "name": "biorxiv-mcp-server",
+      "interface": { "displayName": "bioRxiv" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/biorxiv-mcp-server.git"
@@ -24,6 +26,7 @@
     },
     {
       "name": "bls-labor-mcp-server",
+      "interface": { "displayName": "BLS Labor Statistics" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/bls-labor-mcp-server.git"
@@ -33,6 +36,7 @@
     },
     {
       "name": "brapi-mcp-server",
+      "interface": { "displayName": "BrAPI" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/brapi-mcp-server.git"
@@ -42,6 +46,7 @@
     },
     {
       "name": "calculator-mcp-server",
+      "interface": { "displayName": "Calculator" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/calculator-mcp-server.git"
@@ -51,6 +56,7 @@
     },
     {
       "name": "cdc-health-mcp-server",
+      "interface": { "displayName": "CDC Health Data" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/cdc-health-mcp-server.git"
@@ -60,6 +66,7 @@
     },
     {
       "name": "census-mcp-server",
+      "interface": { "displayName": "US Census" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/census-mcp-server.git"
@@ -69,6 +76,7 @@
     },
     {
       "name": "clinicaltrialsgov-mcp-server",
+      "interface": { "displayName": "ClinicalTrials.gov" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/clinicaltrialsgov-mcp-server.git"
@@ -78,6 +86,7 @@
     },
     {
       "name": "college-scorecard-mcp-server",
+      "interface": { "displayName": "College Scorecard" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/college-scorecard-mcp-server.git"
@@ -87,6 +96,7 @@
     },
     {
       "name": "congressgov-mcp-server",
+      "interface": { "displayName": "Congress.gov" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/congressgov-mcp-server.git"
@@ -96,6 +106,7 @@
     },
     {
       "name": "courtlistener-mcp-server",
+      "interface": { "displayName": "CourtListener" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/courtlistener-mcp-server.git"
@@ -105,6 +116,7 @@
     },
     {
       "name": "crossref-mcp-server",
+      "interface": { "displayName": "Crossref" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/crossref-mcp-server.git"
@@ -114,6 +126,7 @@
     },
     {
       "name": "earthquake-mcp-server",
+      "interface": { "displayName": "USGS Earthquakes" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/earthquake-mcp-server.git"
@@ -123,6 +136,7 @@
     },
     {
       "name": "eia-energy-mcp-server",
+      "interface": { "displayName": "EIA Energy Data" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/eia-energy-mcp-server.git"
@@ -132,6 +146,7 @@
     },
     {
       "name": "epa-mcp-server",
+      "interface": { "displayName": "EPA" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/epa-mcp-server.git"
@@ -141,6 +156,7 @@
     },
     {
       "name": "eurostat-mcp-server",
+      "interface": { "displayName": "Eurostat" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/eurostat-mcp-server.git"
@@ -150,6 +166,7 @@
     },
     {
       "name": "fbi-crime-mcp-server",
+      "interface": { "displayName": "FBI Crime Data" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/fbi-crime-mcp-server.git"
@@ -159,6 +176,7 @@
     },
     {
       "name": "fcc-broadband-mcp-server",
+      "interface": { "displayName": "FCC Broadband" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/fcc-broadband-mcp-server.git"
@@ -168,6 +186,7 @@
     },
     {
       "name": "federal-reserve-mcp-server",
+      "interface": { "displayName": "Federal Reserve (FRED)" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/federal-reserve-mcp-server.git"
@@ -177,6 +196,7 @@
     },
     {
       "name": "gbif-biodiversity-mcp-server",
+      "interface": { "displayName": "GBIF Biodiversity" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/gbif-biodiversity-mcp-server.git"
@@ -186,6 +206,7 @@
     },
     {
       "name": "gdelt-mcp-server",
+      "interface": { "displayName": "GDELT" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/gdelt-mcp-server.git"
@@ -195,6 +216,7 @@
     },
     {
       "name": "hn-mcp-server",
+      "interface": { "displayName": "Hacker News" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/hn-mcp-server.git"
@@ -204,6 +226,7 @@
     },
     {
       "name": "libofcongress-mcp-server",
+      "interface": { "displayName": "Library of Congress" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/libofcongress-mcp-server.git"
@@ -213,6 +236,7 @@
     },
     {
       "name": "nhtsa-vehicle-safety-mcp-server",
+      "interface": { "displayName": "NHTSA Vehicle Safety" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/nhtsa-vehicle-safety-mcp-server.git"
@@ -222,6 +246,7 @@
     },
     {
       "name": "nist-nvd-mcp-server",
+      "interface": { "displayName": "NIST NVD" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/nist-nvd-mcp-server.git"
@@ -231,6 +256,7 @@
     },
     {
       "name": "noaa-cdo-mcp-server",
+      "interface": { "displayName": "NOAA Climate Data" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/noaa-cdo-mcp-server.git"
@@ -240,6 +266,7 @@
     },
     {
       "name": "nws-weather-mcp-server",
+      "interface": { "displayName": "NWS Weather" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/nws-weather-mcp-server.git"
@@ -249,6 +276,7 @@
     },
     {
       "name": "onebusaway-mcp-server",
+      "interface": { "displayName": "OneBusAway" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/onebusaway-mcp-server.git"
@@ -258,6 +286,7 @@
     },
     {
       "name": "openalex-mcp-server",
+      "interface": { "displayName": "OpenAlex" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/openalex-mcp-server.git"
@@ -267,6 +296,7 @@
     },
     {
       "name": "openfda-mcp-server",
+      "interface": { "displayName": "openFDA" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/openfda-mcp-server.git"
@@ -276,6 +306,7 @@
     },
     {
       "name": "openfec-mcp-server",
+      "interface": { "displayName": "OpenFEC" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/openfec-mcp-server.git"
@@ -285,6 +316,7 @@
     },
     {
       "name": "openlibrary-mcp-server",
+      "interface": { "displayName": "Open Library" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/openlibrary-mcp-server.git"
@@ -294,6 +326,7 @@
     },
     {
       "name": "openstreetmap-mcp-server",
+      "interface": { "displayName": "OpenStreetMap" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/openstreetmap-mcp-server.git"
@@ -303,6 +336,7 @@
     },
     {
       "name": "openstates-mcp-server",
+      "interface": { "displayName": "Open States" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/openstates-mcp-server.git"
@@ -312,6 +346,7 @@
     },
     {
       "name": "orcid-mcp-server",
+      "interface": { "displayName": "ORCID" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/orcid-mcp-server.git"
@@ -321,6 +356,7 @@
     },
     {
       "name": "pubchem-mcp-server",
+      "interface": { "displayName": "PubChem" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/pubchem-mcp-server.git"
@@ -330,6 +366,7 @@
     },
     {
       "name": "pubmed-mcp-server",
+      "interface": { "displayName": "PubMed" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/pubmed-mcp-server.git"
@@ -339,6 +376,7 @@
     },
     {
       "name": "reference-data-mcp-server",
+      "interface": { "displayName": "Reference Data" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/reference-data-mcp-server.git"
@@ -348,6 +386,7 @@
     },
     {
       "name": "reliefweb-mcp-server",
+      "interface": { "displayName": "ReliefWeb" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/reliefweb-mcp-server.git"
@@ -357,6 +396,7 @@
     },
     {
       "name": "secedgar-mcp-server",
+      "interface": { "displayName": "SEC EDGAR" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/secedgar-mcp-server.git"
@@ -366,6 +406,7 @@
     },
     {
       "name": "socrata-mcp-server",
+      "interface": { "displayName": "Socrata Open Data" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/socrata-mcp-server.git"
@@ -375,6 +416,7 @@
     },
     {
       "name": "un-comtrade-mcp-server",
+      "interface": { "displayName": "UN Comtrade" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/un-comtrade-mcp-server.git"
@@ -384,6 +426,7 @@
     },
     {
       "name": "usaspending-mcp-server",
+      "interface": { "displayName": "USAspending" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/usaspending-mcp-server.git"
@@ -393,6 +436,7 @@
     },
     {
       "name": "usda-mcp-server",
+      "interface": { "displayName": "USDA FoodData" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/usda-mcp-server.git"
@@ -402,6 +446,7 @@
     },
     {
       "name": "who-gho-mcp-server",
+      "interface": { "displayName": "WHO Global Health Observatory" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/who-gho-mcp-server.git"
@@ -411,6 +456,7 @@
     },
     {
       "name": "wikidata-mcp-server",
+      "interface": { "displayName": "Wikidata" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/wikidata-mcp-server.git"
@@ -420,6 +466,7 @@
     },
     {
       "name": "wikipedia-mcp-server",
+      "interface": { "displayName": "Wikipedia" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/wikipedia-mcp-server.git"
@@ -429,6 +476,7 @@
     },
     {
       "name": "worldbank-mcp-server",
+      "interface": { "displayName": "World Bank" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/worldbank-mcp-server.git"
@@ -438,6 +486,7 @@
     },
     {
       "name": "wsdot-mcp-server",
+      "interface": { "displayName": "WSDOT" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/wsdot-mcp-server.git"
@@ -447,6 +496,7 @@
     },
     {
       "name": "atlas-mcp-server",
+      "interface": { "displayName": "Atlas" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/atlas-mcp-server.git"
@@ -456,6 +506,7 @@
     },
     {
       "name": "filesystem-mcp-server",
+      "interface": { "displayName": "Filesystem" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/filesystem-mcp-server.git"
@@ -465,6 +516,7 @@
     },
     {
       "name": "git-mcp-server",
+      "interface": { "displayName": "Git" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/git-mcp-server.git"
@@ -474,6 +526,7 @@
     },
     {
       "name": "obsidian-mcp-server",
+      "interface": { "displayName": "Obsidian" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/obsidian-mcp-server.git"
@@ -483,6 +536,7 @@
     },
     {
       "name": "survey-mcp-server",
+      "interface": { "displayName": "Survey" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/survey-mcp-server.git"
@@ -492,6 +546,7 @@
     },
     {
       "name": "toolkit-mcp-server",
+      "interface": { "displayName": "Toolkit" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/toolkit-mcp-server.git"
@@ -501,6 +556,7 @@
     },
     {
       "name": "workflows-mcp-server",
+      "interface": { "displayName": "Workflows" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/workflows-mcp-server.git"
@@ -510,6 +566,7 @@
     },
     {
       "name": "mailchimp-mcp-server",
+      "interface": { "displayName": "Mailchimp" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/mailchimp-mcp-server.git"
@@ -519,6 +576,7 @@
     },
     {
       "name": "mentor-mcp-server",
+      "interface": { "displayName": "Mentor" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/mentor-mcp-server.git"
@@ -528,6 +586,7 @@
     },
     {
       "name": "perplexity-mcp-server",
+      "interface": { "displayName": "Perplexity" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/perplexity-mcp-server.git"
@@ -537,6 +596,7 @@
     },
     {
       "name": "clipboard-mcp-server",
+      "interface": { "displayName": "Clipboard" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/clipboard-mcp-server.git"
@@ -546,6 +606,7 @@
     },
     {
       "name": "macos-mcp-server",
+      "interface": { "displayName": "macOS" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/macos-mcp-server.git"
@@ -555,6 +616,7 @@
     },
     {
       "name": "ntfy-mcp-server",
+      "interface": { "displayName": "ntfy" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/ntfy-mcp-server.git"
@@ -564,6 +626,7 @@
     },
     {
       "name": "pixoo-mcp-server",
+      "interface": { "displayName": "Pixoo" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/pixoo-mcp-server.git"
@@ -573,6 +636,7 @@
     },
     {
       "name": "protein-mcp-server",
+      "interface": { "displayName": "Protein (UniProt/PDB)" },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/protein-mcp-server.git"
