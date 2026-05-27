@@ -95,7 +95,7 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/openlibrary-mcp-server">openlibrary-mcp-server</a> • <a href="https://openlibrary.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/reliefweb-mcp-server">reliefweb-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/reliefweb-mcp-server">reliefweb-mcp-server</a> • <a href="https://reliefweb.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/who-gho-mcp-server">who-gho-mcp-server</a> • <a href="https://who-gho.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/wikidata-mcp-server">wikidata-mcp-server</a> • <a href="https://wikidata.caseyjhand.com/">/mcp</a></td>
 </tr>
@@ -112,20 +112,20 @@ Ships with Agent Skills and framework docs built in.
 <tr>
 <td><a href="https://github.com/cyanheads/wikipedia-mcp-server">wikipedia-mcp-server</a> • <a href="https://wikipedia.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/college-scorecard-mcp-server">college-scorecard-mcp-server</a></td>
-<td><a href="https://github.com/cyanheads/courtlistener-mcp-server">courtlistener-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/courtlistener-mcp-server">courtlistener-mcp-server</a> • <a href="https://courtlistener.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/epa-mcp-server">epa-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/fbi-crime-mcp-server">fbi-crime-mcp-server</a></td>
-<td><a href="https://github.com/cyanheads/fcc-broadband-mcp-server">fcc-broadband-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/fcc-broadband-mcp-server">fcc-broadband-mcp-server</a> • <a href="https://fcc-broadband.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/gdelt-mcp-server">gdelt-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/gdelt-mcp-server">gdelt-mcp-server</a> • <a href="https://gdelt.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/orcid-mcp-server">orcid-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/un-comtrade-mcp-server">un-comtrade-mcp-server</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/usaspending-mcp-server">usaspending-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/usaspending-mcp-server">usaspending-mcp-server</a> • <a href="https://usaspending.caseyjhand.com/">/mcp</a></td>
 </tr>
 </table>
 
