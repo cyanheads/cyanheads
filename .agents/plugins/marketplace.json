@@ -6,642 +6,962 @@
   "plugins": [
     {
       "name": "arxiv-mcp-server",
-      "interface": { "displayName": "arXiv" },
+      "interface": {
+        "displayName": "arxiv-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/arxiv-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Research"
     },
     {
       "name": "biorxiv-mcp-server",
-      "interface": { "displayName": "bioRxiv" },
+      "interface": {
+        "displayName": "biorxiv-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/biorxiv-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Research"
     },
     {
       "name": "bls-labor-mcp-server",
-      "interface": { "displayName": "BLS Labor Statistics" },
+      "interface": {
+        "displayName": "bls-labor-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/bls-labor-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "brapi-mcp-server",
-      "interface": { "displayName": "BrAPI" },
+      "interface": {
+        "displayName": "brapi-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/brapi-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Research"
     },
     {
       "name": "calculator-mcp-server",
-      "interface": { "displayName": "Calculator" },
+      "interface": {
+        "displayName": "calculator-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/calculator-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Developer Tools"
     },
     {
       "name": "cdc-health-mcp-server",
-      "interface": { "displayName": "CDC Health Data" },
+      "interface": {
+        "displayName": "cdc-health-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/cdc-health-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "census-mcp-server",
-      "interface": { "displayName": "US Census" },
+      "interface": {
+        "displayName": "census-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/census-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "clinicaltrialsgov-mcp-server",
-      "interface": { "displayName": "ClinicalTrials.gov" },
+      "interface": {
+        "displayName": "clinicaltrialsgov-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/clinicaltrialsgov-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Research"
     },
     {
       "name": "college-scorecard-mcp-server",
-      "interface": { "displayName": "College Scorecard" },
+      "interface": {
+        "displayName": "college-scorecard-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/college-scorecard-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "congressgov-mcp-server",
-      "interface": { "displayName": "Congress.gov" },
+      "interface": {
+        "displayName": "congressgov-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/congressgov-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "courtlistener-mcp-server",
-      "interface": { "displayName": "CourtListener" },
+      "interface": {
+        "displayName": "courtlistener-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/courtlistener-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "crossref-mcp-server",
-      "interface": { "displayName": "Crossref" },
+      "interface": {
+        "displayName": "crossref-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/crossref-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Research"
     },
     {
       "name": "earthquake-mcp-server",
-      "interface": { "displayName": "USGS Earthquakes" },
+      "interface": {
+        "displayName": "earthquake-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/earthquake-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Science"
     },
     {
       "name": "eia-energy-mcp-server",
-      "interface": { "displayName": "EIA Energy Data" },
+      "interface": {
+        "displayName": "eia-energy-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/eia-energy-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "epa-mcp-server",
-      "interface": { "displayName": "EPA" },
+      "interface": {
+        "displayName": "epa-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/epa-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "eurostat-mcp-server",
-      "interface": { "displayName": "Eurostat" },
+      "interface": {
+        "displayName": "eurostat-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/eurostat-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "fbi-crime-mcp-server",
-      "interface": { "displayName": "FBI Crime Data" },
+      "interface": {
+        "displayName": "fbi-crime-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/fbi-crime-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "fcc-broadband-mcp-server",
-      "interface": { "displayName": "FCC Broadband" },
+      "interface": {
+        "displayName": "fcc-broadband-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/fcc-broadband-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "federal-reserve-mcp-server",
-      "interface": { "displayName": "Federal Reserve (FRED)" },
+      "interface": {
+        "displayName": "federal-reserve-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/federal-reserve-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "gbif-biodiversity-mcp-server",
-      "interface": { "displayName": "GBIF Biodiversity" },
+      "interface": {
+        "displayName": "gbif-biodiversity-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/gbif-biodiversity-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Science"
     },
     {
       "name": "gdelt-mcp-server",
-      "interface": { "displayName": "GDELT" },
+      "interface": {
+        "displayName": "gdelt-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/gdelt-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Data"
     },
     {
       "name": "hn-mcp-server",
-      "interface": { "displayName": "Hacker News" },
+      "interface": {
+        "displayName": "hn-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/hn-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Data"
     },
     {
       "name": "libofcongress-mcp-server",
-      "interface": { "displayName": "Library of Congress" },
+      "interface": {
+        "displayName": "libofcongress-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/libofcongress-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Research"
     },
     {
       "name": "nhtsa-vehicle-safety-mcp-server",
-      "interface": { "displayName": "NHTSA Vehicle Safety" },
+      "interface": {
+        "displayName": "nhtsa-vehicle-safety-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/nhtsa-vehicle-safety-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "nist-nvd-mcp-server",
-      "interface": { "displayName": "NIST NVD" },
+      "interface": {
+        "displayName": "nist-nvd-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/nist-nvd-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Security"
     },
     {
       "name": "noaa-cdo-mcp-server",
-      "interface": { "displayName": "NOAA Climate Data" },
+      "interface": {
+        "displayName": "noaa-cdo-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/noaa-cdo-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Science"
     },
     {
       "name": "nws-weather-mcp-server",
-      "interface": { "displayName": "NWS Weather" },
+      "interface": {
+        "displayName": "nws-weather-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/nws-weather-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Science"
     },
     {
       "name": "onebusaway-mcp-server",
-      "interface": { "displayName": "OneBusAway" },
+      "interface": {
+        "displayName": "onebusaway-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/onebusaway-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Data"
     },
     {
       "name": "openalex-mcp-server",
-      "interface": { "displayName": "OpenAlex" },
+      "interface": {
+        "displayName": "openalex-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/openalex-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Research"
     },
     {
       "name": "openfda-mcp-server",
-      "interface": { "displayName": "openFDA" },
+      "interface": {
+        "displayName": "openfda-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/openfda-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "openfec-mcp-server",
-      "interface": { "displayName": "OpenFEC" },
+      "interface": {
+        "displayName": "openfec-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/openfec-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "openlibrary-mcp-server",
-      "interface": { "displayName": "Open Library" },
+      "interface": {
+        "displayName": "openlibrary-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/openlibrary-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Research"
     },
     {
       "name": "openstreetmap-mcp-server",
-      "interface": { "displayName": "OpenStreetMap" },
+      "interface": {
+        "displayName": "openstreetmap-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/openstreetmap-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Data"
     },
     {
       "name": "openstates-mcp-server",
-      "interface": { "displayName": "Open States" },
+      "interface": {
+        "displayName": "openstates-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/openstates-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "orcid-mcp-server",
-      "interface": { "displayName": "ORCID" },
+      "interface": {
+        "displayName": "orcid-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/orcid-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Research"
     },
     {
       "name": "pubchem-mcp-server",
-      "interface": { "displayName": "PubChem" },
+      "interface": {
+        "displayName": "pubchem-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/pubchem-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Science"
     },
     {
       "name": "pubmed-mcp-server",
-      "interface": { "displayName": "PubMed" },
+      "interface": {
+        "displayName": "pubmed-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/pubmed-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Research"
     },
     {
       "name": "reference-data-mcp-server",
-      "interface": { "displayName": "Reference Data" },
+      "interface": {
+        "displayName": "reference-data-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/reference-data-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Developer Tools"
     },
     {
       "name": "reliefweb-mcp-server",
-      "interface": { "displayName": "ReliefWeb" },
+      "interface": {
+        "displayName": "reliefweb-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/reliefweb-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Data"
     },
     {
       "name": "secedgar-mcp-server",
-      "interface": { "displayName": "SEC EDGAR" },
+      "interface": {
+        "displayName": "secedgar-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/secedgar-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Finance"
     },
     {
       "name": "socrata-mcp-server",
-      "interface": { "displayName": "Socrata Open Data" },
+      "interface": {
+        "displayName": "socrata-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/socrata-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "un-comtrade-mcp-server",
-      "interface": { "displayName": "UN Comtrade" },
+      "interface": {
+        "displayName": "un-comtrade-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/un-comtrade-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Data"
     },
     {
       "name": "usaspending-mcp-server",
-      "interface": { "displayName": "USAspending" },
+      "interface": {
+        "displayName": "usaspending-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/usaspending-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "usda-mcp-server",
-      "interface": { "displayName": "USDA FoodData" },
+      "interface": {
+        "displayName": "usda-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/usda-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Government Data"
     },
     {
       "name": "who-gho-mcp-server",
-      "interface": { "displayName": "WHO Global Health Observatory" },
+      "interface": {
+        "displayName": "who-gho-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/who-gho-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Science"
     },
     {
       "name": "wikidata-mcp-server",
-      "interface": { "displayName": "Wikidata" },
+      "interface": {
+        "displayName": "wikidata-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/wikidata-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Data"
     },
     {
       "name": "wikipedia-mcp-server",
-      "interface": { "displayName": "Wikipedia" },
+      "interface": {
+        "displayName": "wikipedia-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/wikipedia-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Data"
     },
     {
       "name": "worldbank-mcp-server",
-      "interface": { "displayName": "World Bank" },
+      "interface": {
+        "displayName": "worldbank-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/worldbank-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Data"
     },
     {
       "name": "wsdot-mcp-server",
-      "interface": { "displayName": "WSDOT" },
+      "interface": {
+        "displayName": "wsdot-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/wsdot-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Data"
     },
     {
       "name": "atlas-mcp-server",
-      "interface": { "displayName": "Atlas" },
+      "interface": {
+        "displayName": "atlas-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/atlas-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Developer Tools"
     },
     {
       "name": "filesystem-mcp-server",
-      "interface": { "displayName": "Filesystem" },
+      "interface": {
+        "displayName": "filesystem-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/filesystem-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Developer Tools"
     },
     {
       "name": "git-mcp-server",
-      "interface": { "displayName": "Git" },
+      "interface": {
+        "displayName": "git-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/git-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Developer Tools"
     },
     {
       "name": "obsidian-mcp-server",
-      "interface": { "displayName": "Obsidian" },
+      "interface": {
+        "displayName": "obsidian-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/obsidian-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Productivity"
     },
     {
       "name": "survey-mcp-server",
-      "interface": { "displayName": "Survey" },
+      "interface": {
+        "displayName": "survey-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/survey-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Developer Tools"
     },
     {
       "name": "toolkit-mcp-server",
-      "interface": { "displayName": "Toolkit" },
+      "interface": {
+        "displayName": "toolkit-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/toolkit-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Developer Tools"
     },
     {
       "name": "workflows-mcp-server",
-      "interface": { "displayName": "Workflows" },
+      "interface": {
+        "displayName": "workflows-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/workflows-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Developer Tools"
     },
     {
       "name": "mailchimp-mcp-server",
-      "interface": { "displayName": "Mailchimp" },
+      "interface": {
+        "displayName": "mailchimp-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/mailchimp-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Productivity"
     },
     {
       "name": "mentor-mcp-server",
-      "interface": { "displayName": "Mentor" },
+      "interface": {
+        "displayName": "mentor-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/mentor-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "AI"
     },
     {
       "name": "perplexity-mcp-server",
-      "interface": { "displayName": "Perplexity" },
+      "interface": {
+        "displayName": "perplexity-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/perplexity-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "AI"
     },
     {
       "name": "clipboard-mcp-server",
-      "interface": { "displayName": "Clipboard" },
+      "interface": {
+        "displayName": "clipboard-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/clipboard-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "System"
     },
     {
       "name": "macos-mcp-server",
-      "interface": { "displayName": "macOS" },
+      "interface": {
+        "displayName": "macos-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/macos-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "System"
     },
     {
       "name": "ntfy-mcp-server",
-      "interface": { "displayName": "ntfy" },
+      "interface": {
+        "displayName": "ntfy-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/ntfy-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "System"
     },
     {
       "name": "pixoo-mcp-server",
-      "interface": { "displayName": "Pixoo" },
+      "interface": {
+        "displayName": "pixoo-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/pixoo-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "System"
     },
     {
       "name": "protein-mcp-server",
-      "interface": { "displayName": "Protein (UniProt/PDB)" },
+      "interface": {
+        "displayName": "protein-mcp-server"
+      },
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/protein-mcp-server.git"
       },
-      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
       "category": "Science"
     }
   ]
