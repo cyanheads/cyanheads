@@ -1,0 +1,441 @@
+{
+  "name": "cyanheads",
+  "owner": {
+    "name": "Casey Hand",
+    "email": "casey@caseyjhand.com"
+  },
+  "plugins": [
+    {
+      "name": "arxiv-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/arxiv-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "biorxiv-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/biorxiv-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "bls-labor-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/bls-labor-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "brapi-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/brapi-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "calculator-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/calculator-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "cdc-health-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/cdc-health-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "census-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/census-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "clinicaltrialsgov-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/clinicaltrialsgov-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "college-scorecard-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/college-scorecard-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "congressgov-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/congressgov-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "courtlistener-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/courtlistener-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "crossref-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/crossref-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "earthquake-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/earthquake-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "eia-energy-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/eia-energy-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "epa-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/epa-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "eurostat-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/eurostat-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "fbi-crime-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/fbi-crime-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "fcc-broadband-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/fcc-broadband-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "federal-reserve-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/federal-reserve-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "gbif-biodiversity-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/gbif-biodiversity-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "gdelt-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/gdelt-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "hn-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/hn-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "libofcongress-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/libofcongress-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "nhtsa-vehicle-safety-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/nhtsa-vehicle-safety-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "nist-nvd-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/nist-nvd-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "noaa-cdo-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/noaa-cdo-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "nws-weather-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/nws-weather-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "onebusaway-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/onebusaway-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "openalex-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/openalex-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "openfda-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/openfda-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "openfec-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/openfec-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "openlibrary-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/openlibrary-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "openstreetmap-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/openstreetmap-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "openstates-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/openstates-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "orcid-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/orcid-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "pubchem-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/pubchem-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "pubmed-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/pubmed-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "reference-data-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/reference-data-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "reliefweb-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/reliefweb-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "secedgar-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/secedgar-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "socrata-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/socrata-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "un-comtrade-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/un-comtrade-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "usaspending-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/usaspending-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "usda-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/usda-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "who-gho-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/who-gho-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "wikidata-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/wikidata-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "wikipedia-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/wikipedia-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "worldbank-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/worldbank-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "wsdot-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/wsdot-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "obsidian-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/obsidian-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "mailchimp-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/mailchimp-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "clipboard-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/clipboard-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "macos-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/macos-mcp-server"
+      },
+      "description": ""
+    },
+    {
+      "name": "ntfy-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/ntfy-mcp-server"
+      },
+      "description": ""
+    }
+  ]
+}

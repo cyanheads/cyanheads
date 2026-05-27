@@ -10,3 +10,5 @@
 !.agents/
 !.agents/plugins/
 !.agents/plugins/marketplace.json
+!.claude-plugin/
+!.claude-plugin/marketplace.json
