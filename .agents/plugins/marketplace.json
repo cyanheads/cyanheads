@@ -740,51 +740,6 @@
       "category": "Data"
     },
     {
-      "name": "atlas-mcp-server",
-      "interface": {
-        "displayName": "atlas-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/atlas-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "filesystem-mcp-server",
-      "interface": {
-        "displayName": "filesystem-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/filesystem-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "git-mcp-server",
-      "interface": {
-        "displayName": "git-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/git-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "obsidian-mcp-server",
       "interface": {
         "displayName": "obsidian-mcp-server"
@@ -800,51 +755,6 @@
       "category": "Productivity"
     },
     {
-      "name": "survey-mcp-server",
-      "interface": {
-        "displayName": "survey-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/survey-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "toolkit-mcp-server",
-      "interface": {
-        "displayName": "toolkit-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/toolkit-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
-      "name": "workflows-mcp-server",
-      "interface": {
-        "displayName": "workflows-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/workflows-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools"
-    },
-    {
       "name": "mailchimp-mcp-server",
       "interface": {
         "displayName": "mailchimp-mcp-server"
@@ -858,36 +768,6 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity"
-    },
-    {
-      "name": "mentor-mcp-server",
-      "interface": {
-        "displayName": "mentor-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/mentor-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "AI"
-    },
-    {
-      "name": "perplexity-mcp-server",
-      "interface": {
-        "displayName": "perplexity-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/perplexity-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "AI"
     },
     {
       "name": "clipboard-mcp-server",
@@ -933,36 +813,6 @@
         "authentication": "ON_INSTALL"
       },
       "category": "System"
-    },
-    {
-      "name": "pixoo-mcp-server",
-      "interface": {
-        "displayName": "pixoo-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/pixoo-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "System"
-    },
-    {
-      "name": "protein-mcp-server",
-      "interface": {
-        "displayName": "protein-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/protein-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Science"
     }
   ]
 }
