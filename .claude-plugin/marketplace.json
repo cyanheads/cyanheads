@@ -62,13 +62,6 @@
       }
     },
     {
-      "name": "college-scorecard-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/college-scorecard-mcp-server"
-      }
-    },
-    {
       "name": "congressgov-mcp-server",
       "source": {
         "source": "github",
@@ -104,13 +97,6 @@
       }
     },
     {
-      "name": "epa-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/epa-mcp-server"
-      }
-    },
-    {
       "name": "eurostat-mcp-server",
       "source": {
         "source": "github",
@@ -118,24 +104,10 @@
       }
     },
     {
-      "name": "fbi-crime-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/fbi-crime-mcp-server"
-      }
-    },
-    {
       "name": "fcc-broadband-mcp-server",
       "source": {
         "source": "github",
         "repo": "cyanheads/fcc-broadband-mcp-server"
-      }
-    },
-    {
-      "name": "federal-reserve-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/federal-reserve-mcp-server"
       }
     },
     {
@@ -293,24 +265,10 @@
       }
     },
     {
-      "name": "un-comtrade-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/un-comtrade-mcp-server"
-      }
-    },
-    {
       "name": "usaspending-mcp-server",
       "source": {
         "source": "github",
         "repo": "cyanheads/usaspending-mcp-server"
-      }
-    },
-    {
-      "name": "usda-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/usda-mcp-server"
       }
     },
     {
@@ -346,41 +304,6 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/wsdot-mcp-server"
-      }
-    },
-    {
-      "name": "obsidian-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/obsidian-mcp-server"
-      }
-    },
-    {
-      "name": "mailchimp-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/mailchimp-mcp-server"
-      }
-    },
-    {
-      "name": "clipboard-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/clipboard-mcp-server"
-      }
-    },
-    {
-      "name": "macos-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/macos-mcp-server"
-      }
-    },
-    {
-      "name": "ntfy-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/ntfy-mcp-server"
       }
     }
   ]
