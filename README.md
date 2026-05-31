@@ -126,6 +126,16 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/usaspending-mcp-server">usaspending-mcp-server</a> • <a href="https://usaspending.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/osv-advisory-mcp-server">osv-advisory-mcp-server</a> • <a href="https://osv-advisory.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/openfoodfacts-mcp-server">openfoodfacts-mcp-server</a> • <a href="https://openfoodfacts.caseyjhand.com/">/mcp</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/cyanheads/open-meteo-mcp-server">open-meteo-mcp-server</a> • <a href="https://open-meteo.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/smithsonian-mcp-server">smithsonian-mcp-server</a> • <a href="https://smithsonian.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/devops-status-mcp-server">devops-status-mcp-server</a> • <a href="https://devops-status.caseyjhand.com/">/mcp</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/cyanheads/pentest-mcp-server">pentest-mcp-server</a> • <a href="https://pentest.caseyjhand.com/">/mcp</a></td>
 </tr>
 </table>
 

@@ -170,6 +170,21 @@
       "category": "Research"
     },
     {
+      "name": "devops-status-mcp-server",
+      "interface": {
+        "displayName": "devops-status-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/devops-status-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "earthquake-mcp-server",
       "interface": {
         "displayName": "earthquake-mcp-server"
@@ -365,6 +380,21 @@
       "category": "Data"
     },
     {
+      "name": "open-meteo-mcp-server",
+      "interface": {
+        "displayName": "open-meteo-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/open-meteo-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
+    },
+    {
       "name": "openalex-mcp-server",
       "interface": {
         "displayName": "openalex-mcp-server"
@@ -408,6 +438,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Government Data"
+    },
+    {
+      "name": "openfoodfacts-mcp-server",
+      "interface": {
+        "displayName": "openfoodfacts-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/openfoodfacts-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
     },
     {
       "name": "openlibrary-mcp-server",
@@ -468,6 +513,36 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Research"
+    },
+    {
+      "name": "osv-advisory-mcp-server",
+      "interface": {
+        "displayName": "osv-advisory-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/osv-advisory-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    },
+    {
+      "name": "pentest-mcp-server",
+      "interface": {
+        "displayName": "pentest-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/pentest-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
     },
     {
       "name": "pubchem-mcp-server",
@@ -543,6 +618,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Finance"
+    },
+    {
+      "name": "smithsonian-mcp-server",
+      "interface": {
+        "displayName": "smithsonian-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/smithsonian-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
     },
     {
       "name": "socrata-mcp-server",

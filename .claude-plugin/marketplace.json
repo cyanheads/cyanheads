@@ -83,6 +83,13 @@
       }
     },
     {
+      "name": "devops-status-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/devops-status-mcp-server"
+      }
+    },
+    {
       "name": "earthquake-mcp-server",
       "source": {
         "source": "github",
@@ -174,6 +181,13 @@
       }
     },
     {
+      "name": "open-meteo-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/open-meteo-mcp-server"
+      }
+    },
+    {
       "name": "openalex-mcp-server",
       "source": {
         "source": "github",
@@ -192,6 +206,13 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/openfec-mcp-server"
+      }
+    },
+    {
+      "name": "openfoodfacts-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/openfoodfacts-mcp-server"
       }
     },
     {
@@ -220,6 +241,20 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/orcid-mcp-server"
+      }
+    },
+    {
+      "name": "osv-advisory-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/osv-advisory-mcp-server"
+      }
+    },
+    {
+      "name": "pentest-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/pentest-mcp-server"
       }
     },
     {
@@ -255,6 +290,13 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/secedgar-mcp-server"
+      }
+    },
+    {
+      "name": "smithsonian-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/smithsonian-mcp-server"
       }
     },
     {
