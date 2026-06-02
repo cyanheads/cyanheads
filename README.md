@@ -61,7 +61,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/courtlistener-mcp-server">courtlistener-mcp-server</a> • <a href="https://courtlistener.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/cpsc-recalls-mcp-server">cpsc-recalls-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/cpsc-recalls-mcp-server">cpsc-recalls-mcp-server</a> • <a href="https://cpsc-recalls.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/crossref-mcp-server">crossref-mcp-server</a> • <a href="https://crossref.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
@@ -87,7 +87,7 @@ Ships with Agent Skills and framework docs built in.
 <tr>
 <td><a href="https://github.com/cyanheads/hn-mcp-server">hn-mcp-server</a> • <a href="https://hn.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/libofcongress-mcp-server">libofcongress-mcp-server</a> • <a href="https://libofcongress.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/met-museum-mcp-server">met-museum-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/met-museum-mcp-server">met-museum-mcp-server</a> • <a href="https://met-museum.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/nhtsa-vehicle-safety-mcp-server">nhtsa-vehicle-safety-mcp-server</a> • <a href="https://nhtsa.caseyjhand.com/">/mcp</a></td>
@@ -131,7 +131,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/socrata-mcp-server">socrata-mcp-server</a> • <a href="https://socrata.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/treasury-fiscaldata-mcp-server">treasury-fiscaldata-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/treasury-fiscaldata-mcp-server">treasury-fiscaldata-mcp-server</a> • <a href="https://treasury-fiscaldata.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/un-comtrade-mcp-server">un-comtrade-mcp-server</a></td>
 </tr>
 <tr>
