@@ -125,6 +125,21 @@
       "category": "Research"
     },
     {
+      "name": "clipboard-mcp-server",
+      "interface": {
+        "displayName": "clipboard-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/clipboard-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "congressgov-mcp-server",
       "interface": {
         "displayName": "congressgov-mcp-server"
@@ -350,6 +365,36 @@
       "category": "Research"
     },
     {
+      "name": "macos-mcp-server",
+      "interface": {
+        "displayName": "macos-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/macos-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "mailchimp-mcp-server",
+      "interface": {
+        "displayName": "mailchimp-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/mailchimp-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "met-museum-mcp-server",
       "interface": {
         "displayName": "met-museum-mcp-server"
@@ -425,6 +470,21 @@
       "category": "Government Data"
     },
     {
+      "name": "ntfy-mcp-server",
+      "interface": {
+        "displayName": "ntfy-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/ntfy-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "nws-weather-mcp-server",
       "interface": {
         "displayName": "nws-weather-mcp-server"
@@ -438,6 +498,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Science"
+    },
+    {
+      "name": "obsidian-mcp-server",
+      "interface": {
+        "displayName": "obsidian-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/obsidian-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
     },
     {
       "name": "onebusaway-mcp-server",
@@ -798,6 +873,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Data"
+    },
+    {
+      "name": "workflows-mcp-server",
+      "interface": {
+        "displayName": "workflows-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/workflows-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
     },
     {
       "name": "worldbank-mcp-server",

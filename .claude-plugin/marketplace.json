@@ -62,6 +62,13 @@
       }
     },
     {
+      "name": "clipboard-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/clipboard-mcp-server"
+      }
+    },
+    {
       "name": "congressgov-mcp-server",
       "source": {
         "source": "github",
@@ -167,6 +174,20 @@
       }
     },
     {
+      "name": "macos-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/macos-mcp-server"
+      }
+    },
+    {
+      "name": "mailchimp-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/mailchimp-mcp-server"
+      }
+    },
+    {
       "name": "met-museum-mcp-server",
       "source": {
         "source": "github",
@@ -202,10 +223,24 @@
       }
     },
     {
+      "name": "ntfy-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/ntfy-mcp-server"
+      }
+    },
+    {
       "name": "nws-weather-mcp-server",
       "source": {
         "source": "github",
         "repo": "cyanheads/nws-weather-mcp-server"
+      }
+    },
+    {
+      "name": "obsidian-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/obsidian-mcp-server"
       }
     },
     {
@@ -374,6 +409,13 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/wikipedia-mcp-server"
+      }
+    },
+    {
+      "name": "workflows-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/workflows-mcp-server"
       }
     },
     {
