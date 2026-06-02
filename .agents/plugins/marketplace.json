@@ -155,6 +155,21 @@
       "category": "Government Data"
     },
     {
+      "name": "cpsc-recalls-mcp-server",
+      "interface": {
+        "displayName": "cpsc-recalls-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/cpsc-recalls-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "crossref-mcp-server",
       "interface": {
         "displayName": "crossref-mcp-server"
@@ -275,6 +290,36 @@
       "category": "Data"
     },
     {
+      "name": "guardian-mcp-server",
+      "interface": {
+        "displayName": "guardian-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/guardian-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
+      "name": "gutenberg-mcp-server",
+      "interface": {
+        "displayName": "gutenberg-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/gutenberg-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
       "name": "hn-mcp-server",
       "interface": {
         "displayName": "hn-mcp-server"
@@ -297,6 +342,21 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/libofcongress-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
+      "name": "met-museum-mcp-server",
+      "interface": {
+        "displayName": "met-museum-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/met-museum-mcp-server.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -348,6 +408,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Science"
+    },
+    {
+      "name": "nonprofit-explorer-mcp-server",
+      "interface": {
+        "displayName": "nonprofit-explorer-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/nonprofit-explorer-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
     },
     {
       "name": "nws-weather-mcp-server",
@@ -642,6 +717,21 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/socrata-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
+      "name": "treasury-fiscaldata-mcp-server",
+      "interface": {
+        "displayName": "treasury-fiscaldata-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/treasury-fiscaldata-mcp-server.git"
       },
       "policy": {
         "installation": "AVAILABLE",

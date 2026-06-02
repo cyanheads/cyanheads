@@ -76,6 +76,13 @@
       }
     },
     {
+      "name": "cpsc-recalls-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/cpsc-recalls-mcp-server"
+      }
+    },
+    {
       "name": "crossref-mcp-server",
       "source": {
         "source": "github",
@@ -132,6 +139,20 @@
       }
     },
     {
+      "name": "guardian-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/guardian-mcp-server"
+      }
+    },
+    {
+      "name": "gutenberg-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/gutenberg-mcp-server"
+      }
+    },
+    {
       "name": "hn-mcp-server",
       "source": {
         "source": "github",
@@ -143,6 +164,13 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/libofcongress-mcp-server"
+      }
+    },
+    {
+      "name": "met-museum-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/met-museum-mcp-server"
       }
     },
     {
@@ -164,6 +192,13 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/noaa-cdo-mcp-server"
+      }
+    },
+    {
+      "name": "nonprofit-explorer-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/nonprofit-explorer-mcp-server"
       }
     },
     {
@@ -304,6 +339,13 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/socrata-mcp-server"
+      }
+    },
+    {
+      "name": "treasury-fiscaldata-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/treasury-fiscaldata-mcp-server"
       }
     },
     {
