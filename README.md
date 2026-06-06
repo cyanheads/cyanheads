@@ -47,12 +47,12 @@ Ships with Agent Skills and framework docs built in.
 <tr>
 <td><a href="https://github.com/cyanheads/anime-mcp-server">anime-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/arxiv-mcp-server">arxiv-mcp-server</a> • <a href="https://arxiv.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/aviation-weather-mcp-server">aviation-weather-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/aviation-weather-mcp-server">aviation-weather-mcp-server</a> • <a href="https://aviation-weather.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/biorxiv-mcp-server">biorxiv-mcp-server</a> • <a href="https://biorxiv.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/bls-labor-mcp-server">bls-labor-mcp-server</a> • <a href="https://bls-labor.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/bluesky-mcp-server">bluesky-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/bluesky-mcp-server">bluesky-mcp-server</a> • <a href="https://bluesky.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/brapi-mcp-server">brapi-mcp-server</a> • <a href="https://brapi.caseyjhand.com/">/mcp</a></td>
@@ -75,19 +75,19 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/eia-energy-mcp-server">eia-energy-mcp-server</a> • <a href="https://eia-energy.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/ensembl-mcp-server">ensembl-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/ensembl-mcp-server">ensembl-mcp-server</a> • <a href="https://ensembl.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/epa-mcp-server">epa-mcp-server</a></td>
-<td><a href="https://github.com/cyanheads/eur-lex-mcp-server">eur-lex-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/eur-lex-mcp-server">eur-lex-mcp-server</a> • <a href="https://eur-lex.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/eurostat-mcp-server">eurostat-mcp-server</a> • <a href="https://eurostat.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/exchange-rates-mcp-server">exchange-rates-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/exchange-rates-mcp-server">exchange-rates-mcp-server</a> • <a href="https://exchange-rates.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/fbi-crime-mcp-server">fbi-crime-mcp-server</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/fcc-broadband-mcp-server">fcc-broadband-mcp-server</a> • <a href="https://fcc-broadband.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/federal-reserve-mcp-server">federal-reserve-mcp-server</a></td>
-<td><a href="https://github.com/cyanheads/fema-mcp-server">fema-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/fema-mcp-server">fema-mcp-server</a> • <a href="https://fema.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/gbif-biodiversity-mcp-server">gbif-biodiversity-mcp-server</a> • <a href="https://gbif-biodiversity.caseyjhand.com/">/mcp</a></td>
@@ -97,7 +97,7 @@ Ships with Agent Skills and framework docs built in.
 <tr>
 <td><a href="https://github.com/cyanheads/gutenberg-mcp-server">gutenberg-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/hn-mcp-server">hn-mcp-server</a> • <a href="https://hn.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/imf-mcp-server">imf-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/imf-mcp-server">imf-mcp-server</a> • <a href="https://imf.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/internet-archive-mcp-server">internet-archive-mcp-server</a></td>
@@ -110,8 +110,8 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/noaa-cdo-mcp-server">noaa-cdo-mcp-server</a> • <a href="https://noaa-cdo.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/noaa-marine-mcp-server">noaa-marine-mcp-server</a></td>
-<td><a href="https://github.com/cyanheads/noaa-spaceweather-mcp-server">noaa-spaceweather-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/noaa-marine-mcp-server">noaa-marine-mcp-server</a> • <a href="https://noaa-marine.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/noaa-spaceweather-mcp-server">noaa-spaceweather-mcp-server</a> • <a href="https://noaa-spaceweather.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/nonprofit-explorer-mcp-server">nonprofit-explorer-mcp-server</a></td>
 </tr>
 <tr>
@@ -137,7 +137,7 @@ Ships with Agent Skills and framework docs built in.
 <tr>
 <td><a href="https://github.com/cyanheads/osv-advisory-mcp-server">osv-advisory-mcp-server</a> • <a href="https://osv-advisory.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/pentest-mcp-server">pentest-mcp-server</a> • <a href="https://pentest.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/pokeapi-mcp-server">pokeapi-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/pokeapi-mcp-server">pokeapi-mcp-server</a> • <a href="https://pokeapi.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/protein-mcp-server">protein-mcp-server</a></td>
@@ -155,14 +155,14 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/sports-mcp-server">sports-mcp-server</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/stackexchange-mcp-server">stackexchange-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/stackexchange-mcp-server">stackexchange-mcp-server</a> • <a href="https://stackexchange.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/treasury-fiscaldata-mcp-server">treasury-fiscaldata-mcp-server</a> • <a href="https://treasury-fiscaldata.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/un-comtrade-mcp-server">un-comtrade-mcp-server</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/usaspending-mcp-server">usaspending-mcp-server</a> • <a href="https://usaspending.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/usda-mcp-server">usda-mcp-server</a></td>
-<td><a href="https://github.com/cyanheads/usgs-water-mcp-server">usgs-water-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/usgs-water-mcp-server">usgs-water-mcp-server</a> • <a href="https://usgs-water.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/who-gho-mcp-server">who-gho-mcp-server</a> • <a href="https://who-gho.caseyjhand.com/">/mcp</a></td>
