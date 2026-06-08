@@ -20,6 +20,21 @@
       "category": "Research"
     },
     {
+      "name": "aviation-weather-mcp-server",
+      "interface": {
+        "displayName": "aviation-weather-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/aviation-weather-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
+    },
+    {
       "name": "biorxiv-mcp-server",
       "interface": {
         "displayName": "biorxiv-mcp-server"
@@ -48,6 +63,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Government Data"
+    },
+    {
+      "name": "bluesky-mcp-server",
+      "interface": {
+        "displayName": "bluesky-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/bluesky-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
     },
     {
       "name": "brapi-mcp-server",
@@ -245,6 +275,36 @@
       "category": "Government Data"
     },
     {
+      "name": "ensembl-mcp-server",
+      "interface": {
+        "displayName": "ensembl-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/ensembl-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
+    },
+    {
+      "name": "eur-lex-mcp-server",
+      "interface": {
+        "displayName": "eur-lex-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/eur-lex-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "eurostat-mcp-server",
       "interface": {
         "displayName": "eurostat-mcp-server"
@@ -260,6 +320,21 @@
       "category": "Government Data"
     },
     {
+      "name": "exchange-rates-mcp-server",
+      "interface": {
+        "displayName": "exchange-rates-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/exchange-rates-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
       "name": "fcc-broadband-mcp-server",
       "interface": {
         "displayName": "fcc-broadband-mcp-server"
@@ -267,6 +342,21 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/fcc-broadband-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
+      "name": "fema-mcp-server",
+      "interface": {
+        "displayName": "fema-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/fema-mcp-server.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -342,6 +432,21 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/hn-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
+      "name": "imf-mcp-server",
+      "interface": {
+        "displayName": "imf-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/imf-mcp-server.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -447,6 +552,36 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/noaa-cdo-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
+    },
+    {
+      "name": "noaa-marine-mcp-server",
+      "interface": {
+        "displayName": "noaa-marine-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/noaa-marine-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
+    },
+    {
+      "name": "noaa-spaceweather-mcp-server",
+      "interface": {
+        "displayName": "noaa-spaceweather-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/noaa-spaceweather-mcp-server.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -620,21 +755,6 @@
       "category": "Research"
     },
     {
-      "name": "openstreetmap-mcp-server",
-      "interface": {
-        "displayName": "openstreetmap-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/openstreetmap-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Data"
-    },
-    {
       "name": "openstates-mcp-server",
       "interface": {
         "displayName": "openstates-mcp-server"
@@ -648,6 +768,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Government Data"
+    },
+    {
+      "name": "openstreetmap-mcp-server",
+      "interface": {
+        "displayName": "openstreetmap-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/openstreetmap-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
     },
     {
       "name": "orcid-mcp-server",
@@ -693,6 +828,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Security"
+    },
+    {
+      "name": "pokeapi-mcp-server",
+      "interface": {
+        "displayName": "pokeapi-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/pokeapi-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
     },
     {
       "name": "pubchem-mcp-server",
@@ -800,6 +950,21 @@
       "category": "Government Data"
     },
     {
+      "name": "stackexchange-mcp-server",
+      "interface": {
+        "displayName": "stackexchange-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/stackexchange-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
       "name": "treasury-fiscaldata-mcp-server",
       "interface": {
         "displayName": "treasury-fiscaldata-mcp-server"
@@ -828,6 +993,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Government Data"
+    },
+    {
+      "name": "usgs-water-mcp-server",
+      "interface": {
+        "displayName": "usgs-water-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/usgs-water-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
     },
     {
       "name": "who-gho-mcp-server",

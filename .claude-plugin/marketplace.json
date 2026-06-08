@@ -13,6 +13,13 @@
       }
     },
     {
+      "name": "aviation-weather-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/aviation-weather-mcp-server"
+      }
+    },
+    {
       "name": "biorxiv-mcp-server",
       "source": {
         "source": "github",
@@ -24,6 +31,13 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/bls-labor-mcp-server"
+      }
+    },
+    {
+      "name": "bluesky-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/bluesky-mcp-server"
       }
     },
     {
@@ -118,6 +132,20 @@
       }
     },
     {
+      "name": "ensembl-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/ensembl-mcp-server"
+      }
+    },
+    {
+      "name": "eur-lex-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/eur-lex-mcp-server"
+      }
+    },
+    {
       "name": "eurostat-mcp-server",
       "source": {
         "source": "github",
@@ -125,10 +153,24 @@
       }
     },
     {
+      "name": "exchange-rates-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/exchange-rates-mcp-server"
+      }
+    },
+    {
       "name": "fcc-broadband-mcp-server",
       "source": {
         "source": "github",
         "repo": "cyanheads/fcc-broadband-mcp-server"
+      }
+    },
+    {
+      "name": "fema-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/fema-mcp-server"
       }
     },
     {
@@ -164,6 +206,13 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/hn-mcp-server"
+      }
+    },
+    {
+      "name": "imf-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/imf-mcp-server"
       }
     },
     {
@@ -213,6 +262,20 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/noaa-cdo-mcp-server"
+      }
+    },
+    {
+      "name": "noaa-marine-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/noaa-marine-mcp-server"
+      }
+    },
+    {
+      "name": "noaa-spaceweather-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/noaa-spaceweather-mcp-server"
       }
     },
     {
@@ -293,17 +356,17 @@
       }
     },
     {
-      "name": "openstreetmap-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/openstreetmap-mcp-server"
-      }
-    },
-    {
       "name": "openstates-mcp-server",
       "source": {
         "source": "github",
         "repo": "cyanheads/openstates-mcp-server"
+      }
+    },
+    {
+      "name": "openstreetmap-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/openstreetmap-mcp-server"
       }
     },
     {
@@ -325,6 +388,13 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/pentest-mcp-server"
+      }
+    },
+    {
+      "name": "pokeapi-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/pokeapi-mcp-server"
       }
     },
     {
@@ -377,6 +447,13 @@
       }
     },
     {
+      "name": "stackexchange-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/stackexchange-mcp-server"
+      }
+    },
+    {
       "name": "treasury-fiscaldata-mcp-server",
       "source": {
         "source": "github",
@@ -388,6 +465,13 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/usaspending-mcp-server"
+      }
+    },
+    {
+      "name": "usgs-water-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/usgs-water-mcp-server"
       }
     },
     {
