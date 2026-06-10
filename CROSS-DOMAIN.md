@@ -14,7 +14,7 @@ An agent *can* hit any of these APIs directly: read the docs, register a key, ha
 
 Start with a bill in Congress and its sponsor, then aggregate that sponsor's campaign contributions by employer in OpenFEC. Take the top corporate names and ask USAspending whether those same companies hold federal contracts — campaign donor on one side of the ledger, federal vendor on the other. Cross-check each company's 10-K risk factors in SEC EDGAR for what the bill would cost or save them, then sweep OpenStates to see how many states are running the same legislation in parallel.
 
-> **Real data — AI regulation, through Sen. Cantwell (D-WA):** she sits on the Senate Commerce Committee, the panel that writes tech policy. Her 2024 campaign's top employer-affiliated donors were T-Mobile ($99.3K), Microsoft ($75.4K), and Amazon ($52.6K). Microsoft also shows up in USAspending as a federal contractor with $459.8M in obligations — donor and vendor at once. 3,471 state bills reference "artificial intelligence." The campaign-finance and procurement sides of one company never sit in the same database — until you join them on the company name.
+> **Real data — AI regulation, through Sen. Cantwell (D-WA):** she sits on the Senate Commerce Committee, the panel that writes tech policy. Her 2024 campaign's top employer-affiliated donors were T-Mobile ($99.3K), Microsoft ($75.4K), and Amazon ($52.6K). Microsoft also shows up in USAspending as a federal contractor with $459.8M in obligations over the past 12 months — donor and vendor at once. 3,021 state bills reference "artificial intelligence." The campaign-finance and procurement sides of one company never sit in the same database — until you join them on the company name.
 
 ---
 
