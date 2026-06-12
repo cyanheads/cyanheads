@@ -830,6 +830,21 @@
       "category": "Security"
     },
     {
+      "name": "pixoo-mcp-server",
+      "interface": {
+        "displayName": "pixoo-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/pixoo-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "pokeapi-mcp-server",
       "interface": {
         "displayName": "pokeapi-mcp-server"

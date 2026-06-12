@@ -391,6 +391,13 @@
       }
     },
     {
+      "name": "pixoo-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/pixoo-mcp-server"
+      }
+    },
+    {
       "name": "pokeapi-mcp-server",
       "source": {
         "source": "github",
