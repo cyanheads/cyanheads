@@ -13,6 +13,13 @@
       }
     },
     {
+      "name": "attack-surface-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/attack-surface-mcp-server"
+      }
+    },
+    {
       "name": "aviation-weather-mcp-server",
       "source": {
         "source": "github",
@@ -80,6 +87,13 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/clipboard-mcp-server"
+      }
+    },
+    {
+      "name": "coingecko-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/coingecko-mcp-server"
       }
     },
     {
@@ -160,6 +174,20 @@
       }
     },
     {
+      "name": "faa-aircraft-registry-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/faa-aircraft-registry-mcp-server"
+      }
+    },
+    {
+      "name": "faostat-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/faostat-mcp-server"
+      }
+    },
+    {
       "name": "fcc-broadband-mcp-server",
       "source": {
         "source": "github",
@@ -237,10 +265,24 @@
       }
     },
     {
+      "name": "medical-codes-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/medical-codes-mcp-server"
+      }
+    },
+    {
       "name": "met-museum-mcp-server",
       "source": {
         "source": "github",
         "repo": "cyanheads/met-museum-mcp-server"
+      }
+    },
+    {
+      "name": "musicbrainz-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/musicbrainz-mcp-server"
       }
     },
     {
@@ -286,6 +328,13 @@
       }
     },
     {
+      "name": "npi-providers-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/npi-providers-mcp-server"
+      }
+    },
+    {
       "name": "ntfy-mcp-server",
       "source": {
         "source": "github",
@@ -311,13 +360,6 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/onebusaway-mcp-server"
-      }
-    },
-    {
-      "name": "open-meteo-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/open-meteo-mcp-server"
       }
     },
     {
@@ -356,6 +398,13 @@
       }
     },
     {
+      "name": "open-meteo-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/open-meteo-mcp-server"
+      }
+    },
+    {
       "name": "openstates-mcp-server",
       "source": {
         "source": "github",
@@ -381,6 +430,13 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/osv-advisory-mcp-server"
+      }
+    },
+    {
+      "name": "ourairports-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/ourairports-mcp-server"
       }
     },
     {
@@ -430,6 +486,13 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/reliefweb-mcp-server"
+      }
+    },
+    {
+      "name": "sanctions-screening-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/sanctions-screening-mcp-server"
       }
     },
     {

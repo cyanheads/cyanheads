@@ -20,6 +20,21 @@
       "category": "Research"
     },
     {
+      "name": "attack-surface-mcp-server",
+      "interface": {
+        "displayName": "attack-surface-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/attack-surface-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    },
+    {
       "name": "aviation-weather-mcp-server",
       "interface": {
         "displayName": "aviation-weather-mcp-server"
@@ -168,6 +183,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools"
+    },
+    {
+      "name": "coingecko-mcp-server",
+      "interface": {
+        "displayName": "coingecko-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/coingecko-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
     },
     {
       "name": "congressgov-mcp-server",
@@ -335,6 +365,36 @@
       "category": "Finance"
     },
     {
+      "name": "faa-aircraft-registry-mcp-server",
+      "interface": {
+        "displayName": "faa-aircraft-registry-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/faa-aircraft-registry-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
+      "name": "faostat-mcp-server",
+      "interface": {
+        "displayName": "faostat-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/faostat-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "fcc-broadband-mcp-server",
       "interface": {
         "displayName": "fcc-broadband-mcp-server"
@@ -500,6 +560,21 @@
       "category": "Productivity"
     },
     {
+      "name": "medical-codes-mcp-server",
+      "interface": {
+        "displayName": "medical-codes-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/medical-codes-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "met-museum-mcp-server",
       "interface": {
         "displayName": "met-museum-mcp-server"
@@ -513,6 +588,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Research"
+    },
+    {
+      "name": "musicbrainz-mcp-server",
+      "interface": {
+        "displayName": "musicbrainz-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/musicbrainz-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
     },
     {
       "name": "nhtsa-vehicle-safety-mcp-server",
@@ -605,6 +695,21 @@
       "category": "Government Data"
     },
     {
+      "name": "npi-providers-mcp-server",
+      "interface": {
+        "displayName": "npi-providers-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/npi-providers-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "ntfy-mcp-server",
       "interface": {
         "displayName": "ntfy-mcp-server"
@@ -663,21 +768,6 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Data"
-    },
-    {
-      "name": "open-meteo-mcp-server",
-      "interface": {
-        "displayName": "open-meteo-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/open-meteo-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Science"
     },
     {
       "name": "openalex-mcp-server",
@@ -755,6 +845,21 @@
       "category": "Research"
     },
     {
+      "name": "open-meteo-mcp-server",
+      "interface": {
+        "displayName": "open-meteo-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/open-meteo-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
+    },
+    {
       "name": "openstates-mcp-server",
       "interface": {
         "displayName": "openstates-mcp-server"
@@ -813,6 +918,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Security"
+    },
+    {
+      "name": "ourairports-mcp-server",
+      "interface": {
+        "displayName": "ourairports-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/ourairports-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
     },
     {
       "name": "pentest-mcp-server",
@@ -918,6 +1038,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Data"
+    },
+    {
+      "name": "sanctions-screening-mcp-server",
+      "interface": {
+        "displayName": "sanctions-screening-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/sanctions-screening-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
     },
     {
       "name": "secedgar-mcp-server",
