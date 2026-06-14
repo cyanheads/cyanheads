@@ -410,6 +410,21 @@
       "category": "Government Data"
     },
     {
+      "name": "federal-regulations-mcp-server",
+      "interface": {
+        "displayName": "federal-regulations-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/federal-regulations-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "fema-mcp-server",
       "interface": {
         "displayName": "fema-mcp-server"
@@ -423,6 +438,21 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Government Data"
+    },
+    {
+      "name": "finnhub-mcp-server",
+      "interface": {
+        "displayName": "finnhub-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/finnhub-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
     },
     {
       "name": "gbif-biodiversity-mcp-server",
@@ -605,6 +635,21 @@
       "category": "Data"
     },
     {
+      "name": "national-parks-mcp-server",
+      "interface": {
+        "displayName": "national-parks-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/national-parks-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "nhtsa-vehicle-safety-mcp-server",
       "interface": {
         "displayName": "nhtsa-vehicle-safety-mcp-server"
@@ -783,6 +828,36 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Research"
+    },
+    {
+      "name": "openaq-mcp-server",
+      "interface": {
+        "displayName": "openaq-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/openaq-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
+    },
+    {
+      "name": "openchargemap-mcp-server",
+      "interface": {
+        "displayName": "openchargemap-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/openchargemap-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
     },
     {
       "name": "openfda-mcp-server",
@@ -1070,6 +1145,21 @@
       "category": "Finance"
     },
     {
+      "name": "seerr-mcp-server",
+      "interface": {
+        "displayName": "seerr-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/seerr-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "smithsonian-mcp-server",
       "interface": {
         "displayName": "smithsonian-mcp-server"
@@ -1107,6 +1197,36 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/stackexchange-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
+      "name": "tmdb-mcp-server",
+      "interface": {
+        "displayName": "tmdb-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/tmdb-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
+      "name": "transitland-mcp-server",
+      "interface": {
+        "displayName": "transitland-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/transitland-mcp-server.git"
       },
       "policy": {
         "installation": "AVAILABLE",

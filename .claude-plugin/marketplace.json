@@ -195,10 +195,24 @@
       }
     },
     {
+      "name": "federal-regulations-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/federal-regulations-mcp-server"
+      }
+    },
+    {
       "name": "fema-mcp-server",
       "source": {
         "source": "github",
         "repo": "cyanheads/fema-mcp-server"
+      }
+    },
+    {
+      "name": "finnhub-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/finnhub-mcp-server"
       }
     },
     {
@@ -286,6 +300,13 @@
       }
     },
     {
+      "name": "national-parks-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/national-parks-mcp-server"
+      }
+    },
+    {
       "name": "nhtsa-vehicle-safety-mcp-server",
       "source": {
         "source": "github",
@@ -367,6 +388,20 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/openalex-mcp-server"
+      }
+    },
+    {
+      "name": "openaq-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/openaq-mcp-server"
+      }
+    },
+    {
+      "name": "openchargemap-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/openchargemap-mcp-server"
       }
     },
     {
@@ -503,6 +538,13 @@
       }
     },
     {
+      "name": "seerr-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/seerr-mcp-server"
+      }
+    },
+    {
       "name": "smithsonian-mcp-server",
       "source": {
         "source": "github",
@@ -521,6 +563,20 @@
       "source": {
         "source": "github",
         "repo": "cyanheads/stackexchange-mcp-server"
+      }
+    },
+    {
+      "name": "tmdb-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/tmdb-mcp-server"
+      }
+    },
+    {
+      "name": "transitland-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/transitland-mcp-server"
       }
     },
     {
