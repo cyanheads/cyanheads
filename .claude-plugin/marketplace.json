@@ -496,6 +496,13 @@
       }
     },
     {
+      "name": "protein-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/protein-mcp-server"
+      }
+    },
+    {
       "name": "pubchem-mcp-server",
       "source": {
         "source": "github",
