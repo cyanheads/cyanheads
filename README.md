@@ -161,7 +161,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/pokeapi-mcp-server">pokeapi-mcp-server</a> • <a href="https://pokeapi.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/protein-mcp-server">protein-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/protein-mcp-server">protein-mcp-server</a> • <a href="https://protein.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/pubchem-mcp-server">pubchem-mcp-server</a> • <a href="https://pubchem.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
