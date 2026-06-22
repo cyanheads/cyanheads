@@ -680,13 +680,13 @@
       "category": "Security"
     },
     {
-      "name": "noaa-cdo-mcp-server",
+      "name": "noaa-climate-mcp-server",
       "interface": {
-        "displayName": "noaa-cdo-mcp-server"
+        "displayName": "noaa-climate-mcp-server"
       },
       "source": {
         "source": "url",
-        "url": "https://github.com/cyanheads/noaa-cdo-mcp-server.git"
+        "url": "https://github.com/cyanheads/noaa-climate-mcp-server.git"
       },
       "policy": {
         "installation": "AVAILABLE",

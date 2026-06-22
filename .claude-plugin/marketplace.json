@@ -321,10 +321,10 @@
       }
     },
     {
-      "name": "noaa-cdo-mcp-server",
+      "name": "noaa-climate-mcp-server",
       "source": {
         "source": "github",
-        "repo": "cyanheads/noaa-cdo-mcp-server"
+        "repo": "cyanheads/noaa-climate-mcp-server"
       }
     },
     {

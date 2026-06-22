@@ -58,7 +58,7 @@ Map real-time service frequency from OneBusAway against neighborhood demographic
 
 > "How is a changing climate reshaping this region's ecology and economy?"
 
-[**NOAA**](https://github.com/cyanheads/noaa-cdo-mcp-server) + [**Open-Meteo**](https://github.com/cyanheads/open-meteo-mcp-server) → [**GBIF**](https://github.com/cyanheads/gbif-biodiversity-mcp-server) → [**USGS Water**](https://github.com/cyanheads/usgs-water-mcp-server) → [**BrAPI**](https://github.com/cyanheads/brapi-mcp-server) → [**World Bank**](https://github.com/cyanheads/worldbank-mcp-server) + [**IMF**](https://github.com/cyanheads/imf-mcp-server) → [**Census**](https://github.com/cyanheads/census-mcp-server)
+[**NOAA**](https://github.com/cyanheads/noaa-climate-mcp-server) + [**Open-Meteo**](https://github.com/cyanheads/open-meteo-mcp-server) → [**GBIF**](https://github.com/cyanheads/gbif-biodiversity-mcp-server) → [**USGS Water**](https://github.com/cyanheads/usgs-water-mcp-server) → [**BrAPI**](https://github.com/cyanheads/brapi-mcp-server) → [**World Bank**](https://github.com/cyanheads/worldbank-mcp-server) + [**IMF**](https://github.com/cyanheads/imf-mcp-server) → [**Census**](https://github.com/cyanheads/census-mcp-server)
 
 Pull the long-run climate record from NOAA and Open-Meteo's ERA5 reanalysis, back to 1940. Track whether species ranges are shifting in GBIF occurrence records, whether rivers are running low against USGS streamflow percentiles, and whether crop trials in BrAPI show yields responding. Then connect the ecology to the economy: World Bank and IMF for macro indicators, Census for whether people are moving. Climate, biodiversity, hydrology, agriculture, and economics: five domains that each hold one piece of the same trend.
 
