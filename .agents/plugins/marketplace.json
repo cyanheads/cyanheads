@@ -124,7 +124,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/bluesky-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/bluesky-mcp-server"
       },
       "source": {
         "source": "url",
@@ -146,7 +146,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/brapi-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/brapi-mcp-server"
       },
       "source": {
         "source": "url",
@@ -234,7 +234,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/clinicaltrialsgov-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/clinicaltrialsgov-mcp-server"
       },
       "source": {
         "source": "url",
@@ -410,7 +410,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/earthquake-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/earthquake-mcp-server"
       },
       "source": {
         "source": "url",
@@ -432,7 +432,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/eia-energy-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/eia-energy-mcp-server"
       },
       "source": {
         "source": "url",
@@ -476,7 +476,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/eur-lex-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/eur-lex-mcp-server"
       },
       "source": {
         "source": "url",
@@ -498,7 +498,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/eurostat-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/eurostat-mcp-server"
       },
       "source": {
         "source": "url",
@@ -761,7 +761,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/hn-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/hn-mcp-server"
       },
       "source": {
         "source": "url",
@@ -805,7 +805,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/libofcongress-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/libofcongress-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1003,7 +1003,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/noaa-climate-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/noaa-climate-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1112,7 +1112,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/ntfy-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/ntfy-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1398,7 +1398,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/openstreetmap-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/openstreetmap-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1685,7 +1685,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/secedgar-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/secedgar-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1774,7 +1774,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/stackexchange-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/stackexchange-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1862,7 +1862,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/usaspending-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/usaspending-mcp-server"
       },
       "source": {
         "source": "url",
@@ -2016,7 +2016,7 @@
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://github.com/cyanheads/wsdot-mcp-server#readme"
+        "websiteURL": "https://github.com/cyanheads/wsdot-mcp-server"
       },
       "source": {
         "source": "url",
