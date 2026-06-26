@@ -7,7 +7,14 @@
     {
       "name": "arxiv-mcp-server",
       "interface": {
-        "displayName": "arxiv-mcp-server"
+        "displayName": "arxiv-mcp-server",
+        "shortDescription": "Search arXiv, fetch paper metadata, and read full-text content via MCP.",
+        "longDescription": "Search the arXiv academic paper corpus. Supports full-text search, paper metadata retrieval by ID, HTML content reading, and category taxonomy listing. Deployable as stdio or streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/arxiv-mcp-server"
       },
       "source": {
         "source": "url",
@@ -22,7 +29,14 @@
     {
       "name": "attack-surface-mcp-server",
       "interface": {
-        "displayName": "attack-surface-mcp-server"
+        "displayName": "attack-surface-mcp-server",
+        "shortDescription": "Passive external attack-surface mapping: CT subdomains, DNS, TLS, HTTP posture, RDAP/WHOIS, Shodan.",
+        "longDescription": "Passive, non-intrusive external attack-surface mapping (EASM) for authorized, defensive security assessment. Discovers subdomains from Certificate Transparency logs, resolves DNS across multiple resolvers, inspects TLS posture, audits HTTP security headers and fingerprints technologies, and looks up RDAP/WHOIS registration. Optional Shodan host intelligence. Reads public records and the target's own published surface only — no port scanning, exploitation, or brute-forcing.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/attack-surface-mcp-server"
       },
       "source": {
         "source": "url",
@@ -37,7 +51,14 @@
     {
       "name": "aviation-weather-mcp-server",
       "interface": {
-        "displayName": "aviation-weather-mcp-server"
+        "displayName": "aviation-weather-mcp-server",
+        "shortDescription": "Fetch METARs, TAFs, PIREPs, and SIGMETs/AIRMETs from the NWS Aviation Weather Center via MCP.",
+        "longDescription": "Fetch aviation weather from the NWS Aviation Weather Center. Supports METARs, TAFs, PIREPs, SIGMETs and AIRMETs, plus station discovery by region. Deployable as stdio or streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/aviation-weather-mcp-server"
       },
       "source": {
         "source": "url",
@@ -52,7 +73,14 @@
     {
       "name": "biorxiv-mcp-server",
       "interface": {
-        "displayName": "biorxiv-mcp-server"
+        "displayName": "biorxiv-mcp-server",
+        "shortDescription": "Search and retrieve bioRxiv and medRxiv preprints by DOI, date, or keyword.",
+        "longDescription": "Search and retrieve bioRxiv and medRxiv preprints — by DOI, date interval, or keyword — via MCP. Powered by the bioRxiv API and EuropePMC for full-text search.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/biorxiv-mcp-server"
       },
       "source": {
         "source": "url",
@@ -67,7 +95,14 @@
     {
       "name": "bls-labor-mcp-server",
       "interface": {
-        "displayName": "bls-labor-mcp-server"
+        "displayName": "bls-labor-mcp-server",
+        "shortDescription": "Fetch US Bureau of Labor Statistics data — CPI, unemployment, wages, JOLTS, and more via MCP.",
+        "longDescription": "bls-labor-mcp-server wraps the US Bureau of Labor Statistics public API v2 — the source for CPI, unemployment, wages, JOLTS, PPI, and occupational employment data. Because BLS identifiers are opaque positional codes (LNS14000000, CES0000000001) that encode survey, area, item, and seasonal flag, the workflow starts with bls_search_series, an offline catalog search that resolves plain-language concepts to SeriesIDs without spending API quota. From there, bls_get_series fetches time-series history for up to 50 series and bls_get_latest returns the most recent observation. Large result sets spill to a DuckDB-backed dataframe queryable with SQL through bls_dataframe_query. Runs over STDIO or Streamable HTTP; a free BLS_API_KEY raises the rate limit from 25 to 500 requests per day.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/bls-labor-mcp-server"
       },
       "source": {
         "source": "url",
@@ -82,7 +117,14 @@
     {
       "name": "bluesky-mcp-server",
       "interface": {
-        "displayName": "bluesky-mcp-server"
+        "displayName": "bluesky-mcp-server",
+        "shortDescription": "Search posts, profiles, feeds, threads, and trending topics on Bluesky via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "bluesky-mcp-server gives agents read-only access to Bluesky over the public AT Protocol AppView — no account, key, or credential required. It exposes full-text post search, actor profile lookup by handle or DID, author feeds, full conversation threads by AT-URI, actor discovery, follower and following graph edges, and real-time trending topics, plus a bsky://profile/{actor} resource. Built on @cyanheads/mcp-ts-core, it runs over STDIO for local clients or Streamable HTTP for hosted deployments.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/bluesky-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -97,7 +139,14 @@
     {
       "name": "brapi-mcp-server",
       "interface": {
-        "displayName": "brapi-mcp-server"
+        "displayName": "brapi-mcp-server",
+        "shortDescription": "A collaborative BrAPI v2.1 workspace for multi-agent research via MCP. Search studies, germplasm, genotypes, & more - across Breedbase, T3, Sweetpotatobase, & any BrAPI v2-compliant server.",
+        "longDescription": "Bridges any BrAPI v2.1-compliant server (Breedbase, T3, Sweetpotatobase, and others) into a collaborative MCP workspace for plant and crop breeding research. Connect to one or more servers under named aliases, then search and fetch across studies, germplasm, observations, observation variables, locations, images, variants, and genotype calls. Result sets that exceed the per-call cap spill into a DuckDB-backed canvas dataframe you query with SELECT-only SQL, enabling cross-study phenotype and genotype matrices, pedigree traversal, and per-germplasm performance summaries. Per-server dialect adapters and a capability registry keep calls aligned with what each backend actually advertises, and raw GET / search passthroughs cover endpoints no curated tool maps yet.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/brapi-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -112,7 +161,14 @@
     {
       "name": "calculator-mcp-server",
       "interface": {
-        "displayName": "calculator-mcp-server"
+        "displayName": "calculator-mcp-server",
+        "shortDescription": "Evaluate, simplify, and differentiate mathematical expressions via MCP.",
+        "longDescription": "A hardened math.js calculator MCP server that lets any LLM verify mathematical computations. Supports arithmetic, algebra, trigonometry, logarithms, statistics, matrices, complex numbers, combinatorics, and unit conversion. No auth required — all operations are read-only and stateless.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/calculator-mcp-server"
       },
       "source": {
         "source": "url",
@@ -127,7 +183,14 @@
     {
       "name": "cdc-health-mcp-server",
       "interface": {
-        "displayName": "cdc-health-mcp-server"
+        "displayName": "cdc-health-mcp-server",
+        "shortDescription": "Search and query CDC public health data — mortality, vaccinations, surveillance, behavioral risk (Socrata SODA API).",
+        "longDescription": "Provides access to the CDC Open Data portal (~1,487 datasets) via the Socrata SODA API. Supports catalog discovery, schema inspection, and SoQL queries across mortality, vaccinations, behavioral risk, surveillance, and other public health domains.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/cdc-health-mcp-server"
       },
       "source": {
         "source": "url",
@@ -142,7 +205,14 @@
     {
       "name": "census-mcp-server",
       "interface": {
-        "displayName": "census-mcp-server"
+        "displayName": "census-mcp-server",
+        "shortDescription": "Query U.S. Census Bureau data, variables, and geography via MCP.",
+        "longDescription": "Query U.S. Census Bureau data through the official Census Data API. List available datasets and their vintage years (census_list_datasets), search variables by human-readable concept like \"median household income\" (census_search_variables), and resolve place names to FIPS codes (census_resolve_geography). Retrieve estimates for a single geography (census_query_data) or rank and compare a measure across many geographies (census_compare_geographies), with geography discovery (census_list_geographies) and per-variable metadata (census_get_variable). Runs over stdio or Streamable HTTP; a free CENSUS_API_KEY is required for data queries, while variable search and geography resolution work without one.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/census-mcp-server"
       },
       "source": {
         "source": "url",
@@ -157,7 +227,14 @@
     {
       "name": "clinicaltrialsgov-mcp-server",
       "interface": {
-        "displayName": "clinicaltrialsgov-mcp-server"
+        "displayName": "clinicaltrialsgov-mcp-server",
+        "shortDescription": "Search ClinicalTrials.gov trials, retrieve study details and results, and match patients to eligible trials.",
+        "longDescription": "MCP server wrapping the ClinicalTrials.gov REST API v2 — the US National Library of Medicine's registry of ~577K clinical trial studies. Search studies with filters and field selection, fetch full study records by NCT ID, extract outcomes and adverse events from completed trials, discover valid field names and enum values, and match patient demographics to recruiting trials. Public, read-only, no API key required. Runs over STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/clinicaltrialsgov-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -172,7 +249,14 @@
     {
       "name": "clipboard-mcp-server",
       "interface": {
-        "displayName": "clipboard-mcp-server"
+        "displayName": "clipboard-mcp-server",
+        "shortDescription": "Read, write, and inspect the system clipboard across macOS, Linux, and Windows via MCP.",
+        "longDescription": "MCP server for the system clipboard — read the current contents, write text, and inspect clipboard state across macOS, Linux (X11/Wayland), and Windows. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/clipboard-mcp-server"
       },
       "source": {
         "source": "url",
@@ -187,7 +271,14 @@
     {
       "name": "coingecko-mcp-server",
       "interface": {
-        "displayName": "coingecko-mcp-server"
+        "displayName": "coingecko-mcp-server",
+        "shortDescription": "Market data for 15,000+ cryptocurrencies — prices, history, trends, and deep coin metadata via CoinGecko.",
+        "longDescription": "Cryptocurrency market data via the CoinGecko v3 REST API — live prices, ranked markets, historical series, trending, global macro stats, and deep coin metadata. Keyless by default; an optional Demo API key raises the rate ceiling. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/coingecko-mcp-server"
       },
       "source": {
         "source": "url",
@@ -202,7 +293,14 @@
     {
       "name": "congressgov-mcp-server",
       "interface": {
-        "displayName": "congressgov-mcp-server"
+        "displayName": "congressgov-mcp-server",
+        "shortDescription": "Access U.S. congressional data - bills, votes, members, committees - through MCP.",
+        "longDescription": "MCP server wrapping the Congress.gov API v3 — the official machine-readable interface to U.S. legislative data. Provides tools for browsing bills, enacted laws, members, committees, roll call votes, nominations, CRS reports, committee reports, and the Congressional Record.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/congressgov-mcp-server"
       },
       "source": {
         "source": "url",
@@ -217,7 +315,14 @@
     {
       "name": "courtlistener-mcp-server",
       "interface": {
-        "displayName": "courtlistener-mcp-server"
+        "displayName": "courtlistener-mcp-server",
+        "shortDescription": "Search US court opinions, federal dockets, judges, citations, and oral arguments via CourtListener.",
+        "longDescription": "Access CourtListener's corpus of 9M+ US court opinions, federal RECAP dockets, judge records, citation networks, and oral arguments over MCP. Search and retrieve full opinion text, resolve citation strings (e.g. \"410 U.S. 113\") to clusters, and trace precedent networks in either direction. Look up courts and judges, pull docket entries and party listings, search and fetch oral argument recordings, and query judicial financial disclosures. Runs over STDIO or Streamable HTTP; a free CourtListener API token raises rate limits.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/courtlistener-mcp-server"
       },
       "source": {
         "source": "url",
@@ -232,7 +337,14 @@
     {
       "name": "cpsc-recalls-mcp-server",
       "interface": {
-        "displayName": "cpsc-recalls-mcp-server"
+        "displayName": "cpsc-recalls-mcp-server",
+        "shortDescription": "MCP server for US consumer product recalls from the Consumer Product Safety Commission — hazards, remedies, and affected products.",
+        "longDescription": "Search and retrieve US consumer product recalls from the CPSC (Consumer Product Safety Commission) via MCP. Covers toys, electronics, furniture, appliances, children's products, tools, and clothing. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/cpsc-recalls-mcp-server"
       },
       "source": {
         "source": "url",
@@ -247,7 +359,14 @@
     {
       "name": "crossref-mcp-server",
       "interface": {
-        "displayName": "crossref-mcp-server"
+        "displayName": "crossref-mcp-server",
+        "shortDescription": "Resolve DOIs, search ~155M scholarly works, and fetch references via the Crossref REST API.",
+        "longDescription": "MCP server wrapping the Crossref REST API. Exposes tools to resolve DOIs to full metadata records, search ~155M registered works, retrieve outgoing references, search journals by publisher/ISSN, and search funders. Supports STDIO and Streamable HTTP transports.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/crossref-mcp-server"
       },
       "source": {
         "source": "url",
@@ -262,7 +381,14 @@
     {
       "name": "devops-status-mcp-server",
       "interface": {
-        "displayName": "devops-status-mcp-server"
+        "displayName": "devops-status-mcp-server",
+        "shortDescription": "Check vendor status pages, inspect SSL/TLS certificates, verify DNS propagation, and get incident-response playbooks.",
+        "longDescription": "Infrastructure health and incident intelligence. Check 48 built-in vendors (GitHub, Cloudflare, OpenAI, Slack, and more) via Atlassian Statuspage, inspect SSL/TLS certificates and DNS propagation for any domain, and get deterministic incident-response playbooks — all without API keys.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/devops-status-mcp-server"
       },
       "source": {
         "source": "url",
@@ -277,7 +403,14 @@
     {
       "name": "earthquake-mcp-server",
       "interface": {
-        "displayName": "earthquake-mcp-server"
+        "displayName": "earthquake-mcp-server",
+        "shortDescription": "Search USGS and EMSC seismic data — real-time feeds, event queries, and earthquake counts.",
+        "longDescription": "MCP server providing access to USGS and EMSC earthquake data. Supports real-time feeds, event queries by location/magnitude/time, and aggregate counts. Deployable via STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/earthquake-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -292,7 +425,14 @@
     {
       "name": "eia-energy-mcp-server",
       "interface": {
-        "displayName": "eia-energy-mcp-server"
+        "displayName": "eia-energy-mcp-server",
+        "shortDescription": "Browse and query the U.S. Energy Information Administration API v2 — electricity, petroleum, natural gas, coal, forecasts, and more via MCP.",
+        "longDescription": "Browse and query the U.S. Energy Information Administration (EIA) API v2 across electricity, petroleum, natural gas, coal, and short-term energy forecasts. A two-phase workflow drives discovery before retrieval: browse or search the dataset route taxonomy, describe a leaf route to surface its facets and columns, then query it with facet-ID filters. Large result sets spill to a DuckDB-backed canvas table you can analyze with SQL. Runs over STDIO or Streamable HTTP and requires a free EIA_API_KEY.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/eia-energy-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -307,7 +447,14 @@
     {
       "name": "ensembl-mcp-server",
       "interface": {
-        "displayName": "ensembl-mcp-server"
+        "displayName": "ensembl-mcp-server",
+        "shortDescription": "Look up genes, fetch sequences, predict variant consequences, find orthologs and cross-database xrefs via Ensembl REST via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "MCP server for the Ensembl REST API, covering vertebrate and model-organism genomics. Resolve genes by symbol or stable ID (ensembl_lookup_gene), fetch genomic/cDNA/CDS/protein sequence (ensembl_get_sequence), list overlapping features in a region (ensembl_query_region), predict variant consequences via VEP (ensembl_predict_variant), retrieve orthologs and paralogs (ensembl_get_homology), follow external cross-references (ensembl_get_xrefs), and enumerate available species (ensembl_list_species). Gene, transcript, and species records are also exposed as addressable resources, and the ensembl_gene_dossier prompt chains the tools into a complete gene research workflow. Species use Ensembl's lowercase_underscore scientific names (homo_sapiens, mus_musculus); set ENSEMBL_BASE_URL to target GRCh37 or a local mirror. Runs over stdio or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/ensembl-mcp-server"
       },
       "source": {
         "source": "url",
@@ -322,7 +469,14 @@
     {
       "name": "eur-lex-mcp-server",
       "interface": {
-        "displayName": "eur-lex-mcp-server"
+        "displayName": "eur-lex-mcp-server",
+        "shortDescription": "Search EU legislation, CJEU case law, and treaties; traverse the CELLAR relationship graph; resolve EuroVoc concepts.",
+        "longDescription": "EUR-Lex MCP server wraps the CELLAR semantic repository — the EU Publications Office's authoritative database of 2.7M+ EU legal works. Access EU legislation, CJEU/General Court case law, treaties, and preparatory acts. Traverse the CDM relationship graph for amendment chains, consolidated versions, legal basis, and citation networks. Resolve human-readable subjects to EuroVoc concept IDs. Execute raw SPARQL against the Virtuoso endpoint for advanced CDM ontology traversal. No API key required.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/eur-lex-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -337,7 +491,14 @@
     {
       "name": "eurostat-mcp-server",
       "interface": {
-        "displayName": "eurostat-mcp-server"
+        "displayName": "eurostat-mcp-server",
+        "shortDescription": "Search and query 8,933 Eurostat datasets — EU economy, demography, trade, health, and NUTS regional data via MCP.",
+        "longDescription": "Eurostat MCP server providing access to 8,933 EU statistical datasets covering economy, demography, trade, health, environment, and NUTS regional data. Supports dataset discovery, dimension browsing, and filtered data queries.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/eurostat-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -352,7 +513,14 @@
     {
       "name": "exchange-rates-mcp-server",
       "interface": {
-        "displayName": "exchange-rates-mcp-server"
+        "displayName": "exchange-rates-mcp-server",
+        "shortDescription": "Convert currencies, get FX rates, and query historical ECB exchange rate data.",
+        "longDescription": "ECB reference FX rates and currency conversion via Frankfurter (keyless, ~30 currencies, 1999-01-04 to present). Supports cross-rate triangulation, historical time-series retrieval, and DataCanvas SQL analytics for long ranges.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/exchange-rates-mcp-server"
       },
       "source": {
         "source": "url",
@@ -367,7 +535,14 @@
     {
       "name": "faa-aircraft-registry-mcp-server",
       "interface": {
-        "displayName": "faa-aircraft-registry-mcp-server"
+        "displayName": "faa-aircraft-registry-mcp-server",
+        "shortDescription": "Decode N-numbers to aircraft, engine, status, and owner, and search the US civil aircraft registry by owner, type, or state — offline, keyless.",
+        "longDescription": "Offline lookup of the US civil aircraft registry from the FAA's public-domain Releasable Aircraft Database, indexed locally as SQLite + FTS5. Decode an N-number to its aircraft, engine, year, status, and owner; search by owner, make/model, state, type, or Mode S code; decode manufacturer/engine codes to specs; and resolve active/deregistered/reserved status. Keyless with no runtime network. Owner PII is redacted by default.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/faa-aircraft-registry-mcp-server"
       },
       "source": {
         "source": "url",
@@ -382,7 +557,14 @@
     {
       "name": "faostat-mcp-server",
       "interface": {
-        "displayName": "faostat-mcp-server"
+        "displayName": "faostat-mcp-server",
+        "shortDescription": "Global food & agriculture statistics from the UN FAOSTAT bulk-download corpus, served from a local SQLite mirror with a DataCanvas SQL surface, over MCP. STDIO & Streamable HTTP.",
+        "longDescription": "Query the UN FAO's FAOSTAT corpus — crop and livestock production, agricultural trade, food balances, food security, land use, and agri-emissions for 245+ countries from 1961 to present. Served from a local SQLite mirror of the keyless bulk-download service (the REST API is auth-gated), with FTS5 code resolution, country-vs-aggregate classification, and a DataCanvas SQL surface for cross-country and time-series analysis.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/faostat-mcp-server"
       },
       "source": {
         "source": "url",
@@ -397,7 +579,14 @@
     {
       "name": "fcc-broadband-mcp-server",
       "interface": {
-        "displayName": "fcc-broadband-mcp-server"
+        "displayName": "fcc-broadband-mcp-server",
+        "shortDescription": "Query FCC broadband availability, coverage analysis, and digital-divide data for US geographies and census blocks via MCP.",
+        "longDescription": "MCP server for FCC broadband data. Geocode coordinates to census blocks, query block-level provider availability and advertised speeds, and run geography-level coverage analysis — provider counts, unserved and underserved populations, area comparisons, and BEAD-eligibility lookups. Covers Form 477 (2015–2021) and Broadband Data Collection (2022+) datasets. STDIO and Streamable HTTP transports.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/fcc-broadband-mcp-server"
       },
       "source": {
         "source": "url",
@@ -412,7 +601,14 @@
     {
       "name": "federal-regulations-mcp-server",
       "interface": {
-        "displayName": "federal-regulations-mcp-server"
+        "displayName": "federal-regulations-mcp-server",
+        "shortDescription": "US federal regulations over the Federal Register, eCFR, and Regulations.gov.",
+        "longDescription": "An MCP workflow server over three official US federal regulatory sources: the Federal Register (the daily journal of proposed/final rules and notices, keyless), the eCFR (the codified Code of Federal Regulations, point-in-time full text, mirrored locally for fast lookup and FTS5 search), and Regulations.gov v4 (rulemaking dockets and public comments, key-gated). Every Federal Register document carries the docket ID and CFR-part handles that chain across sources, so a rule can be traced proposal → comments → final → codified text.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/federal-regulations-mcp-server"
       },
       "source": {
         "source": "url",
@@ -427,7 +623,14 @@
     {
       "name": "fema-mcp-server",
       "interface": {
-        "displayName": "fema-mcp-server"
+        "displayName": "fema-mcp-server",
+        "shortDescription": "Query FEMA disaster declarations, public assistance grants, housing aid, and NFIP flood insurance claims.",
+        "longDescription": "Query FEMA disaster declarations, public assistance grants, housing aid, and NFIP flood insurance claims via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/fema-mcp-server"
       },
       "source": {
         "source": "url",
@@ -442,7 +645,14 @@
     {
       "name": "finnhub-mcp-server",
       "interface": {
-        "displayName": "finnhub-mcp-server"
+        "displayName": "finnhub-mcp-server",
+        "shortDescription": "Real-time US-equity market data via Finnhub.",
+        "longDescription": "Six tools covering real-time US-equity market data via the Finnhub REST API: resolve a company name to a US ticker, fetch a live quote paired with market-open status (never presenting a stale price as live), get one-call company context (profile + fundamentals + peers), read earnings history and the upcoming-releases calendar, pull company or market news, and surface analyst recommendation trends. Free tier covers US stocks only; a free Finnhub API key is required.",
+        "developerName": "Casey Hand",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/finnhub-mcp-server"
       },
       "source": {
         "source": "url",
@@ -457,7 +667,14 @@
     {
       "name": "gbif-biodiversity-mcp-server",
       "interface": {
-        "displayName": "gbif-biodiversity-mcp-server"
+        "displayName": "gbif-biodiversity-mcp-server",
+        "shortDescription": "Search GBIF species taxonomy, occurrence records, datasets, and publishers via MCP.",
+        "longDescription": "Provides tools for querying the Global Biodiversity Information Facility (GBIF) — species taxonomy, occurrence records, dataset metadata, and publisher information.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/gbif-biodiversity-mcp-server"
       },
       "source": {
         "source": "url",
@@ -472,7 +689,14 @@
     {
       "name": "gdelt-mcp-server",
       "interface": {
-        "displayName": "gdelt-mcp-server"
+        "displayName": "gdelt-mcp-server",
+        "shortDescription": "Search and analyze global news coverage and US TV transcripts via the GDELT Project APIs.",
+        "longDescription": "Access the GDELT Project's real-time global news and TV transcript APIs. Search 65+ languages of news coverage from the last 3 months, retrieve coverage timelines and tone distributions, analyze geographic/language breakdowns, and search US TV news transcripts from 2009–2024.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/gdelt-mcp-server"
       },
       "source": {
         "source": "url",
@@ -487,7 +711,13 @@
     {
       "name": "guardian-mcp-server",
       "interface": {
-        "displayName": "guardian-mcp-server"
+        "displayName": "guardian-mcp-server",
+        "shortDescription": "Search, browse, and retrieve full article text from The Guardian's journalism archive (1999–present) via MCP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/guardian-mcp-server"
       },
       "source": {
         "source": "url",
@@ -502,7 +732,14 @@
     {
       "name": "gutenberg-mcp-server",
       "interface": {
-        "displayName": "gutenberg-mcp-server"
+        "displayName": "gutenberg-mcp-server",
+        "shortDescription": "MCP server for Project Gutenberg — 75,000+ public-domain ebooks, searchable with full plain-text retrieval.",
+        "longDescription": "Access 75,000+ public-domain books from Project Gutenberg. Search by title, author, language, topic, or popularity. Retrieve full plain text with offset/limit chunking for context-budget management. No API key required.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/gutenberg-mcp-server"
       },
       "source": {
         "source": "url",
@@ -517,7 +754,14 @@
     {
       "name": "hn-mcp-server",
       "interface": {
-        "displayName": "hn-mcp-server"
+        "displayName": "hn-mcp-server",
+        "shortDescription": "Browse Hacker News feeds, threads, and user profiles with full-text search.",
+        "longDescription": "Read-only access to Hacker News over the Firebase API and Algolia search. Fetch ranked feeds (top, new, best, ask, show, jobs) with pagination, full-text search items by query with type, author, date, and score filters, retrieve a user profile with their submissions, and pull any item with its full comment tree (drill into a subtree by passing a comment id). Items are addressed by integer id, reused across stories, comments, jobs, and polls. HN populates fields sparsely, so absent values are surfaced as unknown rather than fabricated.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/hn-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -532,7 +776,14 @@
     {
       "name": "imf-mcp-server",
       "interface": {
-        "displayName": "imf-mcp-server"
+        "displayName": "imf-mcp-server",
+        "shortDescription": "Query IMF SDMX 3.0 macroeconomic data — 193 dataflows, 190 countries, WEO projections, BOP, CPI, exchange rates, and national accounts via MCP.",
+        "longDescription": "Query the IMF's SDMX 3.0 macroeconomic database. Supports 193 dataflows across 190 countries — WEO projections, balance of payments, CPI, exchange rates, and national accounts — with SQL over large result sets. Deployable as stdio or streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/imf-mcp-server"
       },
       "source": {
         "source": "url",
@@ -547,7 +798,14 @@
     {
       "name": "libofcongress-mcp-server",
       "interface": {
-        "displayName": "libofcongress-mcp-server"
+        "displayName": "libofcongress-mcp-server",
+        "shortDescription": "Search LOC digital collections, browse Chronicling America newspapers with full OCR text, and look up LC Subject Headings via MCP.",
+        "longDescription": "Provides MCP tools for accessing Library of Congress digital collections, including full-text search, item metadata retrieval, Chronicling America historical newspaper search with OCR text, and LC Subject Headings (LCSH) lookup. Supports stdio and streamable HTTP transports.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/libofcongress-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -562,7 +820,14 @@
     {
       "name": "macos-mcp-server",
       "interface": {
-        "displayName": "macos-mcp-server"
+        "displayName": "macos-mcp-server",
+        "shortDescription": "Control macOS system settings, apps, windows, audio, displays, screenshots, and Focus mode via MCP.",
+        "longDescription": "MCP server for controlling macOS — system settings, application and window management, audio, displays, screenshots, and Focus mode. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/macos-mcp-server"
       },
       "source": {
         "source": "url",
@@ -577,7 +842,14 @@
     {
       "name": "mailchimp-mcp-server",
       "interface": {
-        "displayName": "mailchimp-mcp-server"
+        "displayName": "mailchimp-mcp-server",
+        "shortDescription": "Draft, test, and send Mailchimp campaigns, manage audiences and subscribers, and read post-send analytics via MCP.",
+        "longDescription": "MCP server for Mailchimp — draft, test, and send campaigns behind safe-by-default send gates, manage audiences and subscriber CRUD, and read post-send analytics. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/mailchimp-mcp-server"
       },
       "source": {
         "source": "url",
@@ -592,7 +864,14 @@
     {
       "name": "medical-codes-mcp-server",
       "interface": {
-        "displayName": "medical-codes-mcp-server"
+        "displayName": "medical-codes-mcp-server",
+        "shortDescription": "Decode, search, validate, and crosswalk US medical codes — ICD-10-CM, ICD-10-PCS, HCPCS Level II, RxNorm — over a bundled offline index.",
+        "longDescription": "Decode, search, validate, and crosswalk US medical codes — ICD-10-CM, ICD-10-PCS, HCPCS Level II, RxNorm — over a bundled offline index via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/medical-codes-mcp-server"
       },
       "source": {
         "source": "url",
@@ -607,7 +886,14 @@
     {
       "name": "met-museum-mcp-server",
       "interface": {
-        "displayName": "met-museum-mcp-server"
+        "displayName": "met-museum-mcp-server",
+        "shortDescription": "MCP server for The Metropolitan Museum of Art collection — 500K+ artworks with metadata, provenance, and open-access high-res images.",
+        "longDescription": "MCP server for The Metropolitan Museum of Art collection — 500K+ artworks with metadata, provenance, and open-access high-res images.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/met-museum-mcp-server"
       },
       "source": {
         "source": "url",
@@ -622,7 +908,14 @@
     {
       "name": "musicbrainz-mcp-server",
       "interface": {
-        "displayName": "musicbrainz-mcp-server"
+        "displayName": "musicbrainz-mcp-server",
+        "shortDescription": "Search artists, releases, recordings, works, and labels; traverse relationships; resolve ISRC/ISWC/barcode; fetch cover art via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Read-only access to the MusicBrainz Web Service v2 and the Cover Art Archive. Full-text search across artists, release-groups, releases, recordings, works, and labels; entity lookups that fold in discographies, tracklists, and relationships; complete linked-set enumeration via browse; deterministic ISRC/ISWC/barcode resolution; and Cover Art Archive image fetch. Keyless and CC0 core data, rate-limited to ~1 request/second against MusicBrainz.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/musicbrainz-mcp-server"
       },
       "source": {
         "source": "url",
@@ -637,7 +930,14 @@
     {
       "name": "national-parks-mcp-server",
       "interface": {
-        "displayName": "national-parks-mcp-server"
+        "displayName": "national-parks-mcp-server",
+        "shortDescription": "Plan US National Park Service trips — find parks, check alerts and closures, find campgrounds, browse things to do and events via the NPS Data API.",
+        "longDescription": "Six tools covering the National Park Service trip-planning workflow: resolve a place, state, or query to parks (the parkCode spine), pull full park detail (fees, hours, contacts, weather, images), surface current alerts and closures, find campgrounds with amenities and reservable/first-come counts, list curated things to do, and find scheduled events within a date range. US NPS sites only. Requires a free NPS Data API key.",
+        "developerName": "Casey Hand",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/national-parks-mcp-server"
       },
       "source": {
         "source": "url",
@@ -652,7 +952,14 @@
     {
       "name": "nhtsa-vehicle-safety-mcp-server",
       "interface": {
-        "displayName": "nhtsa-vehicle-safety-mcp-server"
+        "displayName": "nhtsa-vehicle-safety-mcp-server",
+        "shortDescription": "Decode VINs, search recalls, complaints, crash ratings, and investigations via MCP.",
+        "longDescription": "Access U.S. vehicle safety data from NHTSA — decode VINs, search recall campaigns, browse consumer complaints, retrieve NCAP crash test ratings, and look up defect investigations.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/nhtsa-vehicle-safety-mcp-server"
       },
       "source": {
         "source": "url",
@@ -667,7 +974,14 @@
     {
       "name": "nist-nvd-mcp-server",
       "interface": {
-        "displayName": "nist-nvd-mcp-server"
+        "displayName": "nist-nvd-mcp-server",
+        "shortDescription": "Search and audit CVEs by keyword, severity, CWE, CISA KEV status, and CPE via the NIST National Vulnerability Database.",
+        "longDescription": "Provides read-only access to the NIST National Vulnerability Database (NVD). Search CVEs by keyword, severity (CVSS v2/v3/v4), CWE, date range, or CISA KEV status. Fetch full CVE details with CVSS scores and affected CPE configurations. Audit a specific product version for all known vulnerabilities. Track CVE score changes over time.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/nist-nvd-mcp-server"
       },
       "source": {
         "source": "url",
@@ -682,7 +996,14 @@
     {
       "name": "noaa-climate-mcp-server",
       "interface": {
-        "displayName": "noaa-climate-mcp-server"
+        "displayName": "noaa-climate-mcp-server",
+        "shortDescription": "Search NOAA climate stations and datasets, fetch historical weather observations via MCP.",
+        "longDescription": "Provides MCP tools to search NOAA Climate Data Online (CDO) stations and datasets, and fetch historical weather observation data. Supports STDIO and Streamable HTTP transport.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/noaa-climate-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -697,7 +1018,14 @@
     {
       "name": "noaa-marine-mcp-server",
       "interface": {
-        "displayName": "noaa-marine-mcp-server"
+        "displayName": "noaa-marine-mcp-server",
+        "shortDescription": "Find NOAA tide stations and NDBC buoys, fetch tide predictions, water levels, tidal currents, and live buoy conditions via MCP.",
+        "longDescription": "Fetch US marine conditions from NOAA CO-OPS and NDBC. Supports tide predictions, observed water levels and storm surge, tidal currents, and live buoy conditions including waves, wind, and sea-surface temperature. Deployable as stdio or streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/noaa-marine-mcp-server"
       },
       "source": {
         "source": "url",
@@ -712,7 +1040,14 @@
     {
       "name": "noaa-spaceweather-mcp-server",
       "interface": {
-        "displayName": "noaa-spaceweather-mcp-server"
+        "displayName": "noaa-spaceweather-mcp-server",
+        "shortDescription": "NOAA SWPC space weather: storm scales, Kp index, aurora forecasts, solar wind, activity, alerts.",
+        "longDescription": "Read-only access to the NOAA Space Weather Prediction Center (SWPC). Six tools cover the operational space-weather picture: get_conditions for a current R/S/G storm-scale snapshot with the latest Kp and a plain-language summary, get_kp_index for observed and forecast planetary K-index, get_aurora_forecast for coordinate-based aurora visibility, get_solar_wind for real-time ACE/DSCOVR plasma and magnetic-field data (including the southward Bz that drives geomagnetic storms), get_solar_activity for X-ray flux and recent flare events, and get_alerts for active SWPC watches, warnings, and advisories. All SWPC feeds are public and keyless; the server runs over STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/noaa-spaceweather-mcp-server"
       },
       "source": {
         "source": "url",
@@ -727,7 +1062,14 @@
     {
       "name": "nonprofit-explorer-mcp-server",
       "interface": {
-        "displayName": "nonprofit-explorer-mcp-server"
+        "displayName": "nonprofit-explorer-mcp-server",
+        "shortDescription": "MCP server for US nonprofit financials via ProPublica — IRS Form 990 data for 1.8M+ tax-exempt organizations.",
+        "longDescription": "Search and explore 1.8M+ US nonprofits, fetch Form 990 financials, and access IRS filing history via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/nonprofit-explorer-mcp-server"
       },
       "source": {
         "source": "url",
@@ -742,7 +1084,14 @@
     {
       "name": "npi-providers-mcp-server",
       "interface": {
-        "displayName": "npi-providers-mcp-server"
+        "displayName": "npi-providers-mcp-server",
+        "shortDescription": "Look up US healthcare providers in the NPPES NPI registry and resolve NUCC specialty codes.",
+        "longDescription": "US healthcare provider directory over the live, keyless NPPES NPI Registry API, plus a bundled NUCC Healthcare Provider Taxonomy code set for offline specialty resolution. Search providers by name, organization, specialty, or location; decode any NPI to its full record (taxonomies, addresses, credentials, identifiers, status); and resolve plain-language specialties to taxonomy codes.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/npi-providers-mcp-server"
       },
       "source": {
         "source": "url",
@@ -757,7 +1106,13 @@
     {
       "name": "ntfy-mcp-server",
       "interface": {
-        "displayName": "ntfy-mcp-server"
+        "displayName": "ntfy-mcp-server",
+        "shortDescription": "Send, manage, and replay ntfy push notifications via MCP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/ntfy-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -772,7 +1127,14 @@
     {
       "name": "nws-weather-mcp-server",
       "interface": {
-        "displayName": "nws-weather-mcp-server"
+        "displayName": "nws-weather-mcp-server",
+        "shortDescription": "Get US weather forecasts, active alerts, and current observations via the National Weather Service API.",
+        "longDescription": "Real-time US weather from the National Weather Service API (api.weather.gov), covering the 50 states, US territories, and adjacent marine areas. Seven coordinate-driven tools: 7-day and hourly forecasts, active alerts filtered by area/zone/event/severity, current observations from the nearest station, nearby station discovery, alert event-type listing, forecast-office narrative discussions (AFD/HWO/ZFP/SPS), and zone-level text forecasts. The API does not geocode — resolve place names to latitude/longitude before calling. No API key required. Runs over STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/nws-weather-mcp-server"
       },
       "source": {
         "source": "url",
@@ -787,7 +1149,14 @@
     {
       "name": "obsidian-mcp-server",
       "interface": {
-        "displayName": "obsidian-mcp-server"
+        "displayName": "obsidian-mcp-server",
+        "shortDescription": "Read, write, search, and surgically edit Obsidian vault notes, tags, and frontmatter via MCP.",
+        "longDescription": "Read, write, search, and surgically edit Obsidian vault notes, tags, and frontmatter via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/obsidian-mcp-server"
       },
       "source": {
         "source": "url",
@@ -802,7 +1171,14 @@
     {
       "name": "onebusaway-mcp-server",
       "interface": {
-        "displayName": "onebusaway-mcp-server"
+        "displayName": "onebusaway-mcp-server",
+        "shortDescription": "Query stops, routes, real-time arrivals, vehicle positions, and schedules from OneBusAway transit APIs via MCP.",
+        "longDescription": "Real-time public transit data from OneBusAway instances — Puget Sound (King County Metro, Sound Transit, Pierce Transit, Community Transit) by default, or any OneBusAway-compatible REST API. Resolve a place or name to a stop with the find/search stop tools, then pull live predicted arrivals and departures, vehicle positions, full route and trip details, and stop or route schedules. Surface service alerts, walk trip-to-block relationships for a vehicle's full-day assignment, and list agencies and the routes they operate. Stop and route IDs use the agency-prefixed format ({agencyId}_{localId}, e.g. \"1_75403\"). Read-only; trip planning is out of scope.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/onebusaway-mcp-server"
       },
       "source": {
         "source": "url",
@@ -817,7 +1193,14 @@
     {
       "name": "openalex-mcp-server",
       "interface": {
-        "displayName": "openalex-mcp-server"
+        "displayName": "openalex-mcp-server",
+        "shortDescription": "Access the OpenAlex academic research catalog - 270M+ publications through MCP.",
+        "longDescription": "Query the OpenAlex scholarly catalog: 270M+ works, 90M+ authors, 100K+ sources. Search, filter, sort entities by type; analyze publication trends and distributions; resolve author/institution names to IDs; walk citation graphs.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/openalex-mcp-server"
       },
       "source": {
         "source": "url",
@@ -832,7 +1215,14 @@
     {
       "name": "openaq-mcp-server",
       "interface": {
-        "displayName": "openaq-mcp-server"
+        "displayName": "openaq-mcp-server",
+        "shortDescription": "Measured air quality from OpenAQ v3 — sensor observations worldwide.",
+        "longDescription": "Wraps the OpenAQ v3 API to expose measured air quality: find monitoring stations near a point / in a bounding box / by country, read the latest values per sensor (joined with pollutant + unit), and pull historical measurement series with raw/hourly/daily aggregation. Large series spill to a DataCanvas for SQL analysis. Units are surfaced verbatim and never converted.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/openaq-mcp-server"
       },
       "source": {
         "source": "url",
@@ -847,7 +1237,14 @@
     {
       "name": "openchargemap-mcp-server",
       "interface": {
-        "displayName": "openchargemap-mcp-server"
+        "displayName": "openchargemap-mcp-server",
+        "shortDescription": "Global Open Charge Map EV charging station search, detail, and reliability check-ins.",
+        "longDescription": "Find-and-detail MCP server over the community-maintained Open Charge Map registry. Find EV charging stations near a point or in a bounding box filtered by connector, power, and network; get full station detail; resolve connector/operator reference IDs offline; and read community check-ins for real-world reliability.",
+        "developerName": "Casey Hand @cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/openchargemap-mcp-server"
       },
       "source": {
         "source": "url",
@@ -862,7 +1259,14 @@
     {
       "name": "openfda-mcp-server",
       "interface": {
-        "displayName": "openfda-mcp-server"
+        "displayName": "openfda-mcp-server",
+        "shortDescription": "Query FDA data on drugs, food, devices, and recalls via openFDA.",
+        "longDescription": "Query the openFDA public API for drugs, food, devices, and animal/veterinary products. Search adverse events, drug approvals, device clearances, and recalls; look up NDC codes; fetch drug labels; aggregate field counts.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/openfda-mcp-server"
       },
       "source": {
         "source": "url",
@@ -877,7 +1281,14 @@
     {
       "name": "openfec-mcp-server",
       "interface": {
-        "displayName": "openfec-mcp-server"
+        "displayName": "openfec-mcp-server",
+        "shortDescription": "Access FEC campaign finance data through MCP — candidates, committees, contributions, disbursements, elections.",
+        "longDescription": "Provides MCP tools for querying the FEC OpenAPI: search candidates, committees, contributions (Schedule A), disbursements (Schedule B), independent expenditures (Schedule E), filings, elections, calendar, and legal documents. Supports STDIO and Streamable HTTP transports.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/openfec-mcp-server"
       },
       "source": {
         "source": "url",
@@ -892,7 +1303,14 @@
     {
       "name": "openfoodfacts-mcp-server",
       "interface": {
-        "displayName": "openfoodfacts-mcp-server"
+        "displayName": "openfoodfacts-mcp-server",
+        "shortDescription": "Look up food products by barcode, search by ingredient or nutrition filter, compare products side-by-side, and browse the canonical tag vocabulary via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "MCP access to Open Food Facts, the crowd-sourced global food product database (3M+ products). Four tools: off_get_product fetches a product by EAN-13/UPC barcode with ingredients, allergens, additives, per-100g and per-serving nutrition, and the Nutri-Score, NOVA, and Green-Score indicators; off_search_products finds products by text query or canonical tag filters; off_compare_products returns a side-by-side nutrition table for 2-10 barcodes; off_browse_taxonomy resolves human terms to the canonical tag IDs the search filters expect. Missing fields mean a value has not yet been entered by contributors, and computed scores carry regional formula caveats. No API key required; runs over STDIO or Streamable HTTP. Data under ODbL 1.0 - cite Open Food Facts in downstream use.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/openfoodfacts-mcp-server"
       },
       "source": {
         "source": "url",
@@ -907,7 +1325,14 @@
     {
       "name": "openlibrary-mcp-server",
       "interface": {
-        "displayName": "openlibrary-mcp-server"
+        "displayName": "openlibrary-mcp-server",
+        "shortDescription": "Search books and authors, fetch editions, browse subjects, and resolve cover images from Open Library.",
+        "longDescription": "Query Open Library's catalog of 20M+ books, editions, authors, and subjects. Full-text book search with field filters (title, author, subject, publisher, ISBN, language), sort, and optional live Internet Archive reading availability; fetch works by OLID, list and fetch editions (by ISBN-10/13, OCLC, LCCN, or edition OLID), search and fetch authors with linked Wikidata/VIAF/ISNI identifiers, browse works by subject, and resolve cover/photo image URLs. Keyless and read-only. Runs over STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/openlibrary-mcp-server"
       },
       "source": {
         "source": "url",
@@ -922,7 +1347,14 @@
     {
       "name": "open-meteo-mcp-server",
       "interface": {
-        "displayName": "open-meteo-mcp-server"
+        "displayName": "open-meteo-mcp-server",
+        "shortDescription": "Geocode places, fetch global weather forecasts, ERA5 historical climate, marine conditions, air quality, and terrain elevation via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Keyless access to the Open-Meteo global weather APIs over MCP. Resolve place names to coordinates with openmeteo_geocode, then pull forecasts up to 16 days out (openmeteo_get_forecast), the ERA5 historical archive back to 1940 (openmeteo_get_historical), marine wave and swell conditions (openmeteo_get_marine), CAMS air quality and AQI (openmeteo_get_air_quality), Copernicus DEM terrain elevation (openmeteo_get_elevation), probabilistic ensemble runs (openmeteo_get_ensemble), and GloFAS river-discharge flood data (openmeteo_get_flood). Every weather tool takes latitude/longitude, so geocode first for name-based queries. Large historical or ensemble pulls spill to a DataCanvas table queryable with SQL via openmeteo_dataframe_describe and openmeteo_dataframe_query when CANVAS_PROVIDER_TYPE=duckdb. Runs over STDIO or Streamable HTTP. No API key required for non-commercial use; weather data by Open-Meteo.com under CC BY 4.0.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/open-meteo-mcp-server"
       },
       "source": {
         "source": "url",
@@ -937,7 +1369,14 @@
     {
       "name": "openstates-mcp-server",
       "interface": {
-        "displayName": "openstates-mcp-server"
+        "displayName": "openstates-mcp-server",
+        "shortDescription": "Search bills, legislators, committees, and events across all 50 US states, DC, and Puerto Rico via MCP.",
+        "longDescription": "Query US state legislative data from Open States v3 across all 50 states, DC, and Puerto Rico. Search and fetch bills, legislators, committees, and events; resolve legislators by address; and discover jurisdictions and their legislative sessions. Bill and people searches support full-text queries, jurisdiction and session filters, and an include parameter to pull related data inline. A jurisdiction resource exposes session and coverage metadata; bill-research and legislator-profile prompts scaffold structured analysis. Runs over STDIO or Streamable HTTP and requires a free Open States API key.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/openstates-mcp-server"
       },
       "source": {
         "source": "url",
@@ -952,7 +1391,14 @@
     {
       "name": "openstreetmap-mcp-server",
       "interface": {
-        "displayName": "openstreetmap-mcp-server"
+        "displayName": "openstreetmap-mcp-server",
+        "shortDescription": "Geocode, reverse geocode, and run Overpass spatial queries on OpenStreetMap data via MCP.",
+        "longDescription": "Query OpenStreetMap from MCP clients via the Nominatim and Overpass APIs. Geocode place names and addresses to coordinates, reverse geocode coordinates to addresses, look up details for known OSM IDs, find features near a point, survey features in a bounding box, and run raw Overpass QL for advanced spatial queries. Data is © OpenStreetMap contributors (ODbL 1.0); point at private Nominatim/Overpass instances via OSM_NOMINATIM_BASE_URL and OSM_OVERPASS_BASE_URL. Runs over STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/openstreetmap-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -967,7 +1413,14 @@
     {
       "name": "orcid-mcp-server",
       "interface": {
-        "displayName": "orcid-mcp-server"
+        "displayName": "orcid-mcp-server",
+        "shortDescription": "Search and retrieve researcher profiles, works, affiliations, funding, and peer review records from the ORCID registry.",
+        "longDescription": "MCP server for the ORCID researcher registry. Search researchers by name, institution, DOI, or PMID. Retrieve full profiles, publication works, affiliations, funding records, and peer review activity. Supports STDIO and Streamable HTTP transport.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/orcid-mcp-server"
       },
       "source": {
         "source": "url",
@@ -982,7 +1435,14 @@
     {
       "name": "osv-advisory-mcp-server",
       "interface": {
-        "displayName": "osv-advisory-mcp-server"
+        "displayName": "osv-advisory-mcp-server",
+        "shortDescription": "Query OSV.dev for package vulnerabilities, batch-audit dependency lists, and fetch full advisory records via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Read-only access to the OSV.dev vulnerability database over MCP. Check a single package version with osv_query_package, audit a whole lockfile or SBOM in one call with osv_query_batch (up to 1000 {name, ecosystem, version} tuples), and pull the full advisory — CVSS vectors, CVE aliases, affected ranges, and fix versions — with osv_get_vulnerability. osv_list_ecosystems returns the valid ecosystem identifiers to pass to the query tools. Keyless and public; CVE aliases chain to nist-nvd-mcp-server for CVSS scoring and CISA KEV status. Runs over STDIO or Streamable HTTP.",
+        "developerName": "Casey Hand",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/osv-advisory-mcp-server"
       },
       "source": {
         "source": "url",
@@ -997,7 +1457,14 @@
     {
       "name": "ourairports-mcp-server",
       "interface": {
-        "displayName": "ourairports-mcp-server"
+        "displayName": "ourairports-mcp-server",
+        "shortDescription": "Resolve airport codes (IATA/ICAO/GPS/local), search airports, find the nearest by coordinate, and look up runways, navaids, and radio frequencies from the bundled public-domain OurAirports dataset via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Static, offline aviation reference data from the public-domain OurAirports dataset — airports, runways, navaids, and radio frequencies. The dataset is bundled into the package and served from in-memory indices built at startup, so every tool is a local query with no API key, no rate limit, and no upstream dependency. Resolves any airport by a single code across IATA/ICAO/GPS/local/ident, ranks airports nearest-first to a coordinate by great-circle distance, and surfaces runways, navaids, and frequencies. Community-edited data — not authoritative for real flight operations.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/ourairports-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1012,7 +1479,14 @@
     {
       "name": "pentest-mcp-server",
       "interface": {
-        "displayName": "pentest-mcp-server"
+        "displayName": "pentest-mcp-server",
+        "shortDescription": "Offline methodology engine and payload workshop for authorized penetration testing, CTF, security research, and education.",
+        "longDescription": "Offline offensive methodology engine for authorized penetration testing, CTF, and security research. Embeds MITRE ATT&CK Enterprise, OWASP Testing Guide methodology, and annotated payload templates. Every technique is paired with detection and mitigation context — equally useful for defenders. No external APIs at runtime.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/pentest-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1027,7 +1501,15 @@
     {
       "name": "pixoo-mcp-server",
       "interface": {
-        "displayName": "pixoo-mcp-server"
+        "displayName": "pixoo-mcp-server",
+        "shortDescription": "Render and push styled pixel art, text, dashboards, and animations to Divoom Pixoo LED displays on your local network via MCP.",
+        "longDescription": "Render and push styled pixel art, text, dashboards, and animations to Divoom Pixoo LED displays on the local network. Supports device discovery, layered scene composition, text styling, image push, and live device control. Deployable as stdio or streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://github.com/cyanheads/pixoo-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1042,7 +1524,14 @@
     {
       "name": "pokeapi-mcp-server",
       "interface": {
-        "displayName": "pokeapi-mcp-server"
+        "displayName": "pokeapi-mcp-server",
+        "shortDescription": "Look up Pokémon, moves, abilities, items, natures, and type matchups from PokéAPI v2 via MCP.",
+        "longDescription": "Look up Pokémon game data from PokéAPI v2 through Generation IX. Supports Pokémon profiles, moves, abilities, items, natures, and type-matchup calculation. Deployable as stdio or streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/pokeapi-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1057,7 +1546,14 @@
     {
       "name": "protein-mcp-server",
       "interface": {
-        "displayName": "protein-mcp-server"
+        "displayName": "protein-mcp-server",
+        "shortDescription": "Federated protein structure & annotation across experimental (PDB) and predicted (AlphaFold) models.",
+        "longDescription": "Search, fetch, and compare protein structures across experimental (PDB) and predicted (AlphaFold) models from one tool surface. Find sequence and fold homologs, track ligands and binding sites, profile the PDB with server-side facets, and pull UniProt/InterPro functional annotations — all over keyless public providers.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/protein-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1072,7 +1568,14 @@
     {
       "name": "pubchem-mcp-server",
       "interface": {
-        "displayName": "pubchem-mcp-server"
+        "displayName": "pubchem-mcp-server",
+        "shortDescription": "Search PubChem compounds, properties, safety data, bioactivity, cross-references, and entity summaries.",
+        "longDescription": "Search the PubChem chemical database by name, SMILES, InChIKey, formula, or substructure to find compound CIDs, then fetch molecular properties, GHS safety classifications, bioassay activity, external database cross-references, and entity summaries for assays, genes, proteins, and taxonomy. STDIO and Streamable HTTP transports. No API key required.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/pubchem-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1087,7 +1590,14 @@
     {
       "name": "pubmed-mcp-server",
       "interface": {
-        "displayName": "pubmed-mcp-server"
+        "displayName": "pubmed-mcp-server",
+        "shortDescription": "Search PubMed/Europe PMC, fetch articles and full text (PMC/EPMC/Unpaywall), citations, MeSH terms.",
+        "longDescription": "Search PubMed/Europe PMC, fetch articles and full text (PMC/EPMC/Unpaywall), citations, MeSH terms via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/pubmed-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1102,7 +1612,14 @@
     {
       "name": "reference-data-mcp-server",
       "interface": {
-        "displayName": "reference-data-mcp-server"
+        "displayName": "reference-data-mcp-server",
+        "shortDescription": "Look up countries, timezones, periodic table elements, physical constants, units, HTTP status codes, and MIME types via MCP.",
+        "longDescription": "Pure in-memory reference data server. No external API calls, no auth required. Covers countries (ISO 3166), IANA timezones, periodic table elements, CODATA 2022 physical constants, unit conversion, IANA HTTP status codes, and MIME types.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/reference-data-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1117,7 +1634,14 @@
     {
       "name": "reliefweb-mcp-server",
       "interface": {
-        "displayName": "reliefweb-mcp-server"
+        "displayName": "reliefweb-mcp-server",
+        "shortDescription": "Search ReliefWeb humanitarian reports, disasters, jobs, training, and country profiles via MCP.",
+        "longDescription": "Read-only access to ReliefWeb (UN OCHA), the humanitarian information service for crises and emergencies. Search reports, disasters, jobs, and training, fetch full records by ID, and list reference countries and source organizations. Search tools return summaries (report body excluded); the get tools fetch full text, and a disaster ID feeds the report disaster_id filter to pull a crisis's coverage. Countries use ISO3 codes (e.g. SYR), reports and disasters use numeric IDs, organizations use a shortname (e.g. WFP). Requires a pre-approved RELIEFWEB_APP_NAME; quota is 1,000 calls/day. Runs over STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/reliefweb-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1132,7 +1656,14 @@
     {
       "name": "sanctions-screening-mcp-server",
       "interface": {
-        "displayName": "sanctions-screening-mcp-server"
+        "displayName": "sanctions-screening-mcp-server",
+        "shortDescription": "Screen names against the consolidated OFAC, EU, UK, and UN sanctions lists and resolve legal entities against GLEIF, fuzzy-matched offline over a local SQLite + FTS5 mirror. A screening aid, not a compliance determination.",
+        "longDescription": "Entity screening and resolution over the world's open sanctions data plus the global legal-entity registry, served offline from a local SQLite + FTS5 mirror. Screens a name against the consolidated OFAC (SDN + Consolidated), EU, UK (UKSL), and UN sanctions lists at once, alias- and fuzzy-aware, and resolves legal entities against the GLEIF LEI database with corporate-ownership tracing for beneficial-ownership screening. Match signal is the raw Jaro-Winkler similarity, never a fabricated confidence score. A screening aid that feeds a compliance process — not a compliance determination; a hit is a candidate to verify and an empty result is not a clearance.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/sanctions-screening-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1147,7 +1678,14 @@
     {
       "name": "secedgar-mcp-server",
       "interface": {
-        "displayName": "secedgar-mcp-server"
+        "displayName": "secedgar-mcp-server",
+        "shortDescription": "Query SEC EDGAR filings, XBRL financials, and company data through MCP.",
+        "longDescription": "Read-only access to SEC EDGAR: resolve companies by ticker, name, or CIK; run full-text search across filings since 1993; fetch filing document text; and pull historical XBRL financials and frames by friendly concept name or raw tag. Insider (Form 3/4/5) and institutional (13F-HR) holdings are parsed from source, and data-returning tools also stage their full result set as a DuckDB dataframe for downstream SQL. No API keys required.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/secedgar-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -1162,7 +1700,15 @@
     {
       "name": "seerr-mcp-server",
       "interface": {
-        "displayName": "seerr-mcp-server"
+        "displayName": "seerr-mcp-server",
+        "shortDescription": "Search Jellyseerr/Overseerr, check availability, and create guarded media requests.",
+        "longDescription": "Search Jellyseerr/Overseerr, check availability, and create guarded media requests via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://github.com/cyanheads/seerr-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1177,7 +1723,14 @@
     {
       "name": "smithsonian-mcp-server",
       "interface": {
-        "displayName": "smithsonian-mcp-server"
+        "displayName": "smithsonian-mcp-server",
+        "shortDescription": "Search and explore 19.4 million Smithsonian Open Access museum objects, retrieve CC0 media, and discover cross-collection connections via MCP.",
+        "longDescription": "Five tools covering the full Smithsonian Open Access workflow: search 19.4M objects from 20+ museums with rich filters, fetch full provenance metadata, retrieve CC0-licensed images at multiple resolutions, browse by category (museum/culture/period/medium), and discover related objects via cross-collection fan-out. Requires a free api.data.gov API key.",
+        "developerName": "Casey Hand",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/smithsonian-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1192,7 +1745,14 @@
     {
       "name": "socrata-mcp-server",
       "interface": {
-        "displayName": "socrata-mcp-server"
+        "displayName": "socrata-mcp-server",
+        "shortDescription": "Search and query government open-data portals (Socrata SODA API) via MCP.",
+        "longDescription": "Government open-data server wrapping the Socrata SODA 2.1 API and Discovery API. Supports dataset discovery, schema inspection, SoQL queries, and DataCanvas spillover for large result sets.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/socrata-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1207,7 +1767,14 @@
     {
       "name": "stackexchange-mcp-server",
       "interface": {
-        "displayName": "stackexchange-mcp-server"
+        "displayName": "stackexchange-mcp-server",
+        "shortDescription": "Search Stack Exchange questions, fetch Q&A threads as markdown, look up tag FAQs and user profiles.",
+        "longDescription": "Read-only access to the Stack Exchange network — Stack Overflow, Super User, Server Fault, Unix & Linux, and 180+ other sites. List sites to resolve an api_site_parameter, search questions by full-text query or browse a tag's FAQ to find question IDs, then fetch a complete Q&A thread with HTML bodies normalized to markdown. Resolve answer authors to user profiles by ID. Runs over STDIO or Streamable HTTP; keyless at ~300 requests/day per IP, or set STACKEXCHANGE_API_KEY for ~10,000/day.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/stackexchange-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -1222,7 +1789,14 @@
     {
       "name": "tmdb-mcp-server",
       "interface": {
-        "displayName": "tmdb-mcp-server"
+        "displayName": "tmdb-mcp-server",
+        "shortDescription": "Movie, TV, and people metadata via The Movie Database (TMDB).",
+        "longDescription": "Read-only access to The Movie Database (TMDB): search movies, TV shows, and people; full credits, ratings, trailers, images, recommendations, keyword and genre data, trending, filtered discovery, and region-aware streaming availability (JustWatch). Image paths resolve to full URLs and genre IDs resolve to names.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/tmdb-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1237,7 +1811,14 @@
     {
       "name": "transitland-mcp-server",
       "interface": {
-        "displayName": "transitland-mcp-server"
+        "displayName": "transitland-mcp-server",
+        "shortDescription": "Global transit feeds, routes, stops, and real-time-aware departures via the Transitland v2 registry.",
+        "longDescription": "Wraps the Transitland v2 REST API — the open registry aggregating GTFS, GTFS-Realtime, and GBFS feeds from thousands of transit operators worldwide. Find operators by place, discover open-data feeds with their fetch URLs and license terms, locate routes and stops, and pull departures that distinguish live GTFS-Realtime predictions from static schedule. Onestop IDs are the identifier spine.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/transitland-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1252,7 +1833,14 @@
     {
       "name": "treasury-fiscaldata-mcp-server",
       "interface": {
-        "displayName": "treasury-fiscaldata-mcp-server"
+        "displayName": "treasury-fiscaldata-mcp-server",
+        "shortDescription": "MCP server for US Treasury Fiscal Data — national debt, interest rates, exchange rates, and federal revenue/spending.",
+        "longDescription": "Query the US Treasury Fiscal Data API for federal fiscal statistics. Browse a curated catalog of 17 endpoints (treasury_list_datasets) with their paths and field names, then query any endpoint by path, fields, filters, sort, and page (treasury_query_dataset) — including endpoints outside the catalog. Convenience tools cover the national debt (treasury_get_debt), average Treasury interest rates by security type (treasury_get_interest_rates), and official statutory exchange rates (treasury_get_exchange_rates), each supporting latest value, a specific date, or a date-range series. Large time-series pulls spill to a DataCanvas dataframe (set CANVAS_PROVIDER_TYPE=duckdb) you can inspect with treasury_dataframe_describe and query with single-statement SQL via treasury_dataframe_query. All API values are returned as strings — CAST to DECIMAL or DATE for arithmetic.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/treasury-fiscaldata-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1267,7 +1855,14 @@
     {
       "name": "usaspending-mcp-server",
       "interface": {
-        "displayName": "usaspending-mcp-server"
+        "displayName": "usaspending-mcp-server",
+        "shortDescription": "Federal award, recipient, agency, and spending data from USAspending.gov.",
+        "longDescription": "Access US federal award, recipient, agency, and spending analytics data from USAspending.gov via the MCP protocol. Supports searching awards, getting award details, recipient profiles, agency data, and spending analytics.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/usaspending-mcp-server#readme"
       },
       "source": {
         "source": "url",
@@ -1282,7 +1877,14 @@
     {
       "name": "usgs-water-mcp-server",
       "interface": {
-        "displayName": "usgs-water-mcp-server"
+        "displayName": "usgs-water-mcp-server",
+        "shortDescription": "Query real-time and historical water data from ~8,000 USGS stream gages and groundwater wells via MCP.",
+        "longDescription": "Query real-time and historical water data from roughly 8,000 USGS stream gages and groundwater wells. Supports site discovery, latest readings, historical time series, and current conditions ranked against period-of-record percentiles. Deployable as stdio or streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/usgs-water-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1297,7 +1899,14 @@
     {
       "name": "who-gho-mcp-server",
       "interface": {
-        "displayName": "who-gho-mcp-server"
+        "displayName": "who-gho-mcp-server",
+        "shortDescription": "Query WHO Global Health Observatory data — 3,059 indicators across 194 member states with country, region, year, and sex filters.",
+        "longDescription": "WHO Global Health Observatory MCP server providing access to 3,059 health indicators across 194 WHO member states. Supports filtering by country (ISO 3166-1 alpha-3), WHO region, World Bank income group, year range, and sex dimension. Primary workflow: search indicators → get metadata → query data.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/who-gho-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1312,7 +1921,14 @@
     {
       "name": "wikidata-mcp-server",
       "interface": {
-        "displayName": "wikidata-mcp-server"
+        "displayName": "wikidata-mcp-server",
+        "shortDescription": "Search and fetch Wikidata entities, execute SPARQL queries, and resolve external identifiers.",
+        "longDescription": "Wikidata MCP server — search entities, fetch full entity data, resolve batch labels, traverse property statements, fetch Wikipedia sitelinks, execute SPARQL queries, and resolve external IDs (DOI, PMID, ORCID, OpenAlex, IMDb) to Wikidata QIDs.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/wikidata-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1327,7 +1943,14 @@
     {
       "name": "wikipedia-mcp-server",
       "interface": {
-        "displayName": "wikipedia-mcp-server"
+        "displayName": "wikipedia-mcp-server",
+        "shortDescription": "Search Wikipedia, read summaries and full text, target sections, find nearby pages, list languages.",
+        "longDescription": "MCP server providing encyclopedic context via the MediaWiki REST API and Action API. Supports full-text search, article summaries with Wikidata QIDs, section-targeted reads, geographic proximity search, and language edition discovery across all Wikipedia language editions.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/wikipedia-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1342,7 +1965,14 @@
     {
       "name": "workflows-mcp-server",
       "interface": {
-        "displayName": "workflows-mcp-server"
+        "displayName": "workflows-mcp-server",
+        "shortDescription": "Store, query, and create YAML workflow playbooks for LLM agents via MCP.",
+        "longDescription": "MCP server for agent workflow playbooks — store, query, and create reusable YAML playbooks that guide LLM agents through multi-step tasks. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/workflows-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1357,7 +1987,14 @@
     {
       "name": "worldbank-mcp-server",
       "interface": {
-        "displayName": "worldbank-mcp-server"
+        "displayName": "worldbank-mcp-server",
+        "shortDescription": "Query 29,500+ World Bank development indicators for 200+ countries across 60+ years.",
+        "longDescription": "Provides access to World Bank API v2 data: indicators, countries, topics, sources, and time-series data across 60+ years. Supports STDIO and Streamable HTTP transports.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/worldbank-mcp-server"
       },
       "source": {
         "source": "url",
@@ -1372,7 +2009,14 @@
     {
       "name": "wsdot-mcp-server",
       "interface": {
-        "displayName": "wsdot-mcp-server"
+        "displayName": "wsdot-mcp-server",
+        "shortDescription": "Query WA highway conditions, ferry schedules, vessel locations, toll rates, border waits, and alerts via MCP.",
+        "longDescription": "Washington State travel data over MCP, spanning two domains: traffic from the WSDOT Traveler API (mountain pass conditions, highway alerts, travel times, toll rates, border waits, and traffic cameras) and ferries from the WSF Ferry API (terminals, routes, schedules, vessel locations, terminal space, and ferry alerts). Runs over STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/wsdot-mcp-server#readme"
       },
       "source": {
         "source": "url",
