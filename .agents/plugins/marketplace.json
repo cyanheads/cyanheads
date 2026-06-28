@@ -27,6 +27,28 @@
       "category": "Research"
     },
     {
+      "name": "astronomy-mcp-server",
+      "interface": {
+        "displayName": "astronomy-mcp-server",
+        "shortDescription": "What's in the sky, computed offline — positions, rise/set, phases, eclipses, and seasons.",
+        "longDescription": "Observational astronomy computed in-process via astronomy-engine — apparent positions of the Sun, Moon, and planets; rise, set, and culmination times with twilight; moon phase and illumination; eclipses; equinoxes and solstices; oppositions, conjunctions, elongations, and apsides; and a one-call 'what's up tonight' list. Keyless, offline, and deterministic for any observer location and time. Optional gated extensions add JPL Horizons small-body ephemerides and CelesTrak satellite passes.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/astronomy-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/astronomy-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
       "name": "attack-surface-mcp-server",
       "interface": {
         "displayName": "attack-surface-mcp-server",
@@ -225,6 +247,28 @@
       "category": "Government Data"
     },
     {
+      "name": "chembl-mcp-server",
+      "interface": {
+        "displayName": "chembl-mcp-server",
+        "shortDescription": "Link compounds to protein targets, rank bioactivity, and look up drug mechanisms and indications.",
+        "longDescription": "Expose ChEMBL (EBI) over MCP — the curated link between compounds, protein targets, and measured bioactivity (IC50/Ki/EC50), plus drug mechanisms and clinical indications. Find compounds by name or structure, resolve a UniProt accession to a ChEMBL target, pull the most potent leads against it, look up a drug's mechanism and indications, and SQL large bioactivity sets via a DataCanvas spill.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/chembl-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/chembl-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
       "name": "clinicaltrialsgov-mcp-server",
       "interface": {
         "displayName": "clinicaltrialsgov-mcp-server",
@@ -401,6 +445,29 @@
       "category": "Developer Tools"
     },
     {
+      "name": "docgen-mcp-server",
+      "interface": {
+        "displayName": "docgen-mcp-server",
+        "shortDescription": "Render HTML/markdown to PDF, export rows to xlsx, and fill AcroForm PDFs via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "docgen-mcp-server is the renderer that closes the gap between what an agent can write and the binary file a human downloads. It exposes docgen_render_pdf (HTML, markdown, or a {{key}} template + data → PDF), docgen_export_spreadsheet (named row sheets → xlsx with a column spec), docgen_fill_form (fill and optionally flatten an AcroForm PDF supplied as base64 or an SSRF-guarded https URL), and docgen_get_document (re-fetch a rendered document by id). Outputs are stored tenant-scoped with a short TTL and delivered through a docgen://document/{id} resource URI plus inline base64 when small enough.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://github.com/cyanheads/docgen-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/docgen-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "earthquake-mcp-server",
       "interface": {
         "displayName": "earthquake-mcp-server",
@@ -509,6 +576,28 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Government Data"
+    },
+    {
+      "name": "evals-mcp-server",
+      "interface": {
+        "displayName": "evals-mcp-server",
+        "shortDescription": "Author verifiable eval records with server-enforced graders.",
+        "longDescription": "An authoring-loop MCP server that turns an agent into an eval author. Drafts carry their own executable grader; a draft → review → surgical-revise → submit loop, with a subagent verification step and a server-side committability gate (the gold must pass its grader and a negative case must be rejected), admits only self-consistent, independently verified records. Submitted records compile to JSONL, CSV, Inspect AI, and lm-evaluation-harness formats.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/evals-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/evals-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
     },
     {
       "name": "exchange-rates-mcp-server",
@@ -707,6 +796,28 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Data"
+    },
+    {
+      "name": "gnomad-genetics-mcp-server",
+      "interface": {
+        "displayName": "gnomad-genetics-mcp-server",
+        "shortDescription": "Population allele frequencies, gene constraint, and variant catalogs over gnomAD for variant interpretation.",
+        "longDescription": "Human population genetics over the gnomAD GraphQL API. Fetch the full population record for a variant (allele count/number/frequency overall and per genetic-ancestry group, with joined ClinVar significance), assess gene loss-of-function constraint (pLI / LOEUF), list variants in a gene/transcript/region with allele frequencies, and check sequencing coverage to tell a true absent variant from an uncallable position. Large result sets stage on a DataCanvas for SQL. Keyless; a polite, rate-limited client.",
+        "developerName": "Casey Hand",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/gnomad-genetics-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/gnomad-genetics-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
     },
     {
       "name": "guardian-mcp-server",
@@ -1477,6 +1588,28 @@
       "category": "Government Data"
     },
     {
+      "name": "paleobiology-mcp-server",
+      "interface": {
+        "displayName": "paleobiology-mcp-server",
+        "shortDescription": "Search fossil occurrences, taxon ranges, diversity through deep time, and the geologic time scale.",
+        "longDescription": "Search fossil occurrences, resolve taxon fossil ranges, plot diversity through deep time, and look up the geologic time scale via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/paleobiology-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/paleobiology-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
       "name": "pentest-mcp-server",
       "interface": {
         "displayName": "pentest-mcp-server",
@@ -1809,6 +1942,28 @@
       "category": "Data"
     },
     {
+      "name": "toolkit-mcp-server",
+      "interface": {
+        "displayName": "toolkit-mcp-server",
+        "shortDescription": "Random IDs, QR codes, IP geolocation, hashing, and encoding utilities.",
+        "longDescription": "A grab-bag of fast developer utilities: cryptographically-random ID generation (UUIDv4/v7, ULID), QR code generation (SVG/PNG/terminal), IP geolocation, cryptographic hashing with constant-time compare, and base64/hex/URL encoding. Two host-probing tools (network diagnostics and system info) are gated off by default, fail-closed, so a hosted instance carries no SSRF or info-disclosure surface.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/toolkit-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/toolkit-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "transitland-mcp-server",
       "interface": {
         "displayName": "transitland-mcp-server",
@@ -1851,6 +2006,28 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Government Data"
+    },
+    {
+      "name": "uniprot-mcp-server",
+      "interface": {
+        "displayName": "uniprot-mcp-server",
+        "shortDescription": "Protein research over UniProtKB — search by function, fetch curated records, map IDs, proteomes.",
+        "longDescription": "The protein-as-primary-entity research workflow over UniProt. Search UniProtKB by function, keyword, GO term, gene, or organism; retrieve full curated Swiss-Prot entries (function, catalytic activity, subcellular location, disease, PTMs, isoforms, sequence, cross-references); map identifiers across 100+ databases via the async ID-mapping service; and pull reference proteomes and taxonomy. Keyless, CC BY 4.0.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/uniprot-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/uniprot-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
     },
     {
       "name": "usaspending-mcp-server",

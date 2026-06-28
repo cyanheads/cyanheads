@@ -19,6 +19,19 @@
       "homepage": "https://github.com/cyanheads/arxiv-mcp-server"
     },
     {
+      "name": "astronomy-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/astronomy-mcp-server"
+      },
+      "description": "What's in the sky, computed offline — planet and moon positions, rise/set, phases, eclipses, and seasons for any place and time.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/astronomy-mcp-server"
+    },
+    {
       "name": "attack-surface-mcp-server",
       "source": {
         "source": "github",
@@ -136,6 +149,19 @@
       "homepage": "https://github.com/cyanheads/census-mcp-server"
     },
     {
+      "name": "chembl-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/chembl-mcp-server"
+      },
+      "description": "Link compounds to protein targets, rank bioactivity, and look up drug mechanisms and indications.",
+      "category": "Research",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/chembl-mcp-server"
+    },
+    {
       "name": "clinicaltrialsgov-mcp-server",
       "source": {
         "source": "github",
@@ -240,6 +266,19 @@
       "homepage": "https://github.com/cyanheads/devops-status-mcp-server"
     },
     {
+      "name": "docgen-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/docgen-mcp-server"
+      },
+      "description": "Render HTML/markdown to PDF, export rows to xlsx, and fill AcroForm PDFs via MCP. STDIO or Streamable HTTP.",
+      "category": "Productivity",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/docgen-mcp-server"
+    },
+    {
       "name": "earthquake-mcp-server",
       "source": {
         "source": "github",
@@ -303,6 +342,19 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/eurostat-mcp-server"
+    },
+    {
+      "name": "evals-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/evals-mcp-server"
+      },
+      "description": "Author verifiable eval records through a draft → review → revise → submit loop with server-enforced graders; compile to JSONL/CSV/Inspect/lm-eval via MCP. STDIO or Streamable HTTP.",
+      "category": "Developer Tools",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/evals-mcp-server"
     },
     {
       "name": "exchange-rates-mcp-server",
@@ -420,6 +472,19 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/gdelt-mcp-server"
+    },
+    {
+      "name": "gnomad-genetics-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/gnomad-genetics-mcp-server"
+      },
+      "description": "Look up variant allele frequencies by ancestry, gene loss-of-function constraint, gene variant lists, and sequencing coverage over gnomAD — with ClinVar significance joined in.",
+      "category": "Science",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/gnomad-genetics-mcp-server"
     },
     {
       "name": "guardian-mcp-server",
@@ -877,6 +942,19 @@
       "homepage": "https://github.com/cyanheads/ourairports-mcp-server"
     },
     {
+      "name": "paleobiology-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/paleobiology-mcp-server"
+      },
+      "description": "Search fossil occurrences, taxon ranges, diversity through deep time, and the geologic time scale.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/paleobiology-mcp-server"
+    },
+    {
       "name": "pentest-mcp-server",
       "source": {
         "source": "github",
@@ -1072,6 +1150,19 @@
       "homepage": "https://github.com/cyanheads/tmdb-mcp-server"
     },
     {
+      "name": "toolkit-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/toolkit-mcp-server"
+      },
+      "description": "Fast developer utilities — random ID generation, QR codes, IP geolocation, hashing, and encoding — plus gated, fail-closed network and system diagnostics.",
+      "category": "Developer Tools",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/toolkit-mcp-server"
+    },
+    {
       "name": "transitland-mcp-server",
       "source": {
         "source": "github",
@@ -1096,6 +1187,19 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/treasury-fiscaldata-mcp-server"
+    },
+    {
+      "name": "uniprot-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/uniprot-mcp-server"
+      },
+      "description": "Protein research over UniProtKB — search by function, fetch curated records, map IDs, proteomes.",
+      "category": "Research",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/uniprot-mcp-server"
     },
     {
       "name": "usaspending-mcp-server",
