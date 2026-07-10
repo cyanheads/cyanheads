@@ -176,7 +176,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/reliefweb-mcp-server">reliefweb-mcp-server</a> • <a href="https://reliefweb.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/ris-austria-mcp-server">ris-austria-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/ris-austria-mcp-server">ris-austria-mcp-server</a> • <a href="https://ris-austria.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/sanctions-screening-mcp-server">sanctions-screening-mcp-server</a> • <a href="https://sanctions-screening.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
