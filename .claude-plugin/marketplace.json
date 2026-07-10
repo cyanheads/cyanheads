@@ -1059,6 +1059,19 @@
       "homepage": "https://github.com/cyanheads/reliefweb-mcp-server"
     },
     {
+      "name": "ris-austria-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/ris-austria-mcp-server"
+      },
+      "description": "Search Austrian consolidated federal & state law, court decisions, and the authentic Bundesgesetzblatt from the official RIS via MCP. Keyless. STDIO or Streamable HTTP.",
+      "category": "Government Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/ris-austria-mcp-server"
+    },
+    {
       "name": "sanctions-screening-mcp-server",
       "source": {
         "source": "github",
