@@ -9,7 +9,7 @@
       "interface": {
         "displayName": "arxiv-mcp-server",
         "shortDescription": "Search arXiv, fetch paper metadata, and read full-text content via MCP.",
-        "longDescription": "Search the arXiv academic paper corpus. Supports full-text search, paper metadata retrieval by ID, HTML content reading, and category taxonomy listing. Deployable as stdio or streamable HTTP.",
+        "longDescription": "Search the arXiv academic paper corpus. Supports full-text search, paper metadata retrieval by ID, full-text reading (HTML render, or text extracted from the PDF when none exists), and category taxonomy listing. Deployable as stdio or streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -382,7 +382,7 @@
       "name": "cpsc-recalls-mcp-server",
       "interface": {
         "displayName": "cpsc-recalls-mcp-server",
-        "shortDescription": "MCP server for US consumer product recalls from the Consumer Product Safety Commission — hazards, remedies, and affected products.",
+        "shortDescription": "Search and retrieve US consumer product recalls from the CPSC (Consumer Product Safety Commission) via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Search and retrieve US consumer product recalls from the CPSC (Consumer Product Safety Commission) via MCP. Covers toys, electronics, furniture, appliances, children's products, tools, and clothing. STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -404,8 +404,8 @@
       "name": "crossref-mcp-server",
       "interface": {
         "displayName": "crossref-mcp-server",
-        "shortDescription": "Resolve DOIs, search ~155M scholarly works, and fetch references via the Crossref REST API.",
-        "longDescription": "MCP server wrapping the Crossref REST API. Exposes tools to resolve DOIs to full metadata records, search ~155M registered works, retrieve outgoing references, search journals by publisher/ISSN, and search funders. Supports STDIO and Streamable HTTP transports.",
+        "shortDescription": "Resolve DOIs, search ~155M scholarly works, fetch references, and look up publishers via the Crossref REST API.",
+        "longDescription": "MCP server wrapping the Crossref REST API. Exposes tools to resolve DOIs to full metadata records, search ~155M registered works, retrieve outgoing references, search journals by ISSN or title, search funders, resolve a member ID to its publisher record (prefixes, DOI counts, metadata deposit coverage), and resolve a DOI prefix to its owning publisher. Supports STDIO and Streamable HTTP transports.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -559,8 +559,8 @@
       "name": "eurostat-mcp-server",
       "interface": {
         "displayName": "eurostat-mcp-server",
-        "shortDescription": "Search and query 8,933 Eurostat datasets — EU economy, demography, trade, health, and NUTS regional data via MCP.",
-        "longDescription": "Eurostat MCP server providing access to 8,933 EU statistical datasets covering economy, demography, trade, health, environment, and NUTS regional data. Supports dataset discovery, dimension browsing, and filtered data queries.",
+        "shortDescription": "Search and query the Eurostat catalogue — EU economy, demography, trade, health, and NUTS regional data via MCP.",
+        "longDescription": "Eurostat MCP server providing access to the EU's statistical catalogue covering economy, demography, trade, health, environment, and NUTS regional data. Supports dataset discovery, dimension browsing, and filtered data queries.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -823,7 +823,8 @@
       "name": "guardian-mcp-server",
       "interface": {
         "displayName": "guardian-mcp-server",
-        "shortDescription": "Search, browse, and retrieve full article text from The Guardian's journalism archive (1999–present) via MCP.",
+        "shortDescription": "Search, browse, and retrieve full article text from The Guardian's journalism archive (1999âpresent) via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "guardian-mcp-server puts The Guardian's journalism archive (1999–present) behind MCP. guardian_search runs full-text search across the archive with section, tag, contributor, and date filters, returning articles with body text; guardian_browse walks the paper's structure — latest articles for a section or tag, plus discovery modes listing the available sections and tags to use as filters; guardian_get_article fetches a single article by ID with complete, untruncated body text and metadata. Powered by the Guardian Open Platform (open-platform.theguardian.com).",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -844,7 +845,7 @@
       "name": "gutenberg-mcp-server",
       "interface": {
         "displayName": "gutenberg-mcp-server",
-        "shortDescription": "MCP server for Project Gutenberg — 75,000+ public-domain ebooks, searchable with full plain-text retrieval.",
+        "shortDescription": "Search, browse, and read 75,000+ public-domain books from Project Gutenberg with full plain-text retrieval and offset/limit chunking via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Access 75,000+ public-domain books from Project Gutenberg. Search by title, author, language, topic, or popularity. Retrieve full plain text with offset/limit chunking for context-budget management. No API key required.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -888,8 +889,8 @@
       "name": "imf-mcp-server",
       "interface": {
         "displayName": "imf-mcp-server",
-        "shortDescription": "Query IMF SDMX 3.0 macroeconomic data — 193 dataflows, 190 countries, WEO projections, BOP, CPI, exchange rates, and national accounts via MCP.",
-        "longDescription": "Query the IMF's SDMX 3.0 macroeconomic database. Supports 193 dataflows across 190 countries — WEO projections, balance of payments, CPI, exchange rates, and national accounts — with SQL over large result sets. Deployable as stdio or streamable HTTP.",
+        "shortDescription": "Query IMF SDMX 3.0 macroeconomic data — hundreds of dataflows across 190 countries, WEO projections, BOP, CPI, exchange rates, and national accounts via MCP.",
+        "longDescription": "Query the IMF's SDMX 3.0 macroeconomic database. Supports hundreds of dataflows across 190 countries — WEO projections, balance of payments, CPI, exchange rates, and national accounts — with SQL over large result sets. Deployable as stdio or streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -998,8 +999,8 @@
       "name": "met-museum-mcp-server",
       "interface": {
         "displayName": "met-museum-mcp-server",
-        "shortDescription": "MCP server for The Metropolitan Museum of Art collection — 500K+ artworks with metadata, provenance, and open-access high-res images.",
-        "longDescription": "MCP server for The Metropolitan Museum of Art collection — 500K+ artworks with metadata, provenance, and open-access high-res images.",
+        "shortDescription": "Search the Metropolitan Museum of Art collection, fetch full artwork records and open-access images via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Search the Metropolitan Museum of Art collection, fetch full artwork records and open-access images via MCP. STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1042,7 +1043,7 @@
       "name": "national-parks-mcp-server",
       "interface": {
         "displayName": "national-parks-mcp-server",
-        "shortDescription": "Plan US National Park Service trips — find parks, check alerts and closures, find campgrounds, browse things to do and events via the NPS Data API.",
+        "shortDescription": "Plan US National Park Service trips — find parks, check alerts and closures, find campgrounds, browse things to do and events via the NPS Data API. STDIO or Streamable HTTP.",
         "longDescription": "Six tools covering the National Park Service trip-planning workflow: resolve a place, state, or query to parks (the parkCode spine), pull full park detail (fees, hours, contacts, weather, images), surface current alerts and closures, find campgrounds with amenities and reservable/first-come counts, list curated things to do, and find scheduled events within a date range. US NPS sites only. Requires a free NPS Data API key.",
         "developerName": "Casey Hand",
         "capabilities": [
@@ -1153,7 +1154,7 @@
       "interface": {
         "displayName": "noaa-spaceweather-mcp-server",
         "shortDescription": "NOAA SWPC space weather: storm scales, Kp index, aurora forecasts, solar wind, activity, alerts.",
-        "longDescription": "Read-only access to the NOAA Space Weather Prediction Center (SWPC). Six tools cover the operational space-weather picture: get_conditions for a current R/S/G storm-scale snapshot with the latest Kp and a plain-language summary, get_kp_index for observed and forecast planetary K-index, get_aurora_forecast for coordinate-based aurora visibility, get_solar_wind for real-time ACE/DSCOVR plasma and magnetic-field data (including the southward Bz that drives geomagnetic storms), get_solar_activity for X-ray flux and recent flare events, and get_alerts for active SWPC watches, warnings, and advisories. All SWPC feeds are public and keyless; the server runs over STDIO or Streamable HTTP.",
+        "longDescription": "Read-only access to the NOAA Space Weather Prediction Center (SWPC). Six tools cover the operational space-weather picture: get_conditions for a current R/S/G storm-scale snapshot with the latest Kp and a plain-language summary, get_kp_index for observed and forecast planetary K-index, get_aurora_forecast for coordinate-based aurora visibility, get_solar_wind for real-time plasma and magnetic-field data from the active L1 spacecraft (including the southward Bz that drives geomagnetic storms), get_solar_activity for X-ray flux and recent flare events, and get_alerts for active SWPC watches, warnings, and advisories. All SWPC feeds are public and keyless; the server runs over STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1174,7 +1175,7 @@
       "name": "nonprofit-explorer-mcp-server",
       "interface": {
         "displayName": "nonprofit-explorer-mcp-server",
-        "shortDescription": "MCP server for US nonprofit financials via ProPublica — IRS Form 990 data for 1.8M+ tax-exempt organizations.",
+        "shortDescription": "Search and explore 1.8M+ US nonprofits, fetch Form 990 financials, and access IRS filing history via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Search and explore 1.8M+ US nonprofits, fetch Form 990 financials, and access IRS filing history via MCP. STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -1219,6 +1220,7 @@
       "interface": {
         "displayName": "ntfy-mcp-server",
         "shortDescription": "Send, manage, and replay ntfy push notifications via MCP.",
+        "longDescription": "ntfy-mcp-server drives ntfy push notifications from an agent. ntfy_publish_message sends or updates a notification on a topic (topics are created on first publish; a sequence_id turns a later call into an in-place update); ntfy_manage_message clears or deletes a previously-sent notification by sequence_id; ntfy_fetch_messages polls cached messages from one or more topics with filters — confirm delivery, replay missed alerts, or audit topic activity; ntfy_search_emoji_tags resolves emoji short codes for the tags field. Works against ntfy.sh or any self-hosted ntfy instance.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1394,7 +1396,7 @@
       "interface": {
         "displayName": "openfec-mcp-server",
         "shortDescription": "Access FEC campaign finance data through MCP — candidates, committees, contributions, disbursements, elections.",
-        "longDescription": "Provides MCP tools for querying the FEC OpenAPI: search candidates, committees, contributions (Schedule A), disbursements (Schedule B), independent expenditures (Schedule E), filings, elections, calendar, and legal documents. Supports STDIO and Streamable HTTP transports.",
+        "longDescription": "Provides MCP tools for querying the FEC OpenAPI: search candidates, committees, committee financial totals, contributions (Schedule A), disbursements (Schedule B), independent expenditures (Schedule E), coordinated party expenditures (Schedule F), filings, elections, calendar, and legal documents including full single-document retrieval. Supports STDIO and Streamable HTTP transports.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1460,7 +1462,7 @@
       "interface": {
         "displayName": "open-meteo-mcp-server",
         "shortDescription": "Geocode places, fetch global weather forecasts, ERA5 historical climate, marine conditions, air quality, and terrain elevation via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "Keyless access to the Open-Meteo global weather APIs over MCP. Resolve place names to coordinates with openmeteo_geocode, then pull forecasts up to 16 days out (openmeteo_get_forecast), the ERA5 historical archive back to 1940 (openmeteo_get_historical), marine wave and swell conditions (openmeteo_get_marine), CAMS air quality and AQI (openmeteo_get_air_quality), Copernicus DEM terrain elevation (openmeteo_get_elevation), probabilistic ensemble runs (openmeteo_get_ensemble), GloFAS river-discharge flood data (openmeteo_get_flood), and bias-corrected daily CMIP6 climate projections 1950–2050 (openmeteo_get_climate). Every weather tool takes latitude/longitude, so geocode first for name-based queries. Large historical, ensemble, or climate pulls spill to a DataCanvas table queryable with SQL via openmeteo_dataframe_describe and openmeteo_dataframe_query when CANVAS_PROVIDER_TYPE=duckdb. Runs over STDIO or Streamable HTTP. No API key required for non-commercial use; weather data by Open-Meteo.com under CC BY 4.0.",
+        "longDescription": "Keyless access to the Open-Meteo global weather APIs over MCP. Resolve place names to coordinates with openmeteo_geocode, then pull forecasts up to 16 days out (openmeteo_get_forecast), the ERA5 historical archive back to 1940 (openmeteo_get_historical), marine wave and swell conditions (openmeteo_get_marine), CAMS air quality and AQI (openmeteo_get_air_quality), Copernicus DEM terrain elevation (openmeteo_get_elevation), probabilistic ensemble runs (openmeteo_get_ensemble), GloFAS river-discharge flood data (openmeteo_get_flood), and bias-corrected daily CMIP6 climate projections 1950–2050 (openmeteo_get_climate). Every weather tool takes latitude/longitude, so geocode first for name-based queries. Large historical, ensemble, flood, or climate pulls spill to a DataCanvas table queryable with SQL via openmeteo_dataframe_describe and openmeteo_dataframe_query when CANVAS_PROVIDER_TYPE=duckdb. Runs over STDIO or Streamable HTTP. No API key required for non-commercial use; weather data by Open-Meteo.com under CC BY 4.0.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1481,8 +1483,8 @@
       "name": "openstates-mcp-server",
       "interface": {
         "displayName": "openstates-mcp-server",
-        "shortDescription": "Search bills, legislators, committees, and events across all 50 US states, DC, and Puerto Rico via MCP.",
-        "longDescription": "Query US state legislative data from Open States v3 across all 50 states, DC, and Puerto Rico. Search and fetch bills, legislators, committees, and events; resolve legislators by address; and discover jurisdictions and their legislative sessions. Bill and people searches support full-text queries, jurisdiction and session filters, and an include parameter to pull related data inline. A jurisdiction resource exposes session and coverage metadata; bill-research and legislator-profile prompts scaffold structured analysis. Runs over STDIO or Streamable HTTP and requires a free Open States API key.",
+        "shortDescription": "Search bills, legislators, committees, and events across all 50 US states, DC, and 5 US territories via MCP.",
+        "longDescription": "Query US state legislative data from Open States v3 across all 50 states, DC, and 5 US territories. Search and fetch bills, legislators, committees, and events; resolve legislators by address; and discover jurisdictions and their legislative sessions. Bill and people searches support full-text queries, jurisdiction and session filters, and an include parameter to pull related data inline. A jurisdiction resource exposes session and coverage metadata; bill-research and legislator-profile prompts scaffold structured analysis. Runs over STDIO or Streamable HTTP and requires a free Open States API key.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1835,7 +1837,7 @@
       "interface": {
         "displayName": "secedgar-mcp-server",
         "shortDescription": "Query SEC EDGAR filings, XBRL financials, and company data through MCP.",
-        "longDescription": "Read-only access to SEC EDGAR: resolve companies by ticker, name, or CIK; run full-text search across filings since 1993; fetch filing document text; and pull historical XBRL financials and frames by friendly concept name or raw tag. Insider (Form 3/4/5) and institutional (13F-HR) holdings are parsed from source, and data-returning tools also stage their full result set as a DuckDB dataframe for downstream SQL. No API keys required.",
+        "longDescription": "Read-only access to SEC EDGAR: resolve companies by ticker, name, or CIK; run full-text search across filings since 1993; fetch filing document text; pull historical XBRL financials and frames by friendly concept name or raw tag; build a one-call company financial profile; and compare named companies across concepts on aligned calendar periods. Material events come back as 8-K filings filtered by item code, and ownership runs both ways: insider transactions (Form 4 / 4-A) and 13F-HR holdings parsed from source, plus a reverse lookup from an issuer to the managers reporting it and the 5%-and-over blockholders from structured SCHEDULE 13D/13G filings. Fund portfolios come from the quarterly NPORT-P report, dated to the reporting period rather than to today. Data-returning tools also stage their full result set as a DuckDB dataframe for downstream SQL. No API keys required.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1879,8 +1881,8 @@
       "name": "smithsonian-mcp-server",
       "interface": {
         "displayName": "smithsonian-mcp-server",
-        "shortDescription": "Search and explore 19.4 million Smithsonian Open Access museum objects, retrieve CC0 media, and discover cross-collection connections via MCP.",
-        "longDescription": "Six tools covering the full Smithsonian Open Access workflow: search 19.4M objects from 20+ museums with rich filters, discover valid filter vocabulary terms, fetch full provenance metadata, retrieve CC0-licensed images at multiple resolutions, browse by category (museum/culture/period/medium), and discover related objects via cross-collection fan-out. Requires a free api.data.gov API key.",
+        "shortDescription": "Search 14.5M Smithsonian Open Access objects across 20+ museums via MCP, and retrieve CC0 images for the 5.2M that carry openly-licensed media. STDIO or Streamable HTTP.",
+        "longDescription": "Six tools covering the full Smithsonian Open Access workflow: search 14.5M objects from 20+ museums with rich filters, discover valid filter vocabulary terms, fetch normalized object metadata, retrieve CC0-licensed images for the 5.2M objects that carry them, browse by category (museum/culture/period/medium), and discover related objects across collections. Requires a free api.data.gov API key.",
         "developerName": "Casey Hand",
         "capabilities": [
           "Read"
@@ -2011,7 +2013,7 @@
       "name": "treasury-fiscaldata-mcp-server",
       "interface": {
         "displayName": "treasury-fiscaldata-mcp-server",
-        "shortDescription": "MCP server for US Treasury Fiscal Data — national debt, interest rates, exchange rates, and federal revenue/spending.",
+        "shortDescription": "Query US Treasury national debt, interest rates, exchange rates, and fiscal datasets via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Query the US Treasury Fiscal Data API for federal fiscal statistics. Browse a curated catalog of 17 endpoints (treasury_list_datasets) with their paths and field names, then query any endpoint by path, fields, filters, sort, and page (treasury_query_dataset) — including endpoints outside the catalog. Convenience tools cover the national debt (treasury_get_debt), average Treasury interest rates by security type (treasury_get_interest_rates), and official statutory exchange rates (treasury_get_exchange_rates), each supporting latest value, a specific date, or a date-range series. Large time-series pulls spill to a DataCanvas dataframe (set CANVAS_PROVIDER_TYPE=duckdb) you can inspect with treasury_dataframe_describe and query with single-statement SQL via treasury_dataframe_query. All API values are returned as strings — CAST to DECIMAL or DATE for arithmetic.",
         "developerName": "cyanheads",
         "capabilities": [
