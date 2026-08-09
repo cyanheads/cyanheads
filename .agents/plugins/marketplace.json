@@ -141,7 +141,7 @@
       "interface": {
         "displayName": "bluesky-mcp-server",
         "shortDescription": "Search posts, profiles, feeds, threads, and trending topics on Bluesky via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "bluesky-mcp-server gives agents read-only access to Bluesky over the public AT Protocol AppView — no account, key, or credential required. It exposes full-text post search, actor profile lookup by handle or DID, author feeds, full conversation threads by AT-URI, actor discovery, follower and following graph edges, and real-time trending topics, plus a bsky://profile/{actor} resource. Built on @cyanheads/mcp-ts-core, it runs over STDIO for local clients or Streamable HTTP for hosted deployments.",
+        "longDescription": "bluesky-mcp-server gives agents read-only access to Bluesky over the public AT Protocol AppView — no account, key, or credential required. It exposes full-text post search, actor profile lookup by handle or DID, author feeds, conversation threads by AT-URI, actor discovery, follower and following graph edges, and real-time trending topics, plus a bsky://profile/{actor} resource. Built on @cyanheads/mcp-ts-core, it runs over STDIO for local clients or Streamable HTTP for hosted deployments.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -207,7 +207,7 @@
       "interface": {
         "displayName": "cdc-health-mcp-server",
         "shortDescription": "Search and query CDC public health data — mortality, vaccinations, surveillance, behavioral risk (Socrata SODA API).",
-        "longDescription": "Provides access to the CDC Open Data portal (~1,487 datasets) via the Socrata SODA API. Supports catalog discovery, schema inspection, and SoQL queries across mortality, vaccinations, behavioral risk, surveillance, and other public health domains.",
+        "longDescription": "Provides access to the CDC Open Data portal (~1,080 datasets) via the Socrata SODA API. Supports catalog discovery, schema inspection, and SoQL queries across mortality, vaccinations, behavioral risk, surveillance, and other public health domains. Also queries CDC WONDER for national mortality statistics from the Underlying Cause of Death database.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -229,7 +229,7 @@
       "interface": {
         "displayName": "census-mcp-server",
         "shortDescription": "Query U.S. Census Bureau data, variables, and geography via MCP.",
-        "longDescription": "Query U.S. Census Bureau data through the official Census Data API. List available datasets and their vintage years (census_list_datasets), search variables by human-readable concept like \"median household income\" (census_search_variables), and resolve place names to FIPS codes (census_resolve_geography). Retrieve estimates for a single geography (census_query_data) or rank and compare a measure across many geographies (census_compare_geographies), with geography discovery (census_list_geographies) and per-variable metadata (census_get_variable). Runs over stdio or Streamable HTTP; a free CENSUS_API_KEY is required for data queries, while variable search and geography resolution work without one.",
+        "longDescription": "Query U.S. Census Bureau data through the official Census Data API. List available datasets and their vintage years (census_list_datasets), search variables by human-readable concept like \"median household income\" (census_search_variables), and resolve place names to FIPS codes (census_resolve_geography). Retrieve estimates for a single geography (census_query_data) or rank and compare a measure across many geographies (census_compare_geographies), with geography discovery (census_list_geographies), per-variable metadata (census_get_variable), and filter-dimension value lookup (census_list_predicate_values). Runs over stdio or Streamable HTTP; a free CENSUS_API_KEY is required for data queries, while variable search and geography resolution work without one.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -427,7 +427,7 @@
       "interface": {
         "displayName": "devops-status-mcp-server",
         "shortDescription": "Check vendor status pages, inspect SSL/TLS certificates, verify DNS propagation, and get incident-response playbooks.",
-        "longDescription": "Infrastructure health and incident intelligence. Check 50 built-in vendors (GitHub, Cloudflare, OpenAI, AWS, GitLab, Slack, and more) across Atlassian Statuspage, Status.io, Slack, AWS Health, and Firehydrant backends, inspect SSL/TLS certificates and DNS propagation for any domain, and get deterministic incident-response playbooks — all without API keys.",
+        "longDescription": "Infrastructure health and incident intelligence. Check 51 built-in vendors (GitHub, Cloudflare, OpenAI, AWS, Google Cloud, GitLab, Slack, and more) across Atlassian Statuspage, Status.io, Slack, AWS Health, Google Cloud Service Health, and Firehydrant backends, inspect SSL/TLS certificates and DNS propagation for any domain, and get deterministic incident-response playbooks — all without API keys.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -494,7 +494,7 @@
       "interface": {
         "displayName": "eia-energy-mcp-server",
         "shortDescription": "Browse and query the U.S. Energy Information Administration API v2 — electricity, petroleum, natural gas, coal, forecasts, and more via MCP.",
-        "longDescription": "Browse and query the U.S. Energy Information Administration (EIA) API v2 across electricity, petroleum, natural gas, coal, and short-term energy forecasts. A two-phase workflow drives discovery before retrieval: browse or search the dataset route taxonomy, describe a leaf route to surface its facets and columns, then query it with facet-ID filters. Large result sets spill to a DuckDB-backed canvas table you can analyze with SQL. Runs over STDIO or Streamable HTTP and requires a free EIA_API_KEY.",
+        "longDescription": "Browse and query the U.S. Energy Information Administration (EIA) API v2 across electricity, petroleum, natural gas, coal, and short-term energy forecasts. A two-phase workflow drives discovery before retrieval: browse or search the dataset route taxonomy, describe a leaf route to surface its facets and columns, then query it with facet-ID filters. Large result sets can be staged on demand into a DuckDB-backed canvas table you can analyze with SQL. Runs over STDIO or Streamable HTTP and requires a free EIA_API_KEY.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -560,7 +560,7 @@
       "interface": {
         "displayName": "eurostat-mcp-server",
         "shortDescription": "Search and query the Eurostat catalogue — EU economy, demography, trade, health, and NUTS regional data via MCP.",
-        "longDescription": "Eurostat MCP server providing access to the EU's statistical catalogue covering economy, demography, trade, health, environment, and NUTS regional data. Supports dataset discovery, dimension browsing, and filtered data queries.",
+        "longDescription": "Eurostat MCP server providing access to the EU's statistical catalogue covering economy, demography, trade, health, environment, and NUTS regional data. Supports dataset discovery, dimension browsing, filtered data queries, and whole-dataset bulk downloads over the SDMX 2.1 TSV endpoint, with optional SQL analytics over staged results.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1223,7 +1223,8 @@
         "longDescription": "ntfy-mcp-server drives ntfy push notifications from an agent. ntfy_publish_message sends or updates a notification on a topic (topics are created on first publish; a sequence_id turns a later call into an in-place update); ntfy_manage_message clears or deletes a previously-sent notification by sequence_id; ntfy_fetch_messages polls cached messages from one or more topics with filters — confirm delivery, replay missed alerts, or audit topic activity; ntfy_search_emoji_tags resolves emoji short codes for the tags field. Works against ntfy.sh or any self-hosted ntfy instance.",
         "developerName": "cyanheads",
         "capabilities": [
-          "Read"
+          "Read",
+          "Write"
         ],
         "websiteURL": "https://github.com/cyanheads/ntfy-mcp-server"
       },
@@ -1462,7 +1463,7 @@
       "interface": {
         "displayName": "open-meteo-mcp-server",
         "shortDescription": "Geocode places, fetch global weather forecasts, ERA5 historical climate, marine conditions, air quality, and terrain elevation via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "Keyless access to the Open-Meteo global weather APIs over MCP. Resolve place names to coordinates with openmeteo_geocode, then pull forecasts up to 16 days out (openmeteo_get_forecast), the ERA5 historical archive back to 1940 (openmeteo_get_historical), marine wave and swell conditions (openmeteo_get_marine), CAMS air quality and AQI (openmeteo_get_air_quality), Copernicus DEM terrain elevation (openmeteo_get_elevation), probabilistic ensemble runs (openmeteo_get_ensemble), GloFAS river-discharge flood data (openmeteo_get_flood), and bias-corrected daily CMIP6 climate projections 1950–2050 (openmeteo_get_climate). Every weather tool takes latitude/longitude, so geocode first for name-based queries. Large historical, ensemble, flood, or climate pulls spill to a DataCanvas table queryable with SQL via openmeteo_dataframe_describe and openmeteo_dataframe_query when CANVAS_PROVIDER_TYPE=duckdb. Runs over STDIO or Streamable HTTP. No API key required for non-commercial use; weather data by Open-Meteo.com under CC BY 4.0.",
+        "longDescription": "Keyless access to the Open-Meteo global weather APIs over MCP. Resolve place names to coordinates with openmeteo_search_locations, then pull forecasts up to 16 days out (openmeteo_get_forecast), the ERA5 historical archive back to 1940 (openmeteo_get_historical), marine wave and swell conditions forecast or archived (openmeteo_get_marine), CAMS air quality and AQI forecast or archived (openmeteo_get_air_quality), Copernicus DEM terrain elevation (openmeteo_get_elevation), probabilistic ensemble runs (openmeteo_get_ensemble), GloFAS river-discharge flood data (openmeteo_get_flood), and bias-corrected daily CMIP6 climate projections 1950–2050 (openmeteo_get_climate). Every weather tool takes latitude/longitude, so run openmeteo_search_locations first for name-based queries. Large forecast, historical, marine, air-quality, ensemble, flood, or climate pulls spill to a DataCanvas table queryable with SQL via openmeteo_dataframe_describe and openmeteo_dataframe_query when CANVAS_PROVIDER_TYPE=duckdb; without it they return a bounded preview marked truncated rather than an unbounded payload. Runs over STDIO or Streamable HTTP. No API key required for non-commercial use; weather data by Open-Meteo.com under CC BY 4.0.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
