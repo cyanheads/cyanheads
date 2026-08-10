@@ -760,6 +760,19 @@
       "homepage": "https://github.com/cyanheads/obsidian-mcp-server"
     },
     {
+      "name": "oecd-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/oecd-mcp-server"
+      },
+      "description": "Search and query 1,500+ OECD statistical datasets via SDMX. Keyless.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/oecd-mcp-server"
+    },
+    {
       "name": "onebusaway-mcp-server",
       "source": {
         "source": "github",
@@ -1226,6 +1239,19 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/usaspending-mcp-server"
+    },
+    {
+      "name": "usda-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/usda-mcp-server"
+      },
+      "description": "Search foods, compare nutrients, and look up the full USDA FoodData Central database via MCP. STDIO or Streamable HTTP.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/usda-mcp-server"
     },
     {
       "name": "usgs-water-mcp-server",
