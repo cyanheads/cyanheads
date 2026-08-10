@@ -270,10 +270,11 @@ Ships with Agent Skills and framework docs built in.
 <table>
 <tr>
 <td><img src="https://img.shields.io/badge/-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" height="15"> <a href="https://github.com/cyanheads/claude-sidebar-modifier">claude-sidebar-modifier</a></td>
+<td><img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> <a href="https://github.com/cyanheads/mcp-crosscheck">mcp-crosscheck</a></td>
 <td><img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> <a href="https://github.com/cyanheads/pixoo-toolkit">pixoo-toolkit</a></td>
-<td><img src="https://img.shields.io/badge/-3776AB?logo=python&logoColor=white" alt="Python" height="15"> <a href="https://github.com/cyanheads/repo-map">repo-map</a></td>
 </tr>
 <tr>
+<td><img src="https://img.shields.io/badge/-3776AB?logo=python&logoColor=white" alt="Python" height="15"> <a href="https://github.com/cyanheads/repo-map">repo-map</a></td>
 <td><img src="https://img.shields.io/badge/-007ACC?logo=typescript&logoColor=white" alt="TypeScript" height="15"> <a href="https://github.com/cyanheads/scripts-ts">scripts-ts</a></td>
 <td><img src="https://img.shields.io/badge/-000080?logo=lua&logoColor=white" alt="Lua" height="15"> <a href="https://github.com/cyanheads/TwilightAscensionRares">TwilightAscensionRares</a></td>
 </tr>
