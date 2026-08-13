@@ -50,7 +50,7 @@
         "source": "github",
         "repo": "cyanheads/aviation-weather-mcp-server"
       },
-      "description": "Fetch METARs, TAFs, PIREPs, and SIGMETs/AIRMETs from the NWS Aviation Weather Center via MCP. STDIO or Streamable HTTP.",
+      "description": "Fetch METARs, TAFs, PIREPs, and domestic SIGMETs from the NWS Aviation Weather Center via MCP. STDIO or Streamable HTTP.",
       "category": "Science",
       "author": {
         "name": "cyanheads"
@@ -1207,7 +1207,7 @@
         "source": "github",
         "repo": "cyanheads/treasury-fiscaldata-mcp-server"
       },
-      "description": "Query US Treasury national debt, interest rates, exchange rates, and fiscal datasets via MCP. STDIO or Streamable HTTP.",
+      "description": "Query US Treasury national debt, interest rates, exchange rates, and fiscal datasets via MCP.",
       "category": "Government Data",
       "author": {
         "name": "cyanheads"
