@@ -52,7 +52,7 @@
       "name": "attack-surface-mcp-server",
       "interface": {
         "displayName": "attack-surface-mcp-server",
-        "shortDescription": "Passive external attack-surface mapping: CT subdomains, DNS, TLS, HTTP posture, RDAP/WHOIS, Shodan.",
+        "shortDescription": "Passive external attack-surface mapping: CT subdomains, DNS, TLS, HTTP posture, RDAP/WHOIS, Shodan via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Passive, non-intrusive external attack-surface mapping (EASM) for authorized, defensive security assessment. Discovers subdomains from Certificate Transparency logs, resolves DNS across multiple resolvers, inspects TLS posture, audits HTTP security headers and fingerprints technologies, and looks up RDAP/WHOIS registration. Optional Shodan host intelligence. Reads public records and the target's own published surface only — no port scanning, exploitation, or brute-forcing.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -184,7 +184,7 @@
       "name": "calculator-mcp-server",
       "interface": {
         "displayName": "calculator-mcp-server",
-        "shortDescription": "Evaluate, simplify, and differentiate mathematical expressions via MCP.",
+        "shortDescription": "Evaluate, simplify, and differentiate mathematical expressions via MCP. STDIO or Streamable HTTP.",
         "longDescription": "A hardened math.js calculator MCP server that lets any LLM verify mathematical computations. Supports arithmetic, algebra, trigonometry, logarithms, statistics, matrices, complex numbers, combinatorics, and unit conversion. No auth required — all operations are read-only and stateless.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -423,6 +423,28 @@
       "category": "Research"
     },
     {
+      "name": "cyanheads-mcp-server",
+      "interface": {
+        "displayName": "cyanheads-mcp-server",
+        "shortDescription": "Fleet discovery for the cyanheads MCP ecosystem — semantic search + install snippets.",
+        "longDescription": "Search the cyanheads MCP fleet by natural-language query and get connection URLs plus per-client install snippets for any tool or server. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/cyanheads-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/cyanheads-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
       "name": "devops-status-mcp-server",
       "interface": {
         "displayName": "devops-status-mcp-server",
@@ -515,7 +537,7 @@
       "name": "ensembl-mcp-server",
       "interface": {
         "displayName": "ensembl-mcp-server",
-        "shortDescription": "Look up genes, fetch sequences, predict variant consequences, find orthologs and cross-database xrefs via Ensembl REST via MCP. STDIO or Streamable HTTP.",
+        "shortDescription": "Look up genes, fetch sequences, predict variant consequences, find orthologs, and retrieve cross-database xrefs from Ensembl REST via MCP. STDIO or Streamable HTTP.",
         "longDescription": "MCP server for the Ensembl REST API, covering vertebrate and model-organism genomics. Resolve genes by symbol or stable ID (ensembl_lookup_gene), fetch genomic/cDNA/CDS/protein sequence (ensembl_get_sequence), list overlapping features in a region (ensembl_query_region), predict variant consequences via VEP (ensembl_predict_variant), retrieve orthologs and paralogs (ensembl_get_homology), follow external cross-references (ensembl_get_xrefs), and enumerate available species (ensembl_list_species). Gene, transcript, and species records are also exposed as addressable resources, and the ensembl_gene_dossier prompt chains the tools into a complete gene research workflow. Species use Ensembl's lowercase_underscore scientific names (homo_sapiens, mus_musculus); set ENSEMBL_BASE_URL to target GRCh37 or a local mirror. Runs over stdio or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -581,7 +603,7 @@
       "name": "evals-mcp-server",
       "interface": {
         "displayName": "evals-mcp-server",
-        "shortDescription": "Author verifiable eval records with server-enforced graders.",
+        "shortDescription": "Author verifiable eval records through a draft → review → revise → submit loop with server-enforced graders; compile to JSONL/CSV/Inspect/lm-eval via MCP. STDIO or Streamable HTTP.",
         "longDescription": "An authoring-loop MCP server that turns an agent into an eval author. Drafts carry their own executable grader; a draft → review → surgical-revise → submit loop, with a subagent verification step and a server-side committability gate (the gold must pass its grader and a negative case must be rejected), admits only self-consistent, independently verified records. Submitted records compile to JSONL, CSV, Inspect AI, and lm-evaluation-harness formats.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -823,7 +845,7 @@
       "name": "guardian-mcp-server",
       "interface": {
         "displayName": "guardian-mcp-server",
-        "shortDescription": "Search, browse, and retrieve full article text from The Guardian's journalism archive (1999âpresent) via MCP. STDIO or Streamable HTTP.",
+        "shortDescription": "Search, browse, and retrieve full article text from The Guardian's journalism archive (1999–present) via MCP. STDIO or Streamable HTTP.",
         "longDescription": "guardian-mcp-server puts The Guardian's journalism archive (1999–present) behind MCP. guardian_search runs full-text search across the archive with section, tag, contributor, and date filters, returning articles with body text; guardian_browse walks the paper's structure — latest articles for a section or tag, plus discovery modes listing the available sections and tags to use as filters; guardian_get_article fetches a single article by ID with complete, untruncated body text and metadata. Powered by the Guardian Open Platform (open-platform.theguardian.com).",
         "developerName": "cyanheads",
         "capabilities": [
@@ -955,8 +977,8 @@
       "name": "mailchimp-mcp-server",
       "interface": {
         "displayName": "mailchimp-mcp-server",
-        "shortDescription": "Draft, test, and send Mailchimp campaigns, manage audiences and subscribers, and read post-send analytics via MCP.",
-        "longDescription": "MCP server for Mailchimp — draft, test, and send campaigns behind safe-by-default send gates, manage audiences and subscriber CRUD, and read post-send analytics. STDIO or Streamable HTTP.",
+        "shortDescription": "Draft, test, and send Mailchimp campaigns straight from your MCP client — with audience management, subscriber CRUD, and post-send analytics behind safe-by-default send gates. STDIO or Streamable HTTP.",
+        "longDescription": "Draft, test, and send Mailchimp campaigns straight from your MCP client — with audience management, subscriber CRUD, and post-send analytics behind safe-by-default send gates. STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1197,7 +1219,7 @@
       "name": "npi-providers-mcp-server",
       "interface": {
         "displayName": "npi-providers-mcp-server",
-        "shortDescription": "Look up US healthcare providers in the NPPES NPI registry and resolve NUCC specialty codes.",
+        "shortDescription": "Look up US healthcare providers in the NPPES NPI registry and resolve NUCC specialty codes via MCP. STDIO or Streamable HTTP.",
         "longDescription": "US healthcare provider directory over the live, keyless NPPES NPI Registry API, plus a bundled NUCC Healthcare Provider Taxonomy code set for offline specialty resolution. Search providers by name, organization, specialty, or location; decode any NPI to its full record (taxonomies, addresses, credentials, identifiers, status); and resolve plain-language specialties to taxonomy codes.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -1264,7 +1286,7 @@
       "name": "obsidian-mcp-server",
       "interface": {
         "displayName": "obsidian-mcp-server",
-        "shortDescription": "Read, write, search, and surgically edit Obsidian vault notes, tags, and frontmatter via MCP.",
+        "shortDescription": "Read, write, search, and surgically edit Obsidian vault notes, tags, and frontmatter via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Read, write, search, and surgically edit Obsidian vault notes, tags, and frontmatter via MCP. STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [

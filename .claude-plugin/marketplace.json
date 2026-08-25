@@ -37,7 +37,7 @@
         "source": "github",
         "repo": "cyanheads/attack-surface-mcp-server"
       },
-      "description": "Passive external attack-surface mapping: CT subdomains, DNS, TLS, HTTP posture, RDAP/WHOIS, Shodan.",
+      "description": "Passive external attack-surface mapping: CT subdomains, DNS, TLS, HTTP posture, RDAP/WHOIS, Shodan via MCP. STDIO or Streamable HTTP.",
       "category": "Security",
       "author": {
         "name": "cyanheads"
@@ -115,7 +115,7 @@
         "source": "github",
         "repo": "cyanheads/calculator-mcp-server"
       },
-      "description": "Evaluate, simplify, and differentiate mathematical expressions via MCP.",
+      "description": "Evaluate, simplify, and differentiate mathematical expressions via MCP. STDIO or Streamable HTTP.",
       "category": "Developer Tools",
       "author": {
         "name": "cyanheads"
@@ -253,6 +253,19 @@
       "homepage": "https://github.com/cyanheads/crossref-mcp-server"
     },
     {
+      "name": "cyanheads-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/cyanheads-mcp-server"
+      },
+      "description": "Fleet discovery for the cyanheads MCP ecosystem — semantic search + install snippets.",
+      "category": "Developer Tools",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/cyanheads-mcp-server"
+    },
+    {
       "name": "devops-status-mcp-server",
       "source": {
         "source": "github",
@@ -310,7 +323,7 @@
         "source": "github",
         "repo": "cyanheads/ensembl-mcp-server"
       },
-      "description": "Look up genes, fetch sequences, predict variant consequences, find orthologs and cross-database xrefs via Ensembl REST via MCP. STDIO or Streamable HTTP.",
+      "description": "Look up genes, fetch sequences, predict variant consequences, find orthologs, and retrieve cross-database xrefs from Ensembl REST via MCP. STDIO or Streamable HTTP.",
       "category": "Science",
       "author": {
         "name": "cyanheads"
@@ -713,7 +726,7 @@
         "source": "github",
         "repo": "cyanheads/npi-providers-mcp-server"
       },
-      "description": "Look up US healthcare providers in the NPPES NPI registry and resolve NUCC specialty codes.",
+      "description": "Look up US healthcare providers in the NPPES NPI registry and resolve NUCC specialty codes via MCP. STDIO or Streamable HTTP.",
       "category": "Government Data",
       "author": {
         "name": "cyanheads"
