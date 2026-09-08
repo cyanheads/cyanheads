@@ -17,7 +17,7 @@ Agent-native TypeScript framework for MCP servers.
 - Declarative tool definitions
 - Pluggable auth
 - OpenTelemetry
-- Runs on Node.js and Cloudflare Workers
+- Runs on Bun / Node.js and Cloudflare Workers
 
 ```bash
 bunx @cyanheads/mcp-ts-core init my-mcp-server
