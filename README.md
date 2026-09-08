@@ -6,13 +6,13 @@
 
 [![@cyanheads/mcp-ts-core](https://img.shields.io/badge/@cyanheads%2Fmcp--ts--core-67E8F9?style=for-the-badge)](https://github.com/cyanheads/mcp-ts-core) [![Bun](https://img.shields.io/badge/Bun-FBF0DF?style=for-the-badge&logo=bun&logoColor=black)](https://bun.sh) [![Model Context Protocol](https://img.shields.io/badge/Model_Context_Protocol-1A1A1A?style=for-the-badge)](https://modelcontextprotocol.io)
 
-I'm exploring ways to connect LLMs to the real world. Based in Seattle.
+Exploring ways to connect LLMs to the real world. Based in Seattle.
 
 </div>
 
 ### [@cyanheads/mcp-ts-core](https://github.com/cyanheads/mcp-ts-core)
 
-Agent-native TypeScript framework for building Model Context Protocol (MCP) servers.
+Agent-native TypeScript framework for MCP servers.
 
 - Declarative tool definitions
 - Pluggable auth
@@ -23,15 +23,11 @@ Agent-native TypeScript framework for building Model Context Protocol (MCP) serv
 bunx @cyanheads/mcp-ts-core init my-mcp-server
 ```
 
-Start your coding agent in the scaffolded project and describe what you want to build. 
-
-Ships with Agent Skills and framework docs built in.
+Point your agent at the scaffolded project and describe what you want to build. Ships with Agent Skills and framework docs built in.
 
 ## MCP servers
 
-> **[Cross-domain queries](CROSS-DOMAIN.md)** — what happens when you connect 60+ data sources in one conversation.
-
-### MCP infrastructure
+### Infrastructure
 
 <table>
 <tr>
@@ -41,7 +37,18 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 </table>
 
-### External data
+### Hardware & Notifications
+
+<table>
+<tr>
+<td><a href="https://github.com/cyanheads/clipboard-mcp-server">clipboard-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/macos-mcp-server">macos-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/ntfy-mcp-server">ntfy-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/pixoo-mcp-server">pixoo-mcp-server</a></td>
+</tr>
+</table>
+
+### External Data
 
 <table>
 <tr>
@@ -214,7 +221,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 </table>
 
-### Local & workspace
+### Local & Workspace
 
 <table>
 <tr>
@@ -234,7 +241,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 </table>
 
-### SaaS & productivity
+### SaaS & Productivity
 
 <table>
 <tr>
@@ -243,7 +250,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 </table>
 
-### AI services
+### AI Services
 
 <table>
 <tr>
@@ -252,20 +259,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 </table>
 
-### Hardware & notifications
-
-<table>
-<tr>
-<td><a href="https://github.com/cyanheads/clipboard-mcp-server">clipboard-mcp-server</a></td>
-<td><a href="https://github.com/cyanheads/macos-mcp-server">macos-mcp-server</a></td>
-<td><a href="https://github.com/cyanheads/ntfy-mcp-server">ntfy-mcp-server</a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/cyanheads/pixoo-mcp-server">pixoo-mcp-server</a></td>
-</tr>
-</table>
-
-## Other projects
+## Other Projects
 
 <table>
 <tr>
@@ -280,7 +274,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 </table>
 
-## Open to work
+## Open to Work
 
 I build AI/LLM tooling and infrastructure. Looking for full-time or contract roles where I can keep doing that.
 
@@ -291,7 +285,7 @@ Available for:
 
 <div align="center">
 
-## Support
+## Support Me
 
 If any of my projects have been useful to you, I'd appreciate any support you're able to provide.
 
