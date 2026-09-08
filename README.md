@@ -25,7 +25,7 @@ bunx @cyanheads/mcp-ts-core init my-mcp-server
 
 Point your agent at the scaffolded project and describe what you want to build. Ships with Agent Skills and framework docs built in.
 
-## MCP servers
+## Model Context Protocol (MCP)
 
 ### Infrastructure
 
