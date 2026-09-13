@@ -1219,7 +1219,7 @@
       "name": "npi-providers-mcp-server",
       "interface": {
         "displayName": "npi-providers-mcp-server",
-        "shortDescription": "Look up US healthcare providers in the NPPES NPI registry and resolve NUCC specialty codes via MCP. STDIO or Streamable HTTP.",
+        "shortDescription": "Search NPPES providers and resolve NUCC specialty codes via MCP over STDIO or Streamable HTTP.",
         "longDescription": "US healthcare provider directory over the live, keyless NPPES NPI Registry API, plus a bundled NUCC Healthcare Provider Taxonomy code set for offline specialty resolution. Search providers by name, organization, specialty, or location; decode any NPI to its full record (taxonomies, addresses, credentials, identifiers, status); and resolve plain-language specialties to taxonomy codes.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -1506,7 +1506,7 @@
       "name": "open-meteo-mcp-server",
       "interface": {
         "displayName": "open-meteo-mcp-server",
-        "shortDescription": "Geocode places, fetch global weather forecasts, ERA5 historical climate, marine conditions, air quality, and terrain elevation via MCP. STDIO or Streamable HTTP.",
+        "shortDescription": "Geocode places, fetch global weather forecasts, historical climate, marine conditions, air quality, and terrain elevation via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Keyless access to the Open-Meteo global weather APIs over MCP. Resolve place names to coordinates with openmeteo_search_locations, then pull forecasts up to 16 days out (openmeteo_get_forecast), the ERA5 historical archive back to 1940 (openmeteo_get_historical), marine wave and swell conditions forecast or archived (openmeteo_get_marine), CAMS air quality and AQI forecast or archived (openmeteo_get_air_quality), Copernicus DEM terrain elevation (openmeteo_get_elevation), probabilistic ensemble runs (openmeteo_get_ensemble), GloFAS river-discharge flood data (openmeteo_get_flood), and bias-corrected daily CMIP6 climate projections 1950–2050 (openmeteo_get_climate). Every weather tool takes latitude/longitude, so run openmeteo_search_locations first for name-based queries. Large forecast, historical, marine, air-quality, ensemble, flood, or climate pulls spill to a DataCanvas table queryable with SQL via openmeteo_dataframe_describe and openmeteo_dataframe_query when CANVAS_PROVIDER_TYPE=duckdb; without it they return a bounded preview marked truncated rather than an unbounded payload. Runs over STDIO or Streamable HTTP. No API key required for non-commercial use; weather data by Open-Meteo.com under CC BY 4.0.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -1837,7 +1837,7 @@
       "name": "ris-austria-mcp-server",
       "interface": {
         "displayName": "ris-austria-mcp-server",
-        "shortDescription": "Search Austrian consolidated federal & state law, court decisions, and the authentic Bundesgesetzblatt from the official RIS; resolve legal citations.",
+        "shortDescription": "Search Austrian consolidated federal & state law, court decisions, and the authentic Bundesgesetzblatt from the official RIS via MCP. Keyless. STDIO or Streamable HTTP.",
         "longDescription": "Austrian legal research over the official RIS (Rechtsinformationssystem des Bundes) OGD API. Search consolidated federal and state law as in force on any date, case law across every Austrian court and tribunal (VfGH, VwGH, OGH/Justiz, BVwG, LVwG, Datenschutzbehörde), and the legally binding Bundesgesetzblatt. Resolve citations — '§ 6 DSG', 'BGBl. I Nr. 165/1999', a Geschäftszahl — deterministically to canonical documents, read full texts as markdown, and export the authentic amtssignierte PDF. ELI, ECLI, and CELEX identifiers surfaced for cross-referencing EU law. No API key required.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -2014,7 +2014,7 @@
       "name": "toolkit-mcp-server",
       "interface": {
         "displayName": "toolkit-mcp-server",
-        "shortDescription": "Random IDs, QR codes, IP geolocation, hashing, and encoding utilities.",
+        "shortDescription": "Generate random IDs, QR codes, and hashes, encode and decode values, and geolocate IPs, plus gated network and system diagnostics, via MCP. STDIO or Streamable HTTP.",
         "longDescription": "A grab-bag of fast developer utilities: cryptographically-random ID generation (UUIDv4/v7, ULID), QR code generation (SVG/PNG/terminal), IP geolocation, cryptographic hashing with constant-time compare, and base64/hex/URL encoding. Two host-probing tools (network diagnostics and system info) are gated off by default, fail-closed, so a hosted instance carries no SSRF or info-disclosure surface.",
         "developerName": "cyanheads",
         "capabilities": [

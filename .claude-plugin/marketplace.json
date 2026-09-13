@@ -726,7 +726,7 @@
         "source": "github",
         "repo": "cyanheads/npi-providers-mcp-server"
       },
-      "description": "Look up US healthcare providers in the NPPES NPI registry and resolve NUCC specialty codes via MCP. STDIO or Streamable HTTP.",
+      "description": "Search NPPES providers and resolve NUCC specialty codes via MCP over STDIO or Streamable HTTP.",
       "category": "Government Data",
       "author": {
         "name": "cyanheads"
@@ -895,7 +895,7 @@
         "source": "github",
         "repo": "cyanheads/open-meteo-mcp-server"
       },
-      "description": "Geocode places, fetch global weather forecasts, ERA5 historical climate, marine conditions, air quality, and terrain elevation via MCP. STDIO or Streamable HTTP.",
+      "description": "Geocode places, fetch global weather forecasts, historical climate, marine conditions, air quality, and terrain elevation via MCP. STDIO or Streamable HTTP.",
       "category": "Science",
       "author": {
         "name": "cyanheads"
@@ -1194,7 +1194,7 @@
         "source": "github",
         "repo": "cyanheads/toolkit-mcp-server"
       },
-      "description": "Fast developer utilities — random ID generation, QR codes, IP geolocation, hashing, and encoding — plus gated, fail-closed network and system diagnostics.",
+      "description": "Generate random IDs, QR codes, and hashes, encode and decode values, and geolocate IPs, plus gated network and system diagnostics, via MCP. STDIO or Streamable HTTP.",
       "category": "Developer Tools",
       "author": {
         "name": "cyanheads"
