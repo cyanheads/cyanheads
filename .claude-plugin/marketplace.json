@@ -799,6 +799,19 @@
       "homepage": "https://github.com/cyanheads/onebusaway-mcp-server"
     },
     {
+      "name": "open-meteo-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/open-meteo-mcp-server"
+      },
+      "description": "Geocode places, fetch global weather forecasts, historical climate, marine conditions, air quality, and terrain elevation via MCP. STDIO or Streamable HTTP.",
+      "category": "Science",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/open-meteo-mcp-server"
+    },
+    {
       "name": "openalex-mcp-server",
       "source": {
         "source": "github",
@@ -888,19 +901,6 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/openlibrary-mcp-server"
-    },
-    {
-      "name": "open-meteo-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/open-meteo-mcp-server"
-      },
-      "description": "Geocode places, fetch global weather forecasts, historical climate, marine conditions, air quality, and terrain elevation via MCP. STDIO or Streamable HTTP.",
-      "category": "Science",
-      "author": {
-        "name": "cyanheads"
-      },
-      "homepage": "https://github.com/cyanheads/open-meteo-mcp-server"
     },
     {
       "name": "openstates-mcp-server",
@@ -1226,6 +1226,19 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/treasury-fiscaldata-mcp-server"
+    },
+    {
+      "name": "tvmaze-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/tvmaze-mcp-server"
+      },
+      "description": "Search TVmaze shows, next episodes in your timezone, episode guides, daily TV schedules, and cast.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/tvmaze-mcp-server"
     },
     {
       "name": "uniprot-mcp-server",

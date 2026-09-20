@@ -1349,6 +1349,28 @@
       "category": "Data"
     },
     {
+      "name": "open-meteo-mcp-server",
+      "interface": {
+        "displayName": "open-meteo-mcp-server",
+        "shortDescription": "Geocode places, fetch global weather forecasts, historical climate, marine conditions, air quality, and terrain elevation via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Keyless access to the Open-Meteo global weather APIs over MCP. Resolve place names to coordinates with openmeteo_search_locations, then pull forecasts up to 16 days out (openmeteo_get_forecast), the ERA5 historical archive back to 1940 (openmeteo_get_historical), marine wave and swell conditions forecast or archived (openmeteo_get_marine), CAMS air quality and AQI forecast or archived (openmeteo_get_air_quality), Copernicus DEM terrain elevation (openmeteo_get_elevation), probabilistic ensemble runs (openmeteo_get_ensemble), GloFAS river-discharge flood data (openmeteo_get_flood), and bias-corrected daily CMIP6 climate projections 1950–2050 (openmeteo_get_climate). Every weather tool takes latitude/longitude, so run openmeteo_search_locations first for name-based queries. Large forecast, historical, marine, air-quality, ensemble, flood, or climate pulls spill to a DataCanvas table queryable with SQL via openmeteo_dataframe_describe and openmeteo_dataframe_query when CANVAS_PROVIDER_TYPE=duckdb; without it they return a bounded preview marked truncated rather than an unbounded payload. Runs over STDIO or Streamable HTTP. No API key required for non-commercial use; weather data by Open-Meteo.com under CC BY 4.0.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/open-meteo-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/open-meteo-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
+    },
+    {
       "name": "openalex-mcp-server",
       "interface": {
         "displayName": "openalex-mcp-server",
@@ -1503,28 +1525,6 @@
       "category": "Research"
     },
     {
-      "name": "open-meteo-mcp-server",
-      "interface": {
-        "displayName": "open-meteo-mcp-server",
-        "shortDescription": "Geocode places, fetch global weather forecasts, historical climate, marine conditions, air quality, and terrain elevation via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "Keyless access to the Open-Meteo global weather APIs over MCP. Resolve place names to coordinates with openmeteo_search_locations, then pull forecasts up to 16 days out (openmeteo_get_forecast), the ERA5 historical archive back to 1940 (openmeteo_get_historical), marine wave and swell conditions forecast or archived (openmeteo_get_marine), CAMS air quality and AQI forecast or archived (openmeteo_get_air_quality), Copernicus DEM terrain elevation (openmeteo_get_elevation), probabilistic ensemble runs (openmeteo_get_ensemble), GloFAS river-discharge flood data (openmeteo_get_flood), and bias-corrected daily CMIP6 climate projections 1950–2050 (openmeteo_get_climate). Every weather tool takes latitude/longitude, so run openmeteo_search_locations first for name-based queries. Large forecast, historical, marine, air-quality, ensemble, flood, or climate pulls spill to a DataCanvas table queryable with SQL via openmeteo_dataframe_describe and openmeteo_dataframe_query when CANVAS_PROVIDER_TYPE=duckdb; without it they return a bounded preview marked truncated rather than an unbounded payload. Runs over STDIO or Streamable HTTP. No API key required for non-commercial use; weather data by Open-Meteo.com under CC BY 4.0.",
-        "developerName": "cyanheads",
-        "capabilities": [
-          "Read"
-        ],
-        "websiteURL": "https://github.com/cyanheads/open-meteo-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/open-meteo-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Science"
-    },
-    {
       "name": "openstates-mcp-server",
       "interface": {
         "displayName": "openstates-mcp-server",
@@ -1551,7 +1551,7 @@
       "interface": {
         "displayName": "openstreetmap-mcp-server",
         "shortDescription": "Geocode, reverse geocode, and run Overpass spatial queries on OpenStreetMap data via MCP.",
-        "longDescription": "Query OpenStreetMap from MCP clients via the Nominatim and Overpass APIs. Geocode place names and addresses to coordinates, reverse geocode coordinates to addresses, look up details for known OSM IDs, find features near a point, survey features in a bounding box, and run raw Overpass QL for advanced spatial queries. Data is © OpenStreetMap contributors (ODbL 1.0); point at private Nominatim/Overpass instances via OSM_NOMINATIM_BASE_URL and OSM_OVERPASS_BASE_URL. Runs over STDIO or Streamable HTTP.",
+        "longDescription": "Query OpenStreetMap from MCP clients via the Nominatim and Overpass APIs. Geocode place names and addresses to coordinates, reverse geocode coordinates to addresses, look up details for known OSM IDs, find features near a point, survey features in a bounding box or inside a named OSM boundary, and run raw Overpass QL for advanced spatial queries. Data is © OpenStreetMap contributors (ODbL 1.0); point at private Nominatim/Overpass instances via OSM_NOMINATIM_BASE_URL and OSM_OVERPASS_BASE_URL. Runs over STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -2075,6 +2075,28 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Government Data"
+    },
+    {
+      "name": "tvmaze-mcp-server",
+      "interface": {
+        "displayName": "tvmaze-mcp-server",
+        "shortDescription": "Search TVmaze shows, next episodes in your timezone, episode guides, daily TV schedules, and cast.",
+        "longDescription": "Search TVmaze shows, next episodes in your timezone, episode guides, daily TV schedules, and cast via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/tvmaze-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/tvmaze-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
     },
     {
       "name": "uniprot-mcp-server",

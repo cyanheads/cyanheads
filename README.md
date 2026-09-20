@@ -197,26 +197,27 @@ Point your agent at the scaffolded project and describe what you want to build. 
 <td><a href="https://github.com/cyanheads/tmdb-mcp-server">tmdb-mcp-server</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/tvmaze-mcp-server">tvmaze-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/transitland-mcp-server">transitland-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/treasury-fiscaldata-mcp-server">treasury-fiscaldata-mcp-server</a> • <a href="https://treasury-fiscaldata.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/un-comtrade-mcp-server">un-comtrade-mcp-server</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/un-comtrade-mcp-server">un-comtrade-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/uniprot-mcp-server">uniprot-mcp-server</a> • <a href="https://uniprot.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/usaspending-mcp-server">usaspending-mcp-server</a> • <a href="https://usaspending.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/usda-mcp-server">usda-mcp-server</a> • <a href="https://usda.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/usda-mcp-server">usda-mcp-server</a> • <a href="https://usda.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/usgs-water-mcp-server">usgs-water-mcp-server</a> • <a href="https://usgs-water.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/who-gho-mcp-server">who-gho-mcp-server</a> • <a href="https://who-gho.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/whois-mcp-server">whois-mcp-server</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/whois-mcp-server">whois-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/wikidata-mcp-server">wikidata-mcp-server</a> • <a href="https://wikidata.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/wikipedia-mcp-server">wikipedia-mcp-server</a> • <a href="https://wikipedia.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/worldbank-mcp-server">worldbank-mcp-server</a> • <a href="https://worldbank.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/worldbank-mcp-server">worldbank-mcp-server</a> • <a href="https://worldbank.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/wsdot-mcp-server">wsdot-mcp-server</a> • <a href="https://wsdot.caseyjhand.com/">/mcp</a></td>
 </tr>
 </table>
