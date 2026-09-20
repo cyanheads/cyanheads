@@ -67,13 +67,13 @@ Point your agent at the scaffolded project and describe what you want to build. 
 <td><a href="https://github.com/cyanheads/brapi-mcp-server">brapi-mcp-server</a> • <a href="https://brapi.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/browser-compat-mcp-server">browser-compat-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/browser-compat-mcp-server">browser-compat-mcp-server</a> • <a href="https://browser-compat.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/cdc-health-mcp-server">cdc-health-mcp-server</a> • <a href="https://cdc.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/census-mcp-server">census-mcp-server</a> • <a href="https://census.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/chembl-mcp-server">chembl-mcp-server</a> • <a href="https://chembl.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/cisa-cybersecurity-mcp-server">cisa-cybersecurity-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/cisa-cybersecurity-mcp-server">cisa-cybersecurity-mcp-server</a> • <a href="https://cisa-cybersecurity.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/clinicaltrialsgov-mcp-server">clinicaltrialsgov-mcp-server</a> • <a href="https://clinicaltrials.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
@@ -124,7 +124,7 @@ Point your agent at the scaffolded project and describe what you want to build. 
 <tr>
 <td><a href="https://github.com/cyanheads/hn-mcp-server">hn-mcp-server</a> • <a href="https://hn.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/imf-mcp-server">imf-mcp-server</a> • <a href="https://imf.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/inaturalist-mcp-server">inaturalist-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/inaturalist-mcp-server">inaturalist-mcp-server</a> • <a href="https://inaturalist.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/internet-archive-mcp-server">internet-archive-mcp-server</a></td>
@@ -204,7 +204,7 @@ Point your agent at the scaffolded project and describe what you want to build. 
 <tr>
 <td><a href="https://github.com/cyanheads/transitland-mcp-server">transitland-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/treasury-fiscaldata-mcp-server">treasury-fiscaldata-mcp-server</a> • <a href="https://treasury-fiscaldata.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/tvmaze-mcp-server">tvmaze-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/tvmaze-mcp-server">tvmaze-mcp-server</a> • <a href="https://tvmaze.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/un-comtrade-mcp-server">un-comtrade-mcp-server</a></td>
