@@ -974,6 +974,28 @@
       "category": "Data"
     },
     {
+      "name": "inaturalist-mcp-server",
+      "interface": {
+        "displayName": "inaturalist-mcp-server",
+        "shortDescription": "Search wildlife sightings, read identification threads, rank species by area, chart phenology, and find look-alike taxa from iNaturalist.",
+        "longDescription": "Query iNaturalist's index of 380M+ georeferenced citizen-science observations of plants, animals, and fungi. Search sightings by area, date, taxon, quality grade, annotation, and conservation status; read the community identification thread behind a record; rank the distinct species of an area; chart a taxon's phenology by month, week, or year; list the look-alikes a taxon is most often misidentified as; fetch taxon profiles with conservation listings and photos; and resolve organism, place, project, and observer names to the ids every tool takes. Records carry their own licence and attribution, which are relayed verbatim, and obscured coordinates stay obscured. Keyless and read-only. Runs over STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/inaturalist-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/inaturalist-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
+    },
+    {
       "name": "libofcongress-mcp-server",
       "interface": {
         "displayName": "libofcongress-mcp-server",
