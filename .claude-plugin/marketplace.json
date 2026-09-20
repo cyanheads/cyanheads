@@ -110,6 +110,19 @@
       "homepage": "https://github.com/cyanheads/brapi-mcp-server"
     },
     {
+      "name": "browser-compat-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/browser-compat-mcp-server"
+      },
+      "description": "Browser compatibility and Baseline status for any web feature — offline, from MDN's browser-compat-data, web-features, and caniuse. STDIO or Streamable HTTP.",
+      "category": "Developer Tools",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/browser-compat-mcp-server"
+    },
+    {
       "name": "calculator-mcp-server",
       "source": {
         "source": "github",
