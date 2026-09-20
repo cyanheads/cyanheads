@@ -803,7 +803,7 @@
         "displayName": "finnhub-mcp-server",
         "shortDescription": "Real-time US-equity market data via Finnhub.",
         "longDescription": "Six tools covering real-time US-equity market data via the Finnhub REST API: resolve a company name to a US ticker, fetch a live quote paired with market-open status (never presenting a stale price as live), get one-call company context (profile + fundamentals + peers), read earnings history and the upcoming-releases calendar, pull company or market news, and surface analyst recommendation trends. Free tier covers US stocks only; a free Finnhub API key is required.",
-        "developerName": "Casey Hand",
+        "developerName": "cyanheads",
         "capabilities": [
           "Read"
         ],
@@ -869,7 +869,7 @@
         "displayName": "gnomad-genetics-mcp-server",
         "shortDescription": "Population allele frequencies, gene constraint, and variant catalogs over gnomAD for variant interpretation.",
         "longDescription": "Human population genetics over the gnomAD GraphQL API. Fetch the full population record for a variant (allele count/number/frequency overall and per genetic-ancestry group, with joined ClinVar significance), assess gene loss-of-function constraint (pLI / LOEUF), list variants in a gene/transcript/region with allele frequencies, and check sequencing coverage to tell a true absent variant from an uncallable position. Large result sets stage on a DataCanvas for SQL. Keyless; a polite, rate-limited client.",
-        "developerName": "Casey Hand",
+        "developerName": "cyanheads",
         "capabilities": [
           "Read"
         ],
@@ -1133,7 +1133,7 @@
         "displayName": "national-parks-mcp-server",
         "shortDescription": "Plan US National Park Service trips — find parks, check alerts and closures, find campgrounds, browse things to do and events via the NPS Data API. STDIO or Streamable HTTP.",
         "longDescription": "Six tools covering the National Park Service trip-planning workflow: resolve a place, state, or query to parks (the parkCode spine), pull full park detail (fees, hours, contacts, weather, images), surface current alerts and closures, find campgrounds with amenities and reservable/first-come counts, list curated things to do, and find scheduled events within a date range. US NPS sites only. Requires a free NPS Data API key.",
-        "developerName": "Casey Hand",
+        "developerName": "cyanheads",
         "capabilities": [
           "Read"
         ],
@@ -1486,7 +1486,7 @@
         "displayName": "openchargemap-mcp-server",
         "shortDescription": "Global Open Charge Map EV charging station search, detail, and reliability check-ins.",
         "longDescription": "Find-and-detail MCP server over the community-maintained Open Charge Map registry. Find EV charging stations near a point or in a bounding box filtered by connector, power, and network; get full station detail; resolve connector/operator reference IDs offline; and read community check-ins for real-world reliability.",
-        "developerName": "Casey Hand @cyanheads",
+        "developerName": "cyanheads",
         "capabilities": [
           "Read"
         ],
@@ -1662,7 +1662,7 @@
         "displayName": "osv-advisory-mcp-server",
         "shortDescription": "Query OSV.dev for package vulnerabilities, batch-audit dependency lists, and fetch full advisory records via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Read-only access to the OSV.dev vulnerability database over MCP. Check a single package version with osv_query_package, audit a whole lockfile or SBOM in one call with osv_query_batch (up to 1000 {name, ecosystem, version} tuples), and pull the full advisory — CVSS vectors, CVE aliases, affected ranges, and fix versions — with osv_get_vulnerability. osv_list_ecosystems returns the valid ecosystem identifiers to pass to the query tools. Keyless and public; CVE aliases chain to nist-nvd-mcp-server for CVSS scoring and CISA KEV status. Runs over STDIO or Streamable HTTP.",
-        "developerName": "Casey Hand",
+        "developerName": "cyanheads",
         "capabilities": [
           "Read"
         ],
