@@ -162,6 +162,19 @@
       "homepage": "https://github.com/cyanheads/chembl-mcp-server"
     },
     {
+      "name": "cisa-cybersecurity-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/cisa-cybersecurity-mcp-server"
+      },
+      "description": "CISA Known Exploited Vulnerabilities with BOD 26-04 deadlines, SSVC prioritization, and the full ICS advisory corpus (CSAF) via MCP. Keyless. STDIO & Streamable HTTP.",
+      "category": "Security",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/cisa-cybersecurity-mcp-server"
+    },
+    {
       "name": "clinicaltrialsgov-mcp-server",
       "source": {
         "source": "github",

@@ -269,6 +269,28 @@
       "category": "Research"
     },
     {
+      "name": "cisa-cybersecurity-mcp-server",
+      "interface": {
+        "displayName": "cisa-cybersecurity-mcp-server",
+        "shortDescription": "CISA Known Exploited Vulnerabilities with BOD 26-04 deadlines, SSVC prioritization, and the full ICS advisory corpus (CSAF).",
+        "longDescription": "MCP server over CISA's open vulnerability outputs: the Known Exploited Vulnerabilities catalog with federal remediation deadlines under BOD 26-04, the SSVC decision points CISA publishes per CVE in Vulnrichment, the complete Industrial Control Systems advisory corpus in CSAF form, and the current CISA alert feeds. Keyless.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/cisa-cybersecurity-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/cisa-cybersecurity-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    },
+    {
       "name": "clinicaltrialsgov-mcp-server",
       "interface": {
         "displayName": "clinicaltrialsgov-mcp-server",
