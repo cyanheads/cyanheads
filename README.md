@@ -2,7 +2,7 @@
 
 # Hi, I'm Casey 👋
 
-[![Open to Work](https://img.shields.io/badge/Open_to_Work-green?style=for-the-badge)](mailto:casey@caseyjhand.com) [![Website](https://img.shields.io/badge/Website-caseyjhand.com-blue?style=for-the-badge)](https://caseyjhand.com) 
+[![Website](https://img.shields.io/badge/Website-caseyjhand.com-blue?style=for-the-badge)](https://caseyjhand.com) 
 
 [![@cyanheads/mcp-ts-core](https://img.shields.io/badge/@cyanheads%2Fmcp--ts--core-67E8F9?style=for-the-badge)](https://github.com/cyanheads/mcp-ts-core) [![Bun](https://img.shields.io/badge/Bun-FBF0DF?style=for-the-badge&logo=bun&logoColor=black)](https://bun.sh) [![Model Context Protocol](https://img.shields.io/badge/Model_Context_Protocol-1A1A1A?style=for-the-badge)](https://modelcontextprotocol.io)
 
@@ -279,15 +279,6 @@ Point your agent at the scaffolded project and describe what you want to build. 
 <td><img src="https://img.shields.io/badge/-000080?logo=lua&logoColor=white" alt="Lua" height="15"> <a href="https://github.com/cyanheads/TwilightAscensionRares">TwilightAscensionRares</a></td>
 </tr>
 </table>
-
-## Open to Work
-
-I build AI/LLM tooling and infrastructure. Looking for full-time or contract roles where I can keep doing that.
-
-Available for:
-- Full-time positions
-- Contract and consulting
-- Custom MCP server development
 
 <div align="center">
 
