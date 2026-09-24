@@ -229,7 +229,7 @@
       "interface": {
         "displayName": "cdc-health-mcp-server",
         "shortDescription": "Search and query CDC public health data — mortality, vaccinations, surveillance, behavioral risk (Socrata SODA API).",
-        "longDescription": "Provides access to the CDC Open Data portal (~1,080 datasets) via the Socrata SODA API. Supports catalog discovery, schema inspection, and SoQL queries across mortality, vaccinations, behavioral risk, surveillance, and other public health domains. Also queries CDC WONDER for national mortality statistics across five mortality databases — final and provisional, underlying-cause and multiple-cause.",
+        "longDescription": "Provides access to the CDC Open Data portal (~1,080 datasets) via the Socrata SODA API. Supports catalog discovery, the catalog's category and tag vocabularies with entry counts, schema inspection, and SoQL queries across mortality, vaccinations, behavioral risk, surveillance, and other public health domains. Also queries CDC WONDER for national mortality statistics across five mortality databases — final and provisional, underlying-cause and multiple-cause.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -317,7 +317,7 @@
       "interface": {
         "displayName": "clinicaltrialsgov-mcp-server",
         "shortDescription": "Search ClinicalTrials.gov trials, retrieve study details and results, and match patients to eligible trials.",
-        "longDescription": "MCP server wrapping the ClinicalTrials.gov REST API v2 — the US National Library of Medicine's registry of ~577K clinical trial studies. Search studies with filters and field selection, fetch full study records by NCT ID, extract outcomes and adverse events from completed trials, discover valid field names and enum values, and match patient demographics to recruiting trials. Public, read-only, no API key required. Runs over STDIO or Streamable HTTP.",
+        "longDescription": "MCP server wrapping the ClinicalTrials.gov REST API v2 — the US National Library of Medicine's registry of 600K+ clinical trial studies. Search studies with filters and field selection, fetch full study records by NCT ID, extract outcomes and adverse events from completed trials, discover valid field names and enum values, and match patient demographics to recruiting trials. Public, read-only, no API key required. Runs over STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -908,6 +908,28 @@
       "category": "Data"
     },
     {
+      "name": "grantsgov-mcp-server",
+      "interface": {
+        "displayName": "grantsgov-mcp-server",
+        "shortDescription": "Search Grants.gov funding opportunities and read full records: eligibility, awards, deadlines.",
+        "longDescription": "Search Grants.gov federal funding opportunities, read full records (eligibility, awards, deadlines, attachments), and decode filter codes via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/grantsgov-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/grantsgov-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
       "name": "gutenberg-mcp-server",
       "interface": {
         "displayName": "gutenberg-mcp-server",
@@ -934,7 +956,7 @@
       "interface": {
         "displayName": "hn-mcp-server",
         "shortDescription": "Browse Hacker News feeds, threads, and user profiles with full-text search.",
-        "longDescription": "Read-only access to Hacker News over the Firebase API and Algolia search. Fetch ranked feeds (top, new, best, ask, show, jobs) with pagination, full-text search items by query with type, author, date, and score filters, retrieve a user profile with their submissions, and pull any item with its full comment tree (drill into a subtree by passing a comment id). Items are addressed by integer id, reused across stories, comments, jobs, and polls. HN populates fields sparsely, so absent values are surfaced as unknown rather than fabricated.",
+        "longDescription": "Read-only access to Hacker News over the Firebase API and Algolia search. Fetch ranked feeds (top, new, best, ask, show, jobs) with pagination, search items by keyword, by type, author, story, date, and score filters alone, or both, retrieve a user profile with their submissions, and pull any item with its full comment tree (drill into a subtree by passing a comment id). Items are addressed by integer id, reused across stories, comments, jobs, and polls. HN populates fields sparsely, so absent values are surfaced as unknown rather than fabricated.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1550,8 +1572,8 @@
       "name": "openfoodfacts-mcp-server",
       "interface": {
         "displayName": "openfoodfacts-mcp-server",
-        "shortDescription": "Look up food products by barcode, search by ingredient or nutrition filter, compare products side-by-side, and browse the canonical tag vocabulary via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "MCP access to Open Food Facts, the crowd-sourced global food product database (3M+ products). Four tools: off_get_product fetches a product by EAN-13/UPC barcode with ingredients, allergens, additives, per-100g and per-serving nutrition, and the Nutri-Score, NOVA, and Green-Score indicators; off_search_products finds products by text query or canonical tag filters; off_compare_products returns a side-by-side nutrition table for 2-10 barcodes; off_browse_taxonomy resolves human terms to the canonical tag IDs the search filters expect. Missing fields mean a value has not yet been entered by contributors, and computed scores carry regional formula caveats. No API key required; runs over STDIO or Streamable HTTP. Data under ODbL 1.0 - cite Open Food Facts in downstream use.",
+        "shortDescription": "Look up food products by barcode, search by keyword, tag, allergen, or nutrition filter, compare products side-by-side, and browse the canonical tag vocabulary via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "MCP access to Open Food Facts, the crowd-sourced global food product database (3M+ products). Four tools: off_get_product fetches a product by barcode (4-40 digits) with ingredients, allergens, additives, per-100g and per-serving nutrition, and the Nutri-Score, NOVA, and Green-Score indicators; off_search_products finds products by text query or canonical tag filters; off_compare_products returns a side-by-side nutrition table for 2-10 barcodes; off_browse_taxonomy resolves human terms to the canonical tag IDs the search filters expect. Missing fields mean a value has not yet been entered by contributors, and computed scores carry regional formula caveats. No API key required; runs over STDIO or Streamable HTTP. Data under ODbL 1.0 - cite Open Food Facts in downstream use.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"

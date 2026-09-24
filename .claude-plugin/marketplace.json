@@ -539,6 +539,19 @@
       "homepage": "https://github.com/cyanheads/guardian-mcp-server"
     },
     {
+      "name": "grantsgov-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/grantsgov-mcp-server"
+      },
+      "description": "Search Grants.gov funding opportunities and read full records: eligibility, awards, deadlines.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/grantsgov-mcp-server"
+    },
+    {
       "name": "gutenberg-mcp-server",
       "source": {
         "source": "github",
@@ -921,7 +934,7 @@
         "source": "github",
         "repo": "cyanheads/openfoodfacts-mcp-server"
       },
-      "description": "Look up food products by barcode, search by ingredient or nutrition filter, compare products side-by-side, and browse the canonical tag vocabulary via MCP. STDIO or Streamable HTTP.",
+      "description": "Look up food products by barcode, search by keyword, tag, allergen, or nutrition filter, compare products side-by-side, and browse the canonical tag vocabulary via MCP. STDIO or Streamable HTTP.",
       "category": "Data",
       "author": {
         "name": "cyanheads"
