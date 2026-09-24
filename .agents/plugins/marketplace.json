@@ -927,7 +927,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Data"
+      "category": "Government Data"
     },
     {
       "name": "gutenberg-mcp-server",
@@ -2405,6 +2405,28 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Data"
+    },
+    {
+      "name": "zenodo-mcp-server",
+      "interface": {
+        "displayName": "zenodo-mcp-server",
+        "shortDescription": "Search and resolve Zenodo datasets, software, and publications by DOI; trace versions and funding.",
+        "longDescription": "Search and resolve Zenodo datasets, software, and publications by DOI; trace versions and funding, list files, and preview text files via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/zenodo-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/zenodo-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
     }
   ]
 }

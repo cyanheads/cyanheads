@@ -226,6 +226,9 @@ Point your agent at the scaffolded project and describe what you want to build. 
 <td><a href="https://github.com/cyanheads/worldbank-mcp-server">worldbank-mcp-server</a> • <a href="https://worldbank.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/wsdot-mcp-server">wsdot-mcp-server</a> • <a href="https://wsdot.caseyjhand.com/">/mcp</a></td>
 </tr>
+<tr>
+<td><a href="https://github.com/cyanheads/zenodo-mcp-server">zenodo-mcp-server</a></td>
+</tr>
 </table>
 
 ### Local & Workspace

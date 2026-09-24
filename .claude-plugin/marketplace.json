@@ -545,7 +545,7 @@
         "repo": "cyanheads/grantsgov-mcp-server"
       },
       "description": "Search Grants.gov funding opportunities and read full records: eligibility, awards, deadlines.",
-      "category": "Data",
+      "category": "Government Data",
       "author": {
         "name": "cyanheads"
       },
@@ -1421,6 +1421,19 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/wsdot-mcp-server"
+    },
+    {
+      "name": "zenodo-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/zenodo-mcp-server"
+      },
+      "description": "Search and resolve Zenodo datasets, software, and publications by DOI; trace versions and funding, list files, and preview text files via MCP. STDIO or Streamable HTTP.",
+      "category": "Research",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/zenodo-mcp-server"
     }
   ]
 }
