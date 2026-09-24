@@ -118,7 +118,7 @@ Point your agent at the scaffolded project and describe what you want to build. 
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/gnomad-genetics-mcp-server">gnomad-genetics-mcp-server</a> • <a href="https://gnomad-genetics.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/grantsgov-mcp-server">grantsgov-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/grantsgov-mcp-server">grantsgov-mcp-server</a> • <a href="https://grantsgov.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/guardian-mcp-server">guardian-mcp-server</a></td>
 </tr>
 <tr>
@@ -227,7 +227,7 @@ Point your agent at the scaffolded project and describe what you want to build. 
 <td><a href="https://github.com/cyanheads/wsdot-mcp-server">wsdot-mcp-server</a> • <a href="https://wsdot.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/zenodo-mcp-server">zenodo-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/zenodo-mcp-server">zenodo-mcp-server</a> • <a href="https://zenodo.caseyjhand.com/">/mcp</a></td>
 </tr>
 </table>
 
