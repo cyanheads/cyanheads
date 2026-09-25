@@ -141,7 +141,7 @@
       "interface": {
         "displayName": "bluesky-mcp-server",
         "shortDescription": "Search posts, profiles, feeds, threads, and trending topics on Bluesky via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "bluesky-mcp-server gives agents read-only access to Bluesky over the public AT Protocol AppView — no account, key, or credential required. It exposes full-text post search, actor profile lookup by handle or DID, author feeds, conversation threads by AT-URI, actor discovery, follower and following graph edges, and real-time trending topics, plus a bsky://profile/{actor} resource. Built on @cyanheads/mcp-ts-core, it runs over STDIO for local clients or Streamable HTTP for hosted deployments.",
+        "longDescription": "bluesky-mcp-server gives agents read-only access to Bluesky over the AT Protocol AppView. Without any credential it exposes actor profile lookup by handle or DID, trending topics and the feeds behind them, custom feeds by AT-URI or bsky.app link, author feeds, conversation threads by AT-URI, actor discovery, and follower and following graph edges, plus a bsky://profile/{actor} resource. Full-text post search, which Bluesky serves only to a signed-in account, is added when you set BLUESKY_IDENTIFIER and BLUESKY_APP_PASSWORD. Built on @cyanheads/mcp-ts-core, it runs over STDIO for local clients or Streamable HTTP for hosted deployments.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -493,7 +493,7 @@
       "interface": {
         "displayName": "devops-status-mcp-server",
         "shortDescription": "Check vendor status pages, inspect SSL/TLS certificates, verify DNS propagation, and get incident-response playbooks.",
-        "longDescription": "Infrastructure health and incident intelligence. Check 51 built-in vendors (GitHub, Cloudflare, OpenAI, AWS, Google Cloud, GitLab, Slack, and more) across Atlassian Statuspage, Status.io, Slack, AWS Health, Google Cloud Service Health, and Firehydrant backends, inspect SSL/TLS certificates and DNS propagation for any domain, and get deterministic incident-response playbooks — all without API keys.",
+        "longDescription": "Infrastructure health and incident intelligence. Check 52 built-in vendors (GitHub, Cloudflare, OpenAI, AWS, Google Cloud, Azure, GitLab, Slack, and more) across Atlassian Statuspage, Status.io, Slack, AWS Health, Google Cloud Service Health, Azure status, and Firehydrant backends, inspect SSL/TLS certificates and DNS propagation for any domain, and get deterministic incident-response playbooks — all without API keys.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -846,7 +846,7 @@
       "interface": {
         "displayName": "gdelt-mcp-server",
         "shortDescription": "Search and analyze global news coverage and US TV transcripts via the GDELT Project APIs.",
-        "longDescription": "Access the GDELT Project's real-time global news and TV transcript APIs. Search 65+ languages of news coverage from the last 3 months, retrieve coverage timelines and tone distributions, analyze geographic/language breakdowns, and search US TV news transcripts from 2009–2024.",
+        "longDescription": "Access the GDELT Project's real-time global news and TV transcript APIs. Search 65+ languages of news coverage from the last 3 months, retrieve coverage timelines and tone distributions, analyze geographic/language breakdowns, find GKG theme identifiers for theme: queries, and search US TV news transcripts from 2009–2024.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1308,7 +1308,7 @@
       "interface": {
         "displayName": "npi-providers-mcp-server",
         "shortDescription": "Search NPPES providers and resolve NUCC specialty codes via MCP over STDIO or Streamable HTTP.",
-        "longDescription": "US healthcare provider directory over the live, keyless NPPES NPI Registry API, plus a bundled NUCC Healthcare Provider Taxonomy code set for offline specialty resolution. Search providers by name, organization, specialty, or location; decode any NPI to its full record (taxonomies, addresses, credentials, identifiers, status); and resolve plain-language specialties to taxonomy codes.",
+        "longDescription": "US healthcare provider directory over the live, keyless NPPES NPI Registry API, plus a bundled NUCC Healthcare Provider Taxonomy code set for offline specialty resolution. Search providers by name, organization, specialty, or location; decode any NPI to its professional-practice record (taxonomies, practice addresses, credentials, identifiers, status — only practice-location addresses are kept for individual providers); and resolve plain-language specialties to taxonomy codes.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
