@@ -275,6 +275,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/obsidian-mcp-server">obsidian-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/survey-mcp-server">survey-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/toolkit-mcp-server">toolkit-mcp-server</a> • <a href="https://toolkit.caseyjhand.com/">/mcp</a></td>
 </tr>
 </table>
