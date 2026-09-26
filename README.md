@@ -10,13 +10,15 @@ Exploring ways to connect LLMs to the real world. Based in Seattle.
 
 ## [@cyanheads/mcp-ts-core](https://github.com/cyanheads/mcp-ts-core)
 
-Agent-native TypeScript framework for MCP servers, with declarative tool definitions, pluggable auth, and OpenTelemetry. Runs on Bun, Node.js, or Cloudflare Workers.
+Agent-native TypeScript framework for MCP servers, with declarative tool definitions, pluggable auth, and OpenTelemetry.
+Runs on Bun, Node.js, or Cloudflare Workers.
 
 ```bash
 bunx @cyanheads/mcp-ts-core init my-mcp-server
 ```
 
-Point your agent at the scaffolded project and describe what you want to build. Ships with Agent Skills and framework docs built in.
+Point your agent at the scaffolded project and describe what you want to build.
+Ships with Agent Skills and framework docs built in.
 
 ## Model Context Protocol (MCP)
 
