@@ -44,7 +44,10 @@ Point your agent at the scaffolded project and describe what you want to build. 
 <td><a href="https://github.com/cyanheads/clipboard-mcp-server">clipboard-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/macos-mcp-server">macos-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/ntfy-mcp-server">ntfy-mcp-server</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/cyanheads/pixoo-mcp-server">pixoo-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/wakeonlan-mcp-server">wakeonlan-mcp-server</a></td>
 </tr>
 </table>
 

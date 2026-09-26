@@ -1345,6 +1345,19 @@
       "homepage": "https://github.com/cyanheads/usgs-water-mcp-server"
     },
     {
+      "name": "wakeonlan-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/wakeonlan-mcp-server"
+      },
+      "description": "Wake LAN machines with Wake-on-LAN magic packets from host profiles, then confirm they came up.",
+      "category": "Developer Tools",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/wakeonlan-mcp-server"
+    },
+    {
       "name": "who-gho-mcp-server",
       "source": {
         "source": "github",
