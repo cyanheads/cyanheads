@@ -2,7 +2,7 @@
 
 # Hi, I'm Casey 👋
 
-[![Website](https://img.shields.io/badge/Website-caseyjhand.com-blue?style=for-the-badge)](https://caseyjhand.com) [![@cyanheads/mcp-ts-core](https://img.shields.io/badge/@cyanheads%2Fmcp--ts--core-67E8F9?style=for-the-badge)](https://github.com/cyanheads/mcp-ts-core) [![Bun](https://img.shields.io/badge/Bun-FBF0DF?style=for-the-badge&logo=bun&logoColor=black)](https://bun.sh) [![Model Context Protocol](https://img.shields.io/badge/Model_Context_Protocol-1A1A1A?style=for-the-badge)](https://modelcontextprotocol.io)
+[![Website](https://img.shields.io/badge/Website-caseyjhand.com-blue?style=for-the-badge)](https://caseyjhand.com) [![Bun](https://img.shields.io/badge/Bun-FBF0DF?style=for-the-badge&logo=bun&logoColor=black)](https://bun.sh) [![Model Context Protocol](https://img.shields.io/badge/Model_Context_Protocol-1A1A1A?style=for-the-badge)](https://modelcontextprotocol.io)
 
 Exploring ways to connect LLMs to the real world. Based in Seattle.
 
