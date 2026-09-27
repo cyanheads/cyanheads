@@ -292,6 +292,19 @@
       "homepage": "https://github.com/cyanheads/cyanheads-mcp-server"
     },
     {
+      "name": "datacite-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/datacite-mcp-server"
+      },
+      "description": "Search DataCite datasets and software, fetch DOI metadata, trace relations, format citations.",
+      "category": "Research",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/datacite-mcp-server"
+    },
+    {
       "name": "devops-status-mcp-server",
       "source": {
         "source": "github",
@@ -448,6 +461,19 @@
       "homepage": "https://github.com/cyanheads/fcc-broadband-mcp-server"
     },
     {
+      "name": "fdic-banks-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/fdic-banks-mcp-server"
+      },
+      "description": "Search FDIC-insured banks, Call Report financials, peer rankings, failures, deposit market share.",
+      "category": "Finance",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/fdic-banks-mcp-server"
+    },
+    {
       "name": "federal-regulations-mcp-server",
       "source": {
         "source": "github",
@@ -526,19 +552,6 @@
       "homepage": "https://github.com/cyanheads/gnomad-genetics-mcp-server"
     },
     {
-      "name": "guardian-mcp-server",
-      "source": {
-        "source": "github",
-        "repo": "cyanheads/guardian-mcp-server"
-      },
-      "description": "Search, browse, and retrieve full article text from The Guardian's journalism archive (1999–present) via MCP. STDIO or Streamable HTTP.",
-      "category": "Data",
-      "author": {
-        "name": "cyanheads"
-      },
-      "homepage": "https://github.com/cyanheads/guardian-mcp-server"
-    },
-    {
       "name": "grantsgov-mcp-server",
       "source": {
         "source": "github",
@@ -550,6 +563,19 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/grantsgov-mcp-server"
+    },
+    {
+      "name": "guardian-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/guardian-mcp-server"
+      },
+      "description": "Search, browse, and retrieve full article text from The Guardian's journalism archive (1999–present) via MCP. STDIO or Streamable HTTP.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/guardian-mcp-server"
     },
     {
       "name": "gutenberg-mcp-server",
@@ -576,6 +602,19 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/hn-mcp-server"
+    },
+    {
+      "name": "ilostat-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/ilostat-mcp-server"
+      },
+      "description": "Search ILOSTAT labour indicators, query and compare series, build country profiles, run SQL.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/ilostat-mcp-server"
     },
     {
       "name": "imf-mcp-server",
@@ -1291,6 +1330,32 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/tvmaze-mcp-server"
+    },
+    {
+      "name": "uk-legislation-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/uk-legislation-mcp-server"
+      },
+      "description": "Search and read UK legislation at any date, resolve citations, list amendments, track changes.",
+      "category": "Government Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/uk-legislation-mcp-server"
+    },
+    {
+      "name": "unhcr-refugees-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/unhcr-refugees-mcp-server"
+      },
+      "description": "Query UNHCR refugee, IDP, and stateless populations, asylum decisions, returns, and resettlement.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/unhcr-refugees-mcp-server"
     },
     {
       "name": "uniprot-mcp-server",

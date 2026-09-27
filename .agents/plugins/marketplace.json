@@ -489,6 +489,28 @@
       "category": "Developer Tools"
     },
     {
+      "name": "datacite-mcp-server",
+      "interface": {
+        "displayName": "datacite-mcp-server",
+        "shortDescription": "Search DataCite datasets and software, fetch DOI metadata, trace relations, format citations.",
+        "longDescription": "Search DataCite datasets and software, fetch DOI metadata, trace relations, format citations via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/datacite-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/datacite-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
       "name": "devops-status-mcp-server",
       "interface": {
         "displayName": "devops-status-mcp-server",
@@ -754,6 +776,28 @@
       "category": "Government Data"
     },
     {
+      "name": "fdic-banks-mcp-server",
+      "interface": {
+        "displayName": "fdic-banks-mcp-server",
+        "shortDescription": "Search FDIC-insured banks, Call Report financials, peer rankings, failures, deposit market share.",
+        "longDescription": "Search FDIC-insured banks, Call Report financials, peer rankings, failures, deposit market share via MCP. Find any FDIC-insured bank or savings institution, including closed, merged, and failed ones; read its quarterly Call Report financials back to 1984; rank it against same-size peers; screen many banks across quarters; search failures and assistance transactions since 1934 with the FDIC's estimated losses; and map branch deposits and market share from the Summary of Deposits. Keyless FDIC BankFind Suite data; credit unions are not covered.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/fdic-banks-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/fdic-banks-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    },
+    {
       "name": "federal-regulations-mcp-server",
       "interface": {
         "displayName": "federal-regulations-mcp-server",
@@ -886,28 +930,6 @@
       "category": "Science"
     },
     {
-      "name": "guardian-mcp-server",
-      "interface": {
-        "displayName": "guardian-mcp-server",
-        "shortDescription": "Search, browse, and retrieve full article text from The Guardian's journalism archive (1999–present) via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "guardian-mcp-server puts The Guardian's journalism archive (1999–present) behind MCP. guardian_search runs full-text search across the archive with section, tag, contributor, and date filters, returning articles with body text; guardian_browse walks the paper's structure — latest articles for a section or tag, plus discovery modes listing the available sections and tags to use as filters; guardian_get_article fetches a single article by ID with complete, untruncated body text and metadata. Powered by the Guardian Open Platform (open-platform.theguardian.com).",
-        "developerName": "cyanheads",
-        "capabilities": [
-          "Read"
-        ],
-        "websiteURL": "https://github.com/cyanheads/guardian-mcp-server"
-      },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cyanheads/guardian-mcp-server.git"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Data"
-    },
-    {
       "name": "grantsgov-mcp-server",
       "interface": {
         "displayName": "grantsgov-mcp-server",
@@ -928,6 +950,28 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Government Data"
+    },
+    {
+      "name": "guardian-mcp-server",
+      "interface": {
+        "displayName": "guardian-mcp-server",
+        "shortDescription": "Search, browse, and retrieve full article text from The Guardian's journalism archive (1999–present) via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "guardian-mcp-server puts The Guardian's journalism archive (1999–present) behind MCP. guardian_search runs full-text search across the archive with section, tag, contributor, and date filters, returning articles with body text; guardian_browse walks the paper's structure — latest articles for a section or tag, plus discovery modes listing the available sections and tags to use as filters; guardian_get_article fetches a single article by ID with complete, untruncated body text and metadata. Powered by the Guardian Open Platform (open-platform.theguardian.com).",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/guardian-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/guardian-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
     },
     {
       "name": "gutenberg-mcp-server",
@@ -966,6 +1010,28 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/hn-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
+      "name": "ilostat-mcp-server",
+      "interface": {
+        "displayName": "ilostat-mcp-server",
+        "shortDescription": "Search ILOSTAT labour indicators, query and compare series, build country profiles, run SQL.",
+        "longDescription": "Labour statistics from ILOSTAT, the International Labour Organization's statistical database: employment, unemployment, labour-force participation, earnings, working time, informality, and more, broken down by sex, age, economic activity, and other classifications. Search the indicator catalog, read an indicator's definition, unit, and coverage, then pull time series for countries, regions, income groups, or the world. Every observation keeps its source, status flag, and notes, and ILO modelled estimates and projections stay labelled apart from national data. Compare reference areas on the same indicator, build a headline labour-market profile for one country, and query larger result sets with SQL. Both ILO APIs it reads are free and keyless.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/ilostat-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/ilostat-mcp-server.git"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -2179,6 +2245,50 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cyanheads/tvmaze-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
+      "name": "uk-legislation-mcp-server",
+      "interface": {
+        "displayName": "uk-legislation-mcp-server",
+        "shortDescription": "Search and read UK legislation at any date, resolve citations, list amendments, track changes.",
+        "longDescription": "Search and read UK legislation at any date, resolve citations, list amendments, track changes via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/uk-legislation-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/uk-legislation-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
+      "name": "unhcr-refugees-mcp-server",
+      "interface": {
+        "displayName": "unhcr-refugees-mcp-server",
+        "shortDescription": "Query UNHCR refugee, IDP, and stateless populations, asylum decisions, returns, and resettlement.",
+        "longDescription": "Query UNHCR refugee, IDP, and stateless populations, asylum decisions, returns, and resettlement via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/unhcr-refugees-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/unhcr-refugees-mcp-server.git"
       },
       "policy": {
         "installation": "AVAILABLE",
