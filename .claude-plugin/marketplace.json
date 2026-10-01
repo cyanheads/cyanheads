@@ -175,6 +175,19 @@
       "homepage": "https://github.com/cyanheads/census-mcp-server"
     },
     {
+      "name": "cern-inspire-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/cern-inspire-mcp-server"
+      },
+      "description": "Search INSPIRE-HEP papers, authors, experiments, HEPData records; get citation metrics and BibTeX.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/cern-inspire-mcp-server"
+    },
+    {
       "name": "chembl-mcp-server",
       "source": {
         "source": "github",
