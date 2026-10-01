@@ -666,6 +666,28 @@
       "category": "Government Data"
     },
     {
+      "name": "elevation-mcp-server",
+      "interface": {
+        "displayName": "elevation-mcp-server",
+        "shortDescription": "Look up elevation worldwide, profile route ascent/descent, grid areas, check terrain line of sight.",
+        "longDescription": "Ground elevation and terrain analysis anywhere on Earth, with no API key. Look up as many as 100 points per call, sample a route for its distance, ascent, descent, and steepest grades, grid a bounding box for its highest and lowest points and relief, or check whether terrain blocks the sightline between two points, accounting for earth curvature and refraction. USGS 3DEP answers across the US and its territories, plus much of Canada and Mexico, at 1–30 m; everywhere else Open Topo Data answers from SRTM at about 30 m, with Mapzen terrain tiles where SRTM has no tile, including the sea floor. Every value names the dataset that answered, and every result lists the sources to credit.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/elevation-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/elevation-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
+    },
+    {
       "name": "ensembl-mcp-server",
       "interface": {
         "displayName": "ensembl-mcp-server",

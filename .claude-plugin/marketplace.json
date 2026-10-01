@@ -396,6 +396,19 @@
       "homepage": "https://github.com/cyanheads/eia-energy-mcp-server"
     },
     {
+      "name": "elevation-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/elevation-mcp-server"
+      },
+      "description": "Look up elevation worldwide, profile route ascent/descent, grid areas, check terrain line of sight.",
+      "category": "Science",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/elevation-mcp-server"
+    },
+    {
       "name": "ensembl-mcp-server",
       "source": {
         "source": "github",
