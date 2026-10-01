@@ -217,21 +217,22 @@ Ships with Agent Skills and framework docs built in.
 <th colspan="3" align="left">Knowledge &amp; Culture</th>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/art-institute-chicago-mcp-server">art-institute-chicago-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/gutenberg-mcp-server">gutenberg-mcp-server</a> • <a href="https://gutenberg.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/internet-archive-mcp-server">internet-archive-mcp-server</a></td>
-<td><a href="https://github.com/cyanheads/libofcongress-mcp-server">libofcongress-mcp-server</a> • <a href="https://libofcongress.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/libofcongress-mcp-server">libofcongress-mcp-server</a> • <a href="https://libofcongress.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/met-museum-mcp-server">met-museum-mcp-server</a> • <a href="https://met-museum.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/openlibrary-mcp-server">openlibrary-mcp-server</a> • <a href="https://openlibrary.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/reference-data-mcp-server">reference-data-mcp-server</a> • <a href="https://reference-data.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/reference-data-mcp-server">reference-data-mcp-server</a> • <a href="https://reference-data.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/smithsonian-mcp-server">smithsonian-mcp-server</a> • <a href="https://smithsonian.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/stackexchange-mcp-server">stackexchange-mcp-server</a> • <a href="https://stackexchange.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/unesco-heritage-mcp-server">unesco-heritage-mcp-server</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/unesco-heritage-mcp-server">unesco-heritage-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/wikidata-mcp-server">wikidata-mcp-server</a> • <a href="https://wikidata.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/wikipedia-mcp-server">wikipedia-mcp-server</a> • <a href="https://wikipedia.caseyjhand.com/">/mcp</a></td>
 </tr>
