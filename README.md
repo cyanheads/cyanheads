@@ -60,8 +60,8 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/brapi-mcp-server">brapi-mcp-server</a> • <a href="https://brapi.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/cern-inspire-mcp-server">cern-inspire-mcp-server</a></td>
-<td><a href="https://github.com/cyanheads/cern-opendata-mcp-server">cern-opendata-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/cern-inspire-mcp-server">cern-inspire-mcp-server</a> • <a href="https://cern-inspire.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/cern-opendata-mcp-server">cern-opendata-mcp-server</a> • <a href="https://cern-opendata.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/chembl-mcp-server">chembl-mcp-server</a> • <a href="https://chembl.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
@@ -75,7 +75,7 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/inaturalist-mcp-server">inaturalist-mcp-server</a> • <a href="https://inaturalist.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/oeis-mcp-server">oeis-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/oeis-mcp-server">oeis-mcp-server</a> • <a href="https://oeis.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/openalex-mcp-server">openalex-mcp-server</a> • <a href="https://openalex.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/orcid-mcp-server">orcid-mcp-server</a> • <a href="https://orcid.caseyjhand.com/">/mcp</a></td>
 </tr>
@@ -116,7 +116,7 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/earthquake-mcp-server">earthquake-mcp-server</a> • <a href="https://earthquake.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/elevation-mcp-server">elevation-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/elevation-mcp-server">elevation-mcp-server</a> • <a href="https://elevation.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/epa-mcp-server">epa-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/noaa-climate-mcp-server">noaa-climate-mcp-server</a> • <a href="https://noaa-climate.caseyjhand.com/">/mcp</a></td>
 </tr>
@@ -140,7 +140,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/fbi-crime-mcp-server">fbi-crime-mcp-server</a></td>
-<td><a href="https://github.com/cyanheads/fcc-spectrum-mcp-server">fcc-spectrum-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/fcc-spectrum-mcp-server">fcc-spectrum-mcp-server</a> • <a href="https://fcc-spectrum.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/federal-regulations-mcp-server">federal-regulations-mcp-server</a> • <a href="https://federal-regulations.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
@@ -160,7 +160,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/uk-legislation-mcp-server">uk-legislation-mcp-server</a> • <a href="https://uk-legislation.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/uk-police-crime-mcp-server">uk-police-crime-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/uk-police-crime-mcp-server">uk-police-crime-mcp-server</a> • <a href="https://uk-police-crime.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/usaspending-mcp-server">usaspending-mcp-server</a> • <a href="https://usaspending.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
@@ -205,8 +205,8 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/faa-aircraft-registry-mcp-server">faa-aircraft-registry-mcp-server</a> • <a href="https://faa-aircraft-registry.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/faa-traffic-delays-mcp-server">faa-traffic-delays-mcp-server</a></td>
-<td><a href="https://github.com/cyanheads/geonames-mcp-server">geonames-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/faa-traffic-delays-mcp-server">faa-traffic-delays-mcp-server</a> • <a href="https://faa-traffic-delays.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/geonames-mcp-server">geonames-mcp-server</a> • <a href="https://geonames.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/national-parks-mcp-server">national-parks-mcp-server</a> • <a href="https://national-parks.caseyjhand.com/">/mcp</a></td>
@@ -226,7 +226,7 @@ Ships with Agent Skills and framework docs built in.
 <th colspan="3" align="left">Knowledge &amp; Culture</th>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/art-institute-chicago-mcp-server">art-institute-chicago-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/art-institute-chicago-mcp-server">art-institute-chicago-mcp-server</a> • <a href="https://art-institute-chicago.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/gutenberg-mcp-server">gutenberg-mcp-server</a> • <a href="https://gutenberg.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/internet-archive-mcp-server">internet-archive-mcp-server</a></td>
 </tr>
@@ -241,7 +241,7 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/stackexchange-mcp-server">stackexchange-mcp-server</a> • <a href="https://stackexchange.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/unesco-heritage-mcp-server">unesco-heritage-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/unesco-heritage-mcp-server">unesco-heritage-mcp-server</a> • <a href="https://unesco-heritage.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/wikidata-mcp-server">wikidata-mcp-server</a> • <a href="https://wikidata.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/wikipedia-mcp-server">wikipedia-mcp-server</a> • <a href="https://wikipedia.caseyjhand.com/">/mcp</a></td>
 </tr>
@@ -276,7 +276,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/devops-status-mcp-server">devops-status-mcp-server</a> • <a href="https://devops-status.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/iana-registries-mcp-server">iana-registries-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/iana-registries-mcp-server">iana-registries-mcp-server</a> • <a href="https://iana-registries.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/nist-nvd-mcp-server">nist-nvd-mcp-server</a> • <a href="https://nist-nvd.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
