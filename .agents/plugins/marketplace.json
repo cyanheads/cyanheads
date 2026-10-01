@@ -1525,6 +1525,28 @@
       "category": "Data"
     },
     {
+      "name": "oeis-mcp-server",
+      "interface": {
+        "displayName": "oeis-mcp-server",
+        "shortDescription": "Identify integer sequences by terms, search the OEIS, read formulas, programs, b-files, cross-refs.",
+        "longDescription": "Look up integer sequences in the On-Line Encyclopedia of Integer Sequences (OEIS). Identify an unknown sequence from a run of observed terms, with the index where the run begins in each match, or search with OEIS's own query syntax: words, quoted phrases, and prefixes such as keyword:, author:, and formula:. Read an entry by A-number with its formulas, generating functions, programs, comments, and references; pull extended terms from its b-file as exact decimal strings; and list the sequences it cross-references or that mention it. A reference tool decodes keyword flags, search syntax, and offsets. Requests to oeis.org are paced to one every 10 seconds and cached. No API key required; OEIS content is CC BY-SA 4.0, and every record carries its oeis.org URL for attribution.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/oeis-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/oeis-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
       "name": "onebusaway-mcp-server",
       "interface": {
         "displayName": "onebusaway-mcp-server",

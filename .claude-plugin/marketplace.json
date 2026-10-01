@@ -903,6 +903,19 @@
       "homepage": "https://github.com/cyanheads/oecd-mcp-server"
     },
     {
+      "name": "oeis-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/oeis-mcp-server"
+      },
+      "description": "Identify integer sequences by terms, search the OEIS, read formulas, programs, b-files, cross-refs.",
+      "category": "Research",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/oeis-mcp-server"
+    },
+    {
       "name": "onebusaway-mcp-server",
       "source": {
         "source": "github",
