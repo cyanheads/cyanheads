@@ -732,6 +732,28 @@
       "category": "Government Data"
     },
     {
+      "name": "faa-traffic-delays-mcp-server",
+      "interface": {
+        "displayName": "faa-traffic-delays-mcp-server",
+        "shortDescription": "Track FAA ground stops, delay programs, airport delays, the operations plan, and ATCSCC advisories.",
+        "longDescription": "Real-time US air traffic management status from the FAA Air Traffic Control System Command Center (ATCSCC), read from the NAS Status feed and the ATCSCC advisories database. Check US airports for ground stops, Ground Delay Programs with their delay profile, arrival and departure delays, closures, and the runway configuration and arrival rate; list every active event nationwide, en-route Airspace Flow Programs included, sorted by severity; read the operations plan for programs the FAA expects later in the day; and open the full advisory text behind each program. Airport codes are checked against a bundled FAA airport directory. Keyless and read-only; the data is informational, not a source for flight planning.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/faa-traffic-delays-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/faa-traffic-delays-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "faostat-mcp-server",
       "interface": {
         "displayName": "faostat-mcp-server",
@@ -1175,8 +1197,8 @@
       "name": "met-museum-mcp-server",
       "interface": {
         "displayName": "met-museum-mcp-server",
-        "shortDescription": "Search the Metropolitan Museum of Art collection, fetch full artwork records and open-access images via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "Search the Metropolitan Museum of Art collection, fetch full artwork records and open-access images via MCP. STDIO or Streamable HTTP.",
+        "shortDescription": "Search the Metropolitan Museum of Art collection, browse it by department or update date, fetch full artwork records and open-access images via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Search the Metropolitan Museum of Art collection, browse it by department or update date, fetch full artwork records and open-access images via MCP. STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1419,7 +1441,7 @@
       "interface": {
         "displayName": "nws-weather-mcp-server",
         "shortDescription": "Get US weather forecasts, active alerts, and current observations via the National Weather Service API.",
-        "longDescription": "Real-time US weather from the National Weather Service API (api.weather.gov), covering the 50 states, US territories, and adjacent marine areas. Seven coordinate-driven tools: 7-day and hourly forecasts, active alerts filtered by area/zone/event/severity, current observations from the nearest station, nearby station discovery, alert event-type listing, forecast-office narrative discussions (AFD/HWO/ZFP/SPS), and zone-level text forecasts. The API does not geocode — resolve place names to latitude/longitude before calling. No API key required. Runs over STDIO or Streamable HTTP.",
+        "longDescription": "Real-time US weather from the National Weather Service API (api.weather.gov), covering the 50 states, US territories, and adjacent marine areas. Nine tools: 7-day and hourly forecasts, active alerts filtered by area/zone/event/severity, national alert counts per state and marine region, current observations from the nearest station, up to 7 days of a station's observation history, nearby station discovery, alert event-type listing, forecast-office narrative discussions (AFD/HWO/ZFP/SPS), and zone-level text forecasts. The API does not geocode — resolve place names to latitude/longitude before calling. No API key required. Runs over STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -2273,6 +2295,28 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Government Data"
+    },
+    {
+      "name": "unesco-heritage-mcp-server",
+      "interface": {
+        "displayName": "unesco-heritage-mcp-server",
+        "shortDescription": "Search UNESCO World Heritage sites, intangible heritage, and Man and the Biosphere reserves.",
+        "longDescription": "Read-only access to three UNESCO Data Hub datasets: the World Heritage List, the Intangible Cultural Heritage lists, and the World Network of Biosphere Reserves from the Man and the Biosphere Programme. Search World Heritage sites by keyword, country, category, region, inscription criteria (i)–(x), inscription years, or distance from a point, review the List of World Heritage in Danger, and read a site's statement of Outstanding Universal Value, criteria, and component parts. Find intangible heritage elements by list, country, or the World Heritage site UNESCO links them to, and search biosphere reserves by ecosystem keyword, regional network, or location. A reference tool turns country names into ISO codes and decodes the vocabulary the search tools accept. Every response carries the dataset's data date and CC BY-SA 4.0 attribution. No API key required.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/unesco-heritage-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/unesco-heritage-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
     },
     {
       "name": "unhcr-refugees-mcp-server",

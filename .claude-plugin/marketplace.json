@@ -435,6 +435,19 @@
       "homepage": "https://github.com/cyanheads/faa-aircraft-registry-mcp-server"
     },
     {
+      "name": "faa-traffic-delays-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/faa-traffic-delays-mcp-server"
+      },
+      "description": "Track FAA ground stops, delay programs, airport delays, the operations plan, and ATCSCC advisories.",
+      "category": "Government Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/faa-traffic-delays-mcp-server"
+    },
+    {
       "name": "faostat-mcp-server",
       "source": {
         "source": "github",
@@ -700,7 +713,7 @@
         "source": "github",
         "repo": "cyanheads/met-museum-mcp-server"
       },
-      "description": "Search the Metropolitan Museum of Art collection, fetch full artwork records and open-access images via MCP. STDIO or Streamable HTTP.",
+      "description": "Search the Metropolitan Museum of Art collection, browse it by department or update date, fetch full artwork records and open-access images via MCP. STDIO or Streamable HTTP.",
       "category": "Research",
       "author": {
         "name": "cyanheads"
@@ -1343,6 +1356,19 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/uk-legislation-mcp-server"
+    },
+    {
+      "name": "unesco-heritage-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/unesco-heritage-mcp-server"
+      },
+      "description": "Search UNESCO World Heritage sites, intangible heritage, and Man and the Biosphere reserves.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/unesco-heritage-mcp-server"
     },
     {
       "name": "unhcr-refugees-mcp-server",
