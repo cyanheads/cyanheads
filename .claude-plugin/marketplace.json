@@ -6,6 +6,19 @@
   },
   "plugins": [
     {
+      "name": "art-institute-chicago-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/art-institute-chicago-mcp-server"
+      },
+      "description": "Search the Art Institute of Chicago collection: artworks, artists, exhibitions, and audio guides.",
+      "category": "Research",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/art-institute-chicago-mcp-server"
+    },
+    {
       "name": "arxiv-mcp-server",
       "source": {
         "source": "github",
