@@ -116,16 +116,17 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/earthquake-mcp-server">earthquake-mcp-server</a> • <a href="https://earthquake.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/elevation-mcp-server">elevation-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/epa-mcp-server">epa-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/noaa-climate-mcp-server">noaa-climate-mcp-server</a> • <a href="https://noaa-climate.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/noaa-marine-mcp-server">noaa-marine-mcp-server</a> • <a href="https://noaa-marine.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/noaa-marine-mcp-server">noaa-marine-mcp-server</a> • <a href="https://noaa-marine.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/noaa-spaceweather-mcp-server">noaa-spaceweather-mcp-server</a> • <a href="https://noaa-spaceweather.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/nws-weather-mcp-server">nws-weather-mcp-server</a> • <a href="https://nws.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/open-meteo-mcp-server">open-meteo-mcp-server</a> • <a href="https://open-meteo.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/open-meteo-mcp-server">open-meteo-mcp-server</a> • <a href="https://open-meteo.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/openaq-mcp-server">openaq-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/usgs-water-mcp-server">usgs-water-mcp-server</a> • <a href="https://usgs-water.caseyjhand.com/">/mcp</a></td>
 </tr>
