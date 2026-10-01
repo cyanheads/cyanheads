@@ -578,6 +578,19 @@
       "homepage": "https://github.com/cyanheads/gdelt-mcp-server"
     },
     {
+      "name": "geonames-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/geonames-mcp-server"
+      },
+      "description": "Search GeoNames places, walk admin hierarchies, reverse geocode, get postal codes and country info.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/geonames-mcp-server"
+    },
+    {
       "name": "gnomad-genetics-mcp-server",
       "source": {
         "source": "github",
