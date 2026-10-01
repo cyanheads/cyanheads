@@ -276,10 +276,11 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/devops-status-mcp-server">devops-status-mcp-server</a> • <a href="https://devops-status.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/iana-registries-mcp-server">iana-registries-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/nist-nvd-mcp-server">nist-nvd-mcp-server</a> • <a href="https://nist-nvd.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/osv-advisory-mcp-server">osv-advisory-mcp-server</a> • <a href="https://osv-advisory.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/osv-advisory-mcp-server">osv-advisory-mcp-server</a> • <a href="https://osv-advisory.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/pentest-mcp-server">pentest-mcp-server</a> • <a href="https://pentest.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/whois-mcp-server">whois-mcp-server</a></td>
 </tr>

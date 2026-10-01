@@ -695,6 +695,19 @@
       "homepage": "https://github.com/cyanheads/hn-mcp-server"
     },
     {
+      "name": "iana-registries-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/iana-registries-mcp-server"
+      },
+      "description": "Look up IANA ports, media types, HTTP status codes and fields, URI schemes, enterprise numbers, and BCP 47 language tags; check RFC status; search and read any IANA registry.",
+      "category": "Developer Tools",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/iana-registries-mcp-server"
+    },
+    {
       "name": "ilostat-mcp-server",
       "source": {
         "source": "github",
