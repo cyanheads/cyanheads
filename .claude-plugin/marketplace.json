@@ -1449,6 +1449,19 @@
       "homepage": "https://github.com/cyanheads/uk-legislation-mcp-server"
     },
     {
+      "name": "uk-police-crime-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/uk-police-crime-mcp-server"
+      },
+      "description": "Search UK street crime, outcomes, stop and search, and neighbourhood teams (Scotland: BTP only).",
+      "category": "Government Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/uk-police-crime-mcp-server"
+    },
+    {
       "name": "unesco-heritage-mcp-server",
       "source": {
         "source": "github",
