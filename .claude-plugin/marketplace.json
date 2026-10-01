@@ -188,6 +188,19 @@
       "homepage": "https://github.com/cyanheads/cern-inspire-mcp-server"
     },
     {
+      "name": "cern-opendata-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/cern-opendata-mcp-server"
+      },
+      "description": "Search CERN Open Data, fetch records, files, analysis environments, CMS good-run lists, HLT paths.",
+      "category": "Research",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/cern-opendata-mcp-server"
+    },
+    {
       "name": "chembl-mcp-server",
       "source": {
         "source": "github",
