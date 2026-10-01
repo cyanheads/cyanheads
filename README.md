@@ -197,17 +197,20 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/faa-aircraft-registry-mcp-server">faa-aircraft-registry-mcp-server</a> • <a href="https://faa-aircraft-registry.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/faa-traffic-delays-mcp-server">faa-traffic-delays-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/national-parks-mcp-server">national-parks-mcp-server</a> • <a href="https://national-parks.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/nhtsa-vehicle-safety-mcp-server">nhtsa-vehicle-safety-mcp-server</a> • <a href="https://nhtsa.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/nhtsa-vehicle-safety-mcp-server">nhtsa-vehicle-safety-mcp-server</a> • <a href="https://nhtsa.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/onebusaway-mcp-server">onebusaway-mcp-server</a> • <a href="https://onebusaway.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/openchargemap-mcp-server">openchargemap-mcp-server</a> • <a href="https://openchargemap.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/openstreetmap-mcp-server">openstreetmap-mcp-server</a> • <a href="https://openstreetmap.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/openstreetmap-mcp-server">openstreetmap-mcp-server</a> • <a href="https://openstreetmap.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/ourairports-mcp-server">ourairports-mcp-server</a> • <a href="https://ourairports.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/transitland-mcp-server">transitland-mcp-server</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/cyanheads/wsdot-mcp-server">wsdot-mcp-server</a> • <a href="https://wsdot.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
@@ -226,9 +229,10 @@ Ships with Agent Skills and framework docs built in.
 <tr>
 <td><a href="https://github.com/cyanheads/smithsonian-mcp-server">smithsonian-mcp-server</a> • <a href="https://smithsonian.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/stackexchange-mcp-server">stackexchange-mcp-server</a> • <a href="https://stackexchange.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/wikidata-mcp-server">wikidata-mcp-server</a> • <a href="https://wikidata.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/unesco-heritage-mcp-server">unesco-heritage-mcp-server</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/wikidata-mcp-server">wikidata-mcp-server</a> • <a href="https://wikidata.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/wikipedia-mcp-server">wikipedia-mcp-server</a> • <a href="https://wikipedia.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
