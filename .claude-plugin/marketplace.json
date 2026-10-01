@@ -487,6 +487,19 @@
       "homepage": "https://github.com/cyanheads/fcc-broadband-mcp-server"
     },
     {
+      "name": "fcc-spectrum-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/fcc-spectrum-mcp-server"
+      },
+      "description": "Search FCC radio licenses, find nearby transmitter sites, and see who is licensed on a frequency.",
+      "category": "Government Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/fcc-spectrum-mcp-server"
+    },
+    {
       "name": "fdic-banks-mcp-server",
       "source": {
         "source": "github",
