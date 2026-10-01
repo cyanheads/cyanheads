@@ -137,25 +137,26 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/fbi-crime-mcp-server">fbi-crime-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/fcc-spectrum-mcp-server">fcc-spectrum-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/federal-regulations-mcp-server">federal-regulations-mcp-server</a> • <a href="https://federal-regulations.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/fema-mcp-server">fema-mcp-server</a> • <a href="https://fema.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/fema-mcp-server">fema-mcp-server</a> • <a href="https://fema.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/grantsgov-mcp-server">grantsgov-mcp-server</a> • <a href="https://grantsgov.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/nonprofit-explorer-mcp-server">nonprofit-explorer-mcp-server</a> • <a href="https://nonprofit-explorer.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/openfec-mcp-server">openfec-mcp-server</a> • <a href="https://openfec.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/openfec-mcp-server">openfec-mcp-server</a> • <a href="https://openfec.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/openstates-mcp-server">openstates-mcp-server</a> • <a href="https://openstates.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/reliefweb-mcp-server">reliefweb-mcp-server</a> • <a href="https://reliefweb.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/ris-austria-mcp-server">ris-austria-mcp-server</a> • <a href="https://ris-austria.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/ris-austria-mcp-server">ris-austria-mcp-server</a> • <a href="https://ris-austria.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/sanctions-screening-mcp-server">sanctions-screening-mcp-server</a> • <a href="https://sanctions-screening.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/socrata-mcp-server">socrata-mcp-server</a> • <a href="https://socrata.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/uk-legislation-mcp-server">uk-legislation-mcp-server</a> • <a href="https://uk-legislation.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/uk-legislation-mcp-server">uk-legislation-mcp-server</a> • <a href="https://uk-legislation.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/usaspending-mcp-server">usaspending-mcp-server</a> • <a href="https://usaspending.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
