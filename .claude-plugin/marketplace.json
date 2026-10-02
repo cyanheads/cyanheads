@@ -1480,7 +1480,7 @@
         "source": "github",
         "repo": "cyanheads/unesco-heritage-mcp-server"
       },
-      "description": "Search UNESCO World Heritage sites, intangible heritage, and Man and the Biosphere reserves.",
+      "description": "Search UNESCO World Heritage sites, intangible heritage, biosphere reserves, and Global Geoparks.",
       "category": "Data",
       "author": {
         "name": "cyanheads"
