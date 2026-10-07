@@ -266,6 +266,19 @@
       "homepage": "https://github.com/cyanheads/coingecko-mcp-server"
     },
     {
+      "name": "college-scorecard-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/college-scorecard-mcp-server"
+      },
+      "description": "Search, compare, and analyze U.S. college data — costs, earnings, programs, and outcomes — via MCP. STDIO or Streamable HTTP.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/college-scorecard-mcp-server"
+    },
+    {
       "name": "congressgov-mcp-server",
       "source": {
         "source": "github",
@@ -422,6 +435,19 @@
       "homepage": "https://github.com/cyanheads/ensembl-mcp-server"
     },
     {
+      "name": "epa-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/epa-mcp-server"
+      },
+      "description": "Search and retrieve EPA environmental data: facility compliance (ECHO), toxic releases (TRI), Superfund sites, drinking water systems, environmental-justice screening (EJScreen), and real-time air quality (AirNow). STDIO or Streamable HTTP.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/epa-mcp-server"
+    },
+    {
       "name": "eur-lex-mcp-server",
       "source": {
         "source": "github",
@@ -511,6 +537,19 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/faostat-mcp-server"
+    },
+    {
+      "name": "fbi-crime-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/fbi-crime-mcp-server"
+      },
+      "description": "Exposes the FBI Crime Data Explorer API — UCR crime estimates, NIBRS incident breakdowns, hate crimes, arrests, human trafficking, and agency participation data via MCP. STDIO or Streamable HTTP.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/fbi-crime-mcp-server"
     },
     {
       "name": "fcc-broadband-mcp-server",
@@ -745,6 +784,19 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/inaturalist-mcp-server"
+    },
+    {
+      "name": "internet-archive-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/internet-archive-mcp-server"
+      },
+      "description": "Search the Wayback Machine and IA library (40M+ items), fetch archived snapshots, retrieve item metadata and full text via MCP. STDIO or Streamable HTTP.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/internet-archive-mcp-server"
     },
     {
       "name": "libofcongress-mcp-server",
@@ -1473,6 +1525,19 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/uk-police-crime-mcp-server"
+    },
+    {
+      "name": "un-comtrade-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/un-comtrade-mcp-server"
+      },
+      "description": "Access UN Comtrade international merchandise and services trade statistics — country lookups, HS commodity search, bilateral trade flows, balances, rankings, and data availability — via MCP. STDIO or Streamable HTTP.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/un-comtrade-mcp-server"
     },
     {
       "name": "unesco-heritage-mcp-server",

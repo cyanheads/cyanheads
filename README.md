@@ -117,7 +117,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/elevation-mcp-server">elevation-mcp-server</a> • <a href="https://elevation.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/epa-mcp-server">epa-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/epa-mcp-server">epa-mcp-server</a> • <a href="https://epa.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/noaa-climate-mcp-server">noaa-climate-mcp-server</a> • <a href="https://noaa-climate.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
@@ -139,7 +139,7 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/eur-lex-mcp-server">eur-lex-mcp-server</a> • <a href="https://eur-lex.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/fbi-crime-mcp-server">fbi-crime-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/fbi-crime-mcp-server">fbi-crime-mcp-server</a> • <a href="https://fbi-crime.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/fcc-spectrum-mcp-server">fcc-spectrum-mcp-server</a> • <a href="https://fcc-spectrum.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/federal-regulations-mcp-server">federal-regulations-mcp-server</a> • <a href="https://federal-regulations.caseyjhand.com/">/mcp</a></td>
 </tr>
@@ -172,7 +172,7 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/coingecko-mcp-server">coingecko-mcp-server</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/college-scorecard-mcp-server">college-scorecard-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/college-scorecard-mcp-server">college-scorecard-mcp-server</a> • <a href="https://college-scorecard.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/eia-energy-mcp-server">eia-energy-mcp-server</a> • <a href="https://eia-energy.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/eurostat-mcp-server">eurostat-mcp-server</a> • <a href="https://eurostat.caseyjhand.com/">/mcp</a></td>
 </tr>
@@ -194,7 +194,7 @@ Ships with Agent Skills and framework docs built in.
 <tr>
 <td><a href="https://github.com/cyanheads/secedgar-mcp-server">secedgar-mcp-server</a> • <a href="https://secedgar.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/treasury-fiscaldata-mcp-server">treasury-fiscaldata-mcp-server</a> • <a href="https://treasury-fiscaldata.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/un-comtrade-mcp-server">un-comtrade-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/un-comtrade-mcp-server">un-comtrade-mcp-server</a> • <a href="https://un-comtrade.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/unhcr-refugees-mcp-server">unhcr-refugees-mcp-server</a> • <a href="https://unhcr-refugees.caseyjhand.com/">/mcp</a></td>
@@ -228,7 +228,7 @@ Ships with Agent Skills and framework docs built in.
 <tr>
 <td><a href="https://github.com/cyanheads/art-institute-chicago-mcp-server">art-institute-chicago-mcp-server</a> • <a href="https://art-institute-chicago.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/gutenberg-mcp-server">gutenberg-mcp-server</a> • <a href="https://gutenberg.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/internet-archive-mcp-server">internet-archive-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/internet-archive-mcp-server">internet-archive-mcp-server</a> • <a href="https://internet-archive.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/libofcongress-mcp-server">libofcongress-mcp-server</a> • <a href="https://libofcongress.caseyjhand.com/">/mcp</a></td>

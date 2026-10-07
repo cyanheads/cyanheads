@@ -445,6 +445,28 @@
       "category": "Finance"
     },
     {
+      "name": "college-scorecard-mcp-server",
+      "interface": {
+        "displayName": "college-scorecard-mcp-server",
+        "shortDescription": "Search, compare, and analyze U.S. college data — costs, earnings, programs, and outcomes — via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Access U.S. Department of Education College Scorecard data — search institutions, compare schools side-by-side, look up program-level earnings and debt, and analyze value metrics.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/college-scorecard-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/college-scorecard-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
       "name": "congressgov-mcp-server",
       "interface": {
         "displayName": "congressgov-mcp-server",
@@ -710,6 +732,28 @@
       "category": "Science"
     },
     {
+      "name": "epa-mcp-server",
+      "interface": {
+        "displayName": "epa-mcp-server",
+        "shortDescription": "EPA compliance, releases, cleanup, water, EJScreen, and air-quality data.",
+        "longDescription": "Search and retrieve EPA environmental data: facility compliance (ECHO), toxic releases (TRI), Superfund sites, drinking water systems, environmental-justice screening (EJScreen), and real-time air quality (AirNow). STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/epa-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/epa-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
       "name": "eur-lex-mcp-server",
       "interface": {
         "displayName": "eur-lex-mcp-server",
@@ -862,6 +906,28 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Government Data"
+    },
+    {
+      "name": "fbi-crime-mcp-server",
+      "interface": {
+        "displayName": "fbi-crime-mcp-server",
+        "shortDescription": "Exposes the FBI Crime Data Explorer API — UCR crime estimates, NIBRS incident breakdowns, hate crimes, arrests, human trafficking, and agency participation data via MCP.",
+        "longDescription": "Access the FBI Crime Data Explorer API through MCP. Query UCR crime estimates (per-100k rates and counts by month) at national, state, or agency scope, pull agency-scoped offense data by ORI code, and retrieve LEOKA officer fatality trends with circumstance, demographic, timeline, and weapon detail. Runs over STDIO or Streamable HTTP; decommissioned legacy UCR tools return explicit errors pointing at the surviving CDE endpoints.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/fbi-crime-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/fbi-crime-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
     },
     {
       "name": "fcc-broadband-mcp-server",
@@ -1258,6 +1324,28 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Science"
+    },
+    {
+      "name": "internet-archive-mcp-server",
+      "interface": {
+        "displayName": "internet-archive-mcp-server",
+        "shortDescription": "Search the Wayback Machine and IA library (40M+ items), fetch archived snapshots, retrieve item metadata and full text via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "MCP server for the Internet Archive and the Wayback Machine. Five read-only tools — ia_find_snapshots (Availability/CDX lookup), ia_get_snapshot (archived page text), ia_search_items (Solr library search), ia_get_item (full metadata + file manifest), and ia_get_text (paginated book/document text) — plus an ia://item/{identifier} metadata resource. No credentials required; runs over stdio or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/internet-archive-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/internet-archive-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
     },
     {
       "name": "libofcongress-mcp-server",
@@ -2493,6 +2581,28 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Government Data"
+    },
+    {
+      "name": "un-comtrade-mcp-server",
+      "interface": {
+        "displayName": "un-comtrade-mcp-server",
+        "shortDescription": "UN Comtrade trade statistics via MCP — country/HS lookups, bilateral flows, balances, rankings.",
+        "longDescription": "MCP server wrapping the UN Comtrade API for international merchandise and services trade statistics. Resolve country names to M49 codes, search HS commodity codes by keyword, fetch bilateral trade flow records with values in USD, compute trade balances with coverage ratios, rank top trading partners and commodities, check data availability before querying, and browse EBOPS 2010 service trade categories. Works on the free public preview endpoint (500 records/call) or with a subscription key for full access. Runs over STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/un-comtrade-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/un-comtrade-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
     },
     {
       "name": "unesco-heritage-mcp-server",
