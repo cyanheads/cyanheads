@@ -219,7 +219,7 @@
         "source": "github",
         "repo": "cyanheads/cisa-cybersecurity-mcp-server"
       },
-      "description": "CISA Known Exploited Vulnerabilities with BOD 26-04 deadlines, SSVC prioritization, and the full ICS advisory corpus (CSAF) via MCP. Keyless. STDIO & Streamable HTTP.",
+      "description": "CISA Known Exploited Vulnerabilities with BOD 26-04 deadlines, SSVC prioritization, and the full ICS advisory corpus (CSAF) via MCP. Keyless. STDIO or Streamable HTTP.",
       "category": "Security",
       "author": {
         "name": "cyanheads"
@@ -1103,7 +1103,7 @@
         "source": "github",
         "repo": "cyanheads/openchargemap-mcp-server"
       },
-      "description": "Find EV charging stations worldwide by location and connector via the global Open Charge Map registry — full station detail, reference-ID resolution, and community reliability check-ins via MCP. STDIO or Streamable HTTP.",
+      "description": "Find EV charging stations worldwide by location and connector from the global Open Charge Map registry — full station detail, reference-ID resolution, and community reliability check-ins via MCP. STDIO or Streamable HTTP.",
       "category": "Data",
       "author": {
         "name": "cyanheads"
@@ -1129,7 +1129,7 @@
         "source": "github",
         "repo": "cyanheads/openfec-mcp-server"
       },
-      "description": "Access FEC campaign finance data through MCP. Query data about candidates, money trails, and election filings. STDIO & Streamable HTTP.",
+      "description": "Access FEC campaign finance data on candidates, money trails, and election filings via MCP. STDIO or Streamable HTTP.",
       "category": "Government Data",
       "author": {
         "name": "cyanheads"
@@ -1246,7 +1246,7 @@
         "source": "github",
         "repo": "cyanheads/pentest-mcp-server"
       },
-      "description": "Offline methodology engine and payload workshop for authorized penetration testing, CTF, security research, and education.",
+      "description": "Offline methodology engine and payload workshop for authorized penetration testing, CTF, security research, and education via MCP. STDIO or Streamable HTTP.",
       "category": "Security",
       "author": {
         "name": "cyanheads"
@@ -1571,7 +1571,7 @@
         "source": "github",
         "repo": "cyanheads/uniprot-mcp-server"
       },
-      "description": "Protein research over UniProtKB — search by function, fetch curated records, map IDs, proteomes.",
+      "description": "Protein research over UniProtKB: search by function, fetch curated records, map IDs, proteomes.",
       "category": "Research",
       "author": {
         "name": "cyanheads"

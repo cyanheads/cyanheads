@@ -1176,7 +1176,7 @@
       "interface": {
         "displayName": "guardian-mcp-server",
         "shortDescription": "Search, browse, and retrieve full article text from The Guardian's journalism archive (1999–present) via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "guardian-mcp-server puts The Guardian's journalism archive (1999–present) behind MCP. guardian_search runs full-text search across the archive with section, tag, contributor, and date filters, returning articles with body text; guardian_browse walks the paper's structure — latest articles for a section or tag, plus discovery modes listing the available sections and tags to use as filters; guardian_get_article fetches a single article by ID with complete, untruncated body text and metadata. Powered by the Guardian Open Platform (open-platform.theguardian.com).",
+        "longDescription": "guardian-mcp-server puts The Guardian's journalism archive (1999–present) behind MCP. guardian_search runs full-text search across the archive with section, tag, contributor, and date filters, returning articles with body text; guardian_browse walks the paper's structure — latest articles for a section or tag, plus discovery modes listing the available sections and tags to use as filters; guardian_get_article fetches a single article by ID with body text and metadata. Article bodies are capped at 2,000 words; read the article's web_url for the full text. Powered by the Guardian Open Platform (open-platform.theguardian.com).",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1902,7 +1902,7 @@
       "name": "openfec-mcp-server",
       "interface": {
         "displayName": "openfec-mcp-server",
-        "shortDescription": "Access FEC campaign finance data through MCP — candidates, committees, contributions, disbursements, elections.",
+        "shortDescription": "Access FEC campaign finance data (candidates, committees, contributions, disbursements, elections) through MCP.",
         "longDescription": "Provides MCP tools for querying the FEC OpenAPI: search candidates, committees, committee financial totals, contributions (Schedule A), disbursements (Schedule B), independent expenditures (Schedule E), coordinated party expenditures (Schedule F), filings, elections, calendar, and legal documents including full single-document retrieval. Supports STDIO and Streamable HTTP transports.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -2100,7 +2100,7 @@
       "name": "pentest-mcp-server",
       "interface": {
         "displayName": "pentest-mcp-server",
-        "shortDescription": "Offline methodology engine and payload workshop for authorized penetration testing, CTF, security research, and education.",
+        "shortDescription": "Offline methodology engine and payload workshop for authorized penetration testing, CTF, security research, and education via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Offline offensive methodology engine for authorized penetration testing, CTF, and security research. Embeds MITRE ATT&CK Enterprise, OWASP Testing Guide methodology, and annotated payload templates. Every technique is paired with detection and mitigation context — equally useful for defenders. No external APIs at runtime.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -2652,7 +2652,7 @@
       "name": "uniprot-mcp-server",
       "interface": {
         "displayName": "uniprot-mcp-server",
-        "shortDescription": "Protein research over UniProtKB — search by function, fetch curated records, map IDs, proteomes.",
+        "shortDescription": "Protein research over UniProtKB: search by function, fetch curated records, map IDs, proteomes.",
         "longDescription": "The protein-as-primary-entity research workflow over UniProt. Search UniProtKB by function, keyword, GO term, gene, or organism; retrieve full curated Swiss-Prot entries (function, catalytic activity, subcellular location, disease, PTMs, isoforms, sequence, cross-references); map identifiers across 100+ databases via the async ID-mapping service; and pull reference proteomes and taxonomy. Keyless, CC BY 4.0.",
         "developerName": "cyanheads",
         "capabilities": [
