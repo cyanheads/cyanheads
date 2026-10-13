@@ -284,7 +284,7 @@
         "source": "github",
         "repo": "cyanheads/congressgov-mcp-server"
       },
-      "description": "Access U.S. congressional data - bills, votes, members, committees - through MCP. STDIO & Streamable HTTP.",
+      "description": "Access U.S. congressional data (bills, votes, members, committees) via MCP. STDIO or Streamable HTTP.",
       "category": "Government Data",
       "author": {
         "name": "cyanheads"
@@ -570,7 +570,7 @@
         "source": "github",
         "repo": "cyanheads/fcc-spectrum-mcp-server"
       },
-      "description": "Search FCC radio licenses, find nearby transmitter sites, and see who is licensed on a frequency.",
+      "description": "Search FCC radio licenses, find nearby licensed sites, and see who is licensed on a frequency.",
       "category": "Government Data",
       "author": {
         "name": "cyanheads"
