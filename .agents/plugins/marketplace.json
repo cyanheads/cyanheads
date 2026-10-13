@@ -625,7 +625,7 @@
       "interface": {
         "displayName": "docgen-mcp-server",
         "shortDescription": "Render HTML/markdown to PDF, export rows to xlsx, and fill AcroForm PDFs via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "docgen-mcp-server is the renderer that closes the gap between what an agent can write and the binary file a human downloads. It exposes docgen_render_pdf (HTML, markdown, or a {{key}} template + data → PDF), docgen_export_spreadsheet (named row sheets → xlsx with a column spec), docgen_fill_form (fill and optionally flatten an AcroForm PDF supplied as base64 or an SSRF-guarded https URL), and docgen_get_document (re-fetch a rendered document by id). Outputs are stored tenant-scoped with a short TTL and delivered through a docgen://document/{id} resource URI plus inline base64 when small enough.",
+        "longDescription": "Render HTML, markdown or template data to PDF with docgen_render_pdf; export named row sheets to xlsx with docgen_export_spreadsheet. Inspect exact AcroForm names, types, required flags and choice options with docgen_list_form_fields before filling the PDF with docgen_fill_form. Inspection does not change or store the PDF. Rendered documents are stored tenant-scoped with a short TTL and returned as a docgen://document/{id} resource URI plus inline base64 when small enough; docgen_get_document retrieves them by id.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read",
@@ -911,8 +911,8 @@
       "name": "fbi-crime-mcp-server",
       "interface": {
         "displayName": "fbi-crime-mcp-server",
-        "shortDescription": "Exposes the FBI Crime Data Explorer API — UCR crime estimates, NIBRS incident breakdowns, hate crimes, arrests, human trafficking, and agency participation data via MCP.",
-        "longDescription": "Access the FBI Crime Data Explorer API through MCP. Query UCR crime estimates (per-100k rates and counts by month) at national, state, or agency scope, pull agency-scoped offense data by ORI code, and retrieve LEOKA officer fatality trends with circumstance, demographic, timeline, and weapon detail. Runs over STDIO or Streamable HTTP; decommissioned legacy UCR tools return explicit errors pointing at the surviving CDE endpoints.",
+        "shortDescription": "Exposes the FBI Crime Data Explorer API — monthly UCR offense rates and counts by national, state, or agency scope, plus LEOKA officer-safety statistics via MCP.",
+        "longDescription": "Two callable tools expose FBI Crime Data Explorer monthly offense rates, counts, population denominators and reporting coverage at national, state or agency scope, and LEOKA officer fatality trends with circumstance, demographic, timeline and weapon detail. Runs over STDIO or Streamable HTTP. Nine retired UCR tools remain disabled on the operator landing page; no resources are registered.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
