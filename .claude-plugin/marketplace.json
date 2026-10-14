@@ -232,7 +232,7 @@
         "source": "github",
         "repo": "cyanheads/clinicaltrialsgov-mcp-server"
       },
-      "description": "Search ClinicalTrials.gov trials, retrieve study details and results, and match patients to eligible trials via MCP. STDIO or Streamable HTTP.",
+      "description": "Search ClinicalTrials.gov trials, retrieve study details and results, and match patients to candidate trials via MCP. STDIO or Streamable HTTP.",
       "category": "Research",
       "author": {
         "name": "cyanheads"
@@ -674,7 +674,7 @@
         "source": "github",
         "repo": "cyanheads/gnomad-genetics-mcp-server"
       },
-      "description": "Look up variant allele frequencies by ancestry, gene loss-of-function constraint, gene variant lists, and sequencing coverage over gnomAD — with ClinVar significance joined in.",
+      "description": "Ancestry allele frequencies, LoF constraint, variant lists, and coverage from gnomAD, joined with ClinVar clinical significance via MCP. STDIO or Streamable HTTP.",
       "category": "Science",
       "author": {
         "name": "cyanheads"
@@ -1376,7 +1376,7 @@
         "source": "github",
         "repo": "cyanheads/secedgar-mcp-server"
       },
-      "description": "Query SEC EDGAR filings, XBRL financials, and company data through MCP. STDIO & Streamable HTTP.",
+      "description": "Query SEC EDGAR filings, XBRL financials, and company data via MCP. STDIO or Streamable HTTP.",
       "category": "Finance",
       "author": {
         "name": "cyanheads"

@@ -382,7 +382,7 @@
       "name": "clinicaltrialsgov-mcp-server",
       "interface": {
         "displayName": "clinicaltrialsgov-mcp-server",
-        "shortDescription": "Search ClinicalTrials.gov trials, retrieve study details and results, and match patients to eligible trials.",
+        "shortDescription": "Search ClinicalTrials.gov trials, retrieve study details and results, and match patients to candidate trials.",
         "longDescription": "MCP server wrapping the ClinicalTrials.gov REST API v2 — the US National Library of Medicine's registry of 600K+ clinical trial studies. Search studies with filters and field selection, fetch full study records by NCT ID, extract outcomes and adverse events from completed trials, discover valid field names and enum values, and match patient demographics to recruiting trials. Public, read-only, no API key required. Runs over STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -1925,7 +1925,7 @@
       "interface": {
         "displayName": "openfoodfacts-mcp-server",
         "shortDescription": "Look up food products by barcode, search by keyword, tag, allergen, or nutrition filter, compare products side-by-side, and browse the canonical tag vocabulary via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "MCP access to Open Food Facts, the crowd-sourced global food product database (3M+ products). Four tools: off_get_product fetches a product by barcode (4-40 digits) with ingredients, allergens, additives, per-100g and per-serving nutrition, and the Nutri-Score, NOVA, and Green-Score indicators; off_search_products finds products by text query or canonical tag filters; off_compare_products returns a side-by-side nutrition table for 2-10 barcodes; off_browse_taxonomy resolves human terms to the canonical tag IDs the search filters expect. Missing fields mean a value has not yet been entered by contributors, and computed scores carry regional formula caveats. No API key required; runs over STDIO or Streamable HTTP. Data under ODbL 1.0 - cite Open Food Facts in downstream use.",
+        "longDescription": "MCP access to Open Food Facts, the crowd-sourced global food product database (3M+ products). Four tools: off_get_product fetches a product by barcode (4-40 digits) with ingredients, allergens, additives, nutrition per serving and per 100 g, or per 100 ml for liquids, and the Nutri-Score, NOVA, and Green-Score indicators; off_search_products finds products by text query or canonical tag filters; off_compare_products returns a side-by-side nutrition table for 2-10 barcodes; off_browse_taxonomy resolves human terms to the canonical tag IDs the search filters expect. Missing fields mean a value has not yet been entered by contributors, and computed scores carry regional formula caveats. No API key required; runs over STDIO or Streamable HTTP. Data under ODbL 1.0 - cite Open Food Facts in downstream use.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -2587,7 +2587,7 @@
       "interface": {
         "displayName": "un-comtrade-mcp-server",
         "shortDescription": "UN Comtrade trade statistics via MCP — country/HS lookups, bilateral flows, balances, rankings.",
-        "longDescription": "MCP server wrapping the UN Comtrade API for international merchandise and services trade statistics. Resolve country names to M49 codes, search HS commodity codes by keyword, fetch bilateral trade flow records with values in USD, compute trade balances with coverage ratios, rank top trading partners and commodities, check data availability before querying, and browse EBOPS 2010 service trade categories. Works on the free public preview endpoint (500 records/call) or with a subscription key for full access. Runs over STDIO or Streamable HTTP.",
+        "longDescription": "MCP server wrapping the UN Comtrade API for international merchandise and services trade statistics. Resolve country names to M49 codes, search HS commodity codes by keyword, fetch bilateral trade flow records with values in USD, compute trade balances with coverage ratios, rank top trading partners and commodities, check data availability before querying, and browse EBOPS 2010 service trade categories. Works on the public preview endpoint (500 records per upstream request) or with a subscription key for authenticated access subject to subscription limits. Runs over STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
