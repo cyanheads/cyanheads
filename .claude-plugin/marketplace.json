@@ -1493,7 +1493,7 @@
         "source": "github",
         "repo": "cyanheads/tvmaze-mcp-server"
       },
-      "description": "Search TVmaze shows, next episodes in your timezone, episode guides, daily TV schedules, and cast.",
+      "description": "TVmaze shows, people, next episodes in your timezone, episode guides, schedules, and credits.",
       "category": "Data",
       "author": {
         "name": "cyanheads"
