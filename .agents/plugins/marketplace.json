@@ -31,7 +31,7 @@
       "interface": {
         "displayName": "arxiv-mcp-server",
         "shortDescription": "Search arXiv, fetch paper metadata, and read full-text content via MCP.",
-        "longDescription": "Search the arXiv academic paper corpus. Supports full-text search, paper metadata retrieval by ID, full-text reading (HTML render, or text extracted from the PDF when none exists), and category taxonomy listing. Deployable as stdio or streamable HTTP.",
+        "longDescription": "Search the arXiv academic paper corpus. Supports field-prefixed paper search, paper metadata retrieval by ID, full-text reading (HTML render, or text extracted from the PDF when none exists), and category taxonomy listing. Deployable as stdio or streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1197,8 +1197,8 @@
       "name": "gutenberg-mcp-server",
       "interface": {
         "displayName": "gutenberg-mcp-server",
-        "shortDescription": "Search, browse, and read 75,000+ public-domain books from Project Gutenberg with full plain-text retrieval and offset/limit chunking via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "Access 75,000+ public-domain books from Project Gutenberg. Search by title, author, language, topic, or popularity. Retrieve full plain text with offset/limit chunking for context-budget management. No API key required.",
+        "shortDescription": "Search, browse, and read 78,000+ public-domain books from Project Gutenberg with full plain-text retrieval and offset/limit chunking via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Access 78,000+ public-domain books from Project Gutenberg. Search by title, author, language, topic, or popularity. Retrieve full plain text with offset/limit chunking for context-budget management. No API key required.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1683,7 +1683,7 @@
       "interface": {
         "displayName": "nws-weather-mcp-server",
         "shortDescription": "Get US weather forecasts, active alerts, and current observations via the National Weather Service API.",
-        "longDescription": "Real-time US weather from the National Weather Service API (api.weather.gov), covering the 50 states, US territories, and adjacent marine areas. Nine tools: 7-day and hourly forecasts, active alerts filtered by area/zone/event/severity, national alert counts per state and marine region, current observations from the nearest station, up to 7 days of a station's observation history, nearby station discovery, alert event-type listing, forecast-office narrative discussions (AFD/HWO/ZFP/SPS), and zone-level text forecasts. The API does not geocode — resolve place names to latitude/longitude before calling. No API key required. Runs over STDIO or Streamable HTTP.",
+        "longDescription": "Real-time US weather from the National Weather Service API (api.weather.gov), covering the 50 states, US territories, and adjacent marine areas. Ten tools: 7-day and hourly forecasts, active alerts filtered by area/zone/event/severity, single-alert lookup by ID (including superseded messages), national alert counts per state and marine region, current observations from the nearest station, up to 7 days of a station's observation history, nearby station discovery, alert event-type listing, forecast-office narrative discussions (AFD/HWO/ZFP/SPS), and zone-level text forecasts. The API does not geocode — resolve place names to latitude/longitude before calling. No API key required. Runs over STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"

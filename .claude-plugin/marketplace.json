@@ -713,7 +713,7 @@
         "source": "github",
         "repo": "cyanheads/gutenberg-mcp-server"
       },
-      "description": "Search, browse, and read 75,000+ public-domain books from Project Gutenberg with full plain-text retrieval and offset/limit chunking via MCP. STDIO or Streamable HTTP.",
+      "description": "Search, browse, and read 78,000+ public-domain books from Project Gutenberg with full plain-text retrieval and offset/limit chunking via MCP. STDIO or Streamable HTTP.",
       "category": "Research",
       "author": {
         "name": "cyanheads"
