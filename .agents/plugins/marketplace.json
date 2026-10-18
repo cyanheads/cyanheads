@@ -184,7 +184,7 @@
       "name": "brapi-mcp-server",
       "interface": {
         "displayName": "brapi-mcp-server",
-        "shortDescription": "A collaborative BrAPI v2.1 workspace for multi-agent research via MCP. Search studies, germplasm, genotypes, & more - across Breedbase, T3, Sweetpotatobase, & any BrAPI v2-compliant server.",
+        "shortDescription": "A collaborative BrAPI v2.1 workspace for multi-agent research via MCP. Search studies, germplasm, genotypes, and more across Breedbase, T3, Sweetpotatobase, and any BrAPI v2-compliant server.",
         "longDescription": "Bridges any BrAPI v2.1-compliant server (Breedbase, T3, Sweetpotatobase, and others) into a collaborative MCP workspace for plant and crop breeding research. Connect to one or more servers under named aliases, then search and fetch across studies, germplasm, observations, observation variables, locations, images, variants, and genotype calls. Result sets that exceed the per-call cap spill into a DuckDB-backed canvas dataframe you query with SELECT-only SQL, enabling cross-study phenotype and genotype matrices, pedigree traversal, and per-germplasm performance summaries. Per-server dialect adapters and a capability registry keep calls aligned with what each backend actually advertises, and raw GET / search passthroughs cover endpoints no curated tool maps yet.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -889,7 +889,7 @@
       "name": "faostat-mcp-server",
       "interface": {
         "displayName": "faostat-mcp-server",
-        "shortDescription": "Global food & agriculture statistics from the UN FAOSTAT bulk-download corpus, served from a local SQLite mirror with a DataCanvas SQL surface, over MCP. STDIO & Streamable HTTP.",
+        "shortDescription": "Global food & agriculture statistics from the UN FAOSTAT bulk-download corpus, served from a local SQLite mirror with a DataCanvas SQL surface, via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Query the UN FAO's FAOSTAT corpus — crop and livestock production, agricultural trade, food balances, food security, land use, and agri-emissions for 245+ countries from 1961 to present. Served from a local SQLite mirror of the keyless bulk-download service (the REST API is auth-gated), with FTS5 code resolution, country-vs-aggregate classification, and a DataCanvas SQL surface for cross-country and time-series analysis.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -1110,7 +1110,7 @@
       "interface": {
         "displayName": "geonames-mcp-server",
         "shortDescription": "Search GeoNames places, walk admin hierarchies, reverse geocode, get postal codes and country info.",
-        "longDescription": "Geographic grounding from GeoNames, the gazetteer of 13M+ places worldwide, each keyed by a stable integer geonameId. Search places by name, country, feature class or code, population tier, and bounding box; read a place's full record with its admin chain, timezone, elevation, alternate names, postal codes, and IATA, UN/LOCODE, and Wikidata identifiers; climb a place's parent chain to its continent, or list a feature's children in the administrative, tourism, or dependency tree; reverse-geocode a coordinate to its country and subdivisions, or the ocean offshore, with the nearest places or features and an optional timezone; look up postal codes by code, place name, or point across 122 countries; and read country facts such as ISO codes, capital, population, languages, and currency. Calls spend credits from a free GeoNames account, set once as GEONAMES_USERNAME or passed per call as geonamesUsername. GeoNames data is CC BY 4.0: credit GeoNames when passing results on.",
+        "longDescription": "Geographic grounding from GeoNames, the gazetteer of 13M+ places worldwide, each keyed by a stable integer geonameId. Search places by name, country, admin division code, feature class or code, population tier, and bounding box; read a place's full record with its admin chain, timezone, elevation, alternate names, postal codes, and IATA, UN/LOCODE, and Wikidata identifiers; climb a place's parent chain to its continent, or list a feature's children in the administrative, tourism, or dependency tree; reverse-geocode a coordinate to its country and subdivisions, or the ocean offshore, with the nearest places or features and an optional timezone; look up postal codes by code, place name, or point across 122 countries; and read country facts such as ISO codes, capital, population, languages, and currency. Calls spend credits from a free GeoNames account, set once as GEONAMES_USERNAME or passed per call as geonamesUsername. GeoNames data is CC BY 4.0: credit GeoNames when passing results on.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -2035,7 +2035,7 @@
       "interface": {
         "displayName": "osv-advisory-mcp-server",
         "shortDescription": "Query OSV.dev for package vulnerabilities, batch-audit dependency lists, and fetch full advisory records via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "Read-only access to the OSV.dev vulnerability database over MCP. Check a single package version with osv_query_package, audit a whole lockfile or SBOM in one call with osv_query_batch (up to 1000 {name, ecosystem, version} tuples), and pull the full advisory — CVSS vectors, CVE aliases, affected ranges, and fix versions — with osv_get_vulnerability. osv_list_ecosystems returns the valid ecosystem identifiers to pass to the query tools. Keyless and public; CVE aliases chain to nist-nvd-mcp-server for CVSS scoring and CISA KEV status. Runs over STDIO or Streamable HTTP.",
+        "longDescription": "Read-only access to the OSV.dev vulnerability database over MCP. Check a package version by tuple or PURL with osv_query_package, audit up to 1000 mixed package identifiers with osv_query_batch, and query a full Git commit hash with osv_query_commit. Fetch full advisory records with osv_get_vulnerability and valid ecosystem identifiers with osv_list_ecosystems. Keyless and public; CVE aliases chain to nist-nvd-mcp-server for CVSS scoring and CISA KEV status. Runs over STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"

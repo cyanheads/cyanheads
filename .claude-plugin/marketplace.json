@@ -115,7 +115,7 @@
         "source": "github",
         "repo": "cyanheads/brapi-mcp-server"
       },
-      "description": "A collaborative BrAPI v2.1 workspace for multi-agent research via MCP. Search studies, germplasm, genotypes, & more - across Breedbase, T3, Sweetpotatobase, & any BrAPI v2-compliant server.",
+      "description": "A collaborative BrAPI v2.1 workspace for multi-agent research via MCP. Search studies, germplasm, genotypes, and more across Breedbase, T3, Sweetpotatobase, and any BrAPI v2-compliant server.",
       "category": "Research",
       "author": {
         "name": "cyanheads"
@@ -531,7 +531,7 @@
         "source": "github",
         "repo": "cyanheads/faostat-mcp-server"
       },
-      "description": "Global food & agriculture statistics from the UN FAOSTAT bulk-download corpus, served from a local SQLite mirror with a DataCanvas SQL surface, over MCP. STDIO & Streamable HTTP.",
+      "description": "Global food & agriculture statistics from the UN FAOSTAT bulk-download corpus, served from a local SQLite mirror with a DataCanvas SQL surface, via MCP. STDIO or Streamable HTTP.",
       "category": "Government Data",
       "author": {
         "name": "cyanheads"
@@ -1077,7 +1077,7 @@
         "source": "github",
         "repo": "cyanheads/openalex-mcp-server"
       },
-      "description": "Access the OpenAlex academic research catalog - 270M+ publications through MCP. STDIO & Streamable HTTP.",
+      "description": "Access the OpenAlex academic research catalog — 270M+ publications — via MCP. STDIO or Streamable HTTP.",
       "category": "Research",
       "author": {
         "name": "cyanheads"
