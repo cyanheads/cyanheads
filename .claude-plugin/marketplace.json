@@ -630,6 +630,19 @@
       "homepage": "https://github.com/cyanheads/finnhub-mcp-server"
     },
     {
+      "name": "first-epss-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/first-epss-mcp-server"
+      },
+      "description": "FIRST EPSS scores, score history, and CVE prioritization with caller-supplied severity.",
+      "category": "Security",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/first-epss-mcp-server"
+    },
+    {
       "name": "gbif-biodiversity-mcp-server",
       "source": {
         "source": "github",

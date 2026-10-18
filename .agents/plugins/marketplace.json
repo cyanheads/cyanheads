@@ -1062,6 +1062,28 @@
       "category": "Finance"
     },
     {
+      "name": "first-epss-mcp-server",
+      "interface": {
+        "displayName": "first-epss-mcp-server",
+        "shortDescription": "FIRST EPSS scores, score history, and CVE prioritization with caller-supplied severity.",
+        "longDescription": "Look up current or historical FIRST EPSS scores, inspect daily trajectories, and discover CVEs by probability, percentile, year, or dataset-addition recency. Combine forecasts with caller-supplied CVSS severity for configurable remediation tiers. Missing scores and severity remain unknown, with source dates and model attribution returned alongside results. The keyless integration supports stdio and Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/first-epss-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/first-epss-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    },
+    {
       "name": "gbif-biodiversity-mcp-server",
       "interface": {
         "displayName": "gbif-biodiversity-mcp-server",
