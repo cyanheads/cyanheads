@@ -63,7 +63,7 @@
         "source": "github",
         "repo": "cyanheads/aviation-weather-mcp-server"
       },
-      "description": "Fetch METARs, TAFs, PIREPs, and domestic SIGMETs from the NWS Aviation Weather Center via MCP. STDIO or Streamable HTTP.",
+      "description": "Fetch METARs, TAFs, PIREPs, domestic/international SIGMETs and CWAs from NWS AWC via MCP. AIRMETs not served. STDIO or Streamable HTTP.",
       "category": "Science",
       "author": {
         "name": "cyanheads"
@@ -635,7 +635,7 @@
         "source": "github",
         "repo": "cyanheads/first-epss-mcp-server"
       },
-      "description": "FIRST EPSS scores, score history, and CVE prioritization with caller-supplied severity.",
+      "description": "Look up FIRST EPSS exploitation scores and daily history, find CVEs by score threshold, and prioritize CVEs with caller-supplied CVSS via MCP. STDIO or Streamable HTTP.",
       "category": "Security",
       "author": {
         "name": "cyanheads"

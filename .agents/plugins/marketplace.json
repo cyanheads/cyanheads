@@ -96,8 +96,8 @@
       "name": "aviation-weather-mcp-server",
       "interface": {
         "displayName": "aviation-weather-mcp-server",
-        "shortDescription": "Fetch METARs, TAFs, PIREPs, and domestic SIGMETs from the NWS Aviation Weather Center via MCP.",
-        "longDescription": "Fetch aviation weather from the NWS Aviation Weather Center. Supports METARs, TAFs, PIREPs, and domestic SIGMETs, plus station discovery by region. Deployable as stdio or streamable HTTP.",
+        "shortDescription": "METARs, TAFs, PIREPs, domestic/international SIGMETs and CWAs. AIRMETs not served.",
+        "longDescription": "Fetch METARs, TAFs, PIREPs, domestic/international SIGMETs and Center Weather Advisories from the NWS Aviation Weather Center, plus station discovery. AIRMETs are not served. Advisory coverage names failed sources and preserves sparse bulletin fields and multipart geometry. STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1065,7 +1065,7 @@
       "name": "first-epss-mcp-server",
       "interface": {
         "displayName": "first-epss-mcp-server",
-        "shortDescription": "FIRST EPSS scores, score history, and CVE prioritization with caller-supplied severity.",
+        "shortDescription": "Look up FIRST EPSS exploitation scores and daily history, find CVEs by score threshold, and prioritize CVEs with caller-supplied CVSS via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Look up current or historical FIRST EPSS scores, inspect daily trajectories, and discover CVEs by probability, percentile, year, or dataset-addition recency. Combine forecasts with caller-supplied CVSS severity for configurable remediation tiers. Missing scores and severity remain unknown, with source dates and model attribution returned alongside results. The keyless integration supports stdio and Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
