@@ -104,7 +104,10 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/openfoodfacts-mcp-server">openfoodfacts-mcp-server</a> • <a href="https://openfoodfacts.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/pharmacogenomics-guidelines-mcp-server">pharmacogenomics-guidelines-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/usda-mcp-server">usda-mcp-server</a> • <a href="https://usda.caseyjhand.com/">/mcp</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/cyanheads/who-gho-mcp-server">who-gho-mcp-server</a> • <a href="https://who-gho.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>

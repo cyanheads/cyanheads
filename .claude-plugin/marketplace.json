@@ -1293,6 +1293,19 @@
       "homepage": "https://github.com/cyanheads/pentest-mcp-server"
     },
     {
+      "name": "pharmacogenomics-guidelines-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/pharmacogenomics-guidelines-mcp-server"
+      },
+      "description": "Find pharmacogenomics guidelines, translate diplotypes, and retrieve prescribing recommendations via MCP. STDIO or Streamable HTTP.",
+      "category": "Science",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/pharmacogenomics-guidelines-mcp-server"
+    },
+    {
       "name": "pixoo-mcp-server",
       "source": {
         "source": "github",

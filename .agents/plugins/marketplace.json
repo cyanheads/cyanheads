@@ -2185,6 +2185,28 @@
       "category": "Security"
     },
     {
+      "name": "pharmacogenomics-guidelines-mcp-server",
+      "interface": {
+        "displayName": "pharmacogenomics-guidelines-mcp-server",
+        "shortDescription": "Find pharmacogenomics guidelines, translate diplotypes, and retrieve prescribing recommendations via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Query the public CPIC Database through six read-only tools: discover evaluated gene–drug pairs, retrieve guidelines, translate source-supported diplotypes, browse or match prescribing recommendations, inspect allele evidence, and list reference values. Results preserve source records, guideline links and provenance. Matching requires every source genetic prerequisite; omitted genes are never assumed normal or negative. No API key is required.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/pharmacogenomics-guidelines-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/pharmacogenomics-guidelines-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
+    },
+    {
       "name": "pixoo-mcp-server",
       "interface": {
         "displayName": "pixoo-mcp-server",
