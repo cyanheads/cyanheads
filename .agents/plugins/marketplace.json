@@ -599,6 +599,28 @@
       "category": "Research"
     },
     {
+      "name": "datamuse-mcp-server",
+      "interface": {
+        "displayName": "datamuse-mcp-server",
+        "shortDescription": "Find rhymes, synonyms, sound-alikes, spelling matches, and word associations with Datamuse via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Find words for poems, prose, puzzles, and naming tasks using Datamuse's lexical query engine. Combine meaning, sound, and spelling constraints, inspect syllable counts and word frequency, and distinguish dictionary relations from corpus associations.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/datamuse-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/datamuse-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "devops-status-mcp-server",
       "interface": {
         "displayName": "devops-status-mcp-server",

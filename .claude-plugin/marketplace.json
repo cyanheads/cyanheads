@@ -357,6 +357,19 @@
       "homepage": "https://github.com/cyanheads/datacite-mcp-server"
     },
     {
+      "name": "datamuse-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/datamuse-mcp-server"
+      },
+      "description": "Find rhymes, synonyms, sound-alikes, spelling matches, and word associations with Datamuse via MCP. STDIO or Streamable HTTP.",
+      "category": "Productivity",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/datamuse-mcp-server"
+    },
+    {
       "name": "devops-status-mcp-server",
       "source": {
         "source": "github",
