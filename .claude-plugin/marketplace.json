@@ -903,6 +903,19 @@
       "homepage": "https://github.com/cyanheads/musicbrainz-mcp-server"
     },
     {
+      "name": "nasa-power-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/nasa-power-mcp-server"
+      },
+      "description": "Query NASA POWER solar, wind, building, and agroclimatology data via MCP. STDIO or Streamable HTTP.",
+      "category": "Science",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/nasa-power-mcp-server"
+    },
+    {
       "name": "national-parks-mcp-server",
       "source": {
         "source": "github",
