@@ -131,6 +131,7 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/openaq-mcp-server">openaq-mcp-server</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/us-drought-monitor-mcp-server">us-drought-monitor-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/usgs-water-mcp-server">usgs-water-mcp-server</a> • <a href="https://usgs-water.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>

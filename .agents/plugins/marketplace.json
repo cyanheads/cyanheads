@@ -2737,6 +2737,28 @@
       "category": "Research"
     },
     {
+      "name": "us-drought-monitor-mcp-server",
+      "interface": {
+        "displayName": "us-drought-monitor-mcp-server",
+        "shortDescription": "Query U.S. Drought Monitor severity and weekly drought statistics.",
+        "longDescription": "Explore weekly U.S. Drought Monitor statistics across national areas, states, counties, HUC watersheds, tribal areas and climate divisions. Retrieve current or dated severity, population and experimental DSCI, follow historical series, rank areas by severity or change, and count county drought weeks without treating duration as program eligibility. Large results stage complete tables for read-only SQL in npm and Docker installations; the portable Claude Desktop bundle supports inline results only. Missing observations and source provenance remain explicit. No API key is required.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/us-drought-monitor-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/us-drought-monitor-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data"
+    },
+    {
       "name": "usaspending-mcp-server",
       "interface": {
         "displayName": "usaspending-mcp-server",

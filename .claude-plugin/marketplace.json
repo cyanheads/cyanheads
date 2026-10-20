@@ -1618,6 +1618,19 @@
       "homepage": "https://github.com/cyanheads/uniprot-mcp-server"
     },
     {
+      "name": "us-drought-monitor-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/us-drought-monitor-mcp-server"
+      },
+      "description": "Query U.S. Drought Monitor severity, DSCI, population, and drought duration via MCP. STDIO or Streamable HTTP.",
+      "category": "Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/us-drought-monitor-mcp-server"
+    },
+    {
       "name": "usaspending-mcp-server",
       "source": {
         "source": "github",
