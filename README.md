@@ -75,21 +75,22 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/inaturalist-mcp-server">inaturalist-mcp-server</a> • <a href="https://inaturalist.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/interpro-mcp-server">interpro-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/oeis-mcp-server">oeis-mcp-server</a> • <a href="https://oeis.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/openalex-mcp-server">openalex-mcp-server</a> • <a href="https://openalex.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/orcid-mcp-server">orcid-mcp-server</a> • <a href="https://orcid.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/orcid-mcp-server">orcid-mcp-server</a> • <a href="https://orcid.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/paleobiology-mcp-server">paleobiology-mcp-server</a> • <a href="https://paleobiology.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/protein-mcp-server">protein-mcp-server</a> • <a href="https://protein.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/pubchem-mcp-server">pubchem-mcp-server</a> • <a href="https://pubchem.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/pubchem-mcp-server">pubchem-mcp-server</a> • <a href="https://pubchem.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/pubmed-mcp-server">pubmed-mcp-server</a> • <a href="https://pubmed.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/uniprot-mcp-server">uniprot-mcp-server</a> • <a href="https://uniprot.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/worms-marine-taxa-mcp-server">worms-marine-taxa-mcp-server</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/worms-marine-taxa-mcp-server">worms-marine-taxa-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/zenodo-mcp-server">zenodo-mcp-server</a> • <a href="https://zenodo.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
