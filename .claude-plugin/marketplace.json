@@ -526,6 +526,19 @@
       "homepage": "https://github.com/cyanheads/faa-aircraft-registry-mcp-server"
     },
     {
+      "name": "faa-airmen-registry-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/faa-airmen-registry-mcp-server"
+      },
+      "description": "Search FAA airmen certificates, ratings, and informational medical records via MCP. STDIO or Streamable HTTP.",
+      "category": "Government Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/faa-airmen-registry-mcp-server"
+    },
+    {
       "name": "faa-traffic-delays-mcp-server",
       "source": {
         "source": "github",

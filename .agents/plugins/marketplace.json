@@ -886,6 +886,28 @@
       "category": "Government Data"
     },
     {
+      "name": "faa-airmen-registry-mcp-server",
+      "interface": {
+        "displayName": "faa-airmen-registry-mcp-server",
+        "shortDescription": "Search FAA airmen certificates, ratings, and informational medical records via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Search a local FAA releasable snapshot for airmen certificates, complete ratings, instructor records, remote pilot records, and informational medical fields. Six read-only tools preserve source provenance and distinguish identity candidates without asserting current privileges or fitness. Initialize and refresh the mirror separately with the operator CLI; no API key is required. Street addresses are discarded, and city and ZIP access requires explicit operator opt-in.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/faa-airmen-registry-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/faa-airmen-registry-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "faa-traffic-delays-mcp-server",
       "interface": {
         "displayName": "faa-traffic-delays-mcp-server",
