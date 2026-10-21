@@ -290,11 +290,12 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/iana-registries-mcp-server">iana-registries-mcp-server</a> • <a href="https://iana-registries.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/ioda-outages-mcp-server">ioda-outages-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/nist-nvd-mcp-server">nist-nvd-mcp-server</a> • <a href="https://nist-nvd.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/osv-advisory-mcp-server">osv-advisory-mcp-server</a> • <a href="https://osv-advisory.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/pentest-mcp-server">pentest-mcp-server</a> • <a href="https://pentest.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/pentest-mcp-server">pentest-mcp-server</a> • <a href="https://pentest.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/whois-mcp-server">whois-mcp-server</a></td>
 </tr>
 </table>

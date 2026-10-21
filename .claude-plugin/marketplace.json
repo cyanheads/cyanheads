@@ -825,6 +825,19 @@
       "homepage": "https://github.com/cyanheads/internet-archive-mcp-server"
     },
     {
+      "name": "ioda-outages-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/ioda-outages-mcp-server"
+      },
+      "description": "Investigate Internet outages with IODA events, alerts, and connectivity signals via MCP. STDIO or Streamable HTTP.",
+      "category": "Research",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/ioda-outages-mcp-server"
+    },
+    {
       "name": "libofcongress-mcp-server",
       "source": {
         "source": "github",

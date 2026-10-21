@@ -1392,6 +1392,28 @@
       "category": "Data"
     },
     {
+      "name": "ioda-outages-mcp-server",
+      "interface": {
+        "displayName": "ioda-outages-mcp-server",
+        "shortDescription": "Investigate Internet outages with IODA events, alerts, and connectivity signals via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Resolve countries, regions, and autonomous systems, inspect recent IODA detection evidence, and retrieve outage events, alert transitions, and numeric BGP, active-probing, and Merit telescope observations. Source attribution, missing samples, clipped event boundaries, and partial failures remain explicit. Measurement coverage and returned detections support macroscopic Internet investigations; they do not establish an all-clear, a shutdown cause, or one office's connectivity.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/ioda-outages-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/ioda-outages-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
       "name": "libofcongress-mcp-server",
       "interface": {
         "displayName": "libofcongress-mcp-server",
@@ -1528,7 +1550,7 @@
       "interface": {
         "displayName": "nasa-power-mcp-server",
         "shortDescription": "Query NASA POWER solar, wind, building, and agroclimatology data via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "Retrieve NASA POWER hourly, daily, monthly and climatological observations for points, bounded regions and labeled location comparisons. Discover community-specific parameter codes and presets, preserve source units and missing values, and inspect provenance and period-aware summaries. Small results return inline; enable DuckDB in the npm or Docker distribution to stage complete larger datasets for explicit-token, read-only SQL. No NASA account or API key is required.",
+        "longDescription": "Retrieve NASA POWER hourly, daily, monthly and climatological observations for points, bounded regions and labeled location comparisons. Discover community-specific parameter codes and presets, preserve source units and missing values, and inspect provenance and period-aware summaries. Small results return inline; larger datasets stage completely in DuckDB for explicit-token, read-only SQL. No NASA account or API key is required.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -2762,7 +2784,7 @@
       "name": "us-drought-monitor-mcp-server",
       "interface": {
         "displayName": "us-drought-monitor-mcp-server",
-        "shortDescription": "Query U.S. Drought Monitor severity and weekly drought statistics.",
+        "shortDescription": "Query U.S. Drought Monitor severity, DSCI, population, and drought duration via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Explore weekly U.S. Drought Monitor statistics across national areas, states, counties, HUC watersheds, tribal areas and climate divisions. Retrieve current or dated severity, population and experimental DSCI, follow historical series, rank areas by severity or change, and count county drought weeks without treating duration as program eligibility. Large results stage complete tables for read-only SQL in npm and Docker installations; the portable Claude Desktop bundle supports inline results only. Missing observations and source provenance remain explicit. No API key is required.",
         "developerName": "cyanheads",
         "capabilities": [
