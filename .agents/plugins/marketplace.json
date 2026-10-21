@@ -1436,6 +1436,28 @@
       "category": "Data"
     },
     {
+      "name": "interpro-mcp-server",
+      "interface": {
+        "displayName": "interpro-mcp-server",
+        "shortDescription": "Search InterPro entries, map protein domains and functional sites, and find proteins by domain via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Reads InterPro and the member databases it integrates (Pfam, PROSITE, SMART, CDD, PANTHER, and others) through the keyless EMBL-EBI API. Search entries by text, type, or GO annotation and read their full metadata, map a UniProt protein's domains, repeats, and functional sites to residue coordinates, walk Pfam, CDD, and PIRSF clans, and find the proteins that carry a signature, by default reviewed human proteins. Results are read-only and paged with cursors, and no credentials are needed.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/interpro-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/interpro-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
       "name": "ioda-outages-mcp-server",
       "interface": {
         "displayName": "ioda-outages-mcp-server",
@@ -3071,7 +3093,7 @@
       "name": "worms-marine-taxa-mcp-server",
       "interface": {
         "displayName": "worms-marine-taxa-mcp-server",
-        "shortDescription": "Resolve WoRMS marine taxa, classifications, synonyms, distributions, traits, and identifiers via MCP. STDIO or Streamable HTTP.",
+        "shortDescription": "Resolve WoRMS marine species names; fetch classifications, synonyms, distributions, traits, and IDs via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Resolve scientific and common names against the World Register of Marine Species, follow accepted taxa, and retrieve classifications, synonyms, distributions, and trait evidence. Eight read-only tools preserve source citations, unknown scientific facts, and trait hierarchy, and crosswalk AphiaIDs with nine external identifier systems. No API key is required; connect over stdio or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
