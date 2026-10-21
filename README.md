@@ -87,6 +87,9 @@ Ships with Agent Skills and framework docs built in.
 <tr>
 <td><a href="https://github.com/cyanheads/pubmed-mcp-server">pubmed-mcp-server</a> • <a href="https://pubmed.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/uniprot-mcp-server">uniprot-mcp-server</a> • <a href="https://uniprot.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/worms-marine-taxa-mcp-server">worms-marine-taxa-mcp-server</a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/cyanheads/zenodo-mcp-server">zenodo-mcp-server</a> • <a href="https://zenodo.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>

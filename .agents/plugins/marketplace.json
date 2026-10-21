@@ -3002,6 +3002,28 @@
       "category": "Data"
     },
     {
+      "name": "worms-marine-taxa-mcp-server",
+      "interface": {
+        "displayName": "worms-marine-taxa-mcp-server",
+        "shortDescription": "Resolve WoRMS marine taxa, classifications, synonyms, distributions, traits, and identifiers via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Resolve scientific and common names against the World Register of Marine Species, follow accepted taxa, and retrieve classifications, synonyms, distributions, and trait evidence. Eight read-only tools preserve source citations, unknown scientific facts, and trait hierarchy, and crosswalk AphiaIDs with nine external identifier systems. No API key is required; connect over stdio or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/worms-marine-taxa-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/worms-marine-taxa-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    },
+    {
       "name": "wsdot-mcp-server",
       "interface": {
         "displayName": "wsdot-mcp-server",
