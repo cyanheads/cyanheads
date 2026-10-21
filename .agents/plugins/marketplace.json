@@ -247,6 +247,28 @@
       "category": "Developer Tools"
     },
     {
+      "name": "canada-parliament-mcp-server",
+      "interface": {
+        "displayName": "canada-parliament-mcp-server",
+        "shortDescription": "Track Canadian federal bills, MPs, House votes, and Hansard speeches via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Follow Canadian federal legislation from official LEGISinfo bill searches through stages, recorded House divisions, publications, and enacted statute citations. Search current House MPs and OpenParliament's historical name index, inspect dated memberships and bounded member activity, and retrieve indexed House Hansard speeches by speaker, bill, date, or literal English text. Responses retain source provenance, unavailable fields, and explicit continuations. Public upstreams require no API key; parliamentary data remains subject to its source reuse terms.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/canada-parliament-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/canada-parliament-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "cdc-health-mcp-server",
       "interface": {
         "displayName": "cdc-health-mcp-server",
@@ -1544,6 +1566,28 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Research"
+    },
+    {
+      "name": "mitre-cwe-mcp-server",
+      "interface": {
+        "displayName": "mitre-cwe-mcp-server",
+        "shortDescription": "Explore MITRE CWE weaknesses and CAPEC attack patterns, mitigations, code examples, and mappings via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Look up software and hardware weaknesses in MITRE CWE, inspect mitigations and demonstrative code examples, and navigate weakness hierarchies and curated views. Search CAPEC attack patterns to connect weaknesses with attack mechanics and recorded MITRE ATT&CK mappings. Both catalogs are available without API keys.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/mitre-cwe-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/mitre-cwe-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
     },
     {
       "name": "musicbrainz-mcp-server",

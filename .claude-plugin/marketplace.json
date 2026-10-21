@@ -149,6 +149,19 @@
       "homepage": "https://github.com/cyanheads/calculator-mcp-server"
     },
     {
+      "name": "canada-parliament-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/canada-parliament-mcp-server"
+      },
+      "description": "Track Canadian federal bills, MPs, House votes, and Hansard speeches via MCP. STDIO or Streamable HTTP.",
+      "category": "Government Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/canada-parliament-mcp-server"
+    },
+    {
       "name": "cdc-health-mcp-server",
       "source": {
         "source": "github",
@@ -914,6 +927,19 @@
         "name": "cyanheads"
       },
       "homepage": "https://github.com/cyanheads/met-museum-mcp-server"
+    },
+    {
+      "name": "mitre-cwe-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/mitre-cwe-mcp-server"
+      },
+      "description": "Explore MITRE CWE weaknesses and CAPEC attack patterns, mitigations, code examples, and mappings via MCP. STDIO or Streamable HTTP.",
+      "category": "Security",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/mitre-cwe-mcp-server"
     },
     {
       "name": "musicbrainz-mcp-server",
