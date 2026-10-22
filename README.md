@@ -75,7 +75,7 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/inaturalist-mcp-server">inaturalist-mcp-server</a> • <a href="https://inaturalist.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/interpro-mcp-server">interpro-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/interpro-mcp-server">interpro-mcp-server</a> • <a href="https://interpro.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/oeis-mcp-server">oeis-mcp-server</a> • <a href="https://oeis.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/openalex-mcp-server">openalex-mcp-server</a> • <a href="https://openalex.caseyjhand.com/">/mcp</a></td>
 </tr>
@@ -90,7 +90,7 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/uniprot-mcp-server">uniprot-mcp-server</a> • <a href="https://uniprot.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/worms-marine-taxa-mcp-server">worms-marine-taxa-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/worms-marine-taxa-mcp-server">worms-marine-taxa-mcp-server</a> • <a href="https://worms-marine-taxa.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/zenodo-mcp-server">zenodo-mcp-server</a> • <a href="https://zenodo.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
@@ -108,7 +108,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/openfoodfacts-mcp-server">openfoodfacts-mcp-server</a> • <a href="https://openfoodfacts.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/pharmacogenomics-guidelines-mcp-server">pharmacogenomics-guidelines-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/pharmacogenomics-guidelines-mcp-server">pharmacogenomics-guidelines-mcp-server</a> • <a href="https://pharmacogenomics-guidelines.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/usda-mcp-server">usda-mcp-server</a> • <a href="https://usda.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
@@ -125,7 +125,7 @@ Ships with Agent Skills and framework docs built in.
 <tr>
 <td><a href="https://github.com/cyanheads/elevation-mcp-server">elevation-mcp-server</a> • <a href="https://elevation.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/epa-mcp-server">epa-mcp-server</a> • <a href="https://epa.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/nasa-power-mcp-server">nasa-power-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/nasa-power-mcp-server">nasa-power-mcp-server</a> • <a href="https://nasa-power.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/noaa-climate-mcp-server">noaa-climate-mcp-server</a> • <a href="https://noaa-climate.caseyjhand.com/">/mcp</a></td>
@@ -138,14 +138,14 @@ Ships with Agent Skills and framework docs built in.
 <td><a href="https://github.com/cyanheads/openaq-mcp-server">openaq-mcp-server</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/us-drought-monitor-mcp-server">us-drought-monitor-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/us-drought-monitor-mcp-server">us-drought-monitor-mcp-server</a> • <a href="https://us-drought-monitor.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/usgs-water-mcp-server">usgs-water-mcp-server</a> • <a href="https://usgs-water.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <th colspan="3" align="left">Government &amp; Law</th>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/canada-parliament-mcp-server">canada-parliament-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/canada-parliament-mcp-server">canada-parliament-mcp-server</a> • <a href="https://canada-parliament.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/congressgov-mcp-server">congressgov-mcp-server</a> • <a href="https://congressgov.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/courtlistener-mcp-server">courtlistener-mcp-server</a> • <a href="https://courtlistener.caseyjhand.com/">/mcp</a></td>
 </tr>
@@ -219,7 +219,7 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/faa-aircraft-registry-mcp-server">faa-aircraft-registry-mcp-server</a> • <a href="https://faa-aircraft-registry.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/faa-airmen-registry-mcp-server">faa-airmen-registry-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/faa-airmen-registry-mcp-server">faa-airmen-registry-mcp-server</a> • <a href="https://faa-airmen-registry.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/faa-traffic-delays-mcp-server">faa-traffic-delays-mcp-server</a> • <a href="https://faa-traffic-delays.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
@@ -294,12 +294,12 @@ Ships with Agent Skills and framework docs built in.
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/devops-status-mcp-server">devops-status-mcp-server</a> • <a href="https://devops-status.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/first-epss-mcp-server">first-epss-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/first-epss-mcp-server">first-epss-mcp-server</a> • <a href="https://first-epss.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/iana-registries-mcp-server">iana-registries-mcp-server</a> • <a href="https://iana-registries.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/ioda-outages-mcp-server">ioda-outages-mcp-server</a></td>
-<td><a href="https://github.com/cyanheads/mitre-cwe-mcp-server">mitre-cwe-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/ioda-outages-mcp-server">ioda-outages-mcp-server</a> • <a href="https://ioda-outages.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/mitre-cwe-mcp-server">mitre-cwe-mcp-server</a> • <a href="https://mitre-cwe.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/nist-nvd-mcp-server">nist-nvd-mcp-server</a> • <a href="https://nist-nvd.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
