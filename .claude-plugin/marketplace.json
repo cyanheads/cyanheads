@@ -518,7 +518,7 @@
         "source": "github",
         "repo": "cyanheads/exchange-rates-mcp-server"
       },
-      "description": "Convert currencies, get FX rates, and query historical ECB exchange rate data via MCP. STDIO or Streamable HTTP.",
+      "description": "Convert currencies, get FX rates, and query historical Frankfurter v1 exchange rate data via MCP. STDIO or Streamable HTTP.",
       "category": "Finance",
       "author": {
         "name": "cyanheads"

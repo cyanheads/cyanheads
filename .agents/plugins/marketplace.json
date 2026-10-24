@@ -867,8 +867,8 @@
       "name": "exchange-rates-mcp-server",
       "interface": {
         "displayName": "exchange-rates-mcp-server",
-        "shortDescription": "Convert currencies, get FX rates, and query historical ECB exchange rate data.",
-        "longDescription": "ECB reference FX rates and currency conversion via Frankfurter (keyless, ~30 currencies, 1999-01-04 to present). Supports cross-rate triangulation, historical time-series retrieval, and DataCanvas SQL analytics for long ranges.",
+        "shortDescription": "Convert currencies, get FX rates, and query historical Frankfurter v1 exchange rate data.",
+        "longDescription": "Daily FX rates and currency conversion from Frankfurter v1, with current currency discovery and date-aware historical coverage from 1999-01-04. Includes local EUR cross-rates, full-range time-series summaries, and DataCanvas SQL analytics.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1859,7 +1859,7 @@
       "interface": {
         "displayName": "nws-weather-mcp-server",
         "shortDescription": "Get US weather forecasts, active alerts, and current observations via the National Weather Service API.",
-        "longDescription": "Real-time US weather from the National Weather Service API (api.weather.gov), covering the 50 states, US territories, and adjacent marine areas. Ten tools: 7-day and hourly forecasts, active alerts filtered by area/zone/event/severity, single-alert lookup by ID (including superseded messages), national alert counts per state and marine region, current observations from the nearest station, up to 7 days of a station's observation history, nearby station discovery, alert event-type listing, forecast-office narrative discussions (AFD/HWO/ZFP/SPS), and zone-level text forecasts. The API does not geocode — resolve place names to latitude/longitude before calling. No API key required. Runs over STDIO or Streamable HTTP.",
+        "longDescription": "Real-time US weather from the National Weather Service API (api.weather.gov), covering the 50 states, US territories, and adjacent marine areas. Ten tools: 7-day and hourly forecasts, active alerts filtered by area/zone/event/severity, single-alert lookup by ID (including superseded messages), national alert counts per state and marine region, current observations from the nearest station, up to 7 days of a station's observation history, nearby station discovery, alert event-type listing, forecast-office narrative discussions (AFD/HWO/ZFP/SPS/FWF), and zone-level text forecasts. The API does not geocode — resolve place names to latitude/longitude before calling. No API key required. Runs over STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
