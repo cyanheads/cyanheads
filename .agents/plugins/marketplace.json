@@ -2825,6 +2825,28 @@
       "category": "Government Data"
     },
     {
+      "name": "uk-parliament-mcp-server",
+      "interface": {
+        "displayName": "uk-parliament-mcp-server",
+        "shortDescription": "Search UK Parliament bills, members, votes, Hansard, written questions, and committees via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Follow business in the UK Parliament through bills, member profiles, division records, Hansard contributions, written questions and answers, and committee work. Search official records and retrieve details with source links through keyless Parliamentary APIs.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/uk-parliament-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/uk-parliament-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "uk-police-crime-mcp-server",
       "interface": {
         "displayName": "uk-police-crime-mcp-server",

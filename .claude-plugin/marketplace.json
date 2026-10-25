@@ -1670,6 +1670,19 @@
       "homepage": "https://github.com/cyanheads/uk-legislation-mcp-server"
     },
     {
+      "name": "uk-parliament-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/uk-parliament-mcp-server"
+      },
+      "description": "Search UK Parliament bills, members, votes, Hansard, written questions, and committees via MCP. STDIO or Streamable HTTP.",
+      "category": "Government Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/uk-parliament-mcp-server"
+    },
+    {
       "name": "uk-police-crime-mcp-server",
       "source": {
         "source": "github",

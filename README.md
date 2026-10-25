@@ -179,10 +179,11 @@ Browse every hosted server and its tools, with endpoints and install snippets, o
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/uk-legislation-mcp-server">uk-legislation-mcp-server</a> • <a href="https://uk-legislation.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/uk-parliament-mcp-server">uk-parliament-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/uk-police-crime-mcp-server">uk-police-crime-mcp-server</a> • <a href="https://uk-police-crime.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/us-lobbying-mcp-server">us-lobbying-mcp-server</a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/cyanheads/us-lobbying-mcp-server">us-lobbying-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/usaspending-mcp-server">usaspending-mcp-server</a> • <a href="https://usaspending.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
