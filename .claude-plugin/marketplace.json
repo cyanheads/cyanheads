@@ -461,6 +461,19 @@
       "homepage": "https://github.com/cyanheads/ensembl-mcp-server"
     },
     {
+      "name": "epa-drinking-water-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/epa-drinking-water-mcp-server"
+      },
+      "description": "Search EPA drinking water systems, violations, enforcement actions, and contaminant measurements via MCP. STDIO or Streamable HTTP.",
+      "category": "Science",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/epa-drinking-water-mcp-server"
+    },
+    {
       "name": "epa-mcp-server",
       "source": {
         "source": "github",

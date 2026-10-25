@@ -776,6 +776,28 @@
       "category": "Science"
     },
     {
+      "name": "epa-drinking-water-mcp-server",
+      "interface": {
+        "displayName": "epa-drinking-water-mcp-server",
+        "shortDescription": "Search EPA drinking water systems, violations, enforcement actions, and contaminant measurements via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Read public EPA drinking-water records without an API key: resolve water systems, inspect contact-free inventory and service membership, retrieve historical SDWA violations and enforcement actions, and select Lead and Copper Rule summaries or UCMR 5 occurrence measurements. Responses retain provenance, source uncertainty, and continuation metadata. Optional DuckDB staging in npm or Docker supports read-only SQL over bounded public-data partitions; the Claude Desktop bundle supports the six EPA-reading tools. Quarterly records and limited monitoring participation do not establish current compliance or household tap-water safety.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/epa-drinking-water-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/epa-drinking-water-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Science"
+    },
+    {
       "name": "epa-mcp-server",
       "interface": {
         "displayName": "epa-mcp-server",
