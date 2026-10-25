@@ -2693,6 +2693,28 @@
       "category": "Government Data"
     },
     {
+      "name": "switzerland-parliament-mcp-server",
+      "interface": {
+        "displayName": "switzerland-parliament-mcp-server",
+        "shortDescription": "Search Swiss parliamentary business, votes, debates, members, and declared interests via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Follow Swiss Federal Assembly motions and bills, inspect Nationalrat roll-call votes, read parliamentary debates in their original language, and look up members and their declared interests. Search official records in German, French, or Italian, with source attribution and retrieval dates.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/switzerland-parliament-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/switzerland-parliament-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "tmdb-mcp-server",
       "interface": {
         "displayName": "tmdb-mcp-server",

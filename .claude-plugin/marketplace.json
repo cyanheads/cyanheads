@@ -1592,6 +1592,19 @@
       "homepage": "https://github.com/cyanheads/sweden-parliament-mcp-server"
     },
     {
+      "name": "switzerland-parliament-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/switzerland-parliament-mcp-server"
+      },
+      "description": "Search Swiss parliamentary business, votes, debates, members, and declared interests via MCP. STDIO or Streamable HTTP.",
+      "category": "Government Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/switzerland-parliament-mcp-server"
+    },
+    {
       "name": "tmdb-mcp-server",
       "source": {
         "source": "github",
