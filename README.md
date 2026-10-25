@@ -216,6 +216,7 @@ Browse every hosted server and its tools, with endpoints and install snippets, o
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/unhcr-refugees-mcp-server">unhcr-refugees-mcp-server</a> • <a href="https://unhcr-refugees.caseyjhand.com/">/mcp</a></td>
+<td><a href="https://github.com/cyanheads/usitc-tariffs-mcp-server">usitc-tariffs-mcp-server</a></td>
 <td><a href="https://github.com/cyanheads/worldbank-mcp-server">worldbank-mcp-server</a> • <a href="https://worldbank.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>

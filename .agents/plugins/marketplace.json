@@ -3001,6 +3001,28 @@
       "category": "Science"
     },
     {
+      "name": "usitc-tariffs-mcp-server",
+      "interface": {
+        "displayName": "usitc-tariffs-mcp-server",
+        "shortDescription": "Search USITC tariff schedules, inspect heading trees, and look up published duty rates via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Search the U.S. Harmonized Tariff Schedule by commodity description or code prefix, inspect legal ancestry, and retrieve the published General, Special, and Column 2 duty columns. Decode edition-pinned Special Program Indicators while keeping country membership and qualification unresolved. Investigate partial Chapter 99 candidate evidence with complete supporting passages and source provenance; empty candidates never establish clearance. Results do not determine current legal enforceability, select a duty column, or calculate combined duties.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/usitc-tariffs-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/usitc-tariffs-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "wakeonlan-mcp-server",
       "interface": {
         "displayName": "wakeonlan-mcp-server",
