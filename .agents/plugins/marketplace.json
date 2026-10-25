@@ -2649,6 +2649,28 @@
       "category": "Data"
     },
     {
+      "name": "sweden-parliament-mcp-server",
+      "interface": {
+        "displayName": "sweden-parliament-mcp-server",
+        "shortDescription": "Search Swedish parliamentary documents, speeches, votes, members, and statutes via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Search Swedish parliamentary documents, speeches, votes, members, and statutes via MCP. STDIO or Streamable HTTP.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/sweden-parliament-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/sweden-parliament-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "tmdb-mcp-server",
       "interface": {
         "displayName": "tmdb-mcp-server",

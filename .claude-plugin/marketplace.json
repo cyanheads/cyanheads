@@ -1566,6 +1566,19 @@
       "homepage": "https://github.com/cyanheads/stackexchange-mcp-server"
     },
     {
+      "name": "sweden-parliament-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/sweden-parliament-mcp-server"
+      },
+      "description": "Search Swedish parliamentary documents, speeches, votes, members, and statutes via MCP. STDIO or Streamable HTTP.",
+      "category": "Government Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/sweden-parliament-mcp-server"
+    },
+    {
       "name": "tmdb-mcp-server",
       "source": {
         "source": "github",
