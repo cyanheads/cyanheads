@@ -474,6 +474,19 @@
       "homepage": "https://github.com/cyanheads/epa-mcp-server"
     },
     {
+      "name": "eu-parliament-mcp-server",
+      "source": {
+        "source": "github",
+        "repo": "cyanheads/eu-parliament-mcp-server"
+      },
+      "description": "Track European Parliament procedures, MEPs, votes, documents, speeches, and questions via MCP. STDIO or Streamable HTTP.",
+      "category": "Government Data",
+      "author": {
+        "name": "cyanheads"
+      },
+      "homepage": "https://github.com/cyanheads/eu-parliament-mcp-server"
+    },
+    {
       "name": "eur-lex-mcp-server",
       "source": {
         "source": "github",

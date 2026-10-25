@@ -798,6 +798,28 @@
       "category": "Data"
     },
     {
+      "name": "eu-parliament-mcp-server",
+      "interface": {
+        "displayName": "eu-parliament-mcp-server",
+        "shortDescription": "Track European Parliament procedures, MEPs, votes, documents, speeches, and questions via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Follow legislative procedures through European Parliament records, find MEPs and their memberships, and inspect plenary roll-call votes. Search adopted texts and speeches, retrieve parliamentary documents and questions, and discover the reference codes used by the Parliament's free open-data API.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/eu-parliament-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/eu-parliament-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "eur-lex-mcp-server",
       "interface": {
         "displayName": "eur-lex-mcp-server",
@@ -1022,7 +1044,7 @@
       "interface": {
         "displayName": "fcc-spectrum-mcp-server",
         "shortDescription": "Search FCC radio licenses, find nearby licensed sites, and see who is licensed on a frequency.",
-        "longDescription": "US radio spectrum licensing from the FCC Universal Licensing System (ULS), answered from a local SQLite index the operator builds once from the FCC's public weekly bulk files and keeps current with the daily ones. Look up a callsign, licensee, or FCC Registration Number; read a license's sites, antennas, frequencies, power, and emission designators; find licensed sites within a radius of a point; and see who is authorized on a frequency or band, market-area spectrum blocks included. The default index covers land mobile, microwave, cellular and market-area wireless, paging, coast stations, BRS/EBS, and amateur licenses, plus spectrum leases; GMRS, ship, and aircraft licenses are opt-in. Broadcast stations and satellite earth stations are not included. Keyless, with no call to the FCC at request time. Individual licensees are redacted by default, and contact details are never ingested.",
+        "longDescription": "US radio spectrum licensing from the FCC Universal Licensing System (ULS), answered from a local SQLite index the operator builds once from the FCC's public weekly bulk files and keeps current with the daily ones. Look up a callsign, licensee, or FCC Registration Number; read a license's sites, antennas, frequencies, power, emission designators, and microwave paths; find licensed sites within a radius of a point; and see who is authorized on a frequency or band, market-area spectrum blocks included. The default index covers land mobile, microwave, cellular and market-area wireless, paging, coast stations, BRS/EBS, and amateur licenses, plus spectrum leases; GMRS, ship, and aircraft licenses are opt-in. Broadcast stations and satellite earth stations are not included. Keyless, with no call to the FCC at request time. Individual licensees are redacted by default, and contact details are never ingested.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -2388,7 +2410,7 @@
       "interface": {
         "displayName": "pubchem-mcp-server",
         "shortDescription": "Search PubChem compounds, properties, safety data, bioactivity, cross-references, and entity summaries.",
-        "longDescription": "Search the PubChem chemical database by name, SMILES, InChIKey, formula, or substructure to find compound CIDs, then fetch molecular properties, GHS safety classifications, bioassay activity, external database cross-references, and entity summaries for assays, genes, proteins, and taxonomy. STDIO and Streamable HTTP transports. No API key required.",
+        "longDescription": "Search the PubChem chemical database by name, SMILES, InChI, InChIKey, formula, or substructure to find compound CIDs, then fetch molecular properties, GHS safety classifications, bioassay activity, external database cross-references, and entity summaries for assays, genes, proteins, and taxonomy. STDIO and Streamable HTTP transports. No API key required.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -2697,7 +2719,7 @@
       "interface": {
         "displayName": "treasury-fiscaldata-mcp-server",
         "shortDescription": "Query US Treasury national debt, interest rates, exchange rates, and fiscal datasets via MCP.",
-        "longDescription": "Query the US Treasury Fiscal Data API for federal fiscal statistics. Browse a curated catalog of 17 endpoints (treasury_list_datasets) with their paths and field names, then query any endpoint by path, fields, filters, sort, and page (treasury_query_dataset) — including endpoints outside the catalog. Convenience tools cover the national debt (treasury_get_debt), average Treasury interest rates by security type (treasury_get_interest_rates), and official statutory exchange rates (treasury_get_exchange_rates), each supporting latest value, a specific date, or a date-range series. Large time-series pulls spill to a DataCanvas dataframe (set CANVAS_PROVIDER_TYPE=duckdb) you can inspect with treasury_dataframe_describe and query with single-statement SQL via treasury_dataframe_query. All API values are returned as strings — CAST to DECIMAL or DATE for arithmetic.",
+        "longDescription": "Query the US Treasury Fiscal Data API for federal fiscal statistics. Browse a curated catalog of 17 endpoints (treasury_list_datasets) with their paths and field names, then query any endpoint by path, fields, filters, sort, and page (treasury_query_dataset) — including endpoints outside the catalog. Convenience tools cover the national debt (treasury_get_debt), average Treasury interest rates by security type (treasury_get_interest_rates), and official statutory exchange rates (treasury_get_exchange_rates), each supporting latest value, a specific date, or a date-range series. Large time-series pulls spill to a DataCanvas dataframe (on by default; CANVAS_PROVIDER_TYPE=none disables it) you can inspect with treasury_dataframe_describe and query with single-statement SQL via treasury_dataframe_query. All API values are returned as strings — CAST to DECIMAL or DATE for arithmetic.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
