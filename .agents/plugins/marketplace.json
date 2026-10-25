@@ -2957,6 +2957,28 @@
       "category": "Data"
     },
     {
+      "name": "us-lobbying-mcp-server",
+      "interface": {
+        "displayName": "us-lobbying-mcp-server",
+        "shortDescription": "Search US lobbying disclosures and foreign-agent registrations via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Search federal lobbying registrations and activity reports from the Senate's LDA API, resolve client relationship IDs before analyzing selected years, inspect filing-specific lobbyist positions, and retrieve complete LD-203 contribution reports. Analytical results keep income and expenses separate, retain amendment-selection decisions, and treat issue amounts as overlapping whole-filing associations. Search official daily FARA registrant and foreign-principal XML snapshots, then fetch a chosen registration's live principal, short-form, or document collection. Follow acquisition and output continuations for complete records; optional DuckDB tables support local SQL and the opt-in drop tool removes staged tables. No API key is required. Disclosure records do not establish wrongdoing or policy influence.",
+        "developerName": "cyanheads",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://github.com/cyanheads/us-lobbying-mcp-server"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cyanheads/us-lobbying-mcp-server.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Government Data"
+    },
+    {
       "name": "usaspending-mcp-server",
       "interface": {
         "displayName": "usaspending-mcp-server",
