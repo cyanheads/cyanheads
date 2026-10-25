@@ -153,7 +153,7 @@ Browse every hosted server and its tools, with endpoints and install snippets, o
 <td><a href="https://github.com/cyanheads/courtlistener-mcp-server">courtlistener-mcp-server</a> • <a href="https://courtlistener.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/eu-parliament-mcp-server">eu-parliament-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/eu-parliament-mcp-server">eu-parliament-mcp-server</a> • <a href="https://eu-parliament.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/eur-lex-mcp-server">eur-lex-mcp-server</a> • <a href="https://eur-lex.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/fbi-crime-mcp-server">fbi-crime-mcp-server</a> • <a href="https://fbi-crime.caseyjhand.com/">/mcp</a></td>
 </tr>
@@ -175,16 +175,16 @@ Browse every hosted server and its tools, with endpoints and install snippets, o
 <tr>
 <td><a href="https://github.com/cyanheads/sanctions-screening-mcp-server">sanctions-screening-mcp-server</a> • <a href="https://sanctions-screening.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/socrata-mcp-server">socrata-mcp-server</a> • <a href="https://socrata.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/sweden-parliament-mcp-server">sweden-parliament-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/sweden-parliament-mcp-server">sweden-parliament-mcp-server</a> • <a href="https://sweden-parliament.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/cyanheads/switzerland-parliament-mcp-server">switzerland-parliament-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/switzerland-parliament-mcp-server">switzerland-parliament-mcp-server</a> • <a href="https://switzerland-parliament.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/uk-legislation-mcp-server">uk-legislation-mcp-server</a> • <a href="https://uk-legislation.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/uk-parliament-mcp-server">uk-parliament-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/uk-parliament-mcp-server">uk-parliament-mcp-server</a> • <a href="https://uk-parliament.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/uk-police-crime-mcp-server">uk-police-crime-mcp-server</a> • <a href="https://uk-police-crime.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/us-lobbying-mcp-server">us-lobbying-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/us-lobbying-mcp-server">us-lobbying-mcp-server</a> • <a href="https://us-lobbying.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/usaspending-mcp-server">usaspending-mcp-server</a> • <a href="https://usaspending.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
@@ -222,7 +222,7 @@ Browse every hosted server and its tools, with endpoints and install snippets, o
 </tr>
 <tr>
 <td><a href="https://github.com/cyanheads/unhcr-refugees-mcp-server">unhcr-refugees-mcp-server</a> • <a href="https://unhcr-refugees.caseyjhand.com/">/mcp</a></td>
-<td><a href="https://github.com/cyanheads/usitc-tariffs-mcp-server">usitc-tariffs-mcp-server</a></td>
+<td><a href="https://github.com/cyanheads/usitc-tariffs-mcp-server">usitc-tariffs-mcp-server</a> • <a href="https://usitc-tariffs.caseyjhand.com/">/mcp</a></td>
 <td><a href="https://github.com/cyanheads/worldbank-mcp-server">worldbank-mcp-server</a> • <a href="https://worldbank.caseyjhand.com/">/mcp</a></td>
 </tr>
 <tr>
