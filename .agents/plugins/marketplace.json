@@ -735,7 +735,7 @@
       "name": "elevation-mcp-server",
       "interface": {
         "displayName": "elevation-mcp-server",
-        "shortDescription": "Look up elevation worldwide, profile route ascent/descent, grid areas, check terrain line of sight.",
+        "shortDescription": "Look up elevation worldwide, profile route ascent/descent, grid areas, check terrain line of sight via MCP. STDIO or Streamable HTTP.",
         "longDescription": "Ground elevation and terrain analysis anywhere on Earth, with no API key. Look up as many as 100 points per call, sample a route for its distance, ascent, descent, and steepest grades, grid a bounding box for its highest and lowest points and relief, or check whether terrain blocks the sightline between two points, accounting for earth curvature and refraction. USGS 3DEP answers across the US and its territories, plus much of Canada and Mexico, at 1–30 m; everywhere else Open Topo Data answers from SRTM at about 30 m, with Mapzen terrain tiles where SRTM has no tile, including the sea floor. Every value names the dataset that answered, and every result lists the sources to credit.",
         "developerName": "cyanheads",
         "capabilities": [
@@ -2675,7 +2675,7 @@
       "interface": {
         "displayName": "sweden-parliament-mcp-server",
         "shortDescription": "Search Swedish parliamentary documents, speeches, votes, members, and statutes via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "Search Swedish parliamentary documents, speeches, votes, members, and statutes via MCP. STDIO or Streamable HTTP.",
+        "longDescription": "Search Riksdagen open data: bills, motions, committee reports, and consolidated SFS statutes with their decisions, references, and paged text. Trace committee report points to published main votes by party, read a member's session votes and chamber speeches, and look up member register entries and assignment histories. Keyless; responses carry source attribution, effective filters, and complete continuation calls.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -3137,8 +3137,8 @@
       "name": "who-gho-mcp-server",
       "interface": {
         "displayName": "who-gho-mcp-server",
-        "shortDescription": "Query WHO Global Health Observatory data — 3,059 indicators across 194 member states with country, region, year, and sex filters.",
-        "longDescription": "WHO Global Health Observatory MCP server providing access to 3,059 health indicators across 194 WHO member states. Supports filtering by country (ISO 3166-1 alpha-3), WHO region, World Bank income group, year range, and sex dimension. Primary workflow: search indicators → get metadata → query data.",
+        "shortDescription": "Query WHO Global Health Observatory data — 3,102 indicators across 194 member states with country, region, year, and sex filters.",
+        "longDescription": "WHO Global Health Observatory MCP server providing access to 3,102 health indicators across 194 WHO member states. Supports WHO country codes including historical codes, WHO regions, World Bank income groups, year ranges, sex, and positional dimension 1/2/3 filters. Primary workflow: search indicators → get metadata → query data.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
