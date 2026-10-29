@@ -648,7 +648,7 @@
         "source": "github",
         "repo": "cyanheads/fdic-banks-mcp-server"
       },
-      "description": "Search FDIC-insured banks, Call Report financials, peer rankings, failures, deposit market share.",
+      "description": "Search FDIC-insured banks, Call Report financials, peer rankings, failures, mergers, deposit share.",
       "category": "Finance",
       "author": {
         "name": "cyanheads"
