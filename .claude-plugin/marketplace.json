@@ -661,7 +661,7 @@
         "source": "github",
         "repo": "cyanheads/federal-regulations-mcp-server"
       },
-      "description": "Search and trace US federal rules across the Federal Register (proposed/final rules and notices), the eCFR (codified, point-in-time CFR full text, locally mirrored), and Regulations.gov (rulemaking dockets and public comments) via MCP. STDIO or Streamable HTTP.",
+      "description": "Search and trace US federal rules across the Federal Register (proposed/final rules, notices, and presidential documents), the eCFR (codified, point-in-time CFR full text and amendment history, locally mirrored), and Regulations.gov (rulemaking dockets, document files, and public comments) via MCP. STDIO or Streamable HTTP.",
       "category": "Government Data",
       "author": {
         "name": "cyanheads"
@@ -843,7 +843,7 @@
         "source": "github",
         "repo": "cyanheads/imf-mcp-server"
       },
-      "description": "Query IMF SDMX 3.0 macroeconomic data — hundreds of dataflows across 190 countries, WEO projections, BOP, CPI, exchange rates, and national accounts via MCP. STDIO or Streamable HTTP.",
+      "description": "Query IMF SDMX 3.0 macroeconomic data — 100+ dataflows across 190 countries, WEO projections, BOP, CPI, exchange rates, and national accounts via MCP. STDIO or Streamable HTTP.",
       "category": "Data",
       "author": {
         "name": "cyanheads"
@@ -921,7 +921,7 @@
         "source": "github",
         "repo": "cyanheads/macos-mcp-server"
       },
-      "description": "Control macOS system settings, apps, windows, audio, displays, screenshots, and Focus mode via MCP. STDIO or Streamable HTTP.",
+      "description": "Control macOS settings, apps, windows, audio, Music, displays, screenshots, and Focus mode via MCP. STDIO or Streamable HTTP.",
       "category": "Developer Tools",
       "author": {
         "name": "cyanheads"
@@ -1883,7 +1883,7 @@
         "source": "github",
         "repo": "cyanheads/wikipedia-mcp-server"
       },
-      "description": "Search Wikipedia articles, read summaries and full text, target sections, find nearby pages, and list language editions via MCP. STDIO or Streamable HTTP.",
+      "description": "Search Wikipedia articles, read summaries and full text, target sections, list an article's cited references, find nearby pages, and list language editions via MCP. STDIO or Streamable HTTP.",
       "category": "Data",
       "author": {
         "name": "cyanheads"

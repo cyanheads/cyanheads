@@ -1417,8 +1417,8 @@
       "name": "imf-mcp-server",
       "interface": {
         "displayName": "imf-mcp-server",
-        "shortDescription": "Query IMF SDMX 3.0 macroeconomic data — hundreds of dataflows across 190 countries, WEO projections, BOP, CPI, exchange rates, and national accounts via MCP.",
-        "longDescription": "Query the IMF's SDMX 3.0 macroeconomic database. Supports hundreds of dataflows across 190 countries — WEO projections, balance of payments, CPI, exchange rates, and national accounts — with SQL over large result sets. Deployable as stdio or streamable HTTP.",
+        "shortDescription": "Query IMF SDMX 3.0 macroeconomic data — 100+ dataflows across 190 countries, WEO projections, BOP, CPI, exchange rates, and national accounts via MCP.",
+        "longDescription": "Query the IMF's SDMX 3.0 macroeconomic database. Supports 100+ dataflows across 190 countries — WEO projections, balance of payments, CPI, exchange rates, and national accounts — with SQL over large result sets. Deployable as stdio or streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1549,8 +1549,8 @@
       "name": "macos-mcp-server",
       "interface": {
         "displayName": "macos-mcp-server",
-        "shortDescription": "Control macOS system settings, apps, windows, audio, displays, screenshots, and Focus mode via MCP.",
-        "longDescription": "MCP server for controlling macOS — system settings, application and window management, audio, displays, screenshots, and Focus mode. STDIO or Streamable HTTP.",
+        "shortDescription": "Control macOS settings, apps, windows, audio, Music, displays, screenshots, and Focus mode via MCP.",
+        "longDescription": "MCP server for controlling macOS — system settings, application and window management, audio, Music playback, displays, screenshots, and Focus mode. STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -3181,8 +3181,8 @@
       "name": "wikipedia-mcp-server",
       "interface": {
         "displayName": "wikipedia-mcp-server",
-        "shortDescription": "Search Wikipedia, read summaries and full text, target sections, find nearby pages, list languages.",
-        "longDescription": "MCP server providing encyclopedic context via the MediaWiki REST API and Action API. Supports full-text search, article summaries with Wikidata QIDs, section-targeted reads, geographic proximity search, and language edition discovery across all Wikipedia language editions.",
+        "shortDescription": "Search and read Wikipedia articles and sections, list cited references, nearby pages, and languages.",
+        "longDescription": "MCP server providing encyclopedic context via the MediaWiki REST API and Action API. Supports full-text search, article summaries with Wikidata QIDs, section-targeted reads, an article's cited references, geographic proximity search, and language edition discovery across all Wikipedia language editions.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
