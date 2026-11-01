@@ -856,7 +856,7 @@
         "source": "github",
         "repo": "cyanheads/inaturalist-mcp-server"
       },
-      "description": "Search wildlife sightings, read identification threads, rank species by area, chart phenology, and find look-alike taxa from iNaturalist via MCP. STDIO or Streamable HTTP.",
+      "description": "Search wildlife sightings, read identification threads, rank taxa by area, chart phenology, and find look-alike taxa from iNaturalist via MCP. STDIO or Streamable HTTP.",
       "category": "Science",
       "author": {
         "name": "cyanheads"
