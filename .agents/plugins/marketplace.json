@@ -251,7 +251,7 @@
       "interface": {
         "displayName": "canada-parliament-mcp-server",
         "shortDescription": "Track Canadian federal bills, MPs, House votes, and Hansard speeches via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "Follow Canadian federal legislation from official LEGISinfo bill searches through stages, recorded House divisions, publications, and enacted statute citations. Search current House MPs and OpenParliament's historical name index, inspect dated memberships and bounded member activity, and retrieve indexed House Hansard speeches by speaker, bill, date, or literal English text. Responses retain source provenance, unavailable fields, and explicit continuations. Public upstreams require no API key; parliamentary data remains subject to its source reuse terms.",
+        "longDescription": "Follow Canadian federal legislation from official LEGISinfo bill searches through stages, recorded House divisions, publications, and enacted statute citations. Search current House MPs, past Parliaments' official rosters, and OpenParliament's historical name index, inspect dated memberships and bounded member activity, and retrieve indexed House Hansard speeches by speaker, bill, date, or literal English or French text. Responses retain source provenance, unavailable fields, and explicit continuations. Public upstreams require no API key; parliamentary data remains subject to its source reuse terms.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1220,7 +1220,7 @@
       "interface": {
         "displayName": "gdelt-mcp-server",
         "shortDescription": "Search and analyze global news coverage and US TV transcripts via the GDELT Project APIs.",
-        "longDescription": "Access the GDELT Project's real-time global news and TV transcript APIs. Search 65+ languages of news coverage from the last 3 months, retrieve coverage timelines and tone distributions, analyze geographic/language breakdowns, find GKG theme identifiers for theme: queries, and search US TV news transcripts from 2009–2024.",
+        "longDescription": "Access the GDELT Project's real-time global news and TV transcript APIs. Search 65+ languages of news coverage from the last 3 months, retrieve coverage timelines and tone distributions, analyze geographic/language breakdowns, find GKG theme identifiers for theme: queries, and search historical TV news transcripts with coverage dates varying by station.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1440,7 +1440,7 @@
       "interface": {
         "displayName": "inaturalist-mcp-server",
         "shortDescription": "Search wildlife sightings, read identification threads, rank taxa by area, chart phenology, and find look-alike taxa from iNaturalist.",
-        "longDescription": "Query iNaturalist's index of 380M+ georeferenced citizen-science observations of plants, animals, and fungi. Search sightings by area, date, taxon, quality grade, annotation, and conservation status; read the community identification thread behind a record; rank the leaf taxa of an area; chart a taxon's phenology by month, week, or year; list the look-alikes a taxon is most often misidentified as; fetch taxon profiles with conservation listings and photos; and resolve organism, place, project, and observer names to the ids every tool takes. Records carry their own licence and attribution, which are relayed verbatim, and obscured coordinates stay obscured. Keyless and read-only. Runs over STDIO or Streamable HTTP.",
+        "longDescription": "Query iNaturalist's index of 380M+ georeferenced citizen-science observations of plants, animals, and fungi. Search sightings by area, date, taxon, quality grade, annotation, and conservation status; read the community identification thread behind a record; rank the leaf taxa of an area; chart a taxon's phenology by month, week, or year; rank related taxa by shared co-identification evidence; fetch taxon profiles with conservation listings and photos; and resolve organism, place, project, and observer names to the ids every tool takes. Records carry their own licence and attribution, which are relayed verbatim, and obscured coordinates stay obscured. Keyless and read-only. Runs over STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1506,7 +1506,7 @@
       "interface": {
         "displayName": "ioda-outages-mcp-server",
         "shortDescription": "Investigate Internet outages with IODA events, alerts, and connectivity signals via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "Resolve countries, regions, and autonomous systems, inspect recent IODA detection evidence, and retrieve outage events, alert transitions, and numeric BGP, active-probing, and Merit telescope observations. Rank the countries, regions, or networks hit hardest in a window with IODA's own outage-summary scores. Source attribution, missing samples, clipped event boundaries, and partial failures remain explicit. Measurement coverage and returned detections support macroscopic Internet investigations; they do not establish an all-clear, a shutdown cause, or one office's connectivity.",
+        "longDescription": "Resolve countries, regions, and autonomous systems, inspect recent IODA detection evidence, and retrieve outage events, alert transitions, and numeric BGP, active-probing, Merit telescope, and country-level Google Transparency Report traffic observations. Rank the countries, regions, or networks hit hardest in a window with IODA's own outage-summary scores. Source attribution, missing samples, clipped event boundaries, and partial failures remain explicit. Measurement coverage and returned detections support macroscopic Internet investigations; they do not establish an all-clear, a shutdown cause, or one office's connectivity.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
