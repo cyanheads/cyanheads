@@ -163,7 +163,7 @@
       "interface": {
         "displayName": "bluesky-mcp-server",
         "shortDescription": "Search Bluesky posts and feeds; read profiles, threads, and trends. STDIO or Streamable HTTP.",
-        "longDescription": "bluesky-mcp-server gives agents read-only access to Bluesky over the AT Protocol AppView. Without any credential it exposes actor profile lookup by handle or DID, feed catalog metadata search, trending topics and the feeds behind them, custom feeds by AT-URI or bsky.app link, author feeds, conversation threads by AT-URI, actor discovery, and follower and following graph edges, plus a bsky://profile/{actor} resource. Feed catalog search uses an unstable upstream endpoint and returns generator URIs for reading posts. Full-text post search, which Bluesky serves only to a signed-in account, is added when you set BLUESKY_IDENTIFIER and BLUESKY_APP_PASSWORD. Built on @cyanheads/mcp-ts-core, it runs over STDIO for local clients or Streamable HTTP for hosted deployments.",
+        "longDescription": "bluesky-mcp-server gives agents read-only access to Bluesky over the AT Protocol AppView. Without any credential it exposes actor profile lookup by handle or DID, feed catalog metadata search, trending topics and the feeds behind them, custom and list feeds by AT-URI or bsky.app link, list and starter-pack discovery with paged membership, author feeds, conversation threads by AT-URI, actor discovery, and follower and following graph edges, plus a bsky://profile/{actor} resource. Feed catalog search uses an unstable upstream endpoint and returns generator URIs for reading posts. Full-text post search, which Bluesky serves only to a signed-in account, is added when you set BLUESKY_IDENTIFIER and BLUESKY_APP_PASSWORD. Built on @cyanheads/mcp-ts-core, it runs over STDIO for local clients or Streamable HTTP for hosted deployments.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -185,7 +185,7 @@
       "interface": {
         "displayName": "brapi-mcp-server",
         "shortDescription": "A collaborative BrAPI v2.1 workspace for multi-agent research via MCP. Search studies, germplasm, genotypes, and more across Breedbase, T3, Sweetpotatobase, and any BrAPI v2-compliant server.",
-        "longDescription": "Bridges any BrAPI v2.1-compliant server (Breedbase, T3, Sweetpotatobase, and others) into a collaborative MCP workspace for plant and crop breeding research. Connect to one or more servers under named aliases, then search and fetch across studies, germplasm, observations, observation variables, locations, images, variants, and genotype calls. Result sets that exceed the per-call cap spill into a DuckDB-backed canvas dataframe you query with SELECT-only SQL, enabling cross-study phenotype and genotype matrices, pedigree traversal, and per-germplasm performance summaries. Per-server dialect adapters and a capability registry keep calls aligned with what each backend actually advertises, and raw GET / search passthroughs cover endpoints no curated tool maps yet.",
+        "longDescription": "Bridges any BrAPI v2.1-compliant server (Breedbase, T3, Sweetpotatobase, and others) into a collaborative MCP workspace for plant and crop breeding research. Connect to one or more servers under named aliases, then search and fetch across studies, germplasm, observations, observation variables, locations, images, variants, and genotype calls. Result sets that exceed the per-call cap spill into a DuckDB-backed canvas dataframe you query with read-only SQL, enabling cross-study phenotype and genotype matrices, pedigree traversal, and per-germplasm performance summaries. Per-server dialect adapters and a capability registry keep calls aligned with what each backend actually advertises, and raw GET / search passthroughs cover endpoints no curated tool maps yet.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -493,7 +493,7 @@
       "interface": {
         "displayName": "congressgov-mcp-server",
         "shortDescription": "Access U.S. congressional data (bills, votes, members, committees) through MCP.",
-        "longDescription": "MCP server wrapping the Congress.gov API v3 — the official machine-readable interface to U.S. legislative data. Provides tools for browsing bills, enacted laws, members, committees, roll call votes, nominations, CRS reports, committee reports, and the Congressional Record.",
+        "longDescription": "MCP server wrapping the Congress.gov API v3 — the official machine-readable interface to U.S. legislative data. Provides tools for browsing bills, amendments, enacted laws, members, committees, roll call votes, nominations, CRS reports, committee reports, and the Congressional Record.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -559,7 +559,7 @@
       "interface": {
         "displayName": "crossref-mcp-server",
         "shortDescription": "Resolve DOIs, search ~188M scholarly works, fetch references, and look up publishers via the Crossref REST API.",
-        "longDescription": "MCP server wrapping the Crossref REST API. Exposes tools to resolve DOIs to full metadata records, search ~188M registered works, retrieve outgoing references, search journals by ISSN or title, search funders, resolve a member ID to its publisher record (prefixes, DOI counts, metadata deposit coverage), and resolve a DOI prefix to its owning publisher. Supports STDIO and Streamable HTTP transports.",
+        "longDescription": "MCP server wrapping the Crossref REST API. Exposes tools to resolve DOIs to full metadata records, search ~188M registered works, retrieve outgoing references, search journals by ISSN or title, search funders, resolve a member ID to its publisher record (prefixes, DOI counts, metadata deposit coverage), and resolve a DOI prefix to the publisher that registered it. Supports STDIO and Streamable HTTP transports.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1044,7 +1044,7 @@
       "interface": {
         "displayName": "fcc-broadband-mcp-server",
         "shortDescription": "Query FCC broadband availability, coverage analysis, and digital-divide data for US geographies and census blocks via MCP.",
-        "longDescription": "MCP server for FCC broadband data. Geocode coordinates to census blocks, query block-level provider availability and advertised speeds, and run geography-level coverage analysis — provider counts, unserved and underserved populations, area comparisons, and BEAD-eligibility lookups. Covers Form 477 (2015–2021) and Broadband Data Collection (2022+) datasets. STDIO and Streamable HTTP transports.",
+        "longDescription": "MCP server for FCC broadband data. Geocode coordinates to census blocks, query reported providers and advertised speeds, and compare geography-level coverage populations using the June 2021 Form 477 filing. Discover newer BDC bulk-file manifests with credentials. Historical population aggregates support gap research but do not establish current address service or funding eligibility. STDIO and Streamable HTTP transports.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1352,7 +1352,7 @@
       "interface": {
         "displayName": "hn-mcp-server",
         "shortDescription": "Browse Hacker News feeds, threads, and user profiles with full-text search.",
-        "longDescription": "Read-only access to Hacker News over the Firebase API and Algolia search. Fetch ranked feeds (top, new, best, ask, show, jobs) with pagination, search items by keyword, by type, author, story, date, and score filters alone, or both, retrieve a user profile with their submissions, and pull any item with its full comment tree (drill into a subtree by passing a comment id). Items are addressed by integer id, reused across stories, comments, jobs, and polls. HN populates fields sparsely, so absent values are surfaced as unknown rather than fabricated.",
+        "longDescription": "Read-only access to Hacker News over the Firebase API and Algolia search. Fetch ranked feeds (top, new, best, ask, show, jobs) with pagination, search items by keyword, by type, author, story, date, score, and comment-count filters alone, or both, retrieve a user profile with their submissions, and pull any item with its full comment tree (drill into a subtree by passing a comment id). Items are addressed by integer id, reused across stories, comments, jobs, and polls. HN populates fields sparsely, so absent values are surfaced as unknown rather than fabricated.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -1902,8 +1902,8 @@
       "name": "nws-weather-mcp-server",
       "interface": {
         "displayName": "nws-weather-mcp-server",
-        "shortDescription": "Get US weather forecasts, active alerts, and current observations via the National Weather Service API.",
-        "longDescription": "Real-time US weather from the National Weather Service API (api.weather.gov), covering the 50 states, US territories, and adjacent marine areas. Ten tools: 7-day and hourly forecasts, active alerts filtered by area/zone/event/severity, single-alert lookup by ID (including superseded messages), national alert counts per state and marine region, current observations from the nearest station, up to 7 days of a station's observation history, nearby station discovery, alert event-type listing, forecast-office narrative discussions (AFD/HWO/ZFP/SPS/FWF), and zone-level text forecasts. The API does not geocode — resolve place names to latitude/longitude before calling. No API key required. Runs over STDIO or Streamable HTTP.",
+        "shortDescription": "Get US weather forecasts, active and recent alerts, and current observations via the National Weather Service API.",
+        "longDescription": "Real-time US weather from the National Weather Service API (api.weather.gov), covering the 50 states, US territories, and adjacent marine areas. Ten tools: 7-day and hourly forecasts, active alerts and the alert messages issued in the last 7 days, filtered by area/zone/event/severity, single-alert lookup by ID (including superseded messages), national alert counts per state and marine region, current observations from the nearest station, up to 7 days of a station's observation history, nearby station discovery, alert event-type listing, forecast-office narrative discussions (AFD/HWO/ZFP/SPS/FWF), and zone-level text forecasts. The API does not geocode — resolve place names to latitude/longitude before calling. No API key required. Runs over STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -2255,7 +2255,7 @@
       "interface": {
         "displayName": "osv-advisory-mcp-server",
         "shortDescription": "Query OSV.dev for package vulnerabilities, batch-audit dependency lists, and fetch full advisory records via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "Read-only access to the OSV.dev vulnerability database over MCP. Check a package version by tuple or PURL with osv_query_package, audit up to 1000 mixed package identifiers with osv_query_batch, and query a full Git commit hash with osv_query_commit. Fetch full advisory records with osv_get_vulnerability and valid ecosystem identifiers with osv_list_ecosystems. Keyless and public; CVE aliases chain to nist-nvd-mcp-server for CVSS scoring and CISA KEV status. Runs over STDIO or Streamable HTTP.",
+        "longDescription": "Read-only access to the OSV.dev vulnerability database over MCP. Check a package version by tuple or PURL with osv_query_package, audit up to 1000 package identifiers per call with osv_query_batch, and query a full Git commit hash with osv_query_commit. Resume incomplete scans with returned cursors. Fetch full advisory records with osv_get_vulnerability and valid ecosystem identifiers with osv_list_ecosystems. CVE aliases link to nist-nvd-mcp-server for CVSS scoring and CISA KEV status. Runs over STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -2961,7 +2961,7 @@
       "interface": {
         "displayName": "uniprot-mcp-server",
         "shortDescription": "Protein research over UniProtKB: search by function, fetch curated records, map IDs, proteomes.",
-        "longDescription": "The protein-as-primary-entity research workflow over UniProt. Search UniProtKB by function, keyword, GO term, gene, or organism; retrieve full curated Swiss-Prot entries (function, catalytic activity, subcellular location, disease, PTMs, isoforms, sequence, cross-references); map identifiers across 100+ databases via the async ID-mapping service; and pull reference proteomes and taxonomy. Keyless, CC BY 4.0.",
+        "longDescription": "The protein-as-primary-entity research workflow over UniProt. Search UniProtKB by function, keyword, GO term, gene, or organism; retrieve full curated Swiss-Prot entries (function, catalytic activity, subcellular location, disease, PTMs, isoforms, sequence, cross-references); map identifiers across supported databases via the async ID-mapping service; and pull reference proteomes and taxonomy. Keyless, CC BY 4.0.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
