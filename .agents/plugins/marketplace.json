@@ -229,7 +229,7 @@
       "interface": {
         "displayName": "calculator-mcp-server",
         "shortDescription": "Evaluate, simplify, and differentiate mathematical expressions via MCP. STDIO or Streamable HTTP.",
-        "longDescription": "A hardened math.js calculator MCP server that lets any LLM verify mathematical computations. Supports arithmetic, algebra, trigonometry, logarithms, statistics, matrices, complex numbers, combinatorics, and unit conversion. No auth required — all operations are read-only and stateless.",
+        "longDescription": "A hardened math.js calculator MCP server that lets any LLM verify mathematical computations. Supports arithmetic, algebra, trigonometry, logarithms, statistics, matrices and linear systems, polynomial roots, complex numbers, combinatorics, unit conversion, calendar dates, and numeric definite integrals. No auth required — all operations are read-only and stateless.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
@@ -3269,8 +3269,8 @@
       "name": "wsdot-mcp-server",
       "interface": {
         "displayName": "wsdot-mcp-server",
-        "shortDescription": "Query WA highway conditions, ferry schedules, vessel locations, toll rates, border waits, and alerts via MCP.",
-        "longDescription": "Washington State travel data over MCP, spanning two domains: traffic from the WSDOT Traveler API (mountain pass conditions, highway alerts, travel times, toll rates, border waits, and traffic cameras) and ferries from the WSF Ferry API (terminals, routes, schedules, vessel locations, terminal space, and ferry alerts). Runs over STDIO or Streamable HTTP.",
+        "shortDescription": "Query WA highway conditions, ferry schedules and fares, vessel locations, toll rates, border waits, and alerts via MCP.",
+        "longDescription": "Washington State travel data over MCP, spanning two domains: traffic from the WSDOT Traveler API (mountain pass conditions, highway alerts, travel times, toll rates, border waits, and traffic cameras) and ferries from the WSF Ferry API (terminals, routes, schedules, fares, vessel locations, terminal space, and ferry alerts). Runs over STDIO or Streamable HTTP.",
         "developerName": "cyanheads",
         "capabilities": [
           "Read"
